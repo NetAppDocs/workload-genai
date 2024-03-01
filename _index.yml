@@ -1,8 +1,10 @@
 indexpage:
-  lead: # single paragraph, shown on the page
+  title: Workload Factory for AI workloads documentation
+  lead: "Integrate FSx for ONTAP file systems with your MLOps platforms and GenAI foundation models."
+  summary: "Integrate FSx for ONTAP file systems with your MLOps platforms and GenAI foundation models."
+  keywords: AI, GenAI, ML, Chatbot, FSx, FSx for ONTAP
   tiles:
-    # one or more tile definitions for the page
-  - title: # short string (tile title)
+  - title: Get started
     links:
       # one or more links on the tile
       - title: # short string (link title)

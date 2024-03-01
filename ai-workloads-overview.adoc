@@ -1,0 +1,53 @@
+---
+sidebar: sidebar
+permalink: ai-workloads-overview.html
+keywords: overview, concepts, features, use case, workloads, how workload factory works
+summary: Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models.
+---
+
+= Learn about Workload Factory for AI workloads
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models.
+
+
+
+== Benefits of using the onboarding advisor
+
+A chatbot simulates human conversation through voice commands or text chats or both. It is an artificial intelligence (AI) feature that can be embedded and used through any major messaging application.
+
+
+
+* Cost optimization due to host and storage decoupling and advanced data efficiency
+* Ability to grow the storage capacity as needed without the need to purchase additional host instances
+* Enables NetApp ONTAP data management capabilities in the cloud, such as space efficient snapshots, cloning, compression, deduplication, compaction, and replication
+* Avoid management/administration of hardware refreshes
+* Ability to change data throughput, IOPS, and the size of the file system in addition to increase or decrease the size of volumes
+* High availability and multi-AZ support
+* Single-AZ configurations can use VPC peering without requiring a Transit Gateway (TGW) to reduce costs and latencies
+
+== What you can do with the onboarding advisor
+
+The onboarding advisor provides the following functionality:
+
+* Analyze current on-premises VM configurations
+* Determine which VMs to migrate to VMware Cloud on AWS
+* Identify the space required on FSx for ONTAP volumes to be used as VM external datastores
+* Review resulting report to understand the deployment steps
+* Perform the actual deployment
+
+== How the VMware Cloud on AWS onboarding advisor works
+
+The onboarding advisor can help you move on-premises virtual machines (VMs) and their data, running on any VMware supported datastores, to VMware Cloud datastores, which includes supplemental NFS datastores on FSx for ONTAP file systems.
+
+== Cost
+
+There is no cost for using the VMware Cloud on AWS onboarding advisor.
+
+You'll need to pay for AWS resources that you deploy based on the recommendations from the onboarding advisor.
+
+== Licensing
+
+No special licenses are needed from NetApp to use the onboarding advisor.
