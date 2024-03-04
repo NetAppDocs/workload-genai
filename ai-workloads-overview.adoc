@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: ai-workloads-overview.html
 keywords: overview, concepts, features, use case, workloads, how workload factory works
-summary: Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models.
+summary: Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features.
 ---
 
 = Learn about Workload Factory for AI workloads
@@ -10,23 +10,19 @@ summary: Workload Factory for AI workloads enables you to integrate Amazon FSx f
 :imagesdir: ./media/
 
 [.lead]
-Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models.
+Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features.
 
 
 
-== Benefits of using the onboarding advisor
+== Benefits of using the AI workloads capability to create your chatbot
 
-A chatbot simulates human conversation through voice commands or text chats or both. It is an artificial intelligence (AI) feature that can be embedded and used through any major messaging application.
+A chatbot simulates human conversation through voice commands or text chats or both. It is an artificial intelligence (AI) feature that can be embedded and used through any major messaging application. Building your chatbot using Workload Factory provides the following features:
+
+* Ability to embed your organization's unstructured data into an enterprise chatbot application. 
+* Seamlessly integrate customer databases, knowledge bases, and more to provide real-time responses with your organization knowledge.
+* Preserve user permissions in files embedded in the chatbot to ensure that data security and privacy is maintained. The chatbot provides answers based on those permissions so that only authorized users receive responses from protected when using the chatbot.
 
 
-
-* Cost optimization due to host and storage decoupling and advanced data efficiency
-* Ability to grow the storage capacity as needed without the need to purchase additional host instances
-* Enables NetApp ONTAP data management capabilities in the cloud, such as space efficient snapshots, cloning, compression, deduplication, compaction, and replication
-* Avoid management/administration of hardware refreshes
-* Ability to change data throughput, IOPS, and the size of the file system in addition to increase or decrease the size of volumes
-* High availability and multi-AZ support
-* Single-AZ configurations can use VPC peering without requiring a Transit Gateway (TGW) to reduce costs and latencies
 
 == What you can do with the onboarding advisor
 
