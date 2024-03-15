@@ -12,8 +12,6 @@ summary: Workload Factory for AI workloads enables you to integrate Amazon FSx f
 [.lead]
 Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features.
 
-
-
 == Benefits of using the AI workloads capability to create your chatbot
 
 A chatbot simulates human conversation through voice commands or text chats or both. It is an artificial intelligence (AI) feature that can be embedded and used through any major messaging application. Building your chatbot using Workload Factory provides the following features:
@@ -21,17 +19,13 @@ A chatbot simulates human conversation through voice commands or text chats or b
 * Ability to embed your organization's unstructured data into an enterprise chatbot application. 
 * Seamlessly integrate customer databases, knowledge bases, and more to provide real-time responses with your organization knowledge.
 * Preserve user permissions in files embedded in the chatbot to ensure that data security and privacy is maintained. The chatbot provides answers based on those permissions so that only authorized users receive responses from protected when using the chatbot.
+* Provide a secure deployment within your customer account where your organizational data is never exposed externally.
 
+== How Workload Factory helps to build your chatbot
 
+Workload Factory helps to build your chatbot in the following ways:
 
-== What you can do with the onboarding advisor
-
-The onboarding advisor provides the following functionality:
-
-* Analyze current on-premises VM configurations
-* Determine which VMs to migrate to VMware Cloud on AWS
-* Identify the space required on FSx for ONTAP volumes to be used as VM external datastores
-* Review resulting report to understand the deployment steps
+* Leverage your FSx for ONTAP file systems for storing your organizations chatbot sources and the AI Engine databases.
 * Perform the actual deployment
 
 == How the VMware Cloud on AWS onboarding advisor works

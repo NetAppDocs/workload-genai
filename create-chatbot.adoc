@@ -18,11 +18,13 @@ words
 
 .Steps
 
-. Log in to the NetApp Workload Factory.
+. Log in to Workload Factory.
 
-. In the AI tile, click *Create chatbot* and the xyz page is displayed.
+. In the AI workloads tile, click *Deploy & manage* and the Deploy chatbot infrastructure page is displayed.
++
+This page 
 
-. s
+. click *Create chatbot* and the xyz page is displayed
 
 .Result
 
