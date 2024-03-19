@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: create-chatbot.html
 keywords: ai, chatbot, creating
-summary: You can use the Onboarding Advisor Data Collector script or RVTools to capture your current VM configurations.
+summary: After you have deployed the AI infrastructure and identified the data sources that will be integrated in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 ---
 
 = Create the chatbot
@@ -10,11 +10,13 @@ summary: You can use the Onboarding Advisor Data Collector script or RVTools to 
 :imagesdir: ./media/
 
 [.lead]
-You can use the Onboarding Advisor Data Collector script or RVTools to capture your current VM configurations.
+After you have deployed the AI infrastructure and identified the data sources that will be integrated in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 
-== title
+After you create the chatbot you'll be able to test it locally and make any required changes before you make the chatbot available to your users.
 
-words
+== Create the chatbot
+
+You'll choose the data sources to integrate in your chatbot, and the Bedrock AI models that you want to use to create your chatbot.
 
 .Steps
 

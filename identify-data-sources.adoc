@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: identify-data-sources.html
 keywords: data sources, chatbot, documents
-summary: Identify or create the documents (data sources) that you'll integrate in your chatbot. These data sources will enable the chatbot to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
+summary: Identify or create the documents (data sources) that reside on your FSx for ONTAP systems that you'll integrate in your chatbot. These data sources will enable the chatbot to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
 ---
 
 = Identify organization data sources to integrate in your chatbot
@@ -10,7 +10,7 @@ summary: Identify or create the documents (data sources) that you'll integrate i
 :imagesdir: ./media/
 
 [.lead]
-Identify or create the documents (data sources) that you'll integrate in your chatbot. These data sources will enable the chatbot to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
+Identify or create the documents (data sources) that reside on your FSx for ONTAP systems that you'll integrate in your chatbot. These data sources will enable the chatbot to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
 
 Existing chatbots may not be able to provide accurate responses specific to your organizations data, which can lead to frustration for your users.
 
@@ -25,5 +25,4 @@ The currently supported data source formats include:
 
 == Location of data sources
 
-You'll have the opportunity to select the data sources at the volume or folder level. You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain documents that should not be integrated with your chatbot.
-
+You'll have the opportunity to select the data sources at the volume or folder level. You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain extraneous documents that shouldn't be integrated with your chatbot.
