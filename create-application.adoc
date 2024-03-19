@@ -1,0 +1,37 @@
+---
+sidebar: sidebar
+permalink: create-application.html
+keywords: ai, chatbot, creating
+summary: After you have deployed the AI infrastructure and identified the data sources that will be integrated in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+---
+
+= Create the application to activate the chatbot
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you have deployed the AI infrastructure and identified the data sources that will be integrated in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+
+
+Should this be called "Deploy your knowledgebase in an application"?
+
+
+After you create the chatbot you'll be able to test it locally and make any required changes before you make the chatbot available to your users.
+
+== Create the chatbot
+
+You'll choose the data sources to integrate in your chatbot, and the Bedrock AI models that you want to use to create your chatbot.
+
+.Steps
+
+. Log in to Workload Factory.
+
+. In the AI workloads tile, click *Deploy & manage* and the Deploy chatbot infrastructure page is displayed.
++
+This page 
+
+. click *Create chatbot* and the xyz page is displayed
+
+.Result
+
+The data source are integrated into your chatbot.

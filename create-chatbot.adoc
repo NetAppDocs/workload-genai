@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: create-chatbot.html
 keywords: ai, chatbot, creating
-summary: After you have deployed the AI infrastructure and identified the data sources that will be integrated in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+summary: After you have deployed the AI infrastructure and identified the data sources that you will integrate in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 ---
 
 = Create the chatbot
@@ -10,7 +10,7 @@ summary: After you have deployed the AI infrastructure and identified the data s
 :imagesdir: ./media/
 
 [.lead]
-After you have deployed the AI infrastructure and identified the data sources that will be integrated in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+After you have deployed the AI infrastructure and identified the data sources that you will integrate in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 
 After you create the chatbot you'll be able to test it locally and make any required changes before you make the chatbot available to your users.
 
@@ -22,11 +22,28 @@ You'll choose the data sources to integrate in your chatbot, and the Bedrock AI 
 
 . Log in to Workload Factory.
 
-. In the AI workloads tile, click *Deploy & manage* and the Deploy chatbot infrastructure page is displayed.
-+
-This page 
+. In the AI workloads tile, click *Deploy & manage*. 
 
-. click *Create chatbot* and the xyz page is displayed
+. Click *Create chatbot* and the xyz page is displayed
+
+. Click *Add data source* to 
+
+. Select the FSx for ONTAP file system where your data source files reside and click *Next*.
+
+. Select the volume on which your data source files reside and click *Next*.
+
+. Select the data source location based on where you have saved the files. This can be the entire volume or just a specific folder or sub-folder in the volume, and click *Next*.
+
+. In the Models section of the Define AI parameters page, define the models:
+
+.. For Embedding model you can select the "Titan Embeddings G1" at this point.
+.. For Text model you can choose from a variety of Claude and Jurassic AI models. Learn mode about https://aws.amazon.com/bedrock/claude/[Claude on Bedrock^] and https://aws.amazon.com/bedrock/jurassic/[Jurassic on Bedrock^].
+
+. In the Chunk definition section of the Define AI parameters page, define the chunks:
+
+.. For Chunking strategy you can choose "sentences", "words", or "characters".
+.. For Chunk size you can choose "256 Tokens" at this point.
+
 
 .Result
 

@@ -12,6 +12,8 @@ summary: Workload Factory for AI workloads enables you to integrate Amazon FSx f
 [.lead]
 Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features.
 
+Developing a chatbot that is tailored to your organization's data enables you to leverage your own knowledge and expertise. This customization capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.
+
 == Benefits of using the AI workloads capability to create your chatbot
 
 A chatbot simulates human conversation through voice commands or text chats, or both. It is an artificial intelligence (AI) feature that can be embedded and used through any major messaging application. Building your chatbot using Workload Factory provides the following features:

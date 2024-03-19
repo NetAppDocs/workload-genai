@@ -26,11 +26,11 @@ sidebar:
         - title: Identify the documents to integrate in your chatbot
           url: /identify-data-sources.html
         - title: Deploy the chatbot infrastructure
-          url: /create-chatbot.html
+          url: /deploy-infrastructure.html
         - title: Create and test the chatbot
           url: /create-chatbot.html
         - title: Create the application to activate the chatbot
-          url: /create-chatbot.html
+          url: /create-application.html
         - title: What you can do next
           url: /whats-next.html
     - title: Legal notices
