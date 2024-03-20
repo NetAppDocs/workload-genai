@@ -1,0 +1,133 @@
+---
+sidebar: sidebar
+permalink: manage-data-source.html
+keywords: ai, chatbot, creating
+summary: After you have deployed the AI infrastructure and identified the data sources that you will integrate in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+---
+
+= Manage the data source
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you create a data source on your FSx for ONTAP system, you can view its' details, update or change the data source contents, or delete the data source.
+
+== View information about a data source
+
+You can view information about the contents of a data source and you can view its sync history with the chatbot.
+
+.Steps
+
+. Open the chatbot in Workload Factory.
+
+. In the AI workloads tile, click *Deploy & manage*. 
+
+. Click *Create chatbot* and the xyz page is displayed
+
+. Click *Add data source* to 
+
+. Select the FSx for ONTAP file system where your data source files reside and click *Next*.
+
+. Select the volume on which your data source files reside and click *Next*.
+
+. Select the data source location based on where you have saved the files. This can be the entire volume or just a specific folder or sub-folder in the volume, and click *Next*.
+
+. In the Models section of the Define AI parameters page, define the models:
+
+.. For Embedding model you can select the "Titan Embeddings G1" at this point.
+.. For Text model you can choose from a variety of Claude and Jurassic AI models. Learn mode about https://aws.amazon.com/bedrock/claude/[Claude on Bedrock^] and https://aws.amazon.com/bedrock/jurassic/[Jurassic on Bedrock^].
+
+. In the Chunk definition section of the Define AI parameters page, define the chunks:
+
+.. For Chunking strategy you can choose "sentences", "words", or "characters".
+.. For Chunk size you can choose "256 Tokens" at this point.
+
+
+.Result
+
+The data source are integrated into your chatbot.
+
+
+From the left navigation pane, select Knowledge base.
+
+In the Data source section, select the data source for which you want to view details.
+
+The Data source overview contains details about the data source.
+
+The Sync history contains details about when the data source was synced. To see reasons for why a sync event failed, select a sync event and choose View warnings.
+
+== Update a data source
+
+You can update a data source in the following ways.
+
+Add, change, or remove files from the FSx for ONTAP system that contains the files for the data source.
+
+Change the name or volume on the FSx for ONTAP system for the data source.
+
+Each time you add, modify, or remove files from the FSx for ONTAP system for a data source, you must sync the data source so that it is re-indexed to the knowledge base. Syncing is incremental, so Amazon Bedrock only processes the objects in your FSx for ONTAP volume that have been added, modified, or deleted since the last sync.
+
+.Steps
+
+. If necessary, make changes to the files in the FSx for ONTAP volume that contains the files for the data source.
+
+Sign in to the AWS Management Console, and 
+
+From the left navigation pane, select Knowledge base.
+
+In the Data source section, select the radio button next to the data source that you want to sync.
+
+(Optional) Choose Edit, change any configurations necessary, and select Submit.
+
+Choose Sync.
+
+A green banner appears when the sync is complete and the Status becomes Ready.
+
+== Delete a data source
+
+If you no longer need a data source, you can delete it. Select the tab corresponding to your method of choice and follow the steps.
+
+To delete a data source
+Sign in to the AWS Management Console, 
+
+From the left navigation pane, select Knowledge base.
+
+In the Data source section, select the radio button next to the data source that you want to delete.
+
+Choose Delete.
+
+A green banner appears when the data source is successfully deleted.
+
+
+
+
+
+.Steps
+
+. Log in to Workload Factory.
+
+. In the AI workloads tile, click *Deploy & manage*. 
+
+. Click *Create chatbot* and the xyz page is displayed
+
+. Click *Add data source* to 
+
+. Select the FSx for ONTAP file system where your data source files reside and click *Next*.
+
+. Select the volume on which your data source files reside and click *Next*.
+
+. Select the data source location based on where you have saved the files. This can be the entire volume or just a specific folder or sub-folder in the volume, and click *Next*.
+
+. In the Models section of the Define AI parameters page, define the models:
+
+.. For Embedding model you can select the "Titan Embeddings G1" at this point.
+.. For Text model you can choose from a variety of Claude and Jurassic AI models. Learn mode about https://aws.amazon.com/bedrock/claude/[Claude on Bedrock^] and https://aws.amazon.com/bedrock/jurassic/[Jurassic on Bedrock^].
+
+. In the Chunk definition section of the Define AI parameters page, define the chunks:
+
+.. For Chunking strategy you can choose "sentences", "words", or "characters".
+.. For Chunk size you can choose "256 Tokens" at this point.
+
+
+.Result
+
+The data source are integrated into your chatbot.

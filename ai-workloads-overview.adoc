@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: ai-workloads-overview.html
-keywords: overview, concepts, features, use case, workloads, AI, Bedrock
-summary: Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features.
+keywords: overview, concepts, features, use case, workloads, AI, Bedrock, knowledgebase
+summary: Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 ---
 
 = Learn about Workload Factory for AI workloads
@@ -10,7 +10,7 @@ summary: Workload Factory for AI workloads enables you to integrate Amazon FSx f
 :imagesdir: ./media/
 
 [.lead]
-Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features.
+Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 
 Developing a chatbot that is tailored to your organization's data enables you to leverage your own knowledge and expertise. This customization capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.
 
@@ -38,15 +38,15 @@ Workload Factory helps to build your chatbot in the following ways:
 
 * Connect the AI Engine instance with your FSx for ONTAP system and Amazon Bedrock.
 
-== How the VMware Cloud on AWS onboarding advisor works
+== How the AI chatbot capability works
 
-The onboarding advisor can help you move on-premises virtual machines (VMs) and their data, running on any VMware supported datastores, to VMware Cloud datastores, which includes supplemental NFS datastores on FSx for ONTAP file systems.
+The AI chatbot uses your organizations internal information to complement data available on the internet to provide customized answers to questions asked by your users in your organization.
 
 == Cost
 
 There is no cost for using the AI chatbot capability of Workload Factory.
 
-You'll need to pay for AWS resources that you deploy in support of the chatbot. For example, you will pay AWS for Amazon Bedrock AI service, FSx for ONTAP file system, and the AI engine instance.
+You'll need to pay for AWS resources that you deploy in support of the chatbot. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the AI engine instance.
 
 == Licensing
 

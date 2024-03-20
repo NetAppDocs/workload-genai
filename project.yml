@@ -33,6 +33,12 @@ sidebar:
           url: /create-application.html
         - title: What you can do next
           url: /whats-next.html
+    - title: Manage a chatbot
+      entries:
+        - title: Manage a data source
+          url: /manage-data-source.html
+        - title: Manage a chatbot
+          url: /manage-chatbot.html
     - title: Legal notices
       url: /legal-notices.html
 product-family:

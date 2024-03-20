@@ -2,27 +2,32 @@
 sidebar: sidebar
 permalink: identify-data-sources.html
 keywords: data sources, chatbot, documents
-summary: Identify or create the documents (data sources) that reside on your FSx for ONTAP systems that you'll integrate in your chatbot. These data sources will enable the chatbot to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
+summary: Identify or create the documents (data sources) that reside on your FSx for ONTAP systems that you'll integrate in your chatbot. These data sources enable the chatbot to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
 ---
 
-= Identify organization data sources to integrate in your chatbot
+= Identify the data sources to integrate in your chatbot
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Identify or create the documents (data sources) that reside on your FSx for ONTAP systems that you'll integrate in your chatbot. These data sources will enable the chatbot to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
-
-Existing chatbots may not be able to provide accurate responses specific to your organizations data, which can lead to frustration for your users.
-
-== Supported data source formats
-
-The data sources must reside in a volume or folder on an SMB share or NFS export on an Amazon FSx for NetApp ONTAP file system.
-
-The currently supported data source formats include:
-
-* .txt
-* .pdf
+Identify or create the documents (data sources) that reside on your FSx for ONTAP systems that you'll integrate in your chatbot. These data sources enable the chatbot to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
 
 == Location of data sources
 
-You'll have the opportunity to select the data sources at the volume or folder level. You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain extraneous documents that shouldn't be integrated with your chatbot.
+All data sources must be stored in a single volume, or in a folder within a volume, on an SMB share or NFS export on an Amazon FSx for NetApp ONTAP file system. You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain extraneous documents that shouldn't be integrated with your chatbot.
+
+The maximum file size is 50 MB.
+
+== Supported data source file formats
+
+The following data source file formats are currently supported.
+
+[cols=2*,options="header,autowidth"]
+|===
+| File format
+| Extension
+
+| Plain text | .txt
+| Portable document | .pdf
+
+|===
