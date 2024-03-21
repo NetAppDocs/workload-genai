@@ -21,9 +21,9 @@ sidebar:
       entries:
         - title: Learn about Workload Factory for AI workloads
           url: /ai-workloads-overview.html
-        - title: Getting started workflow
+        - title: Quick start
           url: /quick-start.html
-        - title: Identify the documents to integrate in your chatbot
+        - title: Identify the data sources to integrate in your chatbot
           url: /identify-data-sources.html
         - title: Deploy the chatbot infrastructure
           url: /deploy-infrastructure.html

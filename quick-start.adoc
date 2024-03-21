@@ -5,7 +5,7 @@ keywords: quick start
 summary: Get started creating your chatbot using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores.
 ---
 
-= Getting started workflow
+= Quick start for creating a chatbot using Workload Factory
 :icons: font
 :imagesdir: ./media/
 
@@ -19,7 +19,7 @@ Before you get started, you should have an understanding of https://docs.netapp.
 [role="quick-margin-para"]
 You'll need to have AWS credentials to deploy the AWS infrastructure, and you'll want to know the region, VPC, resource tags, and other information before starting the deployment. Go to "Chatbot infrastructure prerequisites".
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify, or create, the FSx for ONTAP file system that will contain the data you'll integrate in the chatbot 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify the FSx for ONTAP file system that will contain the data sources you'll integrate in the chatbot 
 
 [role="quick-margin-para"]
 In addition to containing the files that will be integrated into your chatbot, the NetApp AI Engine databases will be deployed on this same FSx for ONTAP file system as part of the chatbot infrastructure deployment. Go to "Prepare your FSx for ONTAP file system".
