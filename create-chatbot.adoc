@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: create-chatbot.html
 keywords: ai, chatbot, creating
-summary: After you have deployed the AI infrastructure and identified the data sources that you will integrate in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+summary: After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 ---
 
 = Create the chatbot
@@ -10,7 +10,7 @@ summary: After you have deployed the AI infrastructure and identified the data s
 :imagesdir: ./media/
 
 [.lead]
-After you have deployed the AI infrastructure and identified the data sources that you will integrate in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 
 After you create the chatbot you'll be able to test it locally and make any required changes before you make the chatbot available to your users.
 
@@ -24,27 +24,36 @@ You'll choose the data sources to integrate in your chatbot, and the Bedrock AI 
 
 . In the AI workloads tile, click *Deploy & manage*. 
 
-. Click *Create chatbot* and the xyz page is displayed
-
-. Click *Add data source* to 
+. Click *Create chatbot* and then click *Add data source*.
 
 . Select the FSx for ONTAP file system where your data source files reside and click *Next*.
 
 . Select the volume on which your data source files reside and click *Next*.
++
+When selecting files stored using the SMB protocol, enter the Active Directory information; including the Active Directory Domain, IP address, user name, and password. 
 
 . Select the data source location based on where you have saved the files. This can be the entire volume or just a specific folder or sub-folder in the volume, and click *Next*.
++
+The Define AI parameters page is displayed.
 
-. In the Models section of the Define AI parameters page, define the models:
+. In the Models section, define the models:
 
-.. For Embedding model you can select the "Titan Embeddings G1" at this point.
-.. For Text model you can choose from a variety of Claude and Jurassic AI models. Learn mode about https://aws.amazon.com/bedrock/claude/[Claude on Bedrock^] and https://aws.amazon.com/bedrock/jurassic/[Jurassic on Bedrock^].
+.. For Embedding model you can select only "Titan Embeddings G1" at this point.
+.. For Text model you can choose from a variety of Claude and Jurassic AI models. 
++
+Learn mode about https://aws.amazon.com/bedrock/claude/[Claude on Bedrock^] and https://aws.amazon.com/bedrock/jurassic/[Jurassic on Bedrock^] to help make your selection.
 
-. In the Chunk definition section of the Define AI parameters page, define the chunks:
+. In the Chunk definition section of the Define AI parameters page, define the chunks details:
 
-.. For Chunking strategy you can choose "sentences", "words", or "characters".
-.. For Chunk size you can choose "256 Tokens" at this point.
+.. For Chunking strategy you can choose "Sentences", "Words", or "Characters".
+.. For Chunk size you can select only "256 Tokens" at this point.
 
+. Click *Add* to add this data source.
 
 .Result
 
-The data source are integrated into your chatbot.
+The data source is integrated into your chatbot.
+
+.What's next
+
+You can customize the conversation starters that you want to be available by default for users of this chatbot.

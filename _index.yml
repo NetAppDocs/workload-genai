@@ -1,11 +1,34 @@
 indexpage:
   title: Workload Factory for AI workloads documentation
-  lead: "Integrate FSx for ONTAP file systems with your MLOps platforms and GenAI foundation models."
-  summary: "Integrate FSx for ONTAP file systems with your MLOps platforms and GenAI foundation models."
+  lead: "Integrate FSx for ONTAP file systems with your MLOps platforms and GenAI foundation models to create functional chatbots using organizational data."
+  summary: "Integrate FSx for ONTAP file systems with your MLOps platforms and GenAI foundation models to create functional chatbots using organizational data."
   keywords: AI, GenAI, ML, Chatbot, FSx, FSx for ONTAP
   tiles:
-  - title: Get started
-    links:
-      # one or more links on the tile
-      - title: # short string (link title)
-        url: # single file name or external URL
+    - title: Get started
+      links:
+        - title: Learn about Workload Factory for AI workloads
+          url: ai-workloads-overview.html
+        - title: Quick start
+          url: quick-start.html
+    - title: Install and setup
+      links:
+        - title: Identify the data sources to integrate in your chatbot
+          url: identify-data-sources.html
+        - title: Deploy the chatbot infrastructure
+          url: deploy-infrastructure.html
+        - title: Create and test the chatbot
+          url: create-chatbot.html
+        - title: Create the application to activate the chatbot
+          url: create-application.html
+    - title: Administer
+      entries:
+        - title: Manage a data source
+          url: manage-data-source.html
+        - title: Manage a chatbot
+          url: manage-chatbot.html
+    - title: Blogs & community
+      links:
+        - title: Workload Factory blogs
+          url: https://bluexp.netapp.com/blog
+        - title: Workload Factory webinars
+          url: https://bluexp.netapp.com/events
