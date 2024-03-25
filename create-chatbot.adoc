@@ -54,6 +54,16 @@ Learn mode about https://aws.amazon.com/bedrock/claude/[Claude on Bedrock^] and 
 
 The data source is integrated into your chatbot.
 
-.What's next
+== Test your chatbot
 
-You can customize the conversation starters that you want to be available by default for users of this chatbot.
+You can test your chatbot to make sure it performs as you expect, and you can customize the conversation starters that you want to be available by default for users of this chatbot. 
+
+You'll perform most of your testing within Workload Factory before you deploy the chatbot in an application for your users. If you need to make changes to the chatbot operation, you'll want to do it now before it has been deployed.
+
+Some of the tasks you'll want to perform to test your chatbot are:
+
+* Enter a large number ot questions that are relevant to your organization to make sure the answers are as expected.
+* Customize the conversation starters that you want to be available by default for your users.
+* Make sure that the attributed content that is provided at the bottom of the chatbot answers contain the correct references. 
+
+*More content here*

@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: whats-new.html
 keywords: what's new, features, new, release notes, enhancements, fixes
-summary: "Learn what's new with the AI workloads component of Workload Factory."
+summary: "Learn what's new with the AI workloads capability of Workload Factory."
 ---
 
 = What's new
@@ -10,12 +10,10 @@ summary: "Learn what's new with the AI workloads component of Workload Factory."
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new with the AI workloads component of Workload Factory.
+Learn what's new with the AI workloads capability of Workload Factory.
 
-== 11 April 2024
+== 6 June 2024
 
-=== something
+=== Initial release of the AI workloads component of Workload Factory
 
-This release includes minor improvements, bug fixes, and support for the Connector in the following cloud regions:
-
-* The I
+The initial release includes the capability to develop, and deploy, a chatbot that is customized by embedding your organization's data. This capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.

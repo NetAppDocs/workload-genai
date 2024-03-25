@@ -21,7 +21,7 @@ indexpage:
         - title: Create the application to activate the chatbot
           url: create-application.html
     - title: Administer
-      entries:
+      links:
         - title: Manage a data source
           url: manage-data-source.html
         - title: Manage a chatbot
