@@ -39,6 +39,8 @@ sidebar:
           url: /manage-data-source.html
         - title: Manage a chatbot
           url: /manage-chatbot.html
+        - title: Manage chatbot infrastructure
+          url: /manage-chatbot-infrastructure.html
     - title: Knowledge and support
       entries:
         - title: Register for support

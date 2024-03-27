@@ -1,0 +1,66 @@
+---
+sidebar: sidebar
+permalink: manage-chatbot-infrastructure.html
+keywords: ai, chatbot, creating
+summary: You can view details about your deployed chatbot infrastructure, update certain characteristics, or remove the chatbot infrastructure if you no longer need it.
+---
+
+= Manage the chatbot infrastructure
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can view details about your deployed chatbot infrastructure, update certain characteristics, or remove the chatbot infrastructure if you no longer need it.
+
+== View information about the chatbot infrastructure
+
+You can view information about the chatbot infrastructure.
+
+.Steps
+
+. Log in to Workload Factory.
+
+. In the AI workloads tile, click *Deploy & manage*. 
+
+. Select the *Define infrastructure* tab.
+
+. MORE
+
+
+== Update the chatbot infrastructure
+
+You can update certain characteristics of your deployed chatbot infrastructure.
+
+Add, change, or remove tags......
+
+.Steps
+
+. If 
+
+
+== Remove the chatbot infrastructure
+
+If you no longer need the chatbot infrastructure that you deployed for one or more chatbots, you can remove it from Workload Factory. 
+
+NOTE: All chatbots that have been deployed on this infrastructure will be disabled and all chat history will be deleted.
+
+This operation only removes the links to the AI infrastructure from Workload Factory - it does not remove all the components from AWS. You'll need to manually delete the following infrastructure components from AWS:
+
+* the VM instance
+* private endpoints
+* the volume on the FSx for ONTAP system that contains the AIA databases
+* the iam role
+* the policy
+* the security group
+
+
+.Steps
+
+. Log in t
+
+. Type “Remove” if you are sure that you want to remove the chatbot infrastructure.
+
+
+.Result
+
+The chatbot infrastructure components are removed from Workload Factory.
