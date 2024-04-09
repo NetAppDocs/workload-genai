@@ -16,8 +16,10 @@ indexpage:
           url: identify-data-sources.html
         - title: Deploy the chatbot infrastructure
           url: deploy-infrastructure.html
-        - title: Create and test the chatbot
+        - title: Create the chatbot
           url: create-chatbot.html
+        - title: Test the chatbot
+          url: test-chatbot.html
         - title: Create the application to activate the chatbot
           url: create-application.html
     - title: Administer

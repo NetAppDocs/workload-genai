@@ -12,8 +12,6 @@ summary: After you have deployed the AI infrastructure and identified the data s
 [.lead]
 After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 
-After you create the chatbot you'll be able to test it locally and make any required changes before you make the chatbot available to your users.
-
 == Create the chatbot
 
 You'll choose the data sources to integrate in your chatbot, and the Bedrock AI models that you want to use to create your chatbot.
@@ -39,9 +37,16 @@ The Define AI parameters page is displayed.
 . In the Models section, define the models:
 
 .. For Embedding model you can select only "Titan Embeddings G1" at this point.
-.. For Text model you can choose from a variety of Claude and Jurassic AI models. 
 +
-Learn mode about https://aws.amazon.com/bedrock/claude/[Claude on Bedrock^] and https://aws.amazon.com/bedrock/jurassic/[Jurassic on Bedrock^] to help make your selection.
+https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^].
+.. For Text model you can choose from a variety of AI models integrated in Amazon Bedrock. 
++
+Learn more about the available models to help make your selection:
++
+* https://aws.amazon.com/bedrock/claude/[Anthropic's Claude on Bedrock^]
+* https://aws.amazon.com/bedrock/jurassic/[AI21 Labs Jurassic on Bedrock^]
+* https://aws.amazon.com/bedrock/llama-2/[Meta Llama 2 on Bedrock^]
+* https://aws.amazon.com/bedrock/cohere-command-embed/[Cohere Command on Bedrock^]
 
 . In the Chunk definition section of the Define AI parameters page, define the chunks details:
 
@@ -52,18 +57,6 @@ Learn mode about https://aws.amazon.com/bedrock/claude/[Claude on Bedrock^] and 
 
 .Result
 
-The data source is integrated into your chatbot.
+The data source is embedded into your chatbot.
 
-== Test your chatbot
-
-You can test your chatbot to make sure it performs as you expect, and you can customize the conversation starters that you want to be available by default for users of this chatbot. 
-
-You'll perform most of your testing within Workload Factory before you deploy the chatbot in an application for your users. If you need to make changes to the chatbot operation, you'll want to do it now before it has been deployed.
-
-Some of the tasks you'll want to perform to test your chatbot are:
-
-* Enter a large number ot questions that are relevant to your organization to make sure the answers are as expected.
-* Customize the conversation starters that you want to be available by default for your users.
-* Make sure that the attributed content that is provided at the bottom of the chatbot answers contain the correct references. 
-
-*More content here*
+After you create the chatbot you'll be able to test it locally and make any required changes before you make the chatbot available to your users.
