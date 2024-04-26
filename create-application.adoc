@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: create-application.html
-keywords: ai, chatbot, creating, application
-summary: After you have built and tested your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
+keywords: ai, chatbot, creating, application, knowledgebase
+summary: After you have built your knowledgebase and tested your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
 ---
 
 = Create the application to activate the chatbot
@@ -10,14 +10,14 @@ summary: After you have built and tested your chatbot, you are ready to set up t
 :imagesdir: ./media/
 
 [.lead]
-After you have built and tested your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
+After you have built your knowledgebase and tested your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
 
 *Need Content for this topic*
 
 Should this be called "Deploy your knowledgebase in an application"?
 
 
-After you create the chatbot you'll be able to test it locally and make any required changes before you make the chatbot available to your users.
+After you create the knowledgebase you'll be able to test the chatbot functionality locally and make any required changes before you make the chatbot available to your users.
 
 == Deploy the chatbot
 

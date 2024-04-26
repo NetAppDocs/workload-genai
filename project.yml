@@ -23,26 +23,26 @@ sidebar:
           url: /ai-workloads-overview.html
         - title: Quick start
           url: /quick-start.html
-        - title: Identify the data sources to integrate in your chatbot
+        - title: Identify data sources for your knowledgebase
           url: /identify-data-sources.html
-        - title: Deploy the chatbot infrastructure
+        - title: Deploy the knowledgebase infrastructure
           url: /deploy-infrastructure.html
-        - title: Create the chatbot
-          url: /create-chatbot.html
-        - title: Test the chatbot
-          url: /test-chatbot.html
+        - title: Create the knowledgebase
+          url: /create-knowledgebase.html
+        - title: Test the knowledgebase
+          url: /test-knowledgebase.html
         - title: Create the application to activate the chatbot
           url: /create-application.html
         - title: What you can do next
           url: /whats-next.html
-    - title: Manage a chatbot
+    - title: Manage a knowledgebase
       entries:
         - title: Manage a data source
           url: /manage-data-source.html
-        - title: Manage a chatbot
-          url: /manage-chatbot.html
-        - title: Manage chatbot infrastructure
-          url: /manage-chatbot-infrastructure.html
+        - title: Manage a knowledgebase
+          url: /manage-knowledgebase.html
+        - title: Manage knowledgebase infrastructure
+          url: /manage-infrastructure.html
     - title: Knowledge and support
       entries:
         - title: Register for support

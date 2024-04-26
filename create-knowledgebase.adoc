@@ -1,0 +1,86 @@
+---
+sidebar: sidebar
+permalink: create-knowledgebase.html
+keywords: ai, chatbot, creating, knowledgebase
+summary: After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledgebase, you are ready to build the knowledgebase using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+---
+
+= Create a knowledgebase
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledgebase, you are ready to build the knowledgebase using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+
+A knowledgebase can be used without integrating data sources from your organization. In this case, an application integrated with the knowledgebase will provide results from publicly available information on the internet. This is know as a "public mode" integration.
+
+In most cases you'll want to integrate data sources from your organization into the knowledgebase. This is known as an "Enterprise mode" integration because it provides knowledge from your enterprise.
+
+== Create and configure the knowledgebase
+
+The knowledgebase defines characteristics such as the Bedrock AI models that you want to use to create your knowledgebase.
+
+.Steps
+
+. Log in to Workload Factory.
+
+. In the AI workloads tile, click *Deploy & manage*. 
+
+. From the Knowledgebases tab, click *Create knowledgebase*.
+
+. In the Define knowledgebase page, configure the knowledgebase settings:
+
+.. *Name*. Enter the name you want to use for the knowledgebase.
+.. *Description*. Enter a detailed description for the knowledgebase.
+.. *Embedding model*. The embedding model defines how your data will be converted into vector embeddings for the knowledgebase. At this time you can select only "Titan Embeddings G1".
++
+https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^].
+.. *Chat model*. Choose from a variety of AI models that are integrated in Amazon Bedrock. 
++
+Learn more about the available models to help make your selection:
++
+* https://aws.amazon.com/bedrock/claude/[Anthropic's Claude on Bedrock^]
+* https://aws.amazon.com/bedrock/jurassic/[AI21 Labs Jurassic on Bedrock^]
+* https://aws.amazon.com/bedrock/llama-2/[Meta Llama 2 on Bedrock^]
+* https://aws.amazon.com/bedrock/cohere-command-embed/[Cohere Command on Bedrock^]
+.. *Conversation starters*. Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledgebase. We recommend that you enable this setting.
++
+If you do activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledgebase. link:manage-knowledgebase.html[See how to modify knowledgebase settings].
+
+. Click *Create knowledgebase* to add the knowledgebase to AI Studio.
+
+. In the next page of the wizard you have the option to add a data source to your new knowledgebase, or to end the process here without adding a data source. We recommend that you click *Add data source* and add a data source.
+
+== Add data sources to the knowledgebase
+
+You can add one or more data sources to populate the knowledgebase with your organization's data.
+
+. After you click *Add data source*, the Select a file system page is displayed.
+
+. Select the FSx for ONTAP file system where your data source files reside and click *Next*.
+
+. Select the volume on which your data source files reside and click *Next*.
++
+When selecting files stored using the SMB protocol, you'll need to enter the Active Directory information; including the Active Directory Domain, IP address, user name, and password. 
+
+. Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and click *Next*.
++
+The Define AI parameters page is displayed.
+
+. In the Chunk definition section, define the how your Amazon Bedrock splits data source content is split into chunks when the knowledgebase that it belongs to is queried:
+
+.. *Chunking strategy*. You can choose choose to create chunks of data based on "Sentences", "Words", or "Characters".
+.. *Chunk size*. You can select only "256 Tokens" at this point.
+
+. In the Permission aware section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable the selection:
++
+* *Enabled*. Users of the chatbot that accesses this knowledgebase will only get responses to queries from data sources to which they have access.
+* *Disabled*. Users of the chatbot will receive responses using content from all integrated data sources.
+
+. Click *Add data source* to add this data source to your knowledgebase.
+
+.Result
+
+The data source is embedded into your knowledgebase.
+
+After you add a single data source to the knowledgebase, you can test it locally in the Chatbot window and make any required changes before you make the chatbot available to your users.

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: manage-data-source.html
-keywords: ai, chatbot, creating
-summary: After you have deployed the AI infrastructure and identified the data sources that you will integrate in your chatbot, you are ready to build the chatbot using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+keywords: ai, chatbot, creating, knowledgebase
+summary: After you create a knowledgebase using data sources on your FSx for ONTAP system, you can view the data source details, update or change the data source contents, or delete the data source.
 ---
 
 = Manage the data source
@@ -10,15 +10,15 @@ summary: After you have deployed the AI infrastructure and identified the data s
 :imagesdir: ./media/
 
 [.lead]
-After you create a data source on your FSx for ONTAP system, you can view its' details, update or change the data source contents, or delete the data source.
+After you create a knowledgebase using data sources on your FSx for ONTAP system, you can view the data source details, update or change the data source contents, or delete the data source.
 
 == View information about a data source
 
-You can view information about the contents of a data source and you can view its sync history with the chatbot.
+You can view information about the contents of a data source and you can view its sync history with the knowledgebase.
 
 .Steps
 
-. Open the chatbot in Workload Factory.
+. Launch Workload Factory.
 
 . In the AI workloads tile, click *Deploy & manage*. 
 

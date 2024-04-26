@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: test-chatbot.html
-keywords: ai, chatbot, creating
-summary: After you create the chatbot you'll be able to test it locally and make any required changes before you make the chatbot available to your users.
+permalink: test-knowledgebase.html
+keywords: ai, chatbot, creating, knowledgebase
+summary: After you create the knowledgebase you'll be able to test it locally using the chatbot simulator and make any required changes before you make the chatbot available to your users.
 ---
 
 = Test the chatbot
@@ -10,9 +10,9 @@ summary: After you create the chatbot you'll be able to test it locally and make
 :imagesdir: ./media/
 
 [.lead]
-After you create the chatbot you'll be able to test it locally and make any required changes before you make the chatbot available to your users.
+After you create the knowledgebase you'll be able to test it locally using the chatbot simulator and make any required changes before you make the chatbot available to your users.
 
-You test your chatbot to make sure it performs as you expect, and you can customize the conversation starters that you want to be available by default for users of this chatbot. 
+You test your knowledgebase to make sure it performs as you expect, and you can customize the conversation starters that you want to be available by default for users of this chatbot. 
 
 You'll perform most of your testing within Workload Factory before you deploy the chatbot in an application for your users. If you need to make changes to the chatbot operation, you'll want to do it now before it has been deployed.
 
