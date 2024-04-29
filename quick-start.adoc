@@ -14,10 +14,10 @@ Get started creating a knowledgebase using your organization's data that exists 
 
 Before you get started, you should have a https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-accounts.html[Workload Factory account].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Collect required prerequisite information 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Verify knowledgebase and chatbot prerequisites 
 
 [role="quick-margin-para"]
-You'll need to have AWS credentials to deploy the AWS infrastructure, and you'll want to know the region, VPC, resource tags, and other information before starting the deployment. 
+You'll need to have AWS credentials to deploy the AWS infrastructure, and you'll need to have a deployed FSx for ONTAP file system, the list of data sources you want to integrate in your knowledgebase, access to the Amazon Bedrock AI service, and more. 
 
 [role="quick-margin-para"]
 link:knowledgebase-prerequisites.html[Verify knowledgebase prerequisites].

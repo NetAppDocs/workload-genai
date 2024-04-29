@@ -14,7 +14,7 @@ Identify, or create, the documents (data sources) that reside on your FSx for ON
 
 == Location of data sources
 
-All data sources must be stored in a single volume, or in a folder within a volume, on an SMB share or NFS export on an Amazon FSx for NetApp ONTAP file system. You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain extraneous documents that shouldn't be integrated with your chatbot.
+Data sources can be stored in a single volume, or in a folder within a volume, on an SMB share or NFS export on an Amazon FSx for NetApp ONTAP file system. You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain extraneous documents that shouldn't be integrated with your chatbot.
 
 You can add multiple data sources into each knowledgebase, but they all need to reside on FSx for ONTAP file systems that are accessible from your AWS account.
 

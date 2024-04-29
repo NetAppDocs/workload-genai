@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: manage-data-source.html
-keywords: ai, chatbot, creating, knowledgebase
+keywords: ai, chatbot, creating, knowledgebase, data source
 summary: After you create a knowledgebase using data sources on your FSx for ONTAP system, you can view the data source details, update or change the data source contents, or delete the data source.
 ---
 
@@ -22,7 +22,7 @@ You can view information about the contents of a data source and you can view it
 
 . In the AI workloads tile, click *Deploy & manage*. 
 
-. Click *Create chatbot* and the xyz page is displayed
+. Click *Create chatbot* and the Knowledgebases page is displayed.
 
 . Click *Add data source* to 
 
