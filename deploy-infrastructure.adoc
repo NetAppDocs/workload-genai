@@ -5,7 +5,7 @@ keywords: ai, chatbot, infrastructure, bedrock, fsx for ontap
 summary: You need to deploy the chatbot infrastructure in your environment before you can build knowledgebases and chatbots for your organization. The primary infrastructure components are the Amazon Bedrock AI service, a virtual machine instance for the NetApp AI engine, and an FSx for ONTAP file system.
 ---
 
-= Deploy the chatbot infrastructure
+= Deploy the knowledgebase infrastructure
 :icons: font
 :imagesdir: ./media/
 

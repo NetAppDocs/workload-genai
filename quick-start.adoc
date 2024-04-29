@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: quick-start.html
-keywords: quick start
-summary: Get started creating your chatbot using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores.
+keywords: quick start, knowledgebase, chatbot
+summary: Get started creating a knowledgebase using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores. Your chatbot will access this knowledgebase to provide organization-focused responses to your chatbot users.
 ---
 
 = Quick start for creating a chatbot using Workload Factory
@@ -10,42 +10,54 @@ summary: Get started creating your chatbot using your organization's data that e
 :imagesdir: ./media/
 
 [.lead]
-Get started creating your chatbot using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores.
+Get started creating a knowledgebase using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores. Your chatbot will access this knowledgebase to provide organization-focused responses to your chatbot users.
 
-Before you get started, you should have an understanding of https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-accounts.html[Workload Factory accounts] and https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html[operational modes].
+Before you get started, you should have a https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-accounts.html[Workload Factory account].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Collect required prerequisite information 
 
 [role="quick-margin-para"]
-You'll need to have AWS credentials to deploy the AWS infrastructure, and you'll want to know the region, VPC, resource tags, and other information before starting the deployment. Go to "Chatbot infrastructure prerequisites".
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify the FSx for ONTAP file system that contains the data sources you'll integrate in the chatbot 
+You'll need to have AWS credentials to deploy the AWS infrastructure, and you'll want to know the region, VPC, resource tags, and other information before starting the deployment. 
 
 [role="quick-margin-para"]
-In addition to containing the files that will be integrated into your chatbot, the NetApp AI Engine databases will be deployed on this same FSx for ONTAP file system as part of the chatbot infrastructure deployment. Go to link:identify-data-sources.html[Prepare your FSx for ONTAP file system].
+link:knowledgebase-prerequisites.html[Verify knowledgebase prerequisites].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Deploy the chatbot infrastructure
-
-[role="quick-margin-para"]
-Launch the chatbot infrastructure deployment wizard to deploy the infrastructure in your AWS environment. Go to link:deploy-infrastructure.html[Deploy the chatbot infrastructure].
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Build your chatbot
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify the FSx for ONTAP system that contains the data sources for your knowledgebase 
 
 [role="quick-margin-para"]
-Launch the chatbot definition wizard to identify the data on your FSx for ONTAP volumes that will be integrated into your chatbot and define the AI characteristics. 
+In addition to containing the files that will be integrated into your knowledgebase, this FSx for ONTAP file system will also contain the NetApp AI Engine databases as part of the chatbot infrastructure deployment. 
 
 [role="quick-margin-para"]
-Go to link:create-knowledgebase.html[Create the knowledgebase].
+link:identify-data-sources.html[Prepare your FSx for ONTAP file system].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png[Five] Test your chatbot
-
-[role="quick-margin-para"]
-Create conversation starters and test the chatbot locally before integrating the chatbot with an application.
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Deploy the knowledgebase infrastructure
 
 [role="quick-margin-para"]
-Go to link:test-knowledgebase.html[Test the knowledgebase].
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png[Six] Set up your application to interact with the chatbot to return customized responses to your users
+Launch the infrastructure deployment wizard to deploy the knowledgebase infrastructure in your AWS environment. 
 
 [role="quick-margin-para"]
-Go to link:create-application.html[Build the chatbot application].
+link:deploy-infrastructure.html[Deploy the infrastructure].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Build your knowledgebase
+
+[role="quick-margin-para"]
+Launch the knowledgebase definition wizard to identify the data from your FSx for ONTAP volumes that will be integrated into your knowledgebase and define the AI characteristics. 
+
+[role="quick-margin-para"]
+link:create-knowledgebase.html[Create the knowledgebase].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png[Five] Test your chatbot locally
+
+[role="quick-margin-para"]
+Create conversation starters and test the chatbot interaction with your knowledgebase locally before integrating the knowledgebase with an application.
+
+[role="quick-margin-para"]
+link:test-knowledgebase.html[Test how a chatbot would interface with your knowledgebase].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png[Six] Set up your chatbot application to interact with the knowledgebase
+
+[role="quick-margin-para"]
+The chatbot application will interact with your knowledgebase to return customized responses to your users.
+
+[role="quick-margin-para"]
+link:create-application.html[Build the chatbot application to access your knowledgebase].

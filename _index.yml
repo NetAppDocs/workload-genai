@@ -12,6 +12,8 @@ indexpage:
           url: quick-start.html
     - title: Install and setup
       links:
+        - title: Verify prerequisites
+          url: knowledgebase-prerequisites.html
         - title: Identify data sources for your knowledgebase
           url: identify-data-sources.html
         - title: Deploy the knowledgebase infrastructure
@@ -24,9 +26,9 @@ indexpage:
           url: create-application.html
     - title: Administer
       links:
-        - title: Manage a data source
+        - title: Manage data sources
           url: manage-data-source.html
-        - title: Manage a knowledgebase
+        - title: Manage knowledgebases
           url: manage-knowledgebase.html
         - title: Manage knowledgebase infrastructure
           url: manage-infrastructure.html
