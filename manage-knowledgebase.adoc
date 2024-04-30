@@ -28,7 +28,7 @@ You can view information about the settings for a knowledgebase and the data sou
 +
 If defined, the conversation starters that are currently being used display in the right pane.
 
-. To view knowledgebase details, click the option button and select *Manage knowledgebase*.
+. To view knowledgebase details, click image:icon-action.png[the option button] and select *Manage knowledgebase*.
 +
 This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
 +
@@ -44,7 +44,7 @@ Each time you add, modify, or remove data sources from the knowledgebase, you mu
 
 . From the Knowledgebases inventory page, select the knowledgebase that you want to update.
 
-. Click the option button and select *Manage knowledgebase*.
+. Click image:icon-action.png[the option button] and select *Manage knowledgebase*.
 +
 This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
 
@@ -69,7 +69,7 @@ When you delete a knowledgebase, you should also carry out the following actions
 
 . From the Knowledgebases inventory page, select the knowledgebase that you want to delete.
 
-. Click the option button and select *Manage knowledgebase*.
+. Click image:icon-action.png[the option button] and select *Manage knowledgebase*.
 
 . Click the *Actions* menu and select *Delete knowledgebase*.
 
