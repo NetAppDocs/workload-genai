@@ -23,6 +23,8 @@ sidebar:
           url: /ai-workloads-overview.html
         - title: Quick start
           url: /quick-start.html
+    - title: Use AI workloads to create chatbots 
+      entries:
         - title: Verify prerequisites
           url: /knowledgebase-prerequisites.html
         - title: Identify data sources for your knowledgebase
@@ -37,7 +39,7 @@ sidebar:
           url: /create-application.html
         - title: What you can do next
           url: /whats-next.html
-    - title: Manage knowledgebase components
+    - title: Administer AI knowledgebases
       entries:
         - title: Manage data sources
           url: /manage-data-source.html
