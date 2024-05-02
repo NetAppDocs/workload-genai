@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: manage-infrastructure.html
-keywords: ai, chatbot, creating, knowledgebase
+keywords: ai, chatbot, creating, knowledge base
 summary: You can view details about your deployed chatbot infrastructure, update certain characteristics, or remove the chatbot infrastructure if you no longer need it.
 ---
 

@@ -1,20 +1,20 @@
 ---
 sidebar: sidebar
 permalink: manage-knowledgebase.html
-keywords: ai, chatbot, managing, knowledgebase
-summary: After you create a knowledgebase, you can view the knowledgebase details, modify the knowledgebase, integrate additional data sources, or delete the knowledgebase.
+keywords: ai, chatbot, managing, knowledge base
+summary: After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.
 ---
 
-= Manage knowledgebases
+= Manage knowledge bases
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-After you create a knowledgebase, you can view the knowledgebase details, modify the knowledgebase, integrate additional data sources, or delete the knowledgebase.
+After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.
 
-== View information about a knowledgebase
+== View information about a knowledge base
 
-You can view information about the settings for a knowledgebase and the data source that are integrated.
+You can view information about the settings for a knowledge base and the data source that are integrated.
 
 .Steps
 
@@ -22,59 +22,79 @@ You can view information about the settings for a knowledgebase and the data sou
 
 . In the AI workloads tile, click *Deploy & manage*. 
 
-. Click *Create chatbot* and the Knowledgebases inventory page is displayed.
+. Click *Create chatbot* and the Knowledge bases inventory page is displayed.
 
-. Select the knowledgebase that you want to view.
+. Select the knowledge base that you want to view.
 +
 If defined, the conversation starters that are currently being used display in the right pane.
 
-. To view knowledgebase details, click image:icon-action.png[the option button] and select *Manage knowledgebase*.
+. To view knowledge base details, click image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
 This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
 +
-The *Actions* menu enables you to manage the knowledgebase if you want to make any changes.
+The *Actions* menu enables you to manage the knowledge base if you want to make any changes.
 
-== Edit a knowledgebase
+== Edit a knowledge base
 
-You can update a knowledgebase by changing some settings, or you can add or remove data sources.
+You can update a knowledge base by changing some settings, or you can add or remove data sources.
 
-Each time you add, modify, or remove data sources from the knowledgebase, you must sync the data source so that it is re-indexed to the knowledgebase. Syncing is incremental, so Amazon Bedrock only processes the objects in your FSx for ONTAP volume that have been added, modified, or deleted since the last sync.
+Each time you add, modify, or remove data sources from the knowledge base, you must sync the data source so that it is re-indexed to the knowledge base. Syncing is incremental, so Amazon Bedrock only processes the objects in your FSx for ONTAP volume that have been added, modified, or deleted since the last sync.
 
 .Steps
 
-. From the Knowledgebases inventory page, select the knowledgebase that you want to update.
+. From the Knowledge bases inventory page, select the knowledge base that you want to update.
 
-. Click image:icon-action.png[the option button] and select *Manage knowledgebase*.
+. Click image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
 This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
 
-. Click the *Actions* menu and select *Edit knowledgebase*.
+. Click the *Actions* menu and select *Edit knowledge base*.
 
-. In the Edit knowledgebase page, you can change the knowledgebase name, description, chat model, and whether conversation starter are created automatically or manually.
+. In the Edit knowledge base page, you can change the knowledge base name, description, chat model, and whether conversation starter are created automatically or manually.
 +
 If you use Manual mode for conversation starters, you can change conversation starter here as well.
 
 . Click *Save* after you have made your changes.
 
-== Delete a knowledgebase
+== Unpublish your knowledge base
 
-If you no longer need a knowledgebase, you can delete it. When you delete the knowledgebase, it will be removed from Workload Factory and any applications or chatbots that are using the knowledgebase will stop working. This action is not reversible.
+After you've published your knowledge base that it can be integrated with a chatbot application, you can unpublish it if you want to disable the chatbot application from accessing the knowledge base.
 
-When you delete a knowledgebase, you should also carry out the following actions to fully delete all resources associated with the knowledgebase.
-
-* Dissociate the knowledgebase from any agents it is associated with.
-* The underlying data that was indexed from your knowledgebase remains in the vector store you set up and can still be retrieved. To delete the data, you also need to delete the vector index containing the data embeddings.
+Unpublishing the knowledge base enables stops any chat applications from working. The unique API endpoint at which tha knowledge base was accessible is disabled.
 
 .Steps
 
-. From the Knowledgebases inventory page, select the knowledgebase that you want to delete.
+. From the Knowledge bases inventory page, select the knowledge base that you want to unpublish.
 
-. Click image:icon-action.png[the option button] and select *Manage knowledgebase*.
+. Click image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, and the list of all embedded data sources.
 
-. Click the *Actions* menu and select *Delete knowledgebase*.
-
-. In the Delete knowledgebase dialog, confirm that you want to delete it and click *Delete*.
+. Click the *Actions* menu and select *Unpublish*.
 
 .Result
 
-The knowledgebase is deleted from Workload Factory.
+The knowledge base is disabled and is no longer accessible by a chatbot application.
+
+== Delete a knowledge base
+
+If you no longer need a knowledge base, you can delete it. When you delete the knowledge base, it will be removed from Workload Factory and any applications or chatbots that are using the knowledge base will stop working. This action is not reversible.
+
+When you delete a knowledge base, you should also carry out the following actions to fully delete all resources associated with the knowledge base.
+
+* Dissociate the knowledge base from any agents it is associated with.
+* The underlying data that was indexed from your knowledge base remains in the vector store you set up and can still be retrieved. To delete the data, you also need to delete the vector index containing the data embeddings.
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to delete.
+
+. Click image:icon-action.png[the option button] and select *Manage knowledge base*.
+
+. Click the *Actions* menu and select *Delete knowledge base*.
+
+. In the Delete knowledge base dialog, confirm that you want to delete it and click *Delete*.
+
+.Result
+
+The knowledge base is deleted from Workload Factory.

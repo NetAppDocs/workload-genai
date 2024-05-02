@@ -1,24 +1,24 @@
 ---
 sidebar: sidebar
 permalink: create-knowledgebase.html
-keywords: ai, chatbot, creating, knowledgebase
-summary: After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledgebase, you are ready to build the knowledgebase using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+keywords: ai, chatbot, creating, knowledge base
+summary: After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 ---
 
-= Create a knowledgebase
+= Create a knowledge base
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledgebase, you are ready to build the knowledgebase using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 
-A knowledgebase can be used without integrating data sources from your organization. In this case, an application integrated with the knowledgebase will only provide results from publicly available information on the internet. This is know as a "public mode" integration.
+A knowledge base can be used without integrating data sources from your organization. In this case, an application integrated with the knowledge base will only provide results from publicly available information on the internet. This is know as a "public mode" integration.
 
-In most cases you'll want to integrate data sources from your organization into the knowledgebase. This is known as an "Enterprise mode" integration because it provides knowledge from your enterprise.
+In most cases you'll want to integrate data sources from your organization into the knowledge base. This is known as an "Enterprise mode" integration because it provides knowledge from your enterprise.
 
-== Create and configure the knowledgebase
+== Create and configure the knowledge base
 
-The knowledgebase defines characteristics such as the Bedrock AI models and embedding format that you want to use to create your knowledgebase.
+The knowledge base defines characteristics such as the Bedrock AI models and embedding format that you want to use to create your knowledge base.
 
 .Steps
 
@@ -26,13 +26,13 @@ The knowledgebase defines characteristics such as the Bedrock AI models and embe
 
 . In the AI workloads tile, click *Deploy & manage*. 
 
-. From the Knowledgebases tab, click *Create knowledgebase*.
+. From the Knowledge bases tab, click *Create knowledge base*.
 
-. In the Define knowledgebase page, configure the knowledgebase settings:
+. In the Define knowledge base page, configure the knowledge base settings:
 
-.. *Name*. Enter the name you want to use for the knowledgebase.
-.. *Description*. Enter a detailed description for the knowledgebase.
-.. *Embedding model*. The embedding model defines how your data will be converted into vector embeddings for the knowledgebase. At this time you can select only "Titan Embeddings G1".
+.. *Name*. Enter the name you want to use for the knowledge base.
+.. *Description*. Enter a detailed description for the knowledge base.
+.. *Embedding model*. The embedding model defines how your data will be converted into vector embeddings for the knowledge base. At this time you can select only "Titan Embeddings G1".
 +
 https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^].
 .. *Chat model*. Choose from a variety of AI models that are integrated in Amazon Bedrock. 
@@ -43,17 +43,17 @@ Learn more about the available models to help make your selection:
 * https://aws.amazon.com/bedrock/jurassic/[AI21 Labs Jurassic on Bedrock^]
 * https://aws.amazon.com/bedrock/llama-2/[Meta Llama 2 on Bedrock^]
 * https://aws.amazon.com/bedrock/cohere-command-embed/[Cohere Command on Bedrock^]
-.. *Conversation starters*. Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledgebase. We recommend that you enable this setting.
+.. *Conversation starters*. Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
-If you do activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledgebase. link:manage-knowledgebase.html[See how to modify knowledgebase settings].
+If you do activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[See how to modify knowledge base settings].
 
-. Click *Create knowledgebase* to add the knowledgebase to AI Studio.
+. Click *Create knowledge base* to add the knowledge base to AI Studio.
 
-. In the next page of the wizard you have the option to add a data source to your new knowledgebase, or to end the process here without adding a data source. We recommend that you click *Add data source* and add one or more data sources now.
+. In the next page of the wizard you have the option to add a data source to your new knowledge base, or to end the process here without adding a data source. We recommend that you click *Add data source* and add one or more data sources now.
 
-== Add data sources to the knowledgebase
+== Add data sources to the knowledge base
 
-You can add one or more data sources to populate the knowledgebase with your organization's data.
+You can add one or more data sources to populate the knowledge base with your organization's data.
 
 . After you click *Add data source*, the Select a file system page is displayed.
 
@@ -67,20 +67,20 @@ When selecting files stored using the SMB protocol, you'll need to enter the Act
 +
 The Define AI parameters page is displayed.
 
-. In the Chunk definition section, define the how the Amazon Bedrock service splits data source content into chunks when the knowledgebase that it belongs to is queried:
+. In the Chunk definition section, define the how the Amazon Bedrock service splits data source content into chunks when the knowledge base that it belongs to is queried:
 
 .. *Chunking strategy*. You can choose choose to create chunks of data based on "Sentences", "Words", or "Characters".
 .. *Chunk size*. You can select only "256 Tokens" at this point.
 
 . In the Permission aware section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable the selection:
 +
-* *Enabled*. Users of the chatbot who access this knowledgebase will only get responses to queries from data sources to which they have access.
+* *Enabled*. Users of the chatbot who access this knowledge base will only get responses to queries from data sources to which they have access.
 * *Disabled*. Users of the chatbot will receive responses using content from all integrated data sources.
 
-. Click *Add data source* to add this data source to your knowledgebase.
+. Click *Add data source* to add this data source to your knowledge base.
 
 .Result
 
-The data source is embedded into your knowledgebase.
+The data source is embedded into your knowledge base.
 
-After you add a single data source to the knowledgebase, you can test it locally in the Chatbot window and make any required changes before you make the chatbot available to your users. You can also follow the same steps to add additional data sources to the knowledgebase.
+After you add a single data source to the knowledge base, you can test it locally in the Chatbot window and make any required changes before you make the chatbot available to your users. You can also follow the same steps to add additional data sources to the knowledge base.

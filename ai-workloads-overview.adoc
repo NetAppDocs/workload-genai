@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ai-workloads-overview.html
-keywords: overview, concepts, features, use case, workloads, AI, Bedrock, knowledgebase, chatbot
+keywords: overview, concepts, features, use case, workloads, AI, Bedrock, knowledge base, chatbot
 summary: Workload Factory for AI workloads enables you to integrate Amazon FSx for NetApp ONTAP file systems with your MLOps platforms and GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 ---
 
@@ -30,9 +30,9 @@ A chatbot simulates human conversation through voice commands or text chats, or 
 
 Workload Factory helps to build your chatbot in the following ways:
 
-* Leverage your FSx for ONTAP file systems for storing your organizations' knowledgebase data sources.
+* Leverage your FSx for ONTAP file systems for storing your organizations' knowledge base data sources.
 
-* Build the knowledgebase and conversation starters so you can test the chatbot locally.
+* Build the knowledge base and conversation starters so you can test the chatbot locally.
 
 * Perform the actual deployment; including the NetApp AI Engine instance and internal databases.
 
@@ -40,7 +40,7 @@ Workload Factory helps to build your chatbot in the following ways:
 
 == How the AI chatbot capability works
 
-The AI chatbot uses your organizations internal information to complement data available on the internet to provide customized answers to questions asked by your users in your organization. You build a knowledgebase using your organization's data sources and then connect the chatbot to the knowledgebase.
+The AI chatbot uses your organizations internal information to complement data available on the internet to provide customized answers to questions asked by your users in your organization. You build a knowledge base using your organization's data sources and then connect the chatbot to the knowledge base.
 
 == Cost
 

@@ -1,0 +1,29 @@
+---
+sidebar: sidebar
+permalink: publish-knowledgebase.html
+keywords: ai, chatbot, publishing, knowledge base
+summary: After you've built and tested your knowledge base locally, you can publish the knowledge base so that it can be integrated with the chatbot application that will enable your users to query the knowledge base.
+---
+
+= Publish your knowledge base
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you've built and tested your knowledge base locally, you can publish the knowledge base so that it can be integrated with the chatbot application that will enable your users to query the knowledge base.
+
+Publishing the knowledge base enables you to use it in chat applications. The publish action triggers the API to generate and publish a unique endpoint. After publishing, the knowledge base becomes accessible for chat applications, and the API endpoint is ready for integration.
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to publish.
+
+. Click image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, and the list of all embedded data sources.
+
+. Click the *Actions* menu and select *Publish*.
+
+.Result
+
+The knowledge base is published and is ready to be accessed by a chatbot application.

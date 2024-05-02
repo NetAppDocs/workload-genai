@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: quick-start.html
-keywords: quick start, knowledgebase, chatbot
-summary: Get started creating a knowledgebase using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores. Your chatbot will access this knowledgebase to provide organization-focused responses to your chatbot users.
+keywords: quick start, knowledge base, chatbot
+summary: Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores. Your chatbot will access this knowledge base to provide organization-focused responses to your chatbot users.
 ---
 
 = Quick start for creating a chatbot using Workload Factory
@@ -10,54 +10,62 @@ summary: Get started creating a knowledgebase using your organization's data tha
 :imagesdir: ./media/
 
 [.lead]
-Get started creating a knowledgebase using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores. Your chatbot will access this knowledgebase to provide organization-focused responses to your chatbot users.
+Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores. Your chatbot will access this knowledge base to provide organization-focused responses to your chatbot users.
 
 Before you get started, you should have a https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-accounts.html[Workload Factory account].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Verify knowledgebase and chatbot prerequisites 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Confirm that you've met the knowledge base prerequisites 
 
 [role="quick-margin-para"]
-You'll need to have AWS credentials to deploy the AWS infrastructure, and you'll need to have a deployed FSx for ONTAP file system, the list of data sources you want to integrate in your knowledgebase, access to the Amazon Bedrock AI service, and more. 
+You'll need to have AWS credentials to deploy the AWS infrastructure, and you'll need to have a deployed FSx for ONTAP file system, the list of data sources you want to integrate in your knowledge base, access to the Amazon Bedrock AI service, and more. 
 
 [role="quick-margin-para"]
-link:knowledgebase-prerequisites.html[Verify knowledgebase prerequisites].
+link:knowledgebase-prerequisites.html[Confirm that you understand all the knowledge base prerequisites].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify the FSx for ONTAP system that contains the data sources for your knowledgebase 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify the FSx for ONTAP system that contains the data sources for your knowledge base 
 
 [role="quick-margin-para"]
-In addition to containing the files that will be integrated into your knowledgebase, this FSx for ONTAP file system will also contain the NetApp AI Engine databases as part of the chatbot infrastructure deployment. 
+In addition to containing the files that will be integrated into your knowledge base, this FSx for ONTAP file system will also contain the NetApp AI Engine databases as part of the chatbot infrastructure deployment. 
 
 [role="quick-margin-para"]
 link:identify-data-sources.html[Prepare your FSx for ONTAP file system].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Deploy the knowledgebase infrastructure
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Deploy the knowledge base infrastructure
 
 [role="quick-margin-para"]
-Launch the infrastructure deployment wizard to deploy the knowledgebase infrastructure in your AWS environment. 
+Launch the infrastructure deployment wizard to deploy the knowledge base infrastructure in your AWS environment. 
 
 [role="quick-margin-para"]
-link:deploy-infrastructure.html[Deploy the infrastructure].
+link:deploy-infrastructure.html[Learn how to deploy the knowledge base infrastructure].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Build your knowledgebase
-
-[role="quick-margin-para"]
-Launch the knowledgebase definition wizard to identify the data from your FSx for ONTAP volumes that will be integrated into your knowledgebase and define the AI characteristics. 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Build your knowledge base
 
 [role="quick-margin-para"]
-link:create-knowledgebase.html[Create the knowledgebase].
+Launch the knowledge base definition wizard to identify the data from your FSx for ONTAP volumes that will be integrated into your knowledge base and define the AI characteristics. 
+
+[role="quick-margin-para"]
+link:create-knowledgebase.html[See how to create a knowledge base].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png[Five] Test your chatbot locally
 
 [role="quick-margin-para"]
-Create conversation starters and test the chatbot interaction with your knowledgebase locally before integrating the knowledgebase with an application.
+Create conversation starters and test the chatbot interaction with your knowledge base locally before integrating the knowledge base with an application.
 
 [role="quick-margin-para"]
-link:test-knowledgebase.html[Test how a chatbot would interface with your knowledgebase].
+link:test-knowledgebase.html[Test how a chatbot would interface with your knowledge base].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png[Six] Set up your chatbot application to interact with the knowledgebase
-
-[role="quick-margin-para"]
-The chatbot application will interact with your knowledgebase to return customized responses to your users.
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png[Six] Publish your knowledge base
 
 [role="quick-margin-para"]
-link:create-application.html[Build the chatbot application to access your knowledgebase].
+Publish your knowledge base so that it is externally available so you can connect the knowledge base with you chatbot application.
+
+[role="quick-margin-para"]
+link:publish-knowledgebase.html[See how to publish your knowledge base].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-7.png[Seven] Set up your chatbot application to interact with the knowledge base
+
+[role="quick-margin-para"]
+The chatbot application will interact with your knowledge base to return customized responses to your users.
+
+[role="quick-margin-para"]
+link:create-application.html[Learn how to build the chatbot application to access your knowledge base].

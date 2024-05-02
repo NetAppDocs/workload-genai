@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: create-application.html
-keywords: ai, chatbot, creating, application, knowledgebase
-summary: After you have built your knowledgebase and tested your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
+keywords: ai, chatbot, creating, application, knowledge base
+summary: After you have built your knowledge base and tested your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
 ---
 
 = Create the application to activate the chatbot
@@ -10,12 +10,12 @@ summary: After you have built your knowledgebase and tested your chatbot, you ar
 :imagesdir: ./media/
 
 [.lead]
-After you have built your knowledgebase and tested your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
+After you have built your knowledge base and tested your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
 
-To deploy a knowledgebase in your application, set it up to make https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_Retrieve.html[Retrieve] or https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_RetrieveAndGenerate.html[RetrieveAndGenerate] requests to the knowledge base. To see how to use these API operations, select the API tab in Test a knowledge base in Amazon Bedrock.
+To deploy a knowledge base in your application, set it up to make https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_Retrieve.html[Retrieve] or https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_RetrieveAndGenerate.html[RetrieveAndGenerate] requests to the knowledge base. To see how to use these API operations, select the API tab in Test a knowledge base in Amazon Bedrock.
 
 
-*Should this be called "Deploy your knowledgebase in an application"?*
+*Should this be called "Deploy your knowledge base in an application"?*
 
 
 == Deploy the chatbot
