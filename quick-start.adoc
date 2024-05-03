@@ -20,7 +20,7 @@ Before you get started, you should have a https://docs.netapp.com/us-en/workload
 You'll need to have AWS credentials to deploy the AWS infrastructure, and you'll need to have a deployed FSx for ONTAP file system, the list of data sources you want to integrate in your knowledge base, access to the Amazon Bedrock AI service, and more. 
 
 [role="quick-margin-para"]
-link:knowledgebase-prerequisites.html[Confirm that you understand all the knowledge base prerequisites].
+Review the link:aws-requirements.html[AWS requirements] and the link:workload-factory-requirements.html[Workload Factory requirements] needed to build and manage your knowledge base.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify the FSx for ONTAP system that contains the data sources for your knowledge base 
 
@@ -46,7 +46,7 @@ Launch the knowledge base definition wizard to identify the data from your FSx f
 [role="quick-margin-para"]
 link:create-knowledgebase.html[See how to create a knowledge base].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png[Five] Test your chatbot locally
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png[Five] Test your knowledge base locally
 
 [role="quick-margin-para"]
 Create conversation starters and test the chatbot interaction with your knowledge base locally before integrating the knowledge base with an application.

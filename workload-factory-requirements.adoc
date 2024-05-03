@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: workload-factory-requirements.html
+keywords: ai, chatbot, prerequisites, bedrock, fsx for ontap, prerequisites, requirements
+summary: There are certain Workload Factory resources and requirements that you'll need before you begin to build your knowledge base. This includes having a Workload Factory account, credentials that allow Workload Factory to manage AWS resources, and more.
+---
+
+= Workload Factory requirements
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+There are certain Workload Factory resources and requirements that you'll need before you begin to build your knowledge base. This includes having a Workload Factory account, credentials that allow Workload Factory to manage AWS resources, and more.
+ 
+Workload Factory account::
+You'll need to log in and create a Workload Factory account.
++
+https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[Learn more about logging in and creating an account].
+
+Credentials:: 
+You can use Workload Factory without embedding a set of AWS credentials and permissions into your Workload Factory account. However, by adding AWS credentials and permissions enables Workload Factory to manage the deployment and management of AWS resources directly from the Workload Factory UI.
++
+When setting up your credentials, selecting permissions as shown below provides you with full access to manage FSx for ONTAP systems and to deploy and manage the AI EC2 instance and other AWS resources needed for your knowledge base and chatbot.
++
+image:screenshot-ai-permissions.png[A screenshot showing the permissions setting for full management of AI resources.]
++
+https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn more about adding AWS credentials to Workload Factory].

@@ -23,10 +23,14 @@ sidebar:
           url: /ai-workloads-overview.html
         - title: Quick start
           url: /quick-start.html
+    - title: Knowledge base requirements
+      entries:
+        - title: AWS requirements
+          url: /aws-requirements.html
+        - title: Workload Factory requirements
+          url: /workload-factory-requirements.html    
     - title: Use AI workloads to create chatbots 
       entries:
-        - title: Verify prerequisites
-          url: /knowledgebase-prerequisites.html
         - title: Identify data sources for your knowledge base
           url: /identify-data-sources.html
         - title: Deploy the knowledge base infrastructure
