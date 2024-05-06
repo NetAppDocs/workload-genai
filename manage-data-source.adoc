@@ -60,6 +60,8 @@ You can change the contents of a data source at any time to add or update your o
 
 . If necessary, 
 
+*More here*
+
 == Delete a data source
 
 If you no longer need a data source to be part of your knowledge base, you can delete it.
@@ -76,40 +78,4 @@ The bottom part of the page lists the data sources that are part of this knowled
 
 .Result
 
-The data source is removed from the knowledge base and the AI system removes the indexed information about this data source from the knowledge base. Any information from the data source will be unavailable to chatbots that are using the knowledge base.
-
-
-
-=== Add additional data sources to a knowledge base
-
-Here or KB topic??
-
-.Steps
-
-. Log in to Workload Factory.
-
-. In the AI workloads tile, click *Deploy & manage*. 
-
-. Click *Create chatbot* and the xyz page is displayed
-
-. Click *Add data source* to 
-
-. Select the FSx for ONTAP file system where your data source files reside and click *Next*.
-
-. Select the volume on which your data source files reside and click *Next*.
-
-. Select the data source location based on where you have saved the files. This can be the entire volume or just a specific folder or sub-folder in the volume, and click *Next*.
-
-. In the Models section of the Define AI parameters page, define the models:
-
-.. For Embedding model you can select the "Titan Embeddings G1" at this point.
-.. For Text model you can choose from a variety of Claude and Jurassic AI models. Learn mode about https://aws.amazon.com/bedrock/claude/[Claude on Bedrock^] and https://aws.amazon.com/bedrock/jurassic/[Jurassic on Bedrock^].
-
-. In the Chunk definition section of the Define AI parameters page, define the chunks:
-
-.. For Chunking strategy you can choose "sentences", "words", or "characters".
-//.. For Chunk size you can choose "256 Tokens" at this point.
-
-.Result
-
-The data source is integrated into your knowledge base.
+The data source is removed from the knowledge base and the AI system removes the indexed information about this data source from the knowledge base. Any information from that data source will no longer be available to chatbots that are using the knowledge base.
