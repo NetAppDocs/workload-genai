@@ -29,7 +29,7 @@ sidebar:
           url: /aws-requirements.html
         - title: Workload Factory requirements
           url: /workload-factory-requirements.html    
-    - title: Use AI workloads to create chatbots 
+    - title: Use AI workloads to create knowledge bases 
       entries:
         - title: Identify data sources for your knowledge base
           url: /identify-data-sources.html
@@ -41,7 +41,7 @@ sidebar:
           url: /test-knowledgebase.html
         - title: Publish the knowledge base
           url: /publish-knowledgebase.html
-        - title: Create the application to activate the chatbot
+        - title: Create a chatbot application to access your knowledge base
           url: /create-application.html
         - title: What you can do next
           url: /whats-next.html

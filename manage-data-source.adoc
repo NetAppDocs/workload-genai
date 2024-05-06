@@ -108,7 +108,7 @@ Here or KB topic??
 . In the Chunk definition section of the Define AI parameters page, define the chunks:
 
 .. For Chunking strategy you can choose "sentences", "words", or "characters".
-.. For Chunk size you can choose "256 Tokens" at this point.
+//.. For Chunk size you can choose "256 Tokens" at this point.
 
 .Result
 
