@@ -16,7 +16,7 @@ indexpage:
           url: aws-requirements.html
         - title: Workload Factory requirements
           url: workload-factory-requirements.html    
-    - title: Install and setup
+    - title: Use AI workloads to create knowledge bases
       links:
         - title: Identify data sources for your knowledge base
           url: identify-data-sources.html
@@ -30,7 +30,7 @@ indexpage:
           url: publish-knowledgebase.html
         - title: Create the application to activate the chatbot
           url: create-application.html
-    - title: Administer
+    - title: Administer knowledge bases
       links:
         - title: Manage data sources
           url: manage-data-source.html

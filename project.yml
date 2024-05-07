@@ -45,7 +45,7 @@ sidebar:
           url: /create-application.html
         - title: What you can do next
           url: /whats-next.html
-    - title: Administer AI knowledge bases
+    - title: Administer and monitor knowledge bases
       entries:
         - title: Manage data sources
           url: /manage-data-source.html
