@@ -32,6 +32,6 @@ You can test a knowledge base by chatting with your embedded data sources in the
 +
 The chatbot simulator appears in the right pane. If defined, existing conversation starters are displayed as well.
 
-. In the chatbot entry field, enter a prompt or question and click the image:icon-go-button.png[run button] to see how your chatbot responds with your organizational knowledge.
+. In the chatbot entry field, enter a prompt or question and click the image:button-run.png[run button] to see how your chatbot responds with your organizational knowledge.
 
 . If you need to update any of your data sources so that your knowledge base provides more focussed answers, make those changes now and then retest the knowledge base.

@@ -28,7 +28,7 @@ You can view information about the contents of a data source and you can view it
 +
 The bottom part of the page lists the data sources that are part of this knowledge base.
 
-. Expand each row by clicking the image:button_down_caret.png[the down-arrow button] to view detailed information about each data source, such as the FSx for ONTAP system, the volume, and the path where the data source resides. 
+. Expand each row by clicking the image:button-down-caret.png[the down-arrow button] to view detailed information about each data source, such as the FSx for ONTAP system, the volume, and the path where the data source resides. 
 +
 It also lists the embedding information and whether that data source is currently embedded in the knowledge base.
 
@@ -44,7 +44,7 @@ The bottom part of the page lists the data sources that are part of this knowled
 
 . In the row of the data source that you want to edit, click image:icon-action.png[the option button] and select *Edit data source*.
 
-. In the Edit data source page, click image:button_down_caret.png[the down-arrow button] to expand the row for Chunk definition.
+. In the Edit data source page, click image:button-down-caret.png[the down-arrow button] to expand the row for Chunk definition.
 
 . Update the settings for the Chunking strategy and Chunk size, and permission awareness (for SMB volumes) and click *Save*.
 
