@@ -19,7 +19,7 @@ sidebar:
           url: /limitations.html
     - title: Get started
       entries:
-        - title: Learn about Workload Factory for AI workloads
+        - title: Learn about Workload Factory for AI
           url: /ai-workloads-overview.html
         - title: Quick start
           url: /quick-start.html
