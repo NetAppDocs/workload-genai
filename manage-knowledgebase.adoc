@@ -92,6 +92,13 @@ The Define AI parameters page is displayed.
 
 The data source is integrated into your knowledge base.
 
+== Synchronize your data sources with the knowledge base
+
+If you make changes to any of your data source files, you'll need to synchronize the changes with the knowledge base before the changes will be reflected in any attached chatbots.
+
+*More here after UI shows this option*
+
+
 == Unpublish your knowledge base
 
 After you've published your knowledge base that it can be integrated with a chatbot application, you can unpublish it if you want to disable the chatbot application from accessing the knowledge base.

@@ -14,8 +14,9 @@ Now that you've created a chatbot using organizational data and deployed it for 
 
 Some of the tasks you can perform to manage you knowledge base components are:
 
-* Update the content of your data sources, or add new data sources, and integrate those changes with your knowledge base and chatbot.
-* Manage your data source settings, including the chunking strategy and chunk size, and permission awareness (for SMB file access). 
+* Update the content of your data sources, or add new data sources, and sync those changes with your knowledge base and chatbot.
+* Manage your data source settings, including the chunking strategy and permission awareness (for SMB file access). 
+//and chunk size, 
 * Manage your knowledge base settings, including the chat model and conversation starters.
 * Unpublish a knowledge base or republish it after making changes.
 * Back up and protect the important data on your FSx for ONTAP system to make sure your knowledge base data and other infrastructure components are always available.

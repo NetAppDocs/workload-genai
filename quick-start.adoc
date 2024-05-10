@@ -17,7 +17,7 @@ Before you get started, you should have a https://docs.netapp.com/us-en/workload
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Confirm that you've met the knowledge base prerequisites 
 
 [role="quick-margin-para"]
-You'll need to have AWS credentials to deploy the AWS infrastructure, and you'll need to have a deployed FSx for ONTAP file system, the list of data sources you want to integrate in your knowledge base, access to the Amazon Bedrock AI service, and more. 
+You'll need to have AWS credentials to deploy the AWS infrastructure, you'll need to have deployed and discovered an FSx for ONTAP file system, you'll need the list of data sources you want to integrate in your knowledge base, access to the Amazon Bedrock AI service, and more. 
 
 [role="quick-margin-para"]
 Review the link:aws-requirements.html[AWS requirements] and the link:workload-factory-requirements.html[Workload Factory requirements] needed to build and manage your knowledge base.
@@ -25,7 +25,7 @@ Review the link:aws-requirements.html[AWS requirements] and the link:workload-fa
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify the FSx for ONTAP system that contains the data sources for your knowledge base 
 
 [role="quick-margin-para"]
-In addition to containing the files that will be integrated into your knowledge base, this FSx for ONTAP file system will also contain the NetApp AI Engine databases as part of the chatbot infrastructure deployment. 
+The data sources that you'll integrate in your knowledge base can be located on a single FSx for ONTAP system, or on multiple FSx for ONTAP systems. These systems can be in different VPCs, but they must be accessible within the same network. 
 
 [role="quick-margin-para"]
 link:identify-data-sources.html[Prepare your FSx for ONTAP file system].
@@ -33,7 +33,7 @@ link:identify-data-sources.html[Prepare your FSx for ONTAP file system].
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Deploy the knowledge base infrastructure
 
 [role="quick-margin-para"]
-Launch the infrastructure deployment wizard to deploy the knowledge base infrastructure in your AWS environment. 
+Launch the infrastructure deployment wizard to deploy the knowledge base infrastructure in your AWS environment. This process deploys an EC2 instance for the NetApp GenAI engine, and a volume on an FSx for ONTAP file system to contain the NetApp AI Engine databases.
 
 [role="quick-margin-para"]
 link:deploy-infrastructure.html[Learn how to deploy the knowledge base infrastructure].
@@ -41,7 +41,7 @@ link:deploy-infrastructure.html[Learn how to deploy the knowledge base infrastru
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Build your knowledge base
 
 [role="quick-margin-para"]
-Launch the knowledge base definition wizard to identify the data from your FSx for ONTAP volumes that will be integrated into your knowledge base and define the AI characteristics. 
+Launch the knowledge base definition wizard to identify the data sources from your FSx for ONTAP volumes that will be integrated into your knowledge base and define the AI characteristics. 
 
 [role="quick-margin-para"]
 link:create-knowledgebase.html[See how to create a knowledge base].
@@ -57,7 +57,7 @@ link:test-knowledgebase.html[Test how a chatbot would interface with your knowle
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png[Six] Publish your knowledge base
 
 [role="quick-margin-para"]
-Publish your knowledge base so that it is externally available so you can connect the knowledge base with you chatbot application.
+Publish your knowledge base so that it is externally available so you can connect the knowledge base with your chatbot application.
 
 [role="quick-margin-para"]
 link:publish-knowledgebase.html[See how to publish your knowledge base].

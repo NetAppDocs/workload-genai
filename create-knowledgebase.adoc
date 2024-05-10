@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: create-knowledgebase.html
 keywords: ai, chatbot, creating, knowledge base
-summary: After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 ---
 
 = Create a knowledge base
@@ -10,7 +10,7 @@ summary: After you have deployed the AI infrastructure and identified the data s
 :imagesdir: ./media/
 
 [.lead]
-After you have deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 
 A knowledge base can be used without integrating data sources from your organization. In this case, an application integrated with the knowledge base will only provide results from publicly available information on the internet. This is know as a "public mode" integration.
 

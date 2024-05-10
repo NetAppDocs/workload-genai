@@ -17,21 +17,4 @@ To deploy a knowledge base in your application, set it up to make https://docs.a
 
 *Should this be called "Deploy your knowledge base in an application"?*
 
-
-== Deploy the chatbot
-
-You'll choose the data sources to integrate in your chatbot, and the Bedrock AI models that you want to use to create your chatbot.
-
-.Steps
-
-. Log in to Workload Factory.
-
-. In the AI workloads tile, click *Deploy & manage* and the Deploy chatbot infrastructure page is displayed.
-+
-This page 
-
-. click *Create chatbot* and the xyz page is displayed
-
-.Result
-
-The data source are integrated into your chatbot.
+*More here*

@@ -18,7 +18,8 @@ You'll need to log in and create a Workload Factory account.
 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[Learn more about logging in and creating an account].
 
 Credentials:: 
-You can use Workload Factory without embedding a set of AWS credentials and permissions into your Workload Factory account. This is called _Basic_ mode. However, by adding AWS credentials and permissions, you enable Workload Factory to manage the deployment and management of AWS resources directly from the Workload Factory UI. You can add _Read_ permissions to grant Workload Factory the ability to read information about your AWS resources. Or you can add _Automate_ permissions so that Workload Factory can perform all actions in your AWS environment.
+You'll need to use Workload Factory with an embedded set of AWS credentials and permissions into your Workload Factory account. This is called _Automate_ mode so that Workload Factory can perform all actions in your AWS environment.
+//This is called _Basic_ mode. However, by adding AWS credentials and permissions, you enable Workload Factory to manage the deployment and management of AWS resources directly from the Workload Factory UI. You can add _Read_ permissions to grant Workload Factory the ability to read information about your AWS resources. Or you can add 
 +
 When setting up your credentials, selecting permissions as shown below provides you with full access to manage FSx for ONTAP systems and to deploy and manage the AI EC2 instance and other AWS resources needed for your knowledge base and chatbot.
 +
