@@ -1,0 +1,14 @@
+---
+sidebar: sidebar
+permalink: troubleshooting.html
+keywords: workloads, AI, Bedrock, knowledge base, chatbot, troubleshooting
+summary: Your knowledge base infrastructure, or chatbot may run into issues on occasion. This information describes some potential issue and the steps to fix it.
+---
+
+= Troubleshooting
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Your knowledge base infrastructure, or chatbot may run into issues on occasion. This information describes some potential issue and the steps to fix it.
+

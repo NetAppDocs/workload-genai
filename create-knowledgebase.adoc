@@ -67,12 +67,13 @@ When selecting files stored using the SMB protocol, you'll need to enter the Act
 +
 The Define AI parameters page is displayed.
 
-. In the Chunk definition section, define the how the Amazon Bedrock service splits data source content into chunks when the knowledge base that it belongs to is queried:
+. In the *Chunk definition* section, define the how the Amazon Bedrock service splits data source content into chunks when the knowledge base that it belongs to is queried:
 
 .. *Chunking strategy*. You can choose choose to create chunks of data based on "Sentences", "Words", or "Characters".
+*Just 'Sentences' available?*
 //.. *Chunk size*. You can select only "256 Tokens" at this point.
 
-. In the Permission aware section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable the selection:
+. In the *Permission aware* section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable the selection:
 +
 * *Enabled*. Users of the chatbot who access this knowledge base will only get responses to queries from data sources to which they have access.
 * *Disabled*. Users of the chatbot will receive responses using content from all integrated data sources.
@@ -81,6 +82,6 @@ The Define AI parameters page is displayed.
 
 .Result
 
-The data source is embedded into your knowledge base.
+The data source starts to be embedded into your knowledge base. The status changes from "Embedding" to "Embedded" when the data source is completely embedded.
 
 After you add a single data source to the knowledge base, you can test it locally in the Chatbot window and make any required changes before you make the chatbot available to your users. You can also follow the same steps to add additional data sources to the knowledge base.

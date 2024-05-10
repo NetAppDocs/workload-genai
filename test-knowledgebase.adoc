@@ -22,7 +22,7 @@ Some of the tasks you'll want to perform to test your chatbot are:
 * Customize the conversation starters that you want to be available by default for your users.
 * Make sure that the attributed content that is provided at the bottom of the chatbot answers contain the correct references. 
 
-== Test a knowledge base locally
+== How to test a knowledge base
 
 You can test a knowledge base by chatting with your embedded data sources in the chatbot simulator. Note that none of the interaction or insights are captured in the GenAI index database when testing the knowledge base locally.
 
