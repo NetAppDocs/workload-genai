@@ -34,9 +34,9 @@ Workload Factory helps to build your chatbot in the following ways:
 
 * Build the knowledge base and conversation starters so you can test the chatbot locally.
 
-* Perform the actual deployment; including the NetApp AI Engine instance and internal databases.
+* Deploy the required infrastructure; including the NetApp GenAI Engine EC2 instance and volumes on your FSx for ONTAP file system that will store the vector databases.
 
-* Connect the AI Engine instance with your FSx for ONTAP system and Amazon Bedrock.
+* Connect the GenAI Engine instance with your FSx for ONTAP system and Amazon Bedrock.
 
 == How the AI chatbot capability works
 

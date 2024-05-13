@@ -27,6 +27,7 @@ You'll need to deploy and discover a minimum of one FSx for ONTAP file system
 +
 * One file system will be used by the NetApp GenAI engine to store the vector database used by the knowledge base. 
 * One or more file systems will contain the data sources that you'll be integrating into your knowledge base. 
+
 +
 One FSx for ONTAP system can be used for both of these purposes, or you can use multiple FSx for ONTAP systems.
 
