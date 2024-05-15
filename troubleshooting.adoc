@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: troubleshooting.html
 keywords: workloads, AI, Bedrock, knowledge base, chatbot, troubleshooting
-summary: Your knowledge base infrastructure, or chatbot may run into issues on occasion. This information describes some potential issue and the steps to fix it.
+summary: Your knowledge base infrastructure, or chatbot, may run into issues based on network connectivity or other reasons. This information describes some potential issues and the steps to fix them.
 ---
 
 = Troubleshooting
@@ -10,5 +10,5 @@ summary: Your knowledge base infrastructure, or chatbot may run into issues on o
 :imagesdir: ./media/
 
 [.lead]
-Your knowledge base infrastructure, or chatbot may run into issues on occasion. This information describes some potential issue and the steps to fix it.
+Your knowledge base infrastructure, or chatbot, may run into issues based on network connectivity or other reasons. This information describes some potential issues and the steps to fix them.
 

@@ -23,9 +23,11 @@ Amazon Bedrock service::
 Amazon Bedrock enables you to use foundation models and it provides the capabilities to build generative AI applications. You'll need an AWS Identity and Access Management (IAM) role that provides Amazon Bedrock permission to access other AWS resources and services. https://aws.amazon.com/bedrock/[Learn more about Amazon Bedrock].
 
 FSx for ONTAP file system::
-You'll need to deploy and discover a minimum of one FSx for ONTAP file system
+You'll need to deploy and discover a minimum of one FSx for ONTAP file system:
 +
 * One file system will be used by the NetApp GenAI engine to store the vector database used by the knowledge base. 
++
+This FSx for ONTAP system must use FlexVol volumes. Systems that use FlexGroup volumes are not supported.
 * One or more file systems will contain the data sources that you'll be integrating into your knowledge base. 
 
 +

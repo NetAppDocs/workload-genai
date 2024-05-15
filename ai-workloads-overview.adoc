@@ -46,7 +46,7 @@ The AI chatbot uses your organizations internal information to complement data a
 
 There is no cost for using the AI chatbot capability of Workload Factory that you need to pay to NetApp.
 
-You'll need to pay for AWS resources that you deploy in support of the chatbot. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the AI engine instance.
+You'll need to pay for AWS resources that you deploy in support of the chatbot. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine instance.
 
 == Licensing
 

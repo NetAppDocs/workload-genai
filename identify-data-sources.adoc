@@ -18,7 +18,7 @@ Data sources can be stored in a single volume, or in a folder within a volume, o
 
 You can add multiple data sources into each knowledge base, but they all need to reside on FSx for ONTAP file systems that are accessible from your AWS account.
 
-The maximum file size is 50 MB.
+The maximum file size for each data source is 50 MB.
 
 == Supported protocols
 

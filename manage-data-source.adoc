@@ -56,11 +56,7 @@ The data source settings are updated and the AI system synchronizes the data sou
 
 You can change the contents of a data source at any time to add or update your organizational data. If this data source is being actively used in a knowledge base, you must sync the data source so that it is re-indexed to the knowledge base. Syncing is incremental, so Amazon Bedrock only processes the objects in your FSx for ONTAP volume that have been added, modified, or deleted since the last sync.
 
-.Steps
-
-. If necessary, 
-
-*More here*
+Data sources are synchronized with the knowledgebase automatically once a day so that any data source changes are reflected in the chatbot. If you make changes to a data source and you'd like to synchronize the data immediately, you can link:manage-knowledgebase.html#synchronize-your-data-sources-with-the-knowledge-base[perform an on-demand synchronization].
 
 == Delete a data source
 
