@@ -112,6 +112,24 @@ The knowledge base is synchronized with the attached data sources.
 
 *More here after UI shows this option*
 
+== Evaluate chat models before creating a knowledge base
+
+You can evaluate the available foundational chat models before creating a knowledge base so you can see which model works best for your implementation. Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page] to verify which models you can use in the regions where you plan to deploy your knowledge base.
+
+NOTE: This functionality is available only when no knowledge bases have been created -- when no knowledge bases exist in the Knowledge bases inventory page.
+
+.Steps
+
+. From the Knowledge bases inventory page, you'll see the option to select the chat model on the right side of the page for the Chatbot.
+
+. Select the chat model from the list and enter a set of questions in the prompt area to see how the chatbot responds.
+
+. Try multiple models to see which model is best for your implementation.
+
+.Result
+
+Use that chat model when you create your knowledge base.
+
 == Unpublish your knowledge base
 
 After you've published your knowledge base that it can be integrated with a chatbot application, you can unpublish it if you want to disable the chatbot application from accessing the knowledge base.

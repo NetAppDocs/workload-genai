@@ -64,6 +64,8 @@ Make sure your environment meets link:aws-requirements.html[the requirements] be
 .. *Location*. Select the AWS region, VPC, and Subnet. 
 +
 Your instance of Amazon Bedrock must be located in the same region and VPC.
++
+Note that Amazon Bedrock is supported in the https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html[following regions].
 
 . Complete the items in the "Infrastructure settings" section of the Define infrastructure page: 
 

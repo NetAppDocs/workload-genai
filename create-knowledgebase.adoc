@@ -43,6 +43,8 @@ Learn more about the available models to help make your selection:
 * https://aws.amazon.com/bedrock/jurassic/[AI21 Labs Jurassic on Bedrock^]
 * https://aws.amazon.com/bedrock/llama-2/[Meta Llama 2 on Bedrock^]
 * https://aws.amazon.com/bedrock/cohere-command-embed/[Cohere Command on Bedrock^]
++
+Note that you must have already enabled the chat model that you plan to use.
 .. *Conversation starters*. Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
 If you do activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[See how to modify knowledge base settings].
