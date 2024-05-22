@@ -2,15 +2,15 @@
 sidebar: sidebar
 permalink: quick-start.html
 keywords: quick start, knowledge base, chatbot
-summary: Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores. Your chatbot will access this knowledge base to provide organization-focused responses to your chatbot users.
+summary: Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores. An application such as a chatbot will access this knowledge base to provide organization-focused responses to end users.
 ---
 
-= Quick start for creating a chatbot using Workload Factory
+= Quick start for creating a knowledge base using Workload Factory
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores. Your chatbot will access this knowledge base to provide organization-focused responses to your chatbot users.
+Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP datastores. An application such as a chatbot will access this knowledge base to provide organization-focused responses to end users.
 
 Before you get started, you should have a https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-accounts.html[Workload Factory account].
 

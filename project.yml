@@ -1,5 +1,5 @@
 settings:
-  name: AI workloads
+  name: GenAI Studio
   platform: cloud
   internal:
     pdf_enabled: true
