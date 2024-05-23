@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: create-knowledgebase.html
 keywords: ai, chatbot, creating, knowledge base
-summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 ---
 
 = Create a knowledge base
@@ -10,9 +10,9 @@ summary: After you've deployed the AI infrastructure and identified the data sou
 :imagesdir: ./media/
 
 [.lead]
-After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 
-A knowledge base can be used without integrating data sources from your organization. In this case, an application integrated with the knowledge base will only provide results from publicly available information on the internet. This is know as a "public mode" integration.
+A knowledge base can be used without integrating data sources from your organization. In this case, an application integrated with the knowledge base will only provide results from publicly available information on the internet. This is known as a "public mode" integration.
 
 In most cases you'll want to integrate data sources from your organization into the knowledge base. This is known as an "Enterprise mode" integration because it provides knowledge from your enterprise.
 
@@ -71,8 +71,9 @@ The Define AI parameters page is displayed.
 
 . In the *Chunk definition* section, define the how the Amazon Bedrock service splits data source content into chunks when the knowledge base that it belongs to is queried:
 
-.. *Chunking strategy*. You can choose choose to create chunks of data based on "Sentences", "Words", or "Characters".
-*Just 'Sentences' available?*
+.. *Chunking strategy*. You can choose to create chunks of data based on "Sentences", "Words", or "Characters".
++
+*Are just 'Sentences' available in the first release?*
 //.. *Chunk size*. You can select only "256 Tokens" at this point.
 
 . In the *Permission aware* section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable the selection:

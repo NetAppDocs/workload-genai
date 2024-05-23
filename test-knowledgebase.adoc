@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: test-knowledgebase.html
 keywords: ai, chatbot, creating, knowledge base
-summary: After you create the knowledge base you'll be able to test it locally using the chatbot simulator and make any required changes before you make the knowledge base available to your users.
+summary: After you create the knowledge base, you'll be able to test it locally using the chatbot simulator and make any required changes before you make the knowledge base available to your users.
 ---
 
 = Test the knowledge base
@@ -10,7 +10,7 @@ summary: After you create the knowledge base you'll be able to test it locally u
 :imagesdir: ./media/
 
 [.lead]
-After you create the knowledge base you'll be able to test it locally using the chatbot simulator and make any required changes before you make the knowledge base available to your users.
+After you create the knowledge base, you'll be able to test it locally using the chatbot simulator and make any required changes before you make the knowledge base available to your users.
 
 You test your knowledge base to make sure it performs as you expect, and you can customize the conversation starters that you want to be available by default for chatbot users of this knowledge base. The chatbot simulator runs against all the data sources that have been embedded in the knowledge base. 
 
@@ -34,4 +34,4 @@ The chatbot simulator appears in the right pane. If defined, existing conversati
 
 . In the chatbot entry field, enter a prompt or question and click image:button-run.png[the run button] to see how your chatbot responds with your organizational knowledge.
 
-. If you need to update any of your data sources so that your knowledge base provides more focussed answers, make those changes now and then retest the knowledge base.
+. If you need to update any of your data sources so that your knowledge base provides more focused answers, make those changes now and then retest the knowledge base.
