@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: whats-next.html
 keywords: what you can do, knowledge base
-summary: Now that you've created a chatbot using organizational data and deployed it for your users, you can manage the knowledge base, chatbot infrastructure, chatbot application, FSx for ONTAP file system, and data sources.
+summary: Now that you've created a chatbot using organizational data and deployed it for your users, you can manage the knowledge base, chatbot infrastructure, chatbot application, FSx for ONTAP file systems, and data sources.
 ---
 
 = What you can do next
@@ -10,7 +10,7 @@ summary: Now that you've created a chatbot using organizational data and deploye
 :imagesdir: ./media/
 
 [.lead]
-Now that you've created a chatbot using organizational data and deployed it for your users, you can manage the knowledge base, chatbot infrastructure, chatbot application, FSx for ONTAP file system, and data sources.
+Now that you've created a chatbot using organizational data and deployed it for your users, you can manage the knowledge base, chatbot infrastructure, chatbot application, FSx for ONTAP file systems, and data sources.
 
 Some of the tasks you can perform to manage you knowledge base components are:
 

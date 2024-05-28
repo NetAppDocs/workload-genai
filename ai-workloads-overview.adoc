@@ -18,7 +18,7 @@ Workload Factory GenAI Studio enables you to use your enterprise data sources on
 
 Using Generative AI with your organizational data enables you to leverage your own knowledge and expertise, not rely on just the model's intelligence based on public data the models were trained on. Using RAG to customize the models ensures accurate and relevant responses to organization-specific questions, enhancing the productivity and efficiency for the users of your applications using Generative AI.
 
-== Benefits of using the GenAI Studio to create generative AIU applications
+== Benefits of using the GenAI Studio to create generative AI applications
 
 Workload Factory GenAI Studio simplifies the process to deploy infrastructure needed to build Generative AI applications using Retrieval Augmented Generation (RAG). Specifically, GenAI Studio provides the following benefits: 
 
@@ -76,4 +76,4 @@ GenAI Studio uses your organizations internal data to complement the model's int
 
 image:diagram-chatbot-processing.png[A diagram showing the GenAI Studio key components, their function, and how it works.]
 
-*Diagram needs to be updated before release*
+*Diagram needs to be updated before release. I don't have the source*

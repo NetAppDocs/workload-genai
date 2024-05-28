@@ -110,7 +110,7 @@ Data sources are synchronized with the knowledgebase automatically once a day so
 
 The knowledge base is synchronized with the attached data sources.
 
-*More here after UI shows this option*
+*Add more here after UI shows this option*
 
 == Evaluate chat models before creating a knowledge base
 
