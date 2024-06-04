@@ -94,7 +94,9 @@ The data source is integrated into your knowledge base.
 
 == Synchronize your data sources with the knowledge base
 
-Data sources are synchronized with the knowledgebase automatically once a day so that any data source changes are reflected in the chatbot. If you make changes to a data source and you'd like to synchronize the data immediately, you can perform an on-demand synchronization.
+Data sources are synchronized with the knowledgebase automatically once a day so that any data source changes are reflected in the chatbot. If you make changes to any of your data sources and you'd like to synchronize the data immediately, you can perform an on-demand synchronization.
+
+Syncing is incremental, so Amazon Bedrock only processes the objects in your data sources that have been added, modified, or deleted since the last sync.
 
 .Steps
 
@@ -102,15 +104,13 @@ Data sources are synchronized with the knowledgebase automatically once a day so
 
 . Click image:icon-action.png[the option button] and select *Manage knowledge base*.
 
-. Click the *Actions* menu and select *Synchronize*.
-
-. *More*
+. Click the *Actions* menu and select *Scan now*.
++
+You'll see a message that your data sources are being scanned, and a final message when the scan is complete.
 
 .Result
 
-The knowledge base is synchronized with the attached data sources.
-
-*Add more here after UI shows this option*
+The knowledge base is synchronized with the attached data sources and any active chatbot will start using the newest information from your data sources.
 
 == Evaluate chat models before creating a knowledge base
 
