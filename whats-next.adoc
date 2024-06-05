@@ -12,7 +12,7 @@ summary: Now that you've created a chatbot using organizational data and deploye
 [.lead]
 Now that you've created a chatbot using organizational data and deployed it for your users, you can manage the knowledge base, chatbot infrastructure, chatbot application, FSx for ONTAP file systems, and data sources.
 
-Some of the tasks you can perform to manage you knowledge base components are:
+Some of the tasks you can perform to manage your knowledge base components are:
 
 * Update the content of your data sources, or add new data sources, and sync those changes with your knowledge base and chatbot.
 * Manage your data source settings, including the chunking strategy and permission awareness (for SMB file access). 

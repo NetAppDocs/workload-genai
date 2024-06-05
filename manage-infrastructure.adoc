@@ -27,15 +27,15 @@ You can view information about the chatbot infrastructure.
 . MORE
 
 
-== Update the infrastructure
-
-You can update certain characteristics of your deployed chatbot infrastructure.
-
-Add, change, or remove tags......
-
-.Steps
-
-. If 
+//== Update the infrastructure
+//
+//You can update certain characteristics of your deployed chatbot infrastructure.
+//
+//Add, change, or remove tags......
+//
+//.Steps
+//
+//. If 
 
 
 == Remove the infrastructure
@@ -48,8 +48,8 @@ This operation only removes the links to the AI infrastructure from Workload Fac
 
 * the VM instance
 * private endpoints
-* the volume on the FSx for ONTAP system that contains the AIA databases
-* the iam role
+* the volume on the FSx for ONTAP system that contains the AI databases
+* the IAM role
 * the policy
 * the security group
 

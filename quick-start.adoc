@@ -57,15 +57,15 @@ link:test-knowledgebase.html[Test how a chatbot would interface with your knowle
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png[Six] Publish your knowledge base
 
 [role="quick-margin-para"]
-Publish your knowledge base so that it is externally available so you can connect the knowledge base with your chatbot application.
+Publish your knowledge base so that it is externally available so you can connect the knowledge base with your GenAI application.
 
 [role="quick-margin-para"]
 link:publish-knowledgebase.html[See how to publish your knowledge base].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-7.png[Seven] Set up your chatbot application to interact with the knowledge base
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-7.png[Seven] Set up your GenAI application to interact with the knowledge base
 
 [role="quick-margin-para"]
-The chatbot application will interact with your knowledge base to return customized responses to your users.
+The application will interact with your knowledge base to return customized responses to your users.
 
 [role="quick-margin-para"]
-link:create-application.html[Learn how to build the chatbot application to access your knowledge base].
+link:create-application.html[Learn how to build an application, such as a Q&A chatbot to access your knowledge base].

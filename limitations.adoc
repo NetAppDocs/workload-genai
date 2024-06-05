@@ -14,8 +14,6 @@ Known limitations identify functions that are not supported by this release of t
 
 These limitations are specific to the GenAI Studio component of Workload Factory.
 
-== something limitations
-
-=== Default EC2 instance settings should not be changed
+== Default EC2 instance settings should not be changed
 
 When 

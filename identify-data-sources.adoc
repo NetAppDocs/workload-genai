@@ -39,5 +39,6 @@ The following data source file formats are currently supported.
 
 | Plain text | .txt
 | Portable document | .pdf
+| Microsoft Word | .docx
 
 |===

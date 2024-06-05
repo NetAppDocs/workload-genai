@@ -50,9 +50,9 @@ This page displays the published status, embedding status of the data sources, e
 
 . Click the *Actions* menu and select *Edit knowledge base*.
 
-. In the Edit knowledge base page, you can change the knowledge base name, description, chat model, and whether conversation starter are created automatically or manually.
+. In the Edit knowledge base page, you can change the knowledge base name, description, chat model, and whether conversation starters are created automatically or manually.
 +
-If you use Manual mode for conversation starters, you can change conversation starter here as well.
+If you use Manual mode for conversation starters, you can change conversation starters here as well.
 
 . Click *Save* after you have made your changes.
 
@@ -78,7 +78,7 @@ The Define AI parameters page is displayed.
 
 . In the *Chunk definition* section, define the how the Amazon Bedrock service splits data source content into chunks when the knowledge base that it belongs to is queried:
 
-.. *Chunking strategy*. You can choose choose to create chunks of data based on "Sentences", "Words", or "Characters".
+.. *Chunking strategy*. You can choose to create chunks of data based on "Sentences", "Words", or "Characters".
 //.. *Chunk size*. You can select only "256 Tokens" at this point.
 
 . In the *Permission aware* section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable the selection:
@@ -132,9 +132,9 @@ Use that chat model when you create your knowledge base.
 
 == Unpublish your knowledge base
 
-After you've published your knowledge base that it can be integrated with a chatbot application, you can unpublish it if you want to disable the chatbot application from accessing the knowledge base.
+After you've published your knowledge base so that it can be integrated with a chatbot application, you can unpublish it if you want to disable the chatbot application from accessing the knowledge base.
 
-Unpublishing the knowledge base enables stops any chat applications from working. The unique API endpoint at which tha knowledge base was accessible is disabled.
+Unpublishing the knowledge base enables stops any chat applications from working. The unique API endpoint at which the knowledge base was accessible is disabled.
 
 .Steps
 

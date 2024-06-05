@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: ai-workloads-overview.html
 keywords: overview, concepts, features, use case, workloads, AI, Bedrock, knowledge base, chatbot
-summary: Workload Factory for AI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
+summary: Workload Factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 ---
 
 = Learn about Workload Factory for GenAI
@@ -10,7 +10,7 @@ summary: Workload Factory for AI enables you to integrate Amazon FSx for NetApp 
 :imagesdir: ./media/
 
 [.lead]
-Workload Factory for AI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
+Workload Factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 
 Developing a GenAI application that is tailored to your organization's data enables you to leverage your own knowledge and expertise. This customization capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.
 
@@ -22,23 +22,23 @@ Using Generative AI with your organizational data enables you to leverage your o
 
 Workload Factory GenAI Studio simplifies the process to deploy infrastructure needed to build Generative AI applications using Retrieval Augmented Generation (RAG). Specifically, GenAI Studio provides the following benefits: 
 
-* Without needing a deep knowledge of data infrastructure, foundation and language models, IT administrators and developers can accelerate application development by utilizing the automation provided by GenAI studio. Data administrators can easily and quickly create enterprise knowledge bases that embed your organization's unstructured data to be used by generative AI applications. 
+* Without needing a deep knowledge of data infrastructure, foundation and language models, IT administrators and developers can accelerate application development by utilizing the automation provided by GenAI studio. Data administrators and developers can easily and quickly create enterprise knowledge bases that embed your organization's unstructured data to be used by generative AI applications. 
 
 * Enhance security by preserving user permissions in files embedded in the knowledge bases to ensure that data security and privacy is maintained. An application, such as chatbot, can be developed to provide only the authenticated users with answers based on data the users have access to.  
 
 * Keep your enterprise data private and secure within your AWS customer account where your organizational data is never externally exposed. 
 
-* Accelerate development of chatbots utilizing the GenAI Studio APIs to provision and manage knowledge bases, chat with a knowledge base, and store and retrieve chat history.  
+* Accelerate development of GenAI applications such as a Q&A chatbot using open-source frameworks such as LangChain utilizing the GenAI Studio APIs to provision and manage knowledge bases, chat with a knowledge base, and store and retrieve chat history.  
 
-* Improve data protection posture by deploying the generative AI data infrastructure on FSx for NetApp ONTAP file systems and taking advantage of ONTAP features such as snapshots for local data protection and recovery, SnapMirror for disaster recovery, and SnapVault for backing up your data infrastructure. 
+* Improve data protection and availability posture by deploying the generative AI data infrastructure on FSx for NetApp ONTAP file systems and taking advantage of ONTAP features such as high availability, snapshots for local data protection and recovery, SnapMirror for disaster recovery, and SnapVault for backing up your data infrastructure. 
 
 * Reduce overall storage costs for generative AI data infrastructure by taking advantage of ONTAP data efficiency features such as data deduplication, compression and compaction, data tiering, and thin provisioning.  
 
 == Cost
 
-During the preview period, there is no cost for using the AI capability of Workload Factory. 
+During the preview period, there is no cost for using the GenAI capability of Workload Factory. 
 
-However, you'll need to pay for AWS resources that you deploy in support the generative AI infrastructure. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine instance. 
+However, you'll need to pay for AWS resources that you deploy in support the generative AI infrastructure. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine EC2 instance. 
 
 == Licensing 
 
@@ -62,9 +62,9 @@ Workload Factory helps to build your chatbot in the following ways:
 
 * Deploys the required infrastructure for Retrieval Augmented Generation (RAG) framework to work with data sources on FSx for ONTAP file systems and Amazon Bedrock. The infrastructure includes the NetApp GenAI Engine instance for managing data, an embedded vector database (LanceDB), and storage on your FSx for ONTAP file system for the vector database. 
 
-* Helps connect the data sources to embeddings and language models available via Amazon Bedrock for embedding data sources and retrieving the responses for user queries. The data sources, along with models and their configuration, are presented as knowledge bases. 
+* Helps connect the data sources to embeddings and language models available via Amazon Bedrock for embedding data sources and retrieving the responses for user queries. The data sources, along with models and their configuration, are presented as FSx for ONTAP knowledge bases. 
 
-* Simplifies data ingest to embed source files on SMB shares and NFS exports on FSx for ONTAP file systems along with storing file permissions for files within SMB Shares.  
+* Ingests source data into the knowledge base to embed source files on SMB shares and NFS exports on FSx for ONTAP file systems along with storing file permissions for files within SMB shares.  
 
 * Automatically builds conversation starter questions based on the content in the knowledge bases.  
 
@@ -72,7 +72,7 @@ Workload Factory helps to build your chatbot in the following ways:
 
 == How the GenAI Studio capability works
 
-GenAI Studio uses your organizations internal data to complement the model's intelligence (based on the data it was trained on) to provide customized answers to questions asked by your users in your organization. You first deploy the infrastructure needed for a RAG framework, then build a knowledge base using your organization's data sources and foundation models available via Amazon Bedrock, and then connect an application, such as a document chatbot, to the knowledge base. 
+GenAI Studio uses your organizations private data to complement the model's intelligence (based on the data it was trained on) to provide customized answers to questions asked by your users in your organization. You first deploy the infrastructure needed for a RAG framework, then build a knowledge base using your organization's data sources and foundation models available via Amazon Bedrock, and then connect an application, such as a Q&A chatbot, to the knowledge base. 
 
 image:diagram-chatbot-processing.png[A diagram showing the GenAI Studio key components, their function, and how it works.]
 
