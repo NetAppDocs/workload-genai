@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: deploy-infrastructure.html
 keywords: ai, chatbot, infrastructure, bedrock, fsx for ontap
-summary: You need to deploy the infrastructure for RAG framework in your environment before you can build knowledge bases and applications for your organization. The primary infrastructure components are the Amazon Bedrock AI service, a virtual machine instance for the NetApp GenAI engine, and an FSx for ONTAP file system.
+summary: You need to deploy the infrastructure for RAG framework in your environment before you can build FSx for ONTAP knowledge bases and applications for your organization. The primary infrastructure components are the Amazon Bedrock AI service, a virtual machine instance for the NetApp GenAI engine, and an FSx for ONTAP file system.
 ---
 
 = Deploy the knowledge base infrastructure
@@ -10,7 +10,7 @@ summary: You need to deploy the infrastructure for RAG framework in your environ
 :imagesdir: ./media/
 
 [.lead]
-You need to deploy the infrastructure for RAG framework in your environment before you can build knowledge bases and applications for your organization. The primary infrastructure components are the Amazon Bedrock AI service, a virtual machine instance for the NetApp GenAI engine, and an FSx for ONTAP file system.
+You need to deploy the infrastructure for RAG framework in your environment before you can build FSx for ONTAP knowledge bases and applications for your organization. The primary infrastructure components are the Amazon Bedrock AI service, a virtual machine instance for the NetApp GenAI engine, and an FSx for ONTAP file system.
 
 The deployed infrastructure can support multiple knowledge bases and chatbots, so you'll typically only need to perform this task once.
 
@@ -83,11 +83,11 @@ Depending on whether or not Workload Factory has the credentials for the FSx for
 
 .Result
 
-The chatbot infrastructure is deployed and you can start to build your first knowledge base.
+The chatbot infrastructure is deployed and you can start to build your first knowledge base. This process can take up to 10 minutes.
 
 During the deployment process, the following items are set up:
 
 * The network is set up along with the private endpoints.
 * The IAM role, instance profile, and security group are created.
-* The volumes for the GenAI engine databases are created on the FSx for ONTAP system.
+* The volume for the GenAI engine database (LanceDB) is created on the FSx for ONTAP system.
 * The virtual machine instance for the GenAI engine is deployed.

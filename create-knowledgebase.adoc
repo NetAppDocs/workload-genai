@@ -87,4 +87,4 @@ The Define AI parameters page is displayed.
 
 The data source starts to be embedded into your knowledge base. The status changes from "Embedding" to "Embedded" when the data source is completely embedded.
 
-After you add a single data source to the knowledge base, you can test it locally in the Chatbot window and make any required changes before you make the chatbot available to your users. You can also follow the same steps to add additional data sources to the knowledge base.
+After you add a single data source to the knowledge base, you can test it locally in the Chatbot simulator window and make any required changes before you make the chatbot available to your users. You can also follow the same steps to add additional data sources to the knowledge base.

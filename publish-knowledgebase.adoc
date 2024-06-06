@@ -16,6 +16,8 @@ Publishing the knowledge base enables you to use it in chat applications. The pu
 
 Each knowledge base that you publish has a unique endpoint.
 
+*Need more details about where the endpoint resides - in the AWS account?  Add an example.*
+
 .Steps
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to publish.
@@ -28,4 +30,4 @@ This page displays the published status, embedding status of the data sources, e
 
 .Result
 
-The knowledge base is published and is ready to be accessed by a chatbot application.
+The knowledge base is published and is ready to be accessed by a chatbot application, such as a Q&A chatbot.

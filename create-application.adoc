@@ -14,8 +14,8 @@ After you have built your knowledge base and tested your chatbot, you are ready 
 
 *Are these APIs usable with our implementation?    I got this information from AWS documentation*
 
-To deploy a knowledge base in your application, set it up to make https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_Retrieve.html[Retrieve] or https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_RetrieveAndGenerate.html[RetrieveAndGenerate] requests to the knowledge base. To see how to use these API operations, select the API tab in Test a knowledge base in Amazon Bedrock.
-
+From Puneet: Either we should add a link to the blog that Mickey is working on to use LanceDB directly via LangChain or add specific details on our Retrieve APIs (if available for July).
+I think there are 3 Jiras for this work going on in June.
 
 *Should this be called "Deploy your knowledge base in an application"?*
 

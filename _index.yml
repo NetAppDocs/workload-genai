@@ -10,7 +10,7 @@ indexpage:
           url: ai-workloads-overview.html
         - title: Quick start
           url: quick-start.html
-    - title: Knowledge base requirements
+    - title: FSx for ONTAP knowledge base requirements
       links:
         - title: AWS requirements
           url: aws-requirements.html
