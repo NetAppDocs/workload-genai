@@ -45,13 +45,13 @@ sidebar:
           url: /create-application.html
         - title: What you can do next
           url: /whats-next.html
-    - title: Administer and monitor knowledge bases
+    - title: Administer
       entries:
         - title: Manage data sources
           url: /manage-data-source.html
         - title: Manage knowledge bases
           url: /manage-knowledgebase.html
-        - title: Manage knowledge base infrastructure
+        - title: Manage the GenAI Studio infrastructure
           url: /manage-infrastructure.html
         - title: Troubleshooting
           url: /troubleshooting.html

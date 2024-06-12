@@ -22,7 +22,7 @@ You'll need to have AWS credentials to deploy the AWS infrastructure, you'll nee
 [role="quick-margin-para"]
 Review the link:aws-requirements.html[AWS requirements] and the link:workload-factory-requirements.html[Workload Factory requirements] needed to build and manage your knowledge base.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify the FSx for ONTAP system that contains the data sources for your knowledge base 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify the FSx for ONTAP system that contains the data sources
 
 [role="quick-margin-para"]
 The data sources that you'll integrate in your knowledge base can be located on a single FSx for ONTAP system, or on multiple FSx for ONTAP systems. These systems can be in different VPCs, but they must be accessible within the same network. 

@@ -57,27 +57,27 @@ Make sure your environment meets link:aws-requirements.html[the requirements] be
 
 . Review the infrastructure diagram and click *Next*. 
 
-. Complete the items in the "AWS settings" section of the Define infrastructure page: 
+. Complete the items in the *AWS settings* section of the Define infrastructure page: 
 
-.. *AWS credentials*. Select or add the AWS credentials that provide permissions to deploy the AWS resources. 
+.. *AWS credentials*: Select or add the AWS credentials that provide permissions to deploy the AWS resources. 
 //+
 //When running in Basic mode you can continue without credentials, but you'll need to copy the code in the Codebox for CloudFormation and add credentials manually after you're logged into AWS.
 
-.. *Location*. Select the AWS region, VPC, and Subnet. 
+.. *Location*: Select the AWS region, VPC, and Subnet. 
 +
 Your instance of Amazon Bedrock must be located in the same region and VPC.
 +
 Note that Amazon Bedrock is supported in the https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html[following regions].
 
-. Complete the items in the "Infrastructure settings" section of the Define infrastructure page: 
+. Complete the items in the *Infrastructure settings* section of the Define infrastructure page: 
 
-.. *FSx for ONTAP system*. Select the FSx for ONTAP file system and the storage VM where the GenAI instance database volumes will be deployed, and then specify the name you want to use for the volume.
+.. *FSx for ONTAP system*: Select the FSx for ONTAP file system and the storage VM where the GenAI instance database volumes will be deployed, and then specify the name you want to use for the volume.
 +
 Depending on whether or not Workload Factory has the credentials for the FSx for ONTAP system, you may need to enter the user name and password.
 
-.. *Tags*. Enter any tag key/value pairs that you want to have applied to all the AWS resources that are part of this deployment.
+.. *Tags*: Enter any tag key/value pairs that you want to have applied to all the AWS resources that are part of this deployment.
 
-. *Key pair*. Select a key pair that allows you to securely connect to the NetApp GenAI engine instance.
+.. *Key pair*: Select a key pair that allows you to securely connect to the NetApp GenAI engine instance.
 
 . Click *Deploy* to begin the deployment.
 
