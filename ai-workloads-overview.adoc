@@ -54,7 +54,7 @@ No special licenses are needed from NetApp to use the AI capabilities of Workloa
 //
 //* Deploy the required infrastructure; including the NetApp GenAI Engine EC2 instance and volumes on your FSx for ONTAP file system that will store the vector databases.
 //
-//* Connect the GenAI Engine instance with your FSx for ONTAP system and Amazon Bedrock.
+//* Connect the GenAI Engine instance with your FSx for ONTAP file system and Amazon Bedrock.
 
 == How Workload Factory GenAI Studio helps to build Generative AI applications
 
