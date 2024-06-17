@@ -20,7 +20,7 @@ You can view information about the chatbot infrastructure.
 
 . Log in to Workload Factory.
 
-. In the AI workloads tile, click *Deploy & manage*. 
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . Select the *Define infrastructure* tab.
 
@@ -58,11 +58,11 @@ This operation only removes the links to the AI infrastructure from Workload Fac
 
 . Log in to Workload Factory.
 
-. In the AI workloads tile, click *Deploy & manage*. 
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . Select the Infrastructure tab.
 
-. Click image:icon-action.png[the option button] and select *Remove infrastructure*.
+. Select image:icon-action.png[the option button] and select *Remove infrastructure*.
 
 . Verify that you want to remove the infrastructure.
 

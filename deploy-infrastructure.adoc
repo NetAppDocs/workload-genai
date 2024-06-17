@@ -53,9 +53,9 @@ Make sure your environment meets link:aws-requirements.html[the requirements] be
 
 . Log in to Workload Factory.
 
-. In the AI workloads tile, click *Deploy & manage* and the Deploy chatbot infrastructure page is displayed.
+. In the AI workloads tile, select *Deploy & manage* and the Deploy chatbot infrastructure page is displayed.
 
-. Review the infrastructure diagram and click *Next*. 
+. Review the infrastructure diagram and select *Next*. 
 
 . Complete the items in the *AWS settings* section of the Define infrastructure page: 
 
@@ -79,7 +79,7 @@ Depending on whether or not Workload Factory has the credentials for the FSx for
 
 .. *Key pair*: Select a key pair that allows you to securely connect to the NetApp GenAI engine instance.
 
-. Click *Deploy* to begin the deployment.
+. Select *Deploy* to begin the deployment.
 
 .Result
 

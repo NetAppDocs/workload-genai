@@ -20,15 +20,15 @@ You can view information about the settings for a knowledge base and the data so
 
 . Launch Workload Factory.
 
-. In the AI workloads tile, click *Deploy & manage*. 
+. In the AI workloads tile, select *Deploy & manage*. 
 
-. Click *Create chatbot* and the Knowledge bases inventory page is displayed.
+. Select *Create chatbot* and the Knowledge bases inventory page is displayed.
 
 . Select the knowledge base that you want to view.
 +
 If defined, the conversation starters that are currently being used display in the right pane.
 
-. To view knowledge base details, click image:icon-action.png[the option button] and select *Manage knowledge base*.
+. To view knowledge base details, select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
 This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
 +
@@ -44,17 +44,17 @@ Each time you add, modify, or remove data sources from the knowledge base, you m
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to update.
 
-. Click image:icon-action.png[the option button] and select *Manage knowledge base*.
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
 This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
 
-. Click the *Actions* menu and select *Edit knowledge base*.
+. Select the *Actions* menu and select *Edit knowledge base*.
 
 . In the Edit knowledge base page, you can change the knowledge base name, description, chat model, and whether conversation starters are created automatically or manually.
 +
 If you use Manual mode for conversation starters, you can change conversation starters here as well.
 
-. Click *Save* after you have made your changes.
+. Select *Save* after you have made your changes.
 
 == Add additional data sources to a knowledge base
 
@@ -64,15 +64,15 @@ You can embed additional data sources in your knowledge base to populate it with
 
 . From the Knowledge bases inventory page, select the knowledge base where you want to add the data source.
 
-. Click image:icon-action.png[the option button] and select *Add data source*. 
+. Select image:icon-action.png[the option button] and select *Add data source*. 
 
-. Select the FSx for ONTAP file system where your data source files reside and click *Next*.
+. Select the FSx for ONTAP file system where your data source files reside and select *Next*.
 
-. Select the volume on which your data source files reside and click *Next*.
+. Select the volume on which your data source files reside and select *Next*.
 +
 When selecting files stored using the SMB protocol, you'll need to enter the Active Directory information, which includes the domain, IP address, user name, and password.
 
-. Select the data source location based on where you have saved the files. This can be the entire volume or just a specific folder or sub-folder in the volume, and click *Next*.
+. Select the data source location based on where you have saved the files. This can be the entire volume or just a specific folder or sub-folder in the volume, and select *Next*.
 +
 The Define AI parameters page is displayed.
 
@@ -86,7 +86,7 @@ The Define AI parameters page is displayed.
 * *Enabled*: Users of the chatbot who access this knowledge base will only get responses to queries from data sources to which they have access.
 * *Disabled*: Users of the chatbot will receive responses using content from all integrated data sources.
 
-. Click *Add data source* to add this data source to your knowledge base.
+. Select *Add data source* to add this data source to your knowledge base.
 
 .Result
 
@@ -102,9 +102,9 @@ Syncing is incremental, so Amazon Bedrock only processes the objects in your dat
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to synchronize.
 
-. Click image:icon-action.png[the option button] and select *Manage knowledge base*.
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
 
-. Click the *Actions* menu and select *Scan now*.
+. Select the *Actions* menu and select *Scan now*.
 +
 You'll see a message that your data sources are being scanned, and a final message when the scan is complete.
 
@@ -140,11 +140,11 @@ Unpublishing the knowledge base stops any chat applications from working. The un
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to unpublish.
 
-. Click image:icon-action.png[the option button] and select *Manage knowledge base*.
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
 This page displays the published status, embedding status of the data sources, embedding mode, and the list of all embedded data sources.
 
-. Click the *Actions* menu and select *Unpublish*.
+. Select the *Actions* menu and select *Unpublish*.
 
 .Result
 
@@ -163,11 +163,11 @@ When you delete a knowledge base, you should also carry out the following action
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to delete.
 
-. Click image:icon-action.png[the option button] and select *Manage knowledge base*.
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
 
-. Click the *Actions* menu and select *Delete knowledge base*.
+. Select the *Actions* menu and select *Delete knowledge base*.
 
-. In the Delete knowledge base dialog, confirm that you want to delete it and click *Delete*.
+. In the Delete knowledge base dialog, confirm that you want to delete it and select *Delete*.
 
 .Result
 

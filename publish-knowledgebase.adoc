@@ -22,11 +22,11 @@ Each knowledge base that you publish has a unique endpoint.
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to publish.
 
-. Click image:icon-action.png[the option button] and select *Manage knowledge base*.
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
 This page displays the published status, embedding status of the data sources, embedding mode, and the list of all embedded data sources.
 
-. Click the *Actions* menu and select *Publish*.
+. Select the *Actions* menu and select *Publish*.
 
 .Result
 

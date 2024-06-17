@@ -24,9 +24,9 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 
 . Log in to Workload Factory.
 
-. In the AI workloads tile, click *Deploy & manage*. 
+. In the AI workloads tile, select *Deploy & manage*. 
 
-. From the Knowledge bases tab, click *Create knowledge base*.
+. From the Knowledge bases tab, select *Create knowledge base*.
 
 . In the Define knowledge base page, configure the knowledge base settings:
 
@@ -50,9 +50,9 @@ Note that you must have already enabled the chat model that you plan to use.
 +
 If you do activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
 
-. Click *Create knowledge base* to add the knowledge base to AI Studio.
+. Select *Create knowledge base* to add the knowledge base to AI Studio.
 
-. In the next page of the wizard you have the option to add a data source to your new knowledge base, or to end the process here without adding a data source. We recommend that you click *Add data source* and add one or more data sources now.
+. In the next page of the wizard you have the option to add a data source to your new knowledge base, or to end the process here without adding a data source. We recommend that you select *Add data source* and add one or more data sources now.
 
 == Add data sources to the knowledge base
 
@@ -60,15 +60,15 @@ You can add one or more data sources to populate the knowledge base with your or
 
 .Steps
 
-. After you click *Add data source*, the Select a file system page is displayed.
+. After you select *Add data source*, the Select a file system page is displayed.
 
-. Select the FSx for ONTAP file system where your data source files reside and click *Next*.
+. Select the FSx for ONTAP file system where your data source files reside and select *Next*.
 
-. Select the volume on which your data source files reside and click *Next*.
+. Select the volume on which your data source files reside and select *Next*.
 +
 When selecting files stored using the SMB protocol, you'll need to enter the Active Directory information, which includes the domain, IP address, user name, and password. 
 
-. Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and click *Next*.
+. Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and select *Next*.
 +
 The Define AI parameters page is displayed.
 
@@ -84,7 +84,7 @@ The Define AI parameters page is displayed.
 * *Enabled*: Users of the chatbot who access this knowledge base will only get responses to queries from data sources to which they have access.
 * *Disabled*: Users of the chatbot will receive responses using content from all integrated data sources.
 
-. Click *Add data source* to add this data source to your knowledge base.
+. Select *Add data source* to add this data source to your knowledge base.
 
 .Result
 

@@ -20,15 +20,15 @@ You can view information about the contents of a data source and you can view it
 
 . Launch Workload Factory.
 
-. In the AI workloads tile, click *Deploy & manage*. 
+. In the AI workloads tile, select *Deploy & manage*. 
 
-. Click *Create chatbot* and the Knowledge bases page is displayed.
+. Select *Create chatbot* and the Knowledge bases page is displayed.
 
-. Select the knowledge base where the data source resides, and then click image:icon-action.png[the option button] and select *Manage knowledge base*.
+. Select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
 The bottom part of the page lists the data sources that are part of this knowledge base.
 
-. Expand each row by clicking the image:button-down-caret.png[the down-arrow button] to view detailed information about each data source, such as the FSx for ONTAP system, the volume, and the path where the data source resides. 
+. Expand each row by selecting the image:button-down-caret.png[the down-arrow button] to view detailed information about each data source, such as the FSx for ONTAP system, the volume, and the path where the data source resides. 
 +
 It also lists the embedding information and whether that data source is currently embedded in the knowledge base.
 
@@ -38,15 +38,15 @@ You can edit information about a data source that you've integrated in a knowled
 
 .Steps
 
-. From the knowledge base inventory page, select the knowledge base where the data source resides, and then click image:icon-action.png[the option button] and select *Manage knowledge base*.
+. From the knowledge base inventory page, select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
 The bottom part of the page lists the data sources that are part of this knowledge base.
 
-. In the row of the data source that you want to edit, click image:icon-action.png[the option button] and select *Edit data source*.
+. In the row of the data source that you want to edit, select image:icon-action.png[the option button] and select *Edit data source*.
 
-. In the Edit data source page, click image:button-down-caret.png[the down-arrow button] to expand the row for Chunk definition.
+. In the Edit data source page, select image:button-down-caret.png[the down-arrow button] to expand the row for Chunk definition.
 
-. Update the settings for the Chunking strategy and Chunk size, and permission awareness (for SMB volumes) and click *Save*.
+. Update the settings for the Chunking strategy and Chunk size, and permission awareness (for SMB volumes) and select *Save*.
 
 .Result 
 
@@ -64,13 +64,13 @@ If you no longer need a data source to be part of your knowledge base, you can d
 
 .Steps
 
-. From the knowledge base inventory page, select the knowledge base where the data source resides, and then click image:icon-action.png[the option button] and select *Manage knowledge base*.
+. From the knowledge base inventory page, select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
 The bottom part of the page lists the data sources that are part of this knowledge base.
 
-. In the row of the data source that you want to delete, click image:icon-action.png[the option button] and select *Delete*.
+. In the row of the data source that you want to delete, select image:icon-action.png[the option button] and select *Delete*.
 
-. In the Delete data source dialog, confirm that you want to delete it and click *Delete*.
+. In the Delete data source dialog, confirm that you want to delete it and select *Delete*.
 
 .Result
 

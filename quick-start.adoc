@@ -44,7 +44,7 @@ link:deploy-infrastructure.html[Learn how to deploy the knowledge base infrastru
 Launch the knowledge base definition wizard to identify the data sources from your FSx for ONTAP volumes that will be integrated into your knowledge base and define the AI characteristics. 
 
 [role="quick-margin-para"]
-link:create-knowledgebase.html[See how to create a knowledge base].
+link:create-knowledgebase.html[Learn how to create a knowledge base].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png[Five] Test your knowledge base locally
 
@@ -60,7 +60,7 @@ link:test-knowledgebase.html[Test how a chatbot would interface with your knowle
 Publish your knowledge base so that it is externally available so you can connect the knowledge base with your GenAI application.
 
 [role="quick-margin-para"]
-link:publish-knowledgebase.html[See how to publish your knowledge base].
+link:publish-knowledgebase.html[Learn how to publish your knowledge base].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-7.png[Seven] Set up your GenAI application to interact with the knowledge base
 
