@@ -14,6 +14,6 @@ Learn what's new with the Generative AI workloads capability of Workload Factory
 
 == 7 July 2024
 
-=== Initial release of the GenAI Studio component of Workload Factory
+=== Initial release of the Workload Factory for GenAI
 
 The initial release includes the capability to develop a knowledge base that is customized by embedding your organization's data. The knowledge base can be accessed by a chatbot application for your users. This capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.
