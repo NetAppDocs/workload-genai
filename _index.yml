@@ -16,7 +16,7 @@ indexpage:
           url: aws-requirements.html
         - title: Workload Factory requirements
           url: workload-factory-requirements.html    
-    - title: Use AI workloads to create knowledge bases
+    - title: Use GenAI to create knowledge bases
       links:
         - title: Identify data sources for your knowledge base
           url: identify-data-sources.html

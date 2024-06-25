@@ -12,11 +12,7 @@ summary: After you have built your knowledge base and tested your chatbot, you a
 [.lead]
 After you have built your knowledge base and tested your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
 
-*Are these APIs usable with our implementation?    I got this information from AWS documentation*
-
 From Puneet: Either we should add a link to the blog that Mickey is working on to use LanceDB directly via LangChain or add specific details on our Retrieve APIs (if available for July).
 I think there are 3 Jiras for this work going on in June.
 
 *Should this be called "Deploy your knowledge base in an application"?*
-
-*More here*
