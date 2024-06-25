@@ -41,7 +41,7 @@ Your data sources that you'll integrate into your knowledge base can reside on t
 +
 The NetApp GenAI engine monitors and interacts with both of these volumes.
 
-== Deploy the GenAI Studio RAG infrastructure
+== Deploy the GenAI RAG infrastructure
 
 You'll need to enter your AWS credentials and select the FSx for ONTAP file system to deploy the Retrieval Augmentation Generation (RAG) infrastructure.
 

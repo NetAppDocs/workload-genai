@@ -12,15 +12,15 @@ summary: Workload Factory for GenAI enables you to integrate Amazon FSx for NetA
 [.lead]
 Workload Factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 
-Workload Factory GenAI Studio enables you to use your enterprise data sources on Amazon FSx for NetApp ONTAP with Generative AI applications. Utilizing the Retrieval Augmentation Generation (RAG) framework, you can quickly connect data sources to Foundation Models available via Amazon Bedrock to develop Generative AI powered applications such as virtual assistants, Q&A chatbots, document summarization, content creation, etc. 
+Workload Factory for GenAI enables you to use your enterprise data sources on Amazon FSx for NetApp ONTAP with Generative AI applications. Utilizing the Retrieval Augmentation Generation (RAG) framework, you can quickly connect data sources to Foundation Models available via Amazon Bedrock to develop Generative AI powered applications such as virtual assistants, Q&A chatbots, document summarization, content creation, etc. 
 
 Using Generative AI with your organizational data enables you to leverage your own knowledge and expertise, not rely on just the model's intelligence based on public data the models were trained on. Using RAG to customize the models ensures accurate and relevant responses to organization-specific questions, enhancing the productivity and efficiency for the users of your applications using Generative AI.
 
 Developing a GenAI application that is tailored to your organization's data enables you to leverage your own knowledge and expertise. This customization capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.
 
-== Benefits of using the GenAI Studio to create generative AI applications
+== Benefits of using GenAI to create generative AI applications
 
-Workload Factory GenAI Studio simplifies the process to deploy infrastructure needed to build Generative AI applications using Retrieval Augmented Generation (RAG). Specifically, GenAI Studio provides the following benefits: 
+Workload Factory for GenAI simplifies the process to deploy infrastructure needed to build Generative AI applications using Retrieval Augmented Generation (RAG). Specifically, GenAI provides the following benefits: 
 
 * Without needing a deep knowledge of data infrastructure, foundation and language models, IT administrators and developers can accelerate application development by utilizing the automation provided by GenAI studio. Data administrators and developers can easily and quickly create enterprise knowledge bases that embed your organization's unstructured data to be used by generative AI applications. 
 
@@ -28,7 +28,7 @@ Workload Factory GenAI Studio simplifies the process to deploy infrastructure ne
 
 * Keep your enterprise data private and secure within your AWS customer account where your organizational data is never externally exposed. 
 
-* Accelerate development of GenAI applications such as a Q&A chatbot using open-source frameworks such as LangChain utilizing the GenAI Studio APIs to provision and manage knowledge bases, chat with a knowledge base, and store and retrieve chat history.  
+* Accelerate development of GenAI applications such as a Q&A chatbot using open-source frameworks such as LangChain utilizing the GenAI API to provision and manage knowledge bases, chat with a knowledge base, and store and retrieve chat history.  
 
 * Improve data protection and availability posture by deploying the generative AI data infrastructure on FSx for NetApp ONTAP file systems and taking advantage of ONTAP features such as high availability, snapshots for local data protection and recovery, SnapMirror for disaster recovery, and SnapVault for backing up your data infrastructure. 
 
@@ -56,9 +56,9 @@ No special licenses are needed from NetApp to use the AI capabilities of Workloa
 //
 //* Connect the GenAI Engine instance with your FSx for ONTAP file system and Amazon Bedrock.
 
-== How Workload Factory GenAI Studio helps to build Generative AI applications
+== How Workload Factory for GenAI helps to build Generative AI applications
 
-GenAI Studio helps to build generative AI applications using RAG in the following ways: 
+GenAI helps to build generative AI applications using RAG in the following ways: 
 
 * Deploys the required infrastructure for Retrieval Augmented Generation (RAG) framework to work with data sources on FSx for ONTAP file systems and Amazon Bedrock. The infrastructure includes the NetApp GenAI Engine instance for managing data, an embedded vector database (LanceDB), and storage on your FSx for ONTAP file system for the vector database. 
 
@@ -70,10 +70,10 @@ GenAI Studio helps to build generative AI applications using RAG in the followin
 
 * Provides a Chat Simulator for data administrators to test chatting with the knowledge bases. 
 
-== How the GenAI Studio capability works
+== How GenAI works
 
-GenAI Studio uses your organization's private data to complement the model's intelligence (based on the data it was trained on) to provide customized answers to questions asked by your users in your organization. You first deploy the infrastructure needed for a RAG framework, then build a knowledge base using your organization's data sources and foundation models available via Amazon Bedrock, and then connect an application (such as a Q&A chatbot) to the knowledge base. 
+GenAI uses your organization's private data to complement the model's intelligence (based on the data it was trained on) to provide customized answers to questions asked by your users in your organization. You first deploy the infrastructure needed for a RAG framework, then build a knowledge base using your organization's data sources and foundation models available via Amazon Bedrock, and then connect an application (such as a Q&A chatbot) to the knowledge base. 
 
-image:diagram-chatbot-processing.png[A diagram showing the GenAI Studio key components, their function, and how it works.]
+image:diagram-chatbot-processing.png[A diagram showing GenAI key components, their function, and how it works.]
 
 *Diagram needs to be updated before release. I don't have the source*

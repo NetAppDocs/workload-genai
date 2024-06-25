@@ -2,15 +2,15 @@
 sidebar: sidebar
 permalink: manage-infrastructure.html
 keywords: ai, chatbot, creating, knowledge base
-summary: You can view details about your deployed GenAI Studio RAG infrastructure, update certain characteristics, or remove the chatbot infrastructure if you no longer need it.
+summary: You can view details about your deployed GenAI RAG infrastructure, update certain characteristics, or remove the chatbot infrastructure if you no longer need it.
 ---
 
-= Manage the GenAI Studio infrastructure
+= Manage the GenAI infrastructure
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-You can view details about your deployed GenAI Studio RAG infrastructure, update certain characteristics, or remove the chatbot infrastructure if you no longer need it.
+You can view details about your deployed GenAI RAG infrastructure, update certain characteristics, or remove the chatbot infrastructure if you no longer need it.
 
 == View information about the infrastructure
 

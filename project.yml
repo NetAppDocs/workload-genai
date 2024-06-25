@@ -51,7 +51,7 @@ sidebar:
           url: /manage-data-source.html
         - title: Manage knowledge bases
           url: /manage-knowledgebase.html
-        - title: Manage the GenAI Studio infrastructure
+        - title: Manage the GenAI infrastructure
           url: /manage-infrastructure.html
         - title: Troubleshooting
           url: /troubleshooting.html
