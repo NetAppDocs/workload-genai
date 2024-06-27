@@ -38,9 +38,3 @@ indexpage:
           url: manage-knowledgebase.html
         - title: Manage knowledge base infrastructure
           url: manage-infrastructure.html
-    - title: Blogs & community
-      links:
-        - title: Workload Factory blogs
-          url: https://bluexp.netapp.com/blog
-        - title: Workload Factory webinars
-          url: https://bluexp.netapp.com/events
