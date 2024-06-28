@@ -1,0 +1,16 @@
+. *Select a file system*: Select the FSx for ONTAP file system where your data source files reside and select *Next*.
+
+. *Select a volume*: Select the volume on which your data source files reside and select *Next*.
++
+When selecting files stored using the SMB protocol, you'll need to enter the Active Directory information, which includes the domain, IP address, user name, and password. 
+
+. *Select a data source*: Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and select *Next*.
+
+. *Define AI parameters*: In the *Chunk definition* section, define the how the Amazon Bedrock service splits data source content into chunks when the knowledge base that it belongs to is queried. At this time, you can only choose sentences.
+
+. In the *Permission aware* section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable the selection:
++
+* *Enabled*: Users of the chatbot who access this knowledge base will only get responses to queries from data sources to which they have access.
+* *Disabled*: Users of the chatbot will receive responses using content from all integrated data sources.
+
+. Select *Add* to add this data source to your knowledge base.

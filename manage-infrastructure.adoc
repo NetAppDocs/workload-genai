@@ -18,25 +18,16 @@ You can view information about the chatbot infrastructure.
 
 .Steps
 
-. Log in to Workload Factory.
+. From the navigation menu, select *AI*.
 
-. In the AI workloads tile, select *Deploy & manage*. 
+. Select the *Infrastructure* tab.
 
-. Select the *Define infrastructure* tab.
-
-. MORE
-
-
-//== Update the infrastructure
-//
-//You can update certain characteristics of your deployed chatbot infrastructure.
-//
-//Add, change, or remove tags......
-//
-//.Steps
-//
-//. If 
-
+. View information about the infrastructure, which includes details about the following components:
++
+* AWS settings
+* The FSx for ONTAP file system
+* The AI engine
+* The vector database
 
 == Remove the infrastructure
 
@@ -53,19 +44,15 @@ This operation only removes the links to the AI infrastructure from Workload Fac
 * The policy
 * The security group
 
-
 .Steps
 
-. Log in to Workload Factory.
+. From the navigation menu, select *AI*.
 
-. In the AI workloads tile, select *Deploy & manage*. 
+. Select the *Infrastructure* tab.
 
-. Select the Infrastructure tab.
+. Select image:icon-action.png[the option button] and select *Remove chatbot infrastructure*.
 
-. Select image:icon-action.png[the option button] and select *Remove infrastructure*.
-
-. Verify that you want to remove the infrastructure.
-
+. Confirm that you want to delete the infrastructure and select *Remove*.
 
 .Result
 

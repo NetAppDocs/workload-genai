@@ -23,38 +23,50 @@ sidebar:
           url: /ai-workloads-overview.html
         - title: Quick start
           url: /quick-start.html
-    - title: FSx for ONTAP knowledge base requirements
-      entries:
-        - title: AWS requirements
-          url: /aws-requirements.html
-        - title: Workload Factory requirements
-          url: /workload-factory-requirements.html    
-    - title: Use AI workloads to create knowledge bases 
-      entries:
+        - title: GenAI requirements
+          url: /requirements.html
         - title: Identify data sources for your knowledge base
           url: /identify-data-sources.html
         - title: Deploy the knowledge base infrastructure
-          url: /deploy-infrastructure.html
-        - title: Create the knowledge base
+          url: /deploy-infrastructure.html 
+    - title: Use GenAI to create knowledge bases - option 1
+      entries:
+        - title: Create a knowledge base
           url: /create-knowledgebase.html
-        - title: Test the knowledge base
+        - title: Test a knowledge base
           url: /test-knowledgebase.html
-        - title: Publish the knowledge base
+        - title: Publish a knowledge base
           url: /publish-knowledgebase.html
         - title: Create a chatbot application to access your knowledge base
           url: /create-application.html
         - title: What you can do next
           url: /whats-next.html
-    - title: Administer
-      entries:
         - title: Manage data sources
           url: /manage-data-source.html
         - title: Manage knowledge bases
           url: /manage-knowledgebase.html
+    - title: Use GenAI to create knowledge bases - option 2
+      entries:
+        - title: Build a knowledge base
+          entries:
+            - title: Create the knowledge base
+              url: /create-knowledgebase.html
+            - title: Test the knowledge base
+              url: /test-knowledgebase.html
+            - title: Publish the knowledge base
+              url: /publish-knowledgebase.html
+            - title: Create a chatbot application to access your knowledge base
+              url: /create-application.html
+            - title: What you can do next
+              url: /whats-next.html
+        - title: Manage data sources
+          url: /manage-data-source.html
+        - title: Manage knowledge bases
+          url: /manage-knowledgebase.html
+    - title: Administer
+      entries:
         - title: Manage the GenAI infrastructure
           url: /manage-infrastructure.html
-        - title: Troubleshooting
-          url: /troubleshooting.html
     - title: Knowledge and support
       entries:
         - title: Register for support

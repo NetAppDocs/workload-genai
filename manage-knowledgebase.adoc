@@ -18,11 +18,7 @@ You can view information about the settings for a knowledge base and the data so
 
 .Steps
 
-. Launch Workload Factory.
-
-. In the AI workloads tile, select *Deploy & manage*. 
-
-. Select *Create chatbot* and the Knowledge bases inventory page is displayed.
+. From the navigation menu, select *AI*.
 
 . Select the knowledge base that you want to view.
 +
@@ -50,7 +46,7 @@ This page displays the published status, embedding status of the data sources, e
 
 . Select the *Actions* menu and select *Edit knowledge base*.
 
-. In the Edit knowledge base page, you can change the knowledge base name, description, chat model, and whether conversation starters are created automatically or manually.
+. In the Edit knowledge base page, you can change the knowledge base name, description, embedding model, chat model, and whether conversation starters are created automatically or manually.
 +
 If you use Manual mode for conversation starters, you can change conversation starters here as well.
 
@@ -66,27 +62,7 @@ You can embed additional data sources in your knowledge base to populate it with
 
 . Select image:icon-action.png[the option button] and select *Add data source*. 
 
-. Select the FSx for ONTAP file system where your data source files reside and select *Next*.
-
-. Select the volume on which your data source files reside and select *Next*.
-+
-When selecting files stored using the SMB protocol, you'll need to enter the Active Directory information, which includes the domain, IP address, user name, and password.
-
-. Select the data source location based on where you have saved the files. This can be the entire volume or just a specific folder or sub-folder in the volume, and select *Next*.
-+
-The Define AI parameters page is displayed.
-
-. In the *Chunk definition* section, define the how the Amazon Bedrock service splits data source content into chunks when the knowledge base that it belongs to is queried:
-
-.. *Chunking strategy*. You can choose to create chunks of data based on "Sentences", "Words", or "Characters".
-//.. *Chunk size*. You can select only "256 Tokens" at this point.
-
-. In the *Permission aware* section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable the selection:
-+
-* *Enabled*: Users of the chatbot who access this knowledge base will only get responses to queries from data sources to which they have access.
-* *Disabled*: Users of the chatbot will receive responses using content from all integrated data sources.
-
-. Select *Add data source* to add this data source to your knowledge base.
+include::_include/add-data-source.adoc[]
 
 .Result
 
@@ -114,7 +90,7 @@ The knowledge base is synchronized with the attached data sources and any active
 
 == Evaluate chat models before creating a knowledge base
 
-You can evaluate the available foundational chat models before creating a knowledge base so you can see which model works best for your implementation. Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page] to verify which models you can use in the regions where you plan to deploy your knowledge base.
+You can evaluate the available foundational chat models before creating a knowledge base so you can see which model works best for your implementation. Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page^] to verify which models you can use in the regions where you plan to deploy your knowledge base.
 
 NOTE: This functionality is available only when no knowledge bases have been created -- when no knowledge bases exist in the Knowledge bases inventory page.
 

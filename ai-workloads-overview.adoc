@@ -42,19 +42,7 @@ However, you'll need to pay for AWS resources that you deploy in order to suppor
 
 == Licensing 
 
-No special licenses are needed from NetApp to use the AI capabilities of Workload Factory. 
-
-//== How Workload Factory helps to build your chatbot
-//
-//Workload Factory helps to build your chatbot in the following ways:
-//
-//* Leverage your FSx for ONTAP file systems for storing your organizations' knowledge base data sources.
-//
-//* Build the knowledge base and conversation starters so you can test your GenAI application.
-//
-//* Deploy the required infrastructure; including the NetApp GenAI Engine EC2 instance and volumes on your FSx for ONTAP file system that will store the vector databases.
-//
-//* Connect the GenAI Engine instance with your FSx for ONTAP file system and Amazon Bedrock.
+No special licenses are needed from NetApp to use the AI capabilities of Workload Factory.
 
 == How Workload Factory for GenAI helps to build Generative AI applications
 
@@ -68,7 +56,7 @@ GenAI helps to build generative AI applications using RAG in the following ways:
 
 * Automatically builds conversation starter questions based on the content in the knowledge bases.  
 
-* Provides a Chat Simulator for data administrators to test chatting with the knowledge bases. 
+* Provides a chat simulator for data administrators to test chatting with the knowledge bases. 
 
 == How GenAI works
 
