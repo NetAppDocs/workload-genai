@@ -19,7 +19,7 @@ https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[Learn more 
 
 AWS credentials:: 
 You need to add AWS credentials to Workload Factory with automate-level permissions, which means you'll be using Workload Factory in _automate_ mode for GenAI.
-
++
 _Basic_ mode and _Read_ mode permissions are not supported at this time.
 //This is called _Basic_ mode. However, by adding AWS credentials and permissions, you enable Workload Factory to manage the deployment and management of AWS resources directly from the Workload Factory UI. You can add _Read_ mode permissions to grant Workload Factory the ability to read information about your AWS resources.
 +

@@ -5,18 +5,18 @@ keywords: ai, chatbot, publishing, knowledge base
 summary: After you've built and tested your knowledge base locally, you can publish the knowledge base so that it can be integrated with the chatbot application that will enable your users to query the knowledge base.
 ---
 
-= Publish a knowledge base
+= Publish a knowledge base and view the unique endpoint
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-After you've built and tested your knowledge base locally, you can publish the knowledge base so that it can be integrated with the chatbot application that will enable your users to query the knowledge base.
+After you've built and tested your knowledge base locally, you can publish the knowledge base so that it can be integrated with a chatbot application that will enable your users to query the knowledge base.
 
-Publishing the knowledge base enables you to use it in chat applications. The publish action triggers the API to generate and publish a unique endpoint. After publishing, the knowledge base becomes accessible for chat applications, and the API endpoint is ready for integration.
+.About this task
 
-Each knowledge base that you publish has a unique endpoint.
+Publishing the knowledge base enables you to use it in chat applications. The publish action triggers the API to generate and publish unique endpoints. After publishing, the knowledge base becomes accessible for chat applications, and the API endpoints are ready for integration.
 
-*Need more details about where the endpoint resides - in the AWS account?  Add an example.*
+Each knowledge base that you publish has unique endpoints.
 
 .Steps
 
@@ -27,7 +27,21 @@ Each knowledge base that you publish has a unique endpoint.
 This page displays the published status, embedding status of the data sources, embedding mode, and the list of all embedded data sources.
 
 . Select the *Actions* menu and select *Publish*.
++
+Workload Factory publishes the knowledge base. On the details page for the knowledge base, the status changes from *Unpublished* to *Published.*
++
+You can now get details about the unique endpoint for the knowledge base.
+
+. Next to the published status, select *View*.
++
+Details about how to access the knowledge base using the Workload Factory API displays.
+
+. From the *View published info* dialog box, copy the API endpoints that you can use to integrate the knowledge base with an application.
++
+To learn more about the API endpoints, go to the https://console.workloads.netapp.com/api-doc[API documentation^] and select *AI > External*.
++
+Before you can use these endpoints, you need to obtain a user token from your authentication provider.
 
 .Result
 
-The knowledge base is published and is ready to be accessed by a chatbot application, such as a Q&A chatbot.
+You now have a published knowledge base and the unique endpoint that you can use to integrate the knowledge base with a chatbot application.

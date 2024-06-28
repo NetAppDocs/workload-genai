@@ -15,8 +15,6 @@ sidebar:
       entries:
         - title: What's new
           url: /whats-new.html
-        - title: Known limitations
-          url: /limitations.html
     - title: Get started
       entries:
         - title: Learn about Workload Factory for GenAI
@@ -37,6 +35,8 @@ sidebar:
               url: /create-knowledgebase.html
             - title: Test a knowledge base
               url: /test-knowledgebase.html
+            - title: Activate authentication
+              url: /activate-authentication.html
             - title: Publish a knowledge base
               url: /publish-knowledgebase.html
             - title: Create an application powered by an FSx for ONTAP knowledge base
