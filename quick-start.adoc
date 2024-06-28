@@ -12,29 +12,23 @@ summary: Get started creating a knowledge base using your organization's data th
 [.lead]
 Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP file systems. An application such as a chatbot will access this knowledge base to provide organization-focused responses to end users.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Confirm that you've met the GenAI requirements 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] link:requirements.html[Set up your environment to meet GenAI requirements]
 
 [role="quick-margin-para"]
 You'll need to have AWS credentials to deploy the AWS infrastructure, you'll need to have deployed and discovered an FSx for ONTAP file system, you'll need the list of data sources you want to integrate in your knowledge base, access to the Amazon Bedrock AI service, and more.
 
-[role="quick-margin-para"]
-Review the link:aws-requirements.html[AWS requirements] and the link:workload-factory-requirements.html[Workload Factory requirements] needed to build and manage your knowledge base.
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Identify the FSx for ONTAP file system that contains the data sources
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] link:identify-data-sources.html[Identify the FSx for ONTAP file system that contains the data sources]
 
 [role="quick-margin-para"]
 The data sources that you'll integrate in your knowledge base can be located on a single FSx for ONTAP file system, or on multiple FSx for ONTAP file systems. These systems can be in different VPCs, but they must be accessible within the same network. 
 
 [role="quick-margin-para"]
-link:identify-data-sources.html[Prepare your FSx for ONTAP file system].
+[Prepare your FSx for ONTAP file system].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Deploy the knowledge base infrastructure
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] link:deploy-infrastructure.html[Deploy the knowledge base infrastructure]
 
 [role="quick-margin-para"]
 Launch the infrastructure deployment wizard to deploy the knowledge base infrastructure in your AWS environment. This process deploys an EC2 instance for the NetApp GenAI engine, and a volume on an FSx for ONTAP file system to contain the NetApp AI Engine databases. The volume is used to store the vector database used by the knowledge base.
-
-[role="quick-margin-para"]
-link:deploy-infrastructure.html[Learn how to deploy the knowledge base infrastructure].
 
 .What's next
 

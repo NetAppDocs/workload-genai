@@ -10,31 +10,21 @@ indexpage:
           url: ai-workloads-overview.html
         - title: Quick start
           url: quick-start.html
-    - title: FSx for ONTAP knowledge base requirements
-      links:
-        - title: AWS requirements
-          url: aws-requirements.html
-        - title: Workload Factory requirements
-          url: workload-factory-requirements.html    
-    - title: Use GenAI to create knowledge bases
-      links:
-        - title: Identify data sources for your knowledge base
-          url: identify-data-sources.html
+        - title: GenAI requirements
+          url: requirements.html
         - title: Deploy the knowledge base infrastructure
           url: deploy-infrastructure.html
-        - title: Create the knowledge base
-          url: create-knowledgebase.html
-        - title: Test the knowledge base
-          url: test-knowledgebase.html
-        - title: Publish the knowledge base
-          url: publish-knowledgebase.html
-        - title: Create the application to activate the chatbot
-          url: create-application.html
-    - title: Administer knowledge bases
+    - title: Build a knowledge base
       links:
-        - title: Manage data sources
-          url: manage-data-source.html
-        - title: Manage knowledge bases
-          url: manage-knowledgebase.html
+        - title: Create a knowledge base
+          url: create-knowledgebase.html
+        - title: Test a knowledge base
+          url: test-knowledgebase.html
+        - title: Publish a knowledge base
+          url: publish-knowledgebase.html
+        - title: Create an application
+          url: create-application.html
+    - title: Administer GenAI
+      links:
         - title: Manage knowledge base infrastructure
           url: manage-infrastructure.html

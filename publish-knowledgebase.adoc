@@ -5,7 +5,7 @@ keywords: ai, chatbot, publishing, knowledge base
 summary: After you've built and tested your knowledge base locally, you can publish the knowledge base so that it can be integrated with the chatbot application that will enable your users to query the knowledge base.
 ---
 
-= Publish your knowledge base
+= Publish a knowledge base
 :icons: font
 :imagesdir: ./media/
 

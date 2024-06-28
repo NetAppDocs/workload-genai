@@ -29,33 +29,17 @@ sidebar:
           url: /identify-data-sources.html
         - title: Deploy the knowledge base infrastructure
           url: /deploy-infrastructure.html 
-    - title: Use GenAI to create knowledge bases - option 1
-      entries:
-        - title: Create a knowledge base
-          url: /create-knowledgebase.html
-        - title: Test a knowledge base
-          url: /test-knowledgebase.html
-        - title: Publish a knowledge base
-          url: /publish-knowledgebase.html
-        - title: Create a chatbot application to access your knowledge base
-          url: /create-application.html
-        - title: What you can do next
-          url: /whats-next.html
-        - title: Manage data sources
-          url: /manage-data-source.html
-        - title: Manage knowledge bases
-          url: /manage-knowledgebase.html
-    - title: Use GenAI to create knowledge bases - option 2
+    - title: Use GenAI to create knowledge bases
       entries:
         - title: Build a knowledge base
           entries:
-            - title: Create the knowledge base
+            - title: Create a knowledge base
               url: /create-knowledgebase.html
-            - title: Test the knowledge base
+            - title: Test a knowledge base
               url: /test-knowledgebase.html
-            - title: Publish the knowledge base
+            - title: Publish a knowledge base
               url: /publish-knowledgebase.html
-            - title: Create a chatbot application to access your knowledge base
+            - title: Create an application powered by an FSx for ONTAP knowledge base
               url: /create-application.html
             - title: What you can do next
               url: /whats-next.html
@@ -63,7 +47,7 @@ sidebar:
           url: /manage-data-source.html
         - title: Manage knowledge bases
           url: /manage-knowledgebase.html
-    - title: Administer
+    - title: Administer GenAI
       entries:
         - title: Manage the GenAI infrastructure
           url: /manage-infrastructure.html
