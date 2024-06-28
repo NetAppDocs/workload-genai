@@ -14,7 +14,7 @@ After you've built and tested your knowledge base locally, you can publish the k
 
 .About this task
 
-Publishing the knowledge base enables you to use it in chat applications. The publish action triggers the API to generate and publish unique endpoints. After publishing, the knowledge base becomes accessible for chat applications, and the API endpoints are ready for integration.
+Publishing the knowledge base enables you to use it in chat applications. The publish action triggers the Workload Factory API to generate and publish unique endpoints. After publishing, the knowledge base becomes accessible for chat applications, and the API endpoints are ready for integration.
 
 Each knowledge base that you publish has unique endpoints.
 

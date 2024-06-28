@@ -21,7 +21,6 @@ AWS credentials::
 You need to add AWS credentials to Workload Factory with automate-level permissions, which means you'll be using Workload Factory in _automate_ mode for GenAI.
 +
 _Basic_ mode and _Read_ mode permissions are not supported at this time.
-//This is called _Basic_ mode. However, by adding AWS credentials and permissions, you enable Workload Factory to manage the deployment and management of AWS resources directly from the Workload Factory UI. You can add _Read_ mode permissions to grant Workload Factory the ability to read information about your AWS resources.
 +
 When setting up your credentials, selecting permissions as shown below provides you with full access to manage FSx for ONTAP file systems and to deploy and manage the GenAI EC2 instance and other AWS resources needed for your knowledge base and chatbot.
 +
@@ -47,7 +46,7 @@ https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html[Learn
 You can link:manage-knowledgebase.html#evaluate-chat-models-before-creating-a-knowledge-base[evaluate chat models] before creating a knowledge base to see which model is best for your requirements.
 
 FSx for ONTAP file system::
-You'll need to deploy and discover a minimum of one FSx for ONTAP file system:
+You need a minimum of one FSx for ONTAP file system:
 +
 * One file system will be used by the NetApp GenAI engine to store the vector database used by the knowledge base. 
 +
@@ -62,3 +61,6 @@ One FSx for ONTAP file system can be used for both of these purposes, or you can
 * You'll need to know the tag key/value pairs that you want to apply to the AWS resources that are part of this deployment (optional).
 
 * You'll need to know the key pair information that allows you to securely connect to the NetApp AI engine instance.
+
++
+https://docs.netapp.com/us-en/workload-fsx-ontap/index.html[Learn how to deploy and manage FSx for ONTAP file systems^]
