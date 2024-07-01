@@ -38,7 +38,7 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 * Titan Embedding Text v2
 * Titan Multimodal Embeddings G1
 +
-https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^].
+https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 
 .. *Chat model*: Choose from Claude chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model that you plan to use.
 +
