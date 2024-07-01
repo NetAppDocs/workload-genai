@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: activate-authentication.html
 keywords: ai, chatbot, publishing, knowledge base
-summary: Activate authentication for this knowledge base so that token validation and ACLs are required when integrating the knowledge base with a chatbot application.
+summary: Activate authentication for a knowledge base so that token validation and ACLs are required when integrating the knowledge base with a chatbot application.
 ---
 
 = Activate authentication for a knowledge base
@@ -10,7 +10,7 @@ summary: Activate authentication for this knowledge base so that token validatio
 :imagesdir: ./media/
 
 [.lead]
-Activate authentication for this knowledge base so that token validation and ACLs are required when using the API endpoints to integrate the knowledge base with a chatbot application.
+Activate authentication for a knowledge base so that token validation and ACLs are required when using the API endpoints to integrate a knowledge base with a chatbot application.
 
 .Steps
 
@@ -25,10 +25,13 @@ Activate authentication for this knowledge base so that token validation and ACL
 .. Select *Activate authentication settings*.
 .. Provide the required information:
 +
-* *Algorithms*: 
-* *Audience*: 
-* *Issuer*: 
-* *JWKS URI*:
+* Algorithms
+* Audience 
+* Issuer
+* JWKS URI
+
++
+You should obtain the values for these fields from your authentication provider.
 
 . Select *Save*.
 
