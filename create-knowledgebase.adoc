@@ -48,7 +48,7 @@ Learn more about the available models to help make your selection: https://aws.a
 +
 If you do activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
 
-. Select *Create knowledge base* to add the knowledge base to AI Studio.
+. Select *Create knowledge base* to add the knowledge base to GenAI.
 
 . In the next page of the wizard you have the option to add a data source to your new knowledge base, or to end the process here without adding a data source. We recommend that you select *Add data source* and add one or more data sources now.
 
