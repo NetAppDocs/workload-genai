@@ -22,7 +22,7 @@ Developing a GenAI application that is tailored to your organization's data enab
 
 Workload Factory for GenAI simplifies the process to deploy infrastructure needed to build Generative AI applications using Retrieval Augmented Generation (RAG). Specifically, GenAI provides the following benefits: 
 
-* Without needing a deep knowledge of data infrastructure, foundation and language models, IT administrators and developers can accelerate application development by utilizing the automation provided by GenAI studio. Data administrators and developers can easily and quickly create enterprise knowledge bases that embed your organization's unstructured data to be used by generative AI applications. 
+* Without needing a deep knowledge of data infrastructure, foundation and language models, IT administrators and developers can accelerate application development by utilizing the automation provided by GenAI. Data administrators and developers can easily and quickly create enterprise knowledge bases that embed your organization's unstructured data to be used by generative AI applications. 
 
 * Enhance security by preserving user permissions in files embedded in the knowledge bases to ensure that data security and privacy is maintained. An application, such as a chatbot, can be developed to provide only the authenticated users with answers based on data the users have access to.  
 
