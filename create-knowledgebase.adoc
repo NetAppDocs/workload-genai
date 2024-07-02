@@ -56,6 +56,10 @@ If you do activate conversation starters, "Automatic mode" is selected by defaul
 
 You can add one or more data sources to populate the knowledge base with your organization's data.
 
+.About this task
+
+The maximum number of supported data sources is 10.
+
 .Steps
 
 . After you select *Add data source*, the *Select a file system* page displays.

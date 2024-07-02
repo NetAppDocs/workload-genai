@@ -12,12 +12,12 @@ summary: Ensure that Workload Factory and AWS are set up properly before you bui
 [.lead]
 Ensure that Workload Factory and AWS are set up properly before you build your knowledge base. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system that contains the data sources you want to integrate in your knowledge base, access to the Amazon Bedrock AI service, and more.
 
-Workload Factory account::
-You'll need to log in and create a Workload Factory account.
+Workload Factory login and account::
+You'll need to log in to Workload Factory and create an account.
 +
 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[Learn more about logging in and creating an account^]
 
-AWS credentials:: 
+AWS credentials::
 You need to add AWS credentials to Workload Factory with automate-level permissions, which means you'll be using Workload Factory in _automate_ mode for GenAI.
 +
 _Basic_ mode and _Read_ mode permissions are not supported at this time.
@@ -32,11 +32,13 @@ AWS region::
 Your GenAI deployment must be in an AWS region that has Amazon Bedrock enabled. https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html[View the list of supported regions^]
 
 Amazon Bedrock::
-Amazon Bedrock enables you to use foundation models and it provides the capabilities to build generative AI applications. 
+Amazon Bedrock enables you to use foundation models and it provides the capabilities to build generative AI applications.
++
+Before you get started with Workload Factory for GenAI, you must set up Amazon Bedrock
++
+https://docs.aws.amazon.com/bedrock/latest/userguide/setting-up.html[AWS documentation: Set up Amazon Bedrock^]
 +
 You'll need an AWS Identity and Access Management (IAM) role that provides Amazon Bedrock permission to access other AWS resources and services.
-+
-https://aws.amazon.com/bedrock/[Learn more about Amazon Bedrock^]
 
 Chat model::
 You must enable the foundational chat model that you plan to use before creating your knowledge base. 

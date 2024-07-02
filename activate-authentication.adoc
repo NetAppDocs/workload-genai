@@ -5,7 +5,7 @@ keywords: ai, chatbot, publishing, knowledge base
 summary: Activate authentication for a knowledge base so that token validation and ACLs are required when integrating the knowledge base with a chatbot application.
 ---
 
-= Activate authentication for a knowledge base
+= Activate external authentication for a knowledge base
 :icons: font
 :imagesdir: ./media/
 
