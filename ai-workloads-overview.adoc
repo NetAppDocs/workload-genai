@@ -63,5 +63,3 @@ GenAI helps to build generative AI applications using RAG in the following ways:
 GenAI uses your organization's private data to complement the model's intelligence (based on the data it was trained on) to provide customized answers to questions asked by your users in your organization. You first deploy the infrastructure needed for a RAG framework, then build a knowledge base using your organization's data sources and foundation models available via Amazon Bedrock, and then connect an application (such as a Q&A chatbot) to the knowledge base. 
 
 image:diagram-chatbot-processing.png[A diagram showing GenAI key components, their function, and how it works.]
-
-*Diagram needs to be updated before release. I don't have the source*
