@@ -51,6 +51,8 @@ sidebar:
       entries:
         - title: Manage the GenAI infrastructure
           url: /manage-infrastructure.html
+        - title: Components for the NetApp GenAI engine
+          url: /genai-engine-instance.html
     - title: Knowledge and support
       entries:
         - title: Register for support
