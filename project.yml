@@ -39,8 +39,6 @@ sidebar:
               url: /activate-authentication.html
             - title: Publish a knowledge base
               url: /publish-knowledgebase.html
-            - title: Create an application powered by an FSx for ONTAP knowledge base
-              url: /create-application.html
             - title: What you can do next
               url: /whats-next.html
         - title: Manage data sources
