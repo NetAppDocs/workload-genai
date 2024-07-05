@@ -22,8 +22,6 @@ indexpage:
           url: test-knowledgebase.html
         - title: Publish a knowledge base
           url: publish-knowledgebase.html
-        - title: Create an application
-          url: create-application.html
     - title: Administer GenAI
       links:
         - title: Manage knowledge base infrastructure
