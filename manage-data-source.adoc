@@ -1,0 +1,73 @@
+---
+sidebar: sidebar
+permalink: manage-data-source.html
+keywords: ai, chatbot, creating, knowledge base, data source
+summary: After you create a knowledge base using data sources on your FSx for ONTAP file system, you can view the data source details, update or change the data source contents, edit data source settings, or delete the data source.
+---
+
+= Manage data sources
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you create a knowledge base using data sources on your FSx for ONTAP file system, you can view the data source details, update or change the data source contents, edit data source settings, or delete the data source.
+
+== View information about a data source
+
+You can view information about the contents of a data source and you can view its embedding status with the knowledge base. Since a data source is part of a knowledge base, you'll need to open the knowledge base first before you can view the data source details.
+
+.Steps
+
+. From the navigation menu, select *AI*. 
+
+. Select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+The bottom part of the page lists the data sources that are part of this knowledge base.
+
+. Expand each row by selecting the image:button-down-caret.png[the down-arrow button] to view detailed information about each data source, such as the FSx for ONTAP file system, the volume, and the path where the data source resides. 
++
+It also lists the embedding information and whether that data source is currently embedded in the knowledge base.
+
+== Edit data source settings
+
+You can edit information about a data source that you've integrated in a knowledge base. Most of the information is fixed after you've added a data source to a knowledge base, but you can make changes to the chunking definition, and to the permission awareness (when using SMB protocol on the data source volume).
+
+.Steps
+
+. From the knowledge bases inventory page, select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+The bottom part of the page lists the data sources that are part of this knowledge base.
+
+. In the row of the data source that you want to edit, select image:icon-action.png[the option button] and select *Edit data source*.
+
+. In the Edit data source page, select image:button-down-caret.png[the down-arrow button] to expand the row for Chunk definition.
+
+. Update the settings for the Chunking strategy and Chunk size, and permission awareness (for SMB volumes) and select *Save*.
+
+.Result 
+
+The data source settings are updated and the AI system synchronizes the data source so that it is re-indexed to the knowledge base.
+
+== Update the contents of an existing data source
+
+You can change the contents of a data source at any time to add or update your organizational data. If this data source is being actively used in a knowledge base, you must sync the data source so that it is re-indexed to the knowledge base. Syncing is incremental, so Amazon Bedrock only processes the objects in your FSx for ONTAP volume that have been added, modified, or deleted since the last sync.
+
+Data sources are synchronized with the knowledge base automatically once a day so that any data source changes are reflected in the chatbot. If you make changes to a data source and you'd like to synchronize the data immediately, you can link:manage-knowledgebase.html#synchronize-your-data-sources-with-the-knowledge-base[perform an on-demand synchronization].
+
+== Delete a data source
+
+If you no longer need a data source to be part of your knowledge base, you can delete it.
+
+.Steps
+
+. From the knowledge base inventory page, select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+The bottom part of the page lists the data sources that are part of this knowledge base.
+
+. In the row of the data source that you want to delete, select image:icon-action.png[the option button] and select *Delete data source*.
+
+. In the Delete data source dialog, confirm that you want to delete it and select *Confirm*.
+
+.Result
+
+The data source is removed from the knowledge base and the AI system removes the indexed information about this data source from the knowledge base. Any information from that data source will no longer be available to chatbots that are using the knowledge base.

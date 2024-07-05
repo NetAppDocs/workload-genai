@@ -1,0 +1,40 @@
+---
+sidebar: sidebar
+permalink: activate-authentication.html
+keywords: ai, chatbot, publishing, knowledge base
+summary: Activate authentication for a knowledge base so that token validation and ACLs are required when integrating the knowledge base with a chatbot application.
+---
+
+= Activate external authentication for a knowledge base
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Activate authentication for a knowledge base so that token validation and ACLs are required when using the API endpoints to integrate a knowledge base with a chatbot application.
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to publish.
+
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
+
+. Select the *Actions* menu and select *Manage authentication settings*.
+
+. Set up authentication:
+
+.. Select *Activate authentication settings*.
+.. Provide the required information:
++
+* Algorithms
+* Audience 
+* Issuer
+* JWKS URI
+
++
+You should obtain the values for these fields from your authentication provider.
+
+. Select *Save*.
+
+.Result
+
+You now have a published knowledge base and the unique endpoint that you can use to integrate the knowledge base with a chatbot application.

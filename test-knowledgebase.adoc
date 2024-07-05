@@ -1,0 +1,37 @@
+---
+sidebar: sidebar
+permalink: test-knowledgebase.html
+keywords: ai, chatbot, creating, knowledge base
+summary: After you create the knowledge base, you'll be able to test it locally using the chatbot simulator and make any required changes before you make the knowledge base available to your users through a chatbot application.
+---
+
+= Test a knowledge base
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you create the knowledge base, you'll be able to test it locally using the chatbot simulator and make any required changes before you make the knowledge base available to your users through a chatbot application.
+
+.About this task
+
+You test your knowledge base to make sure it performs as you expect, and you can customize the conversation starters that you want to be available by default for chatbot users of this knowledge base. The chatbot simulator runs against all the data sources that have been embedded in the knowledge base. 
+
+You can test a knowledge base by chatting with your embedded data sources in the chatbot simulator. Note that none of the interaction or insights are captured in the GenAI vector database when testing the knowledge base locally.
+
+You'll perform most of your testing within Workload Factory before you deploy the knowledge base in an application for your users. If you need to make changes to your data source or the chatbot operation, you'll want to do it now before you publish your knowledge base.
+
+Some of the tasks you'll want to perform to test your chatbot are:
+
+* Enter a large number of questions that are relevant to your organization to make sure the answers are as expected.
+* Customize the conversation starters that you want to be available by default for your users in the chatbot application.
+* Make sure that the attributed content that is provided at the bottom of the chatbot answers contain the correct references. 
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to test.
++
+The chatbot simulator appears in the right pane. If defined, existing conversation starters are displayed as well.
+
+. In the chatbot entry field, enter a prompt or question and select image:button-run.png[the run button] to see how your chatbot responds with your organizational knowledge.
+
+. If you need to update any of your data sources so that your knowledge base provides more focused answers, make those changes now and then retest the knowledge base.
