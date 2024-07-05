@@ -12,6 +12,10 @@ summary: Identify, or create, the documents (data sources) that reside on your F
 [.lead]
 Identify, or create, the documents (data sources) that reside on your FSx for ONTAP file system that you'll integrate in your knowledge base. These data sources enable the knowledge base to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
 
+== Maximum number of data sources
+
+The maximum number of supported data sources is 10.
+
 == Location of data sources
 
 Data sources can be stored in a single volume, or in a folder within a volume, on an SMB share or NFS export on an Amazon FSx for NetApp ONTAP file system. You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain extraneous documents that shouldn't be integrated with your knowledge base.

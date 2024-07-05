@@ -34,6 +34,12 @@ Workload Factory for GenAI simplifies the process to deploy infrastructure neede
 
 * Reduce overall storage costs for generative AI data infrastructure by taking advantage of ONTAP data efficiency features such as data deduplication, compression and compaction, data tiering, and thin provisioning.  
 
+== How GenAI works
+
+GenAI uses your organization's private data to complement the model's intelligence (based on the data it was trained on) to provide customized answers to questions asked by your users in your organization. You first deploy the infrastructure needed for a RAG framework, then build a knowledge base using your organization's data sources and foundation models available via Amazon Bedrock, and then connect an application (such as a Q&A chatbot) to the knowledge base. 
+
+image:diagram-chatbot-processing.png[A diagram showing GenAI key components, their function, and how it works.]
+
 == Cost
 
 During the preview period, there is no cost for using the GenAI capability of Workload Factory. 
@@ -57,9 +63,3 @@ GenAI helps to build generative AI applications using RAG in the following ways:
 * Automatically builds conversation starter questions based on the content in the knowledge bases.  
 
 * Provides a chat simulator for data administrators to test chatting with the knowledge bases. 
-
-== How GenAI works
-
-GenAI uses your organization's private data to complement the model's intelligence (based on the data it was trained on) to provide customized answers to questions asked by your users in your organization. You first deploy the infrastructure needed for a RAG framework, then build a knowledge base using your organization's data sources and foundation models available via Amazon Bedrock, and then connect an application (such as a Q&A chatbot) to the knowledge base. 
-
-image:diagram-chatbot-processing.png[A diagram showing GenAI key components, their function, and how it works.]
