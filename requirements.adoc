@@ -17,8 +17,8 @@ You'll need to log in to Workload Factory and create an account.
 +
 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[Learn more about logging in and creating an account^]
 
-AWS credentials::
-You need to add AWS credentials to Workload Factory with automate-level permissions, which means you'll be using Workload Factory in _automate_ mode for GenAI.
+AWS credentials and permissions::
+You need to add AWS credentials to Workload Factory with automate-level permissions, which means you'll be using Workload Factory in _Automate_ mode for GenAI.
 +
 _Basic_ mode and _Read_ mode permissions are not supported at this time.
 +
@@ -28,24 +28,36 @@ image:screenshot-ai-permissions.png[A screenshot showing the permissions setting
 +
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn how to add AWS credentials to Workload Factory^]
 
-AWS region::
-Your GenAI deployment must be in an AWS region that has Amazon Bedrock enabled. https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html[View the list of supported regions^]
-
 Amazon Bedrock::
 Amazon Bedrock enables you to use foundation models and it provides the capabilities to build generative AI applications.
 +
-Before you get started with Workload Factory for GenAI, you must set up Amazon Bedrock
+Before you get started with Workload Factory for GenAI, you must set up Amazon Bedrock. Your GenAI deployment must be in an AWS region that has Amazon Bedrock enabled.
 +
-https://docs.aws.amazon.com/bedrock/latest/userguide/setting-up.html[AWS documentation: Set up Amazon Bedrock^]
+* https://docs.aws.amazon.com/bedrock/latest/userguide/setting-up.html[AWS documentation: Set up Amazon Bedrock^]
+* https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html[AWS documentation: Supported regions and models for Knowledge bases for Amazon Bedrock^]
+
+Embedding model::
+You must enable the embedding model that you plan to use before creating your knowledge base. The following embedding models are supported:
 +
-You'll need an AWS Identity and Access Management (IAM) role that provides Amazon Bedrock permission to access other AWS resources and services.
+* Titan Embeddings G1 - Text
+* Titan Embedding Text v2
+* Titan Multimodal Embeddings G1
++
+https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 
 Chat model::
-You must enable the foundational chat model that you plan to use before creating your knowledge base. 
+You must enable the foundational chat model that you plan to use before creating your knowledge base. The following Claude chat models are supported:
 +
-https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html[Learn about the supported foundational models^]
+Claude 3.5 Sonnet
+Claude 3 Opus
+Claude 3 Haiku
+Claude 3 Sonnet
+Claude 2.1
+Claude 2.0
 +
-You can link:manage-knowledgebase.html#evaluate-chat-models-before-creating-a-knowledge-base[evaluate chat models] before creating a knowledge base to see which model is best for your requirements.
+Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page^] to verify which models you can use in the regions where you plan to deploy your knowledge base.
++
+Learn more about the available models to help make your selection: https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
 
 FSx for ONTAP file system::
 You need a minimum of one FSx for ONTAP file system:
