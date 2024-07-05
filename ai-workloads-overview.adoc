@@ -40,16 +40,6 @@ GenAI uses your organization's private data to complement the model's intelligen
 
 image:diagram-chatbot-processing.png[A diagram showing GenAI key components, their function, and how it works.]
 
-== Cost
-
-During the preview period, there is no cost for using the GenAI capability of Workload Factory. 
-
-However, you'll need to pay for AWS resources that you deploy in order to support the generative AI infrastructure. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine EC2 instance. 
-
-== Licensing 
-
-No special licenses are needed from NetApp to use the AI capabilities of Workload Factory.
-
 == How Workload Factory for GenAI helps to build Generative AI applications
 
 GenAI helps to build generative AI applications using RAG in the following ways: 
@@ -63,3 +53,13 @@ GenAI helps to build generative AI applications using RAG in the following ways:
 * Automatically builds conversation starter questions based on the content in the knowledge bases.  
 
 * Provides a chat simulator for data administrators to test chatting with the knowledge bases. 
+
+== Cost
+
+During the preview period, there is no cost for using the GenAI capability of Workload Factory. 
+
+However, you'll need to pay for AWS resources that you deploy in order to support the generative AI infrastructure. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine EC2 instance. 
+
+== Licensing 
+
+No special licenses are needed from NetApp to use the AI capabilities of Workload Factory.

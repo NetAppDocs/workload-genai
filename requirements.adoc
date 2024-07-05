@@ -48,12 +48,12 @@ https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 Chat model::
 You must enable the foundational chat model that you plan to use before creating your knowledge base. The following Claude chat models are supported:
 +
-Claude 3.5 Sonnet
-Claude 3 Opus
-Claude 3 Haiku
-Claude 3 Sonnet
-Claude 2.1
-Claude 2.0
+* Claude 3.5 Sonnet
+* Claude 3 Opus
+* Claude 3 Haiku
+* Claude 3 Sonnet
+* Claude 2.1
+* Claude 2.0
 +
 Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page^] to verify which models you can use in the regions where you plan to deploy your knowledge base.
 +
