@@ -1,1 +1,1 @@
-# workload-ai-studio
+# workload-genai
