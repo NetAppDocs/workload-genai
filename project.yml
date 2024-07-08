@@ -1,12 +1,64 @@
 settings:
-  name: "Product Name"
+  name: GenAI
+  platform: cloud
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
-  # harmony_enabled: true
-
+    harmony_enabled: true
+  rss_page: "whats-new.html"
 sidebar: 
   entries:
-  - title: Legal notices
-    url: /legal-notices.html
+    - title: GenAI docs
+      url: /index.html
+    - title: Release notes
+      entries:
+        - title: What's new
+          url: /whats-new.html
+    - title: Get started
+      entries:
+        - title: Learn about Workload Factory for GenAI
+          url: /ai-workloads-overview.html
+        - title: Quick start
+          url: /quick-start.html
+        - title: GenAI requirements
+          url: /requirements.html
+        - title: Identify data sources for your knowledge base
+          url: /identify-data-sources.html
+        - title: Deploy the knowledge base infrastructure
+          url: /deploy-infrastructure.html 
+    - title: Use GenAI to create knowledge bases
+      entries:
+        - title: Build a knowledge base
+          entries:
+            - title: Create a knowledge base
+              url: /create-knowledgebase.html
+            - title: Test a knowledge base
+              url: /test-knowledgebase.html
+            - title: Activate authentication
+              url: /activate-authentication.html
+            - title: Publish a knowledge base
+              url: /publish-knowledgebase.html
+            - title: What you can do next
+              url: /whats-next.html
+        - title: Manage data sources
+          url: /manage-data-source.html
+        - title: Manage knowledge bases
+          url: /manage-knowledgebase.html
+    - title: Administer GenAI
+      entries:
+        - title: Manage the GenAI infrastructure
+          url: /manage-infrastructure.html
+        - title: Components for the NetApp GenAI engine
+          url: /genai-engine-instance.html
+    - title: Knowledge and support
+      entries:
+        - title: Register for support
+          url: /support-registration.html
+        - title: Get help
+          url: /get-help.html    
+    - title: Legal notices
+      url: /legal-notices.html
+product-family:
+  name: BlueXP Workload Factory for AWS
+  repo: workload-family

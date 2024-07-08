@@ -1,0 +1,45 @@
+---
+sidebar: sidebar
+permalink: genai-engine-instance.html
+keywords: genai engine, instance, ec2, role, iam role, permissions, security group, inbound, outbound, private endpoints
+summary: When you deploy the GenAI infrastructure, Workload Factory creates an EC2 instance for the GenAI engine. It also creates an IAM role, security group, and private endpoints for this instance. You might want to understand more details about these components that Workload Factory creates in your AWS environment.
+---
+
+= Components for the NetApp GenAI engine
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+When you deploy the GenAI infrastructure, Workload Factory creates an EC2 instance for the GenAI engine. It also creates an IAM role, security group, and private endpoints for this instance. You might want to understand more details about these components that Workload Factory creates in your AWS environment.
+
+EC2 instance type::
+m5.large
+
+IAM role::
+The GenAI engine instance needs permissions to send chunks of data to the embedding model on Amazon Bedrock and to communicate with the NetApp AI Service Backend. The IAM role includes the following permissions:
++
+[source,json]
+"ssm:Describe*",
+"ssm:Get*",
+"ssm:List*",
+"ssm:PutInventory",
+"ssm:PutComplianceItems",
+"ssm:PutConfigurePackageResult",
+"ssm:SendCommand",
+"ssm:UpdateAssociationStatus",
+"ssm:UpdateInstanceAssociationStatus",
+"ssm:UpdateInstanceInformation",
+"ssmmessages:*",
+"ec2messages:GetMessages"
+
+Security group::
+The outbound rules are open to all traffic, while the inbound rules are completely closed.
+
+Private endpoints::
+If the target VPC doesn't already have them, Workload Factory creates private endpoints for the GenAI engine EC2 instance so that it can communicate with the following AWS services:
++
+* Amazon Bedrock
+* Amazon EC2
+* Amazon Elastic Container Registry (ECR)
+* Amazon S3
+* AWS Systems Manager (SSM)

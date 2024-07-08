@@ -1,0 +1,59 @@
+---
+sidebar: sidebar
+permalink: manage-infrastructure.html
+keywords: ai, chatbot, creating, knowledge base
+summary: You can view details about your deployed GenAI RAG infrastructure or remove the chatbot infrastructure if you no longer need it.
+---
+
+= Manage the GenAI infrastructure
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can view details about your deployed GenAI RAG infrastructure or remove the chatbot infrastructure if you no longer need it.
+
+== View information about the infrastructure
+
+You can view information about the chatbot infrastructure.
+
+.Steps
+
+. From the navigation menu, select *AI*.
+
+. Select the *Infrastructure* tab.
+
+. View information about the infrastructure, which includes details about the following components:
++
+* AWS settings
+* The FSx for ONTAP file system
+* The AI engine
+* The vector database
+
+== Remove the infrastructure
+
+If you no longer need the chatbot infrastructure that you deployed for one or more chatbots, you can remove it from Workload Factory. 
+
+NOTE: All chatbots that have been deployed on this infrastructure will be disabled and all chat history will be deleted.
+
+This operation only removes the links to the AI infrastructure from Workload Factory--it does not remove all the components from AWS. You'll need to manually delete the following infrastructure components from AWS:
+
+* The VM instance
+* Private endpoints
+* The volume on the FSx for ONTAP file system that contains the AI databases
+* The IAM role
+* The policy
+* The security group
+
+.Steps
+
+. From the navigation menu, select *AI*.
+
+. Select the *Infrastructure* tab.
+
+. Select image:icon-action.png[the option button] and select *Remove chatbot infrastructure*.
+
+. Confirm that you want to delete the infrastructure and select *Remove*.
+
+.Result
+
+The chatbot infrastructure components are removed from Workload Factory.

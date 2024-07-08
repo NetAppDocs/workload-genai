@@ -1,0 +1,150 @@
+---
+sidebar: sidebar
+permalink: manage-knowledgebase.html
+keywords: ai, chatbot, managing, knowledge base
+summary: After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.
+---
+
+= Manage knowledge bases
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.
+
+== View information about a knowledge base
+
+You can view information about the settings for a knowledge base and the data source that are integrated.
+
+.Steps
+
+. From the navigation menu, select *AI*.
+
+. Select the knowledge base that you want to view.
++
+If defined, the conversation starters that are currently being used display in the right pane.
+
+. To view knowledge base details, select image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
++
+The *Actions* menu enables you to manage the knowledge base if you want to make any changes.
+
+== Edit a knowledge base
+
+You can update a knowledge base by changing some settings, or you can add or remove data sources.
+
+Each time you add, modify, or remove data sources from the knowledge base, you must sync the data source so that it is re-indexed to the knowledge base. Syncing is incremental, so Amazon Bedrock only processes the objects in your FSx for ONTAP volume that have been added, modified, or deleted since the last sync.
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to update.
+
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
+
+. Select the *Actions* menu and select *Edit knowledge base*.
+
+. In the Edit knowledge base page, you can change the knowledge base name, description, embedding model, chat model, and whether conversation starters are created automatically or manually.
++
+If you use Manual mode for conversation starters, you can change conversation starters here as well.
+
+. Select *Save* after you have made your changes.
+
+== Add additional data sources to a knowledge base
+
+You can embed additional data sources in your knowledge base to populate it with additional organization data.
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base where you want to add the data source.
+
+. Select image:icon-action.png[the option button] and select *Add data source*. 
+
+include::_include/add-data-source.adoc[]
+
+.Result
+
+The data source is integrated into your knowledge base.
+
+== Synchronize your data sources with the knowledge base
+
+Data sources are synchronized with the knowledge base automatically once a day so that any data source changes are reflected in the chatbot. If you make changes to any of your data sources and you'd like to synchronize the data immediately, you can perform an on-demand synchronization.
+
+Syncing is incremental, so Amazon Bedrock only processes the objects in your data sources that have been added, modified, or deleted since the last sync.
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to synchronize.
+
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
+
+. Select the *Actions* menu and select *Scan now*.
++
+You'll see a message that your data sources are being scanned, and a final message when the scan is complete.
+
+.Result
+
+The knowledge base is synchronized with the attached data sources and any active chatbot will start using the newest information from your data sources.
+
+== Evaluate chat models before creating a knowledge base
+
+You can evaluate the available foundational chat models before creating a knowledge base so you can see which model works best for your implementation. Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page^] to verify which models you can use in the regions where you plan to deploy your knowledge base.
+
+NOTE: This functionality is available only when no knowledge bases have been created -- when no knowledge bases exist in the Knowledge bases inventory page.
+
+.Steps
+
+. From the Knowledge bases inventory page, you'll see the option to select the chat model on the right side of the page for the Chatbot.
+
+. Select the chat model from the list and enter a set of questions in the prompt area to see how the chatbot responds.
+
+. Try multiple models to see which model is best for your implementation.
+
+.Result
+
+Use that chat model when you create your knowledge base.
+
+== Unpublish your knowledge base
+
+After you've published your knowledge base so that it can be integrated with a chatbot application, you can unpublish it if you want to disable the chatbot application from accessing the knowledge base.
+
+Unpublishing the knowledge base stops any chat applications from working. The unique API endpoint at which the knowledge base was accessible is disabled.
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to unpublish.
+
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, and the list of all embedded data sources.
+
+. Select the *Actions* menu and select *Unpublish*.
+
+.Result
+
+The knowledge base is disabled and is no longer accessible by a chatbot application.
+
+== Delete a knowledge base
+
+If you no longer need a knowledge base, you can delete it. When you delete the knowledge base, it will be removed from Workload Factory and any applications or chatbots that are using the knowledge base will stop working. This action is not reversible.
+
+When you delete a knowledge base, you should also carry out the following actions to fully delete all resources associated with the knowledge base:
+
+* Dissociate the knowledge base from any agents it is associated with.
+* The underlying data that was indexed from your knowledge base remains in the vector store you set up and can still be retrieved. To delete the data, you also need to delete the vector index containing the data embeddings.
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to delete.
+
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
+
+. Select the *Actions* menu and select *Delete knowledge base*.
+
+. In the Delete knowledge base dialog, confirm that you want to delete it and select *Delete*.
+
+.Result
+
+The knowledge base is deleted from Workload Factory.
