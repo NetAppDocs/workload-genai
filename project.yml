@@ -39,6 +39,8 @@ sidebar:
               url: /activate-authentication.html
             - title: Publish a knowledge base
               url: /publish-knowledgebase.html
+            - title: Create a RAG-based AI application
+              url: /create-application.html
             - title: What you can do next
               url: /whats-next.html
         - title: Manage data sources
