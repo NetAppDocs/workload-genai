@@ -1,0 +1,15 @@
+---
+sidebar: sidebar
+permalink: create-application.html
+keywords: ai, chatbot, creating, application, knowledge base, rag, retrieval augmented generation
+summary: After you build your knowledge base and test your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
+---
+
+= Create an application powered by an FSx for ONTAP knowledge base
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you build your knowledge base and test your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
+
+https://community.netapp.com/t5/Tech-ONTAP-Blogs/How-to-create-a-RAG-based-AI-application-on-FSx-for-ONTAP-with-BlueXP-workload/ba-p/453870[Learn how to create a RAG-based AI application on FSx for ONTAP^]
