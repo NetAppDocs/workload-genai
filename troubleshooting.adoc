@@ -15,7 +15,7 @@ Learn how to work around some common problems you might encounter.
 == Common issues and solutions
 If you have one of these issues, you can use the steps in the Workaround column to try to resolve it.
 
-[cols="1,2,2,3"]
+[cols="1,2,2,4"]
 |===
 |Area |Issue |Cause |Workaround
 
