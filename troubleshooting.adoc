@@ -12,6 +12,7 @@ summary: Before you can open a support case with NetApp technical support, you n
 [.lead]
 Learn how to work around some common problems you might encounter.
 
+== Common issues and solutions
 
 |===
 |Area |Issue |Cause |Workaround
