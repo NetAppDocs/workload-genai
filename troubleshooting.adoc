@@ -57,7 +57,9 @@ volumes:
   persistent_folder:
     driver_opts:
       type: 'nfs'
-      o: 'addr=svm-0df66b96a890d8a72.fs-0d673008aaca12bc3.fsx.us-east-1.amazonaws.com,nolock,soft,rw'
+      o: "addr=svm-0df66b96a890d8a72.\
+      fs-0d673008aaca12bc3.\
+      fsx.us-east-1.amazonaws.com,nolock,soft,rw"
       device: ':/netapp_ai' # Path to new volume
 ----
 
