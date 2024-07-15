@@ -20,12 +20,12 @@ If you have one of these issues, you can use the steps in the Workaround column 
 
 |Deployment
 |Deployment fails because the volume already exists.
-|The deployment can't succeed when using an existing volume.
-|Create a new volume, and try deploying again using the new volume.
+|Workload Factory for GenAI needs to create a new volume during the deployment process, but a volume already exists using the name you have specified.
+|Specify a unique name to use for the new volume, and try deploying again.
 
 |Deployment
 |The deployment fails because Workload Factory for GenAI is unable to mount the volume.
-|Not all of the inbound ports required for FSx for NetApp ONTAP are open.
+|One or more of the inbound ports required for FSx for NetApp ONTAP are closed or filtered.
 a|Open the ports listed in https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/reference-security-groups-fsx.html#inbound-rules[Security group rules for FSx for ONTAP^].
 
 |Maintenance
