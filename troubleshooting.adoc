@@ -21,7 +21,7 @@ If you have one of these issues, you can use the steps in the Workaround column 
 |Deployment
 |Deployment fails because the volume already exists.
 |The deployment can't succeed when using an existing volume.
-|Try again with a new volume.
+|Create a new volume, and try deploying again using the new volume.
 
 |Deployment
 |The deployment fails because Workload Factory for GenAI is unable to mount the volume.
