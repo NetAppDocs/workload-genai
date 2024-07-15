@@ -1,0 +1,72 @@
+---
+sidebar: sidebar
+permalink: troubleshooting.html
+keywords: support registration, register for support, support, nss account, add nss account,
+summary: Before you can open a support case with NetApp technical support, you need to add a NetApp Support Site account to Workload Factory and then register for support.
+---
+
+= Troubleshooting
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how to work around some common problems you might encounter.
+
+
+|===
+|Area |Issue |Cause |Workaround
+
+|Deployment
+|Deployment failure (volume already exists)
+|Can't create deployment with existing volume
+|Try again with a new volume.
+
+|Deployment
+|Deployment failure (failed to mount volume)
+|Not all of the FSx security group inbound ports are open.
+|Open the ports listed in https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/reference-security-groups-fsx.html#inbound-rules[Security group rules for FSx for ONTAP^].
+
+|Maintenance
+|Backend Docker instance failed to start
+|Volume was deleted  and ec2 was restarted 
+a|Use the following recovery process:
+
+.Steps
+. Create a new volume on FSx for NetApp ONTAP. For example:
++
+[source,console]
+----
+volume netapp_ai volume path /netapp_ai
+----
+. SSH to the AI EC2.
+. List the volumes:
++
+[source,console]
+----
+docker volume list
+----
+. Remove the old volume:
++
+[source,console]
+----
+docker volume rm ec2-user_persistent_folder
+----
+. Open the `docker-compose.yml` file using a text editor.
+. In the `volumes` section, change the device path to the new volume path. For example:
++
+[source,yaml]
+---- 
+volumes:
+    persistent_folder:
+        driver_opts:
+            type: 'nfs'
+            o: 'addr=svm-0df66b96a890d8a72.fs-0d673008aaca12bc3.fsx.us-east-1.amazonaws.com,nolock,soft,rw'
+            device: ':/netapp_ai' # Path to new volume
+----
+
+|Maintenance
+|Backend Docker instance failed to start
+|Root volume was deleted
+|Create volume with a name and path, restart backend docker from AI ec2
+
+|===
