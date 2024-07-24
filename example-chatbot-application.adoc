@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: example-chatbot-application.html
+keywords: ai, example, sample, chatbot, app, application, local
+summary: You can install and run an example chatbot application to test your knowledge bases and learn how to use the Workload Factory API to create your own generative AI application.
+---
+
+= Use the external example chatbot application
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can configure and run an example chatbot application to test your knowledge bases and to learn how to use the Workload Factory API to create your own generative AI application.
+
+.Steps
+
+. link:create-knowledgebase.html[Create a knowledge base].
+. link:activate-authentication.html[Activate external authentication] for the knowledge base that you created.
+. link:link:publish-knowledgebase.html[Publish the knowledge base] to enable API access for external applications.
+. Follow the example chatbot application installation instructions at _<external chatbot GitHub repo link>_.
+. Run the example chatbot application either from your local environment, or by hosting the application on a web server.
+. Browse to [http://localhost:9091](http://localhost:9091) to log in to the application.
++
+The example chatbot application appears.
+
+
+
+ 
+
+
+
+

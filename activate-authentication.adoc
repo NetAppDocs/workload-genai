@@ -37,4 +37,4 @@ You should obtain the values for these fields from your authentication provider.
 
 .Result
 
-You now have a published knowledge base and the unique endpoint that you can use to integrate the knowledge base with a chatbot application.
+Authentication for the knowledge base is now active, and you can use API endpoints to interact with the knowledge base and integrate the knowledge base with a chatbot application.
