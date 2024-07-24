@@ -25,7 +25,7 @@ You can configure and run the open source example chatbot application provided a
 The example chatbot application appears.
 
 == Learn more
-Learn more about the Workload Factory API: https://console.workloads.netapp.com/api-doc[Workload Factory API documentation]
+https://console.workloads.netapp.com/api-doc[Workload Factory API documentation]
 
 
  
