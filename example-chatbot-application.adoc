@@ -17,7 +17,9 @@ After you configure, activate, and publish a knowledge base, external applicatio
 . link:create-knowledgebase.html[Create a knowledge base].
 . link:activate-authentication.html[Activate authentication] for the knowledge base that you created.
 +
-This enables the knowledge base to authenticate API requests, and makes token validation and ACLs required when using the API endpoints. External chat applications that interact with this knowledge base will need to use the same authentication provider (issuer) that you configure in the authentication settings for the knowledge base.
+This enables the knowledge base to authenticate API requests, and makes token validation and ACLs required when using the API endpoints. 
++
+NOTE: External chat applications that integrate with this knowledge base will need to use the same authentication provider (issuer) that you configure in the authentication settings for the knowledge base.
 . link:publish-knowledgebase.html[Publish the knowledge base] to enable API access for external applications.
 +
 After a knowledge base is published, the API endpoints are accessible externally, and you can integrate the knowledge base with an external chat application (such as the example chatbot application).
