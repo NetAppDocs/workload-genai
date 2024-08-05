@@ -12,6 +12,18 @@ summary: "Learn what's new with the AI workloads capability of Workload Factory.
 [.lead]
 Learn what's new with the Generative AI workloads capability of Workload Factory.
 
+== 4 August 2024
+
+=== Amazon CloudWatch Logs integration
+
+Generative AI workloads is now integrated with Amazon CloudWatch Logs, enabling you to monitor Generative AI workloads log files.
+
+////
+=== Example chatbot application
+
+The NetApp Workload Factory GenAI sample application enables you to test authentication and retrieval from your published NetApp Workload Factory knowledge base by interacting directly with it in a web-based chatbot application. 
+////
+
 == 7 July 2024
 
 === Initial release of the Workload Factory for GenAI
