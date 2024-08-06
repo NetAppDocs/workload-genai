@@ -34,7 +34,7 @@ You can now get details about the unique endpoint for the knowledge base.
 
 . Next to the published status, select *View*.
 +
-Details about how to access the knowledge base using the Workload Factory API displays.
+Details about how to access the knowledge base using the Workload Factory API is displayed.
 
 . From the *View published info* dialog box, copy the API endpoints that you can use to integrate the knowledge base with an application.
 +
