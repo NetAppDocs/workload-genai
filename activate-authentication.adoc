@@ -48,7 +48,11 @@ For example, Amazon Cognito uses the following string format for the JWKS URI:
 https://cognito-idp.<region>.amazonaws.com/<userPoolId>/.well-known/jwks.json
 ----
 +
-Where `<region>` is the AWS region containing the user pool, and `<UserPoolID>` is your user pool ID.
+Where `<region>` is the AWS region containing the user pool, and `<UserPoolID>` is your user pool ID. You can retrieve your user pool ID using the following command:
++
+----
+aws cognito-idp list-user-pools --max-results=60 --output=table
+----
 
 . Select *Save*.
 
