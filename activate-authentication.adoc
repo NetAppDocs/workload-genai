@@ -10,7 +10,7 @@ summary: Activate authentication for a knowledge base so that token validation a
 :imagesdir: ./media/
 
 [.lead]
-Activate authentication for a knowledge base so that token validation and ACLs are required when using the API endpoints to integrate a knowledge base with a chatbot application.
+Activate authentication for a knowledge base so that token validation and ACLs are required when using the API endpoints to integrate a knowledge base with a chatbot application. When you activate authentication, you generate a JSON web token to use for API requests to a knowledge base from chatbot clients.
 
 .Steps
 
@@ -25,11 +25,11 @@ Activate authentication for a knowledge base so that token validation and ACLs a
 .. Select *Activate authentication settings*.
 .. Provide the required information. Examples are provided, but you should obtain the values for these fields from your authentication provider:
 +
-* *Algorithms*: Choose the algorithm that your provider uses.
-* *Audience* (Optional): The intended recipient of the authentication token.
+* *Algorithms*: The signing algorithm that your authentication provider uses.
+* *Audience* (Optional): A string containing the intended recipient of the authentication token (sometimes a URL).
 * *Issuer*: A string that identifies the provider that issued the token. 
 +
-For example, Amazon Cognito uses issuer strings that follow the following format:
+For example, Amazon Cognito uses issuer strings with the following format:
 +
 ----
 https://cognito-idp-<region>.amazonaws.com/<UserPoolID>
@@ -42,7 +42,7 @@ aws cognito-idp list-user-pools --max-results=60 --output=table
 ----
 * *JWKS URI*: The URI string that provides public keys needed to verify signatures of this token.
 +
-For example, Amazon Cognito uses the following string format for the JWKS URI:
+For example, Amazon Cognito uses JWKS URI strings with the following format:
 +
 ----
 https://cognito-idp.<region>.amazonaws.com/<userPoolId>/.well-known/jwks.json
