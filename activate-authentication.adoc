@@ -23,15 +23,28 @@ Activate authentication for a knowledge base so that token validation and ACLs a
 . Set up authentication:
 
 .. Select *Activate authentication settings*.
-.. Provide the required information:
+.. Provide the required information. Examples are provided, but you should obtain the values for these fields from your authentication provider:
 +
-* Algorithms
-* Audience 
+* Algorithms 
++
+Choose the algorithm that your provider uses.
+* Audience (Optional)
++
+The intended recipient of the authentication token.
 * Issuer
-* JWKS URI
-
 +
-You should obtain the values for these fields from your authentication provider.
+A string that identifies the provider that issued the token. For example, Amazon Cognito uses issuer strings that follow the following format:
++
+----
+https://cognito-idp-<region>.amazonaws.com/<UserPoolID>
+----
++
+Where `<region>` is the AWS region containing the user pool, and `<UserPoolID>` is your user pool ID. You can retrieve your user pool ID using the following command:
++
+----
+aws cognito-idp list-user-pools --max-results=60 --output=table
+----
+* JWKS URI
 
 . Select *Save*.
 
