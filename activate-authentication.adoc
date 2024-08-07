@@ -10,7 +10,7 @@ summary: Activate authentication for a knowledge base so that token validation a
 :imagesdir: ./media/
 
 [.lead]
-Activate authentication for a knowledge base so that token validation and ACLs are required when using the API endpoints to integrate a knowledge base with a chatbot application.
+Activate authentication for a knowledge base so that token validation and ACLs are required when using the API endpoints to integrate a knowledge base with a chatbot application. When you activate authentication, you generate a JSON web token to use for API requests to a knowledge base from chatbot clients.
 
 .Steps
 
@@ -23,15 +23,36 @@ Activate authentication for a knowledge base so that token validation and ACLs a
 . Set up authentication:
 
 .. Select *Activate authentication settings*.
-.. Provide the required information:
+.. Provide the required information. Examples are provided, but you should obtain the values for these fields from your authentication provider:
 +
-* Algorithms
-* Audience 
-* Issuer
-* JWKS URI
-
+* *Algorithms*: The signing algorithm that your authentication provider uses.
+* *Audience* (Optional): A string containing the intended recipient of the authentication token (sometimes a URL).
+* *Issuer*: A string that identifies the provider that issued the token. 
 +
-You should obtain the values for these fields from your authentication provider.
+For example, Amazon Cognito uses issuer strings with the following format:
++
+----
+https://cognito-idp-<region>.amazonaws.com/<UserPoolID>
+----
++
+Where `<region>` is the AWS region containing the user pool, and `<UserPoolID>` is your user pool ID. You can retrieve your user pool ID using the following command:
++
+----
+aws cognito-idp list-user-pools --max-results=60 --output=table
+----
+* *JWKS URI*: The URI string that provides public keys needed to verify signatures of this token.
++
+For example, Amazon Cognito uses JWKS URI strings with the following format:
++
+----
+https://cognito-idp.<region>.amazonaws.com/<userPoolId>/.well-known/jwks.json
+----
++
+Where `<region>` is the AWS region containing the user pool, and `<UserPoolID>` is your user pool ID. You can retrieve your user pool ID using the following command:
++
+----
+aws cognito-idp list-user-pools --max-results=60 --output=table
+----
 
 . Select *Save*.
 
