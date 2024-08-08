@@ -1,0 +1,72 @@
+---
+sidebar: sidebar
+permalink: troubleshooting.html
+keywords: support registration, register for support, support, nss account, add nss account,
+summary: Before you can open a support case with NetApp technical support, you need to add a NetApp Support Site account to Workload Factory and then register for support.
+---
+
+= Troubleshooting
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how to work around some common problems you might encounter.
+
+== Common issues and solutions
+If you have one of these issues, you can use the steps in the Workaround column to try to resolve it.
+
+[cols="1,2,2,4"]
+|===
+|Area |Issue |Cause |Workaround
+
+|Deployment
+|Deployment fails because the volume already exists.
+|Workload Factory for GenAI needs to create a new volume during the deployment process, but a volume already exists using the name you have specified.
+|Specify a unique name to use for the new volume, and try deploying again.
+
+|Deployment
+|The deployment fails because Workload Factory for GenAI is unable to mount the volume.
+|One or more of the inbound ports required for FSx for NetApp ONTAP are closed or filtered.
+a|Open the ports listed in https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/reference-security-groups-fsx.html#inbound-rules[Security group rules for FSx for ONTAP^].
+
+|Maintenance
+|The backend Docker instance used by Workload Factory for GenAI failed to start.
+|The volume was deleted and the EC2 instance was restarted.
+a|Use the following recovery steps:
+
+.Steps
+. Create a new volume on FSx for NetApp ONTAP. For example, the volume name can be `netapp_ai` and the volume path can be `/netapp_ai`.
+. SSH to the Amazon EC2 instance.
+. List the volumes:
++
+[source,console]
+----
+docker volume list
+----
+. Remove the old volume:
++
+[source,console]
+----
+docker volume rm ec2-user_persistent_folder
+----
+. Open the `docker-compose.yml` file using a text editor.
+. In the `volumes` section, change the device path to the new volume path. For example:
++
+[source,yaml]
+---- 
+volumes:
+  persistent_folder:
+    driver_opts:
+      type: 'nfs'
+      o: "addr=svm-0df66b96a890d8a72.\
+      fs-0d673008aaca12bc3.\
+      fsx.us-east-1.amazonaws.com,nolock,soft,rw"
+      device: ':/netapp_ai' # Path to new volume
+----
+
+|Maintenance
+|The backend Docker instance used by Workload Factory for GenAI failed to start.
+|The root volume was deleted.
+|Create a volume with a name and path, and then restart the backend Docker instance from Amazon EC2.
+
+|===
