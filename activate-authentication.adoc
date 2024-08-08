@@ -10,7 +10,7 @@ summary: Activate authentication for a knowledge base so that token validation a
 :imagesdir: ./media/
 
 [.lead]
-Activate authentication for a knowledge base so that token validation and ACLs are required when using the API endpoints to integrate a knowledge base with a chatbot application. When you activate authentication, you generate a JSON web token to use for API requests to a knowledge base from chatbot clients.
+Activate authentication for a knowledge base so that token validation and ACLs are required when using the API endpoints to integrate a knowledge base with a chatbot application. When you activate authentication, you configure settings for a JSON Web Token that will be used for API requests to a knowledge base from chatbot clients.
 
 .Steps
 
@@ -26,7 +26,7 @@ Activate authentication for a knowledge base so that token validation and ACLs a
 .. Provide the required information. Examples are provided, but you should obtain the values for these fields from your authentication provider:
 +
 * *Algorithms*: The signing algorithm that your authentication provider uses.
-* *Audience* (Optional): A string containing the intended recipient of the authentication token (sometimes a URL).
+* *Audience* (Optional): A string containing the intended recipient of the token (sometimes a URL).
 * *Issuer*: A string that identifies the provider that issued the token. 
 +
 For example, Amazon Cognito uses issuer strings with the following format:
