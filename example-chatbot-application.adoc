@@ -23,7 +23,7 @@ NOTE: External chat applications that integrate with this knowledge base will ne
 . link:publish-knowledgebase.html[Publish the knowledge base] to enable API access for external applications.
 +
 After a knowledge base is published, the API endpoints are accessible externally, and you can integrate the knowledge base with an external chat application (such as the example chatbot application).
-. Download the example chatbot application package from https://github.com/NetApp/FSx-ONTAP-samples-scripts/AI/GenAI-ChatBot-application-sample[GitHub^].
+. Download the example chatbot application package from https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample[GitHub^].
 . Install and run the chatbot application by following the instructions in the README file included in the package.
 . Browse to http://localhost:9091[http://localhost:9091] to log in to the application.
 +
