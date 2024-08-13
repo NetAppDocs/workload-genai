@@ -1,0 +1,40 @@
+---
+sidebar: sidebar
+permalink: example-chatbot-application.html
+keywords: ai, example, sample, chatbot, app, application, local
+summary: You can install and run an example chatbot application to test your knowledge bases and learn how to use the Workload Factory API to create your own generative AI application.
+---
+
+= Use the external example chatbot application
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you configure, activate, and publish a knowledge base, external application developers can configure and run the open source example chatbot application provided by NetApp to interact with your knowledge base and to learn how to use the Workload Factory API to create their own generative AI applications.
+
+.Steps
+
+. link:create-knowledgebase.html[Create a knowledge base].
+. link:activate-authentication.html[Activate authentication] for the knowledge base that you created.
++
+This enables the knowledge base to authenticate API requests, and makes token validation and ACLs required when using the API endpoints. 
++
+NOTE: External chat applications that integrate with this knowledge base will need to use the same authentication provider (issuer) that you configure in the authentication settings for the knowledge base.
+. link:publish-knowledgebase.html[Publish the knowledge base] to enable API access for external applications.
++
+After a knowledge base is published, the API endpoints are accessible externally, and you can integrate the knowledge base with an external chat application (such as the example chatbot application).
+. Download the example chatbot application package from https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample[GitHub^].
+. Install and run the chatbot application by following the instructions in the README file included in the package.
+. Browse to http://localhost:9091[http://localhost:9091] to log in to the application.
++
+The example chatbot application appears.
+
+== Learn more
+https://console.workloads.netapp.com/api-doc[Workload Factory API documentation]
+
+
+ 
+
+
+
+
