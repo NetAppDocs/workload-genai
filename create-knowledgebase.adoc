@@ -52,8 +52,8 @@ If you activate conversation starters, "Automatic mode" is selected by default. 
 .. *Snapshot policy*: Choose a snapshot policy from the list of existing policies defined in the Workload Factory storage inventory. You can also add or modify snapshot policies if none exist.
 
 . Select *Create knowledge base* to add the knowledge base to GenAI.
-
-. In the next page of the wizard you have the option to add a data source to your new knowledge base, or to end the process here without adding a data source. We recommend that you select *Add data source* and add one or more data sources now.
++
+In the next page of the wizard you have the option to add a data source to your new knowledge base, or to end the process here without adding a data source. We recommend that you select *Add data source* and add one or more data sources now.
 
 == Add data sources to the knowledge base
 
