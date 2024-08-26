@@ -12,6 +12,12 @@ summary: "Learn what's new with the AI workloads capability of Workload Factory.
 [.lead]
 Learn what's new with the Generative AI workloads capability of Workload Factory.
 
+== 1 September 2024
+
+=== Additional chunking strategies
+
+Generative AI workloads now supports multi-sentence chunking and overlap-based chunking for data sources.
+
 == 4 August 2024
 
 === Amazon CloudWatch Logs integration
