@@ -14,20 +14,12 @@ Learn what's new with the Generative AI workloads capability of Workload Factory
 
 == 1 September 2024
 
-Generative AI workloads now creates a dedicated Amazon FSx for NetApp ONTAP volume for each new knowledge base, enabling individual snapshot policies for each knowledge base and improved protection against failures and data poisoning.
-
-=== Additional chunking strategies
-
-Generative AI workloads now supports multi-sentence chunking and overlap-based chunking for data sources.
+include::_whatsnew/2024-09-01.adoc[]
 
 == 4 August 2024
 
-=== Amazon CloudWatch Logs integration
-
-Generative AI workloads is now integrated with Amazon CloudWatch Logs, enabling you to monitor Generative AI workloads log files.
+include::_whatsnew/2024-08-04.adoc[]
 
 == 7 July 2024
 
-=== Initial release of the Workload Factory for GenAI
-
-The initial release includes the capability to develop a knowledge base that is customized by embedding your organization's data. The knowledge base can be accessed by a chatbot application for your users. This capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.
+include::_whatsnew/2024-07-07.adoc[]
