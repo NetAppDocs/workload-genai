@@ -67,9 +67,9 @@ The GenAI deployment must be in an AWS region that has Amazon Bedrock enabled. h
 
 . Complete the items in the *Infrastructure settings* section: 
 
-.. *FSx for ONTAP file system*: Select the FSx for ONTAP file system and the storage VM where the GenAI instance database volumes will be deployed, and then specify the name you want to use for the volume.
-+
-Depending on whether or not Workload Factory has the credentials for the FSx for ONTAP file system, you may need to enter the user name and password.
+//.. *FSx for ONTAP file system*: Select the FSx for ONTAP file system and the storage VM where the GenAI instance database volumes will be deployed, and then specify the name you want to use for the volume.
+//+
+//Depending on whether or not Workload Factory has the credentials for the FSx for ONTAP file system, you may need to enter the user name and password.
 
 .. *Tags*: Enter any tag key/value pairs that you want to apply to all the AWS resources that are part of this deployment.
 
@@ -85,7 +85,7 @@ During the deployment process, the following items are set up:
 
 * The network is set up along with the private endpoints.
 * The IAM role, instance profile, and security group are created.
-* The volume for the GenAI engine database (LanceDB) is created on the FSx for ONTAP file system.
+//* The volume for the GenAI engine database (LanceDB) is created on the FSx for ONTAP file system.
 * The virtual machine instance for the GenAI engine is deployed.
 * Amazon Bedrock is configured to send logs to Amazon CloudWatch Logs, using a log group with the prefix `/aws/bedrock/`.
 * The GenAI engine is configured to send logs to Amazon CloudWatch Logs, using a log group with the name `/netapp/wlmai/<tenancyAccountId>/randomId`, where `<tenancyAccountID>` is the https://docs.netapp.com/us-en/bluexp-automation/platform/get_identifiers.html#get-the-account-identifier[BlueXP account ID^] for the current user.
