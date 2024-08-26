@@ -128,12 +128,11 @@ The knowledge base is disabled and is no longer accessible by a chatbot applicat
 
 == Delete a knowledge base
 
-If you no longer need a knowledge base, you can delete it. When you delete the knowledge base, it will be removed from Workload Factory and any applications or chatbots that are using the knowledge base will stop working. This action is not reversible.
+If you no longer need a knowledge base, you can delete it. When you delete a knowledge base, it is removed from Workload Factory and the volume that contains the knowledge base is deleted. Any applications or chatbots that are using the knowledge base will stop working. Deleting a knowledge base is not reversible.
 
-When you delete a knowledge base, you should also carry out the following actions to fully delete all resources associated with the knowledge base:
+When you delete a knowledge base, you should also disassociate the knowledge base from any agents it is associated with to fully delete all resources associated with the knowledge base.
 
-* Dissociate the knowledge base from any agents it is associated with.
-* The underlying data that was indexed from your knowledge base remains in the vector store you set up and can still be retrieved. To delete the data, you also need to delete the vector index containing the data embeddings.
+//* The underlying data that was indexed from your knowledge base remains in the vector store you set up and can still be retrieved. To delete the data, you also need to delete the vector index containing the data embeddings.
 
 .Steps
 
@@ -147,4 +146,4 @@ When you delete a knowledge base, you should also carry out the following action
 
 .Result
 
-The knowledge base is deleted from Workload Factory.
+The knowledge base is removed from Workload Factory and its associated volume is deleted.
