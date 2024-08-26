@@ -6,7 +6,7 @@ When selecting files stored using the SMB protocol, you'll need to enter the Act
 
 . *Select a data source*: Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and select *Next*.
 
-. *Define AI parameters*: In the *Chunking strategy* section, define the how the GenAI engine splits data source content into chunks when the data source is integrated with a knowledge base. You can choose one of the following methods:
+. *Define AI parameters*: In the *Chunking strategy* section, define the how the GenAI engine splits data source content into chunks when the data source is integrated with a knowledge base. You can choose one of the following strategies:
 +
 * *Multi-sentence chunking*: Organizes information from your data source into sentence-defined chunks. You can choose how many sentences make up each chunk (up to 100).
 * *Overlap-based chunking*: Organizes information from your data source into character-defined chunks that can overlap neighboring chunks. You can choose the size of each chunk in characters, and how much each chunk overlaps with adjacent chunks. You can configure a chunk size of between 50 and 3000 characters, and an overlap percentage of between 1 and 99%.

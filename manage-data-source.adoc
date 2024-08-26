@@ -30,7 +30,7 @@ It also lists the embedding information and whether that data source is currentl
 
 == Edit data source settings
 
-You can edit information about a data source that you've integrated in a knowledge base. Most of the information is fixed after you've added a data source to a knowledge base, but you can make changes to the chunking definition, and to the permission awareness (when using SMB protocol on the data source volume).
+You can edit information about a data source that you've integrated in a knowledge base. Most of the information is fixed after you've added a data source to a knowledge base, but you can make changes to the chunking definition and configuration, and to the permission awareness (when using SMB protocol on the data source volume).
 
 .Steps
 
@@ -40,9 +40,9 @@ The bottom part of the page lists the data sources that are part of this knowled
 
 . In the row of the data source that you want to edit, select image:icon-action.png[the option button] and select *Edit data source*.
 
-. In the Edit data source page, select image:button-down-caret.png[the down-arrow button] to expand the row for Chunk definition.
+. In the Edit data source page, select image:button-down-caret.png[the down-arrow button] to expand the row for chunk definition.
 
-. Update the settings for the Chunking strategy and Chunk size, and permission awareness (for SMB volumes) and select *Save*.
+. Update the settings for the chunking strategy and configuration, and permission awareness (for SMB volumes) and select *Save*.
 
 .Result 
 
