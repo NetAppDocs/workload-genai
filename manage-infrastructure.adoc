@@ -25,7 +25,8 @@ You can view information about the chatbot infrastructure.
 . View information about the infrastructure, which includes details about the following components:
 +
 * AWS settings
-* The FSx for ONTAP file system
+* Infrastructure settings
+//* The FSx for ONTAP file system
 * The AI engine
 * The vector database
 
