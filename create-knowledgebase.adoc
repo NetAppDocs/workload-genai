@@ -24,11 +24,11 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 
 . Log in to Workload Factory.
 
-. In the AI workloads tile, select *Create Chatbot*. 
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the Knowledge bases tab, select *Add knowledge base*.
 
-. In the Define knowledge base page, configure the knowledge base settings:
+. On the Define knowledge base page, configure the knowledge base settings:
 
 .. *Name*: Enter the name you want to use for the knowledge base.
 .. *Description*: Enter a detailed description for the knowledge base.
@@ -45,14 +45,17 @@ https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 .. *Chat model*: Choose from Claude chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
 +
 Learn more about the available models to help make your selection: https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
-
 .. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
-If you do activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
+If you activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
+.. *FSx for ONTAP file system*: When you define a new knowledge base, Workload Factory creates a new Amazon FSx for NetApp ONTAP volume to store it. Choose an existing file system name and SVM (also called a storage VM) where the new volume will be created.
+.. *Snapshot policy*: Choose a snapshot policy from the list of existing policies defined in the Workload Factory storage inventory.
++
+If the snapshot policy you need doesn't exist, you can https://docs.netapp.com/us-en/ontap/data-protection/create-snapshot-policy-task.html[create a snapshot policy] on the storage VM that contains the volume.
 
 . Select *Create knowledge base* to add the knowledge base to GenAI.
-
-. In the next page of the wizard you have the option to add a data source to your new knowledge base, or to end the process here without adding a data source. We recommend that you select *Add data source* and add one or more data sources now.
++
+In the next page of the wizard you have the option to add a data source to your new knowledge base, or to end the process here without adding a data source. We recommend that you select *Add data source* and add one or more data sources now.
 
 == Add data sources to the knowledge base
 
