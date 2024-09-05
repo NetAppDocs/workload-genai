@@ -61,6 +61,8 @@ sidebar:
       entries:
         - title: Register for support
           url: /support-registration.html
+        - title: Troubleshooting
+          url: /troubleshooting.html
         - title: Get help
           url: /get-help.html    
     - title: Legal notices
