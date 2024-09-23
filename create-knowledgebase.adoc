@@ -55,7 +55,9 @@ If the snapshot policy you need doesn't exist, you can https://docs.netapp.com/u
 
 . Select *Create knowledge base* to add the knowledge base to GenAI.
 +
-In the next page of the wizard you have the option to add a data source to your new knowledge base, or to end the process here without adding a data source. We recommend that you select *Add data source* and add one or more data sources now.
+A progress indicator appears while the knowledge base is created.
++
+After the knowledge base is created, you have the option to add a data source to your new knowledge base or to end the process without adding a data source. We recommend that you select *Add data source* and add one or more data sources now.
 
 == Add data sources to the knowledge base
 
@@ -75,4 +77,4 @@ include::_include/add-data-source.adoc[]
 
 The data source starts to be embedded into your knowledge base. The status changes from "Embedding" to "Embedded" when the data source is completely embedded.
 
-After you add a single data source to the knowledge base, you can test it locally in the Chatbot simulator window and make any required changes before you make the chatbot available to your users. You can also follow the same steps to add additional data sources to the knowledge base.
+After you add a single data source to the knowledge base, you can test it locally in the chatbot simulator window and make any required changes before you make the chatbot available to your users. You can also follow the same steps to add additional data sources to the knowledge base.

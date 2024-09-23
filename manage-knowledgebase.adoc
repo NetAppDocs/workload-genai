@@ -52,6 +52,44 @@ If you use Manual mode for conversation starters, you can change conversation st
 
 . Select *Save* after you have made your changes.
 
+== Protect a knowledge base
+You can protect your knowledge base data by taking and restoring snapshots of your knowledge base volumes. This enables you to protect your data against accidental loss, or test changes to the settings of the knowledge base before reverting to the original version. You can restore the previous version at any time.
+
+=== Take a snapshot of a knowledge base volume
+You can save the state of a knowledge base by taking a manual snapshot of the knowledge base volume.
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to update.
+
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
+
+. Select the *Actions* menu and select *Snapshot > Create new snapshot*.
++
+A snapshot of the knowledge base is created.
+
+=== Restore a snapshot of a knowledge base volume
+You can restore a snapshot of a knowledge base volume at any time.
+
+.Steps
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to update.
+
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
+
+. Select the *Actions* menu and select *Snapshot > Restore snapshot*.
++
+The snapshot selection dialog appears, where you can see a list of the snapshots that have been created for this knowledge base.
+. (Optional) Deselect the *Pause running and scheduled scans after restoring the snapshot* option if you want scheduled and currently running data source scans to continue after the snapshot is restored. 
++
+This option is enabled by default to ensure that a scan doesn't happen while the knowledge base is in a partially restored state, or that a scan doesn't update a freshly restored knowledge base with older data.
+. Select the snapshot you want to restore from the list.
+. Select *Restore*.
+
 == Add additional data sources to a knowledge base
 
 You can embed additional data sources in your knowledge base to populate it with additional organization data.
