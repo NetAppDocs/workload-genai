@@ -60,7 +60,7 @@ You can save the state of a knowledge base by taking a manual snapshot of the kn
 
 .Steps
 
-. From the Knowledge bases inventory page, select the knowledge base that you want to update.
+. From the Knowledge bases inventory page, select the knowledge base that you want to protect.
 
 . Select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
@@ -75,7 +75,7 @@ You can restore a snapshot of a knowledge base volume at any time.
 
 .Steps
 
-. From the Knowledge bases inventory page, select the knowledge base that you want to update.
+. From the Knowledge bases inventory page, select the knowledge base that you want to restore.
 
 . Select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
