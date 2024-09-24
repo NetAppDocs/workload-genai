@@ -71,7 +71,9 @@ This page displays the published status, embedding status of the data sources, e
 A snapshot of the knowledge base is created.
 
 === Restore a snapshot of a knowledge base volume
-You can restore a snapshot of a knowledge base volume at any time.
+You can restore a manual or scheduled snapshot of a knowledge base volume at any time.
+
+NOTE: You cannot restore a snapshot using the Generative AI workloads UI if the database stored on the volume is corrupt or has been deleted. As a workaround, you can restore the snapshot using the https://docs.netapp.com/us-en/ontap-cli/volume-snapshot-restore.html[ONTAP CLI^] on the cluster where the volume is hosted.
 
 .Steps
 
