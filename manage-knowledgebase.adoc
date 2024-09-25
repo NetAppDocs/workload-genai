@@ -55,11 +55,11 @@ If you use Manual mode for conversation starters, you can change conversation st
 == Protect a knowledge base
 You can protect your knowledge base data by taking and restoring snapshots of your knowledge base volumes. You can restore from a snapshot to revert to the previous version of the knowledge base at any time.
 
-Snapshots can be faster and more efficient than backups, and enable you to protect each knowledge base using a different protection policy. Some of the scenarios where snapshots can be useful are:
+Snapshots can be faster and more storage-efficient than backups, and enable you to protect each knowledge base using a different protection policy. Some of the scenarios where snapshots can be useful are:
 
-* Recovering from incorrect data being ingested into the knowledge base
-* Helping with testing different data sources, and reverting when the testing is complete
 * Accidental data loss or corruption
+* Recovering from incorrect data being ingested into the knowledge base
+* Testing different data sources or chunking strategies, and quickly reverting when the testing is complete
 
 === Take a snapshot of a knowledge base volume
 You can save the state of a knowledge base by taking a manual snapshot of the knowledge base volume.
