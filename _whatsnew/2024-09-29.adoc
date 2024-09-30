@@ -2,6 +2,12 @@
 
 You can now protect your Generative AI workloads data by taking a point-in-time copy of a knowledge base. This enables you to protect your data against accidental loss or test changes to the settings of the knowledge base. You can restore the previous version of the knowledge base volume at any time.
 
+link:../manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume[Take a snapshot of a knowledge base volume]
+link:manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume[Take a snapshot of a knowledge base volume]
+https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume[Take a snapshot of a knowledge base volume]
+
+https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume[Restore a snapshot of a knowledge base volume]
+
 === Pause scheduled scans
 
 You can now pause scheduled data source scans. By default, Generative AI workloads scans each data source daily to ingest new data into each knowledge base. If you don't want the latest changes to be ingested (during testing or while restoring a snapshot, for example) you can pause the scheduled scans and resume them at any time.
