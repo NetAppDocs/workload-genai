@@ -18,7 +18,9 @@ The maximum number of supported data sources is 10.
 
 == Location of data sources
 
-Data sources can be stored in a single volume, or in a folder within a volume, on an SMB share or NFS export on an Amazon FSx for NetApp ONTAP file system. You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain extraneous documents that shouldn't be integrated with your knowledge base.
+Data sources can be stored in a single volume, or in a folder within a volume, on an SMB share or NFS export on an Amazon FSx for NetApp ONTAP file system. Data sources can also be stored on Amazon FSx for NetApp ONTAP volumes that are in a NetApp SnapMirror data protection relationship. 
+
+You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain extraneous documents that shouldn't be integrated with your knowledge base.
 
 You can add multiple data sources into each knowledge base, but they all need to reside on FSx for ONTAP file systems that are accessible from your AWS account.
 
@@ -41,9 +43,9 @@ The following data source file formats are currently supported.
 | File format
 | Extension
 
-| Plain text | .txt
-| Portable document | .pdf
-| Microsoft Word | .docx
 | Comma-separated values file | .csv
-
+| Markdown | .md
+| Microsoft Word | .doc or .docx
+| Plain text | .txt
+| Portable Document Format | .pdf
 |===
