@@ -2,11 +2,13 @@
 
 You can now protect your Generative AI workloads data by taking a point-in-time copy of a knowledge base. This enables you to protect your data against accidental loss or test changes to the settings of the knowledge base. You can restore the previous version of the knowledge base volume at any time.
 
-link:../manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume[Take a snapshot of a knowledge base volume]
-link:manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume[Take a snapshot of a knowledge base volume]
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume[Take a snapshot of a knowledge base volume]
+link:../manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume[Take a snapshot of a knowledge base volume-rel]
 
-https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume[Restore a snapshot of a knowledge base volume]
+link:manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume[Take a snapshot of a knowledge base volume-same-level]
+
+https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume[Take a snapshot of a knowledge base volume-abs]
+
+https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume[Restore a snapshot of a knowledge base volume-abs]
 
 === Pause scheduled scans
 
