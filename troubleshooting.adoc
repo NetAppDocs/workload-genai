@@ -7,7 +7,7 @@ summary: Before you can open a support case with NetApp technical support, you n
 
 = Troubleshooting
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 Learn how to work around some common problems you might encounter.

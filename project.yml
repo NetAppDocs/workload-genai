@@ -31,32 +31,30 @@ sidebar:
           url: /deploy-infrastructure.html 
         - title: Use the external example chatbot application
           url: /example-chatbot-application.html
-    - title: Use GenAI to create knowledge bases
+        - title: Components for the NetApp GenAI engine
+          url: /genai-engine-instance.html  
+    - title: Use GenAI to build knowledge bases
       entries:
-        - title: Build a knowledge base
-          entries:
-            - title: Create a knowledge base
-              url: /create-knowledgebase.html
-            - title: Test a knowledge base
-              url: /test-knowledgebase.html
-            - title: Activate authentication
-              url: /activate-authentication.html
-            - title: Publish a knowledge base
-              url: /publish-knowledgebase.html
-            - title: Create a RAG-based AI application
-              url: /create-application.html
-            - title: What you can do next
-              url: /whats-next.html
-        - title: Manage data sources
-          url: /manage-data-source.html
-        - title: Manage knowledge bases
-          url: /manage-knowledgebase.html
+        - title: Create a knowledge base
+          url: /create-knowledgebase.html
+        - title: Test a knowledge base
+          url: /test-knowledgebase.html
+        - title: Activate authentication
+          url: /activate-authentication.html
+        - title: Publish a knowledge base
+          url: /publish-knowledgebase.html
+        - title: Create a RAG-based AI application
+          url: /create-application.html
+        - title: What you can do next
+          url: /whats-next.html
     - title: Administer GenAI
       entries:
         - title: Manage the GenAI infrastructure
           url: /manage-infrastructure.html
-        - title: Components for the NetApp GenAI engine
-          url: /genai-engine-instance.html
+        - title: Manage knowledge bases
+          url: /manage-knowledgebase.html
+        - title: Manage data sources
+          url: /manage-data-source.html  
     - title: Knowledge and support
       entries:
         - title: Register for support
