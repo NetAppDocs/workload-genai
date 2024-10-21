@@ -49,7 +49,7 @@ Learn more about the available models to help make your selection: https://aws.a
 +
 Several prerequisites must be complete to enable data guardrails. 
 +
-A service account is created to communicate with BlueXP classification. You must have the admin role on your tenancy account for service account creation. 
+* A service account is required to communicate with BlueXP classification. You must have the _Organization admin_ role on your BlueXP tenancy account for service account creation. A member who has the Organization admin role can complete all actions in BlueXP. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member[Learn how to add a role to a member in BlueXP^]
 +
 Additionally, to enable data guardrails, you'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[BlueXP classification documentation^]: 
 +
