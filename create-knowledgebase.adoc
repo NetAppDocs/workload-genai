@@ -47,11 +47,15 @@ https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 Learn more about the available models to help make your selection: https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
 .. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by BlueXP classification^].
 +
-To enable data guardrails, you'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[BlueXP classification documentation^]: 
+Several prerequisites must be complete to enable data guardrails. 
++
+A service account is created to communicate with BlueXP classification. You must have the admin role on your tenancy account for service account creation. 
++
+Additionally, to enable data guardrails, you'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[BlueXP classification documentation^]: 
 +
 1. Create a BlueXP Connector
 2. Ensure that your environment can meet the prerequisites
-3. Deploy BlueXP classification
+3. Deploy BlueXP classification 
 
 .. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
