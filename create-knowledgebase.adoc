@@ -22,7 +22,7 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 
 .Steps
 
-. Log in to Workload Factory.
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . In the AI workloads tile, select *Deploy & manage*. 
 

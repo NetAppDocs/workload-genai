@@ -51,7 +51,7 @@ Make sure your environment meets link:requirements.html[the requirements] before
 
 .Steps
 
-. Log in to Workload Factory.
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . In the AI workloads tile, select *Deploy & manage*.
 

@@ -13,9 +13,7 @@ summary: Ensure that Workload Factory and AWS are set up properly before you bui
 Ensure that Workload Factory and AWS are set up properly before you build your knowledge base. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system that contains the data sources you want to integrate in your knowledge base, access to the Amazon Bedrock AI service, and more.
 
 Workload Factory login and account::
-You'll need to log in to Workload Factory and create an account.
-+
-https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[Learn more about logging in and creating an account^]
+You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with Workload Factory^] and log in using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 AWS credentials and permissions::
 You need to add AWS credentials to Workload Factory with automate permissions, which means you'll be using Workload Factory in _Automate_ mode for GenAI.

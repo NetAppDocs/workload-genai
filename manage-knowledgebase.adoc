@@ -18,7 +18,9 @@ You can view information about the settings for a knowledge base and the data so
 
 .Steps
 
-. From the navigation menu, select *AI*.
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the Workload Factory navigation menu, select *AI*.
 
 . Select the knowledge base that you want to view.
 +
@@ -37,6 +39,8 @@ You can update a knowledge base by changing some settings, or you can add or rem
 Each time you add, modify, or remove data sources from the knowledge base, you must sync the data source so that it is re-indexed to the knowledge base. Syncing is incremental, so Amazon Bedrock only processes the objects in your FSx for ONTAP volume that have been added, modified, or deleted since the last sync.
 
 .Steps
+
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to update.
 
@@ -66,6 +70,8 @@ You can save the state of a knowledge base by taking a manual snapshot of the kn
 
 .Steps
 
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
 . From the Knowledge bases inventory page, select the knowledge base that you want to protect.
 
 . Select image:icon-action.png[the option button] and select *Manage knowledge base*.
@@ -82,6 +88,8 @@ You can restore a manual or scheduled snapshot of a knowledge base volume at any
 NOTE: You cannot restore a snapshot using the Generative AI workloads UI if the database stored on the volume is corrupt or has been deleted. As a workaround, you can restore the snapshot using the https://docs.netapp.com/us-en/ontap-cli/volume-snapshot-restore.html[ONTAP CLI^] on the ONTAP cluster where the volume is hosted.
 
 .Steps
+
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to restore.
 
@@ -104,6 +112,8 @@ You can embed additional data sources in your knowledge base to populate it with
 
 .Steps
 
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
 . From the Knowledge bases inventory page, select the knowledge base where you want to add the data source.
 
 . Select image:icon-action.png[the option button] and select *Add data source*. 
@@ -121,6 +131,8 @@ Data sources are synchronized with the associated knowledge base automatically o
 Syncing is incremental, so Amazon Bedrock only processes the objects in your data sources that have been added, modified, or deleted since the last sync.
 
 .Steps
+
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to synchronize.
 
@@ -142,6 +154,8 @@ NOTE: This functionality is available only when no knowledge bases have been cre
 
 .Steps
 
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
 . From the Knowledge bases inventory page, you'll see the option to select the chat model on the right side of the page for the Chatbot.
 
 . Select the chat model from the list and enter a set of questions in the prompt area to see how the chatbot responds.
@@ -159,6 +173,8 @@ After you've published your knowledge base so that it can be integrated with a c
 Unpublishing the knowledge base stops any chat applications from working. The unique API endpoint at which the knowledge base was accessible is disabled.
 
 .Steps
+
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to unpublish.
 
@@ -181,6 +197,8 @@ When you delete a knowledge base, you should also disassociate the knowledge bas
 //* The underlying data that was indexed from your knowledge base remains in the vector store you set up and can still be retrieved. To delete the data, you also need to delete the vector index containing the data embeddings.
 
 .Steps
+
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to delete.
 

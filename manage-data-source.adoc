@@ -18,7 +18,9 @@ You can view information about the contents of a data source and you can view it
 
 .Steps
 
-. From the navigation menu, select *AI*. 
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the Workload Factory navigation menu, select *AI*. 
 
 . Select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
@@ -33,6 +35,8 @@ It also lists the embedding information and whether that data source is currentl
 You can edit information about a data source that you've integrated in a knowledge base. Most of the information is fixed after you've added a data source to a knowledge base, but you can make changes to the chunking definition and configuration, and to the permission awareness (when using SMB protocol on the data source volume).
 
 .Steps
+
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the knowledge bases inventory page, select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
@@ -59,6 +63,8 @@ Data sources are synchronized with the knowledge base automatically once a day s
 If you no longer need a data source to be part of your knowledge base, you can delete it.
 
 .Steps
+
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the knowledge base inventory page, select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +

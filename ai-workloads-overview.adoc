@@ -12,11 +12,16 @@ summary: Workload Factory for GenAI enables you to integrate Amazon FSx for NetA
 [.lead]
 Workload Factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 
+== What is Workload Factory for GenAI?
+
 Workload Factory for GenAI enables you to use your enterprise data sources on Amazon FSx for NetApp ONTAP with Generative AI applications. Utilizing the Retrieval Augmentation Generation (RAG) framework, you can quickly connect data sources to Foundation Models available via Amazon Bedrock to develop Generative AI powered applications such as virtual assistants, Q&A chatbots, document summarization, content creation, etc. 
 
 Using Generative AI with your organizational data enables you to leverage your own knowledge and expertise, not rely on just the model's intelligence based on public data the models were trained on. Using RAG to customize the models ensures accurate and relevant responses to organization-specific questions, enhancing the productivity and efficiency for the users of your applications using Generative AI.
 
 Developing a GenAI application that is tailored to your organization's data enables you to leverage your own knowledge and expertise. This customization capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.
+
+For more information about Workload Factory, refer to the https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[Workload Factory overview^].
+
 
 == Benefits of using GenAI to create generative AI applications
 
@@ -53,6 +58,16 @@ GenAI helps to build generative AI applications using RAG in the following ways:
 * Automatically builds conversation starter questions based on the content in the knowledge bases.  
 
 * Provides a chat simulator for data administrators to test chatting with the knowledge bases. 
+
+
+== Tools to use Workload Factory
+
+You can use BlueXP Workload Factory with the following tools:
+
+* *Workload Factory console*: The Workload Factory console provides a visual interface that gives you a holistic view of your applications and projects.
+* *REST API*: Workload Factory REST APIs let you deploy and manage your FSx for ONTAP file systems and other AWS resources.
+* *CloudFormation*: AWS CloudFormation code lets you perform the actions you defined in the Workload Factory console to model, provision, and manage AWS and third-party resources from the CloudFormation stack in your AWS account.
+* *Terraform BlueXP Workload Factory Provider*: Terraform lets you build and manage infrastructure workflows generated in the Workload Factory console.
 
 == Cost
 
