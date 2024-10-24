@@ -12,9 +12,18 @@ summary: After you've deployed the AI infrastructure and identified the data sou
 [.lead]
 After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using Workload Factory. As part of this step, you'll also define the AI characteristics and create conversation starters.
 
-A knowledge base can be used without integrating data sources from your organization. In this case, an application integrated with the knowledge base will only provide results from publicly available information on the internet. This is known as a _public mode_ integration.
+.About this task
+Knowledge bases have two data integration modalities - _public mode_ and _Enterprise mode_. 
 
-In most cases you'll want to integrate data sources from your organization into the knowledge base. This is known as an _Enterprise mode_ integration because it provides knowledge from your enterprise.
+Public mode:: A knowledge base can be used without integrating data sources from your organization. In this case, an application integrated with the knowledge base will only provide results from publicly available information on the internet. This is known as a _public mode_ integration.
+
+Enterprise mode:: In most cases you'll want to integrate data sources from your organization into the knowledge base. This is known as an _Enterprise mode_ integration because it provides knowledge from your enterprise.
++
+Data sources from your organization may contain Private Identity Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when creating and configuring knowledge bases. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it unaccessible and irretrievable. 
++
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about BlueXP classification^].
++
+NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, Workload Factory scans the entire knowledge base from scratch, which incurs a cost.  
 
 == Create and configure the knowledge base
 
