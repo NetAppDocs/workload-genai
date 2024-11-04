@@ -12,9 +12,18 @@ summary: After you've deployed the AI infrastructure and identified the data sou
 [.lead]
 After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using workload factory. As part of this step, you'll also define the AI characteristics and create conversation starters.
 
-A knowledge base can be used without integrating data sources from your organization. In this case, an application integrated with the knowledge base will only provide results from publicly available information on the internet. This is known as a _public mode_ integration.
+.About this task
+Knowledge bases have two data integration modalities - _public mode_ and _Enterprise mode_. 
 
-In most cases you'll want to integrate data sources from your organization into the knowledge base. This is known as an _Enterprise mode_ integration because it provides knowledge from your enterprise.
+Public mode:: A knowledge base can be used without integrating data sources from your organization. In this case, an application integrated with the knowledge base will only provide results from publicly available information on the internet. This is known as a _public mode_ integration.
+
+Enterprise mode:: In most cases you'll want to integrate data sources from your organization into the knowledge base. This is known as an _Enterprise mode_ integration because it provides knowledge from your enterprise.
++
+Data sources from your organization may contain Private Identity Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when creating and configuring knowledge bases. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it inaccessible and irretrievable. 
++
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about BlueXP classification^].
++
+NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, Workload Factory scans the entire knowledge base from scratch, which incurs a cost.  
 
 == Create and configure the knowledge base
 
@@ -45,6 +54,18 @@ https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 .. *Chat model*: Choose from Claude chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
 +
 Learn more about the available models to help make your selection: https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
+.. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by BlueXP classification^].
++
+The following prerequisites must be complete to enable data guardrails. 
++
+* A service account is required to communicate with BlueXP classification. You must have the _Organization admin_ role on your BlueXP tenancy account for service account creation. A member who has the Organization admin role can complete all actions in BlueXP. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member[Learn how to add a role to a member in BlueXP^]
++
+* You'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[BlueXP classification documentation^]: 
++
+1. Create a BlueXP Connector
+2. Ensure that your environment can meet the prerequisites
+3. Deploy BlueXP classification 
+
 .. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
 If you activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
@@ -62,6 +83,9 @@ After the knowledge base is created, you have the option to add a data source to
 == Add data sources to the knowledge base
 
 You can add one or more data sources to populate the knowledge base with your organization's data.
+
+//NOTE: If you enabled data guardrails for the knowledge base, make sure you set the chunk size to #/between # and # so that Personal Identifiable Information (PII) can be found.
+//add after Chen provides range
 
 .About this task
 

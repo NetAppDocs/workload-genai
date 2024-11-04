@@ -13,6 +13,10 @@ summary: "Learn what's new with the AI workloads capability of workload factory.
 Learn what's new with the Generative AI workloads capability of workload factory.
 
 //tag::whats-new[]
+== 3 November 2024
+
+include::_whatsnew/2024-11-03.adoc[]
+
 == 29 September 2024
 
 include::_whatsnew/2024-09-29.adoc[]
