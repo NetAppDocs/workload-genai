@@ -19,7 +19,7 @@ Public mode:: A knowledge base can be used without integrating data sources from
 
 Enterprise mode:: In most cases you'll want to integrate data sources from your organization into the knowledge base. This is known as an _Enterprise mode_ integration because it provides knowledge from your enterprise.
 +
-Data sources from your organization may contain Private Identity Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when creating and configuring knowledge bases. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it unaccessible and irretrievable. 
+Data sources from your organization may contain Private Identity Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when creating and configuring knowledge bases. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it inaccessible and irretrievable. 
 +
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about BlueXP classification^].
 +
