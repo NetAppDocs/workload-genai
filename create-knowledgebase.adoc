@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: create-knowledgebase.html
 keywords: ai, chatbot, creating, knowledge base
-summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using workload factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 ---
 
 = Create a knowledge base
@@ -10,7 +10,7 @@ summary: After you've deployed the AI infrastructure and identified the data sou
 :imagesdir: ./media/
 
 [.lead]
-After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using Workload Factory. As part of this step, you'll also define the AI characteristics and create conversation starters.
+After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using workload factory. As part of this step, you'll also define the AI characteristics and create conversation starters.
 
 A knowledge base can be used without integrating data sources from your organization. In this case, an application integrated with the knowledge base will only provide results from publicly available information on the internet. This is known as a _public mode_ integration.
 
@@ -22,7 +22,7 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 
 .Steps
 
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . In the AI workloads tile, select *Deploy & manage*. 
 
@@ -32,7 +32,7 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 
 .. *Name*: Enter the name you want to use for the knowledge base.
 .. *Description*: Enter a detailed description for the knowledge base.
-.. *Embedding model*: The embedding model defines how your data will be converted into vector embeddings for the knowledge base. Workload Factory supports the following models:
+.. *Embedding model*: The embedding model defines how your data will be converted into vector embeddings for the knowledge base. Workload factory supports the following models:
 +
 * Titan Embeddings G1 - Text
 * Titan Embedding Text v2
@@ -48,8 +48,8 @@ Learn more about the available models to help make your selection: https://aws.a
 .. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
 If you activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
-.. *FSx for ONTAP file system*: When you define a new knowledge base, Workload Factory creates a new Amazon FSx for NetApp ONTAP volume to store it. Choose an existing file system name and SVM (also called a storage VM) where the new volume will be created.
-.. *Snapshot policy*: Choose a snapshot policy from the list of existing policies defined in the Workload Factory storage inventory. Recurring snapshots of the knowledge base will automatically be created at a frequency based on the snapshot policy you select.
+.. *FSx for ONTAP file system*: When you define a new knowledge base, Workload factory creates a new Amazon FSx for NetApp ONTAP volume to store it. Choose an existing file system name and SVM (also called a storage VM) where the new volume will be created.
+.. *Snapshot policy*: Choose a snapshot policy from the list of existing policies defined in the workload factory storage inventory. Recurring snapshots of the knowledge base will automatically be created at a frequency based on the snapshot policy you select.
 +
 If the snapshot policy you need doesn't exist, you can https://docs.netapp.com/us-en/ontap/data-protection/create-snapshot-policy-task.html[create a snapshot policy] on the storage VM that contains the volume.
 

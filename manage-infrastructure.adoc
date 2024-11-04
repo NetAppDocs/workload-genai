@@ -18,9 +18,9 @@ You can view information about the chatbot infrastructure.
 
 .Steps
 
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Workload Factory navigation menu, select *AI*.
+. From the workload factory navigation menu, select *AI*.
 
 . Select the *Infrastructure* tab.
 
@@ -34,11 +34,11 @@ You can view information about the chatbot infrastructure.
 
 == Remove the infrastructure
 
-If you no longer need the chatbot infrastructure that you deployed for one or more chatbots, you can remove it from Workload Factory. 
+If you no longer need the chatbot infrastructure that you deployed for one or more chatbots, you can remove it from workload factory. 
 
 NOTE: All chatbots that have been deployed on this infrastructure will be disabled and all chat history will be deleted.
 
-This operation only removes the links to the AI infrastructure from Workload Factory--it does not remove all the components from AWS. You'll need to manually delete the following infrastructure components from AWS:
+This operation only removes the links to the AI infrastructure from workload factory--it does not remove all the components from AWS. You'll need to manually delete the following infrastructure components from AWS:
 
 * The VM instance
 * Private endpoints
@@ -49,9 +49,9 @@ This operation only removes the links to the AI infrastructure from Workload Fac
 
 .Steps
 
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Workload Factory navigation menu, select *AI*.
+. From the workload factory navigation menu, select *AI*.
 
 . Select the *Infrastructure* tab.
 
@@ -61,4 +61,4 @@ This operation only removes the links to the AI infrastructure from Workload Fac
 
 .Result
 
-The chatbot infrastructure components are removed from Workload Factory.
+The chatbot infrastructure components are removed from workload factory.

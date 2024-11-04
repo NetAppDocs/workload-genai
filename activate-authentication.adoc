@@ -14,7 +14,7 @@ Activate authentication for a knowledge base so that token validation and ACLs a
 
 .Steps
 
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the Knowledge bases inventory page, select the knowledge base for which you want to activate authentication.
 

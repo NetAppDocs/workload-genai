@@ -51,7 +51,7 @@ Make sure your environment meets link:requirements.html[the requirements] before
 
 .Steps
 
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . In the AI workloads tile, select *Deploy & manage*.
 
@@ -71,11 +71,11 @@ The GenAI deployment must be in an AWS region that has Amazon Bedrock enabled. h
 
 //.. *FSx for ONTAP file system*: Select the FSx for ONTAP file system and the storage VM where the GenAI instance database volumes will be deployed, and then specify the name you want to use for the volume.
 //+
-//Depending on whether or not Workload Factory has the credentials for the FSx for ONTAP file system, you may need to enter the user name and password.
+//Depending on whether or not workload factory has the credentials for the FSx for ONTAP file system, you may need to enter the user name and password.
 
 .Result
 
-Workload Factory starts deploying the chatbot infrastructure. This process can take up to 10 minutes.
+Workload factory starts deploying the chatbot infrastructure. This process can take up to 10 minutes.
 
 During the deployment process, the following items are set up:
 

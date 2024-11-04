@@ -18,9 +18,9 @@ You can view information about the contents of a data source and you can view it
 
 .Steps
 
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Workload Factory navigation menu, select *AI*. 
+. From the workload factory navigation menu, select *AI*. 
 
 . Select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
@@ -36,7 +36,7 @@ You can edit information about a data source that you've integrated in a knowled
 
 .Steps
 
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the knowledge bases inventory page, select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
@@ -64,7 +64,7 @@ If you no longer need a data source to be part of your knowledge base, you can d
 
 .Steps
 
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the knowledge base inventory page, select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
