@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: genai-engine-instance.html
 keywords: genai engine, instance, ec2, role, iam role, permissions, security group, inbound, outbound, private endpoints
-summary: When you deploy the GenAI infrastructure, Workload Factory creates an EC2 instance for the GenAI engine. It also creates an IAM role, security group, and private endpoints for this instance. You might want to understand more details about these components that Workload Factory creates in your AWS environment.
+summary: When you deploy the GenAI infrastructure, workload factory creates an EC2 instance for the GenAI engine. It also creates an IAM role, security group, and private endpoints for this instance. You might want to understand more details about these components that workload factory creates in your AWS environment.
 ---
 
 = Components for the NetApp GenAI engine
@@ -10,7 +10,7 @@ summary: When you deploy the GenAI infrastructure, Workload Factory creates an E
 :imagesdir: ./media/
 
 [.lead]
-When you deploy the GenAI infrastructure, Workload Factory creates an EC2 instance for the GenAI engine. It also creates an IAM role, security group, and private endpoints for this instance. You might want to understand more details about these components that Workload Factory creates in your AWS environment.
+When you deploy the GenAI infrastructure, workload factory creates an EC2 instance for the GenAI engine. It also creates an IAM role, security group, and private endpoints for this instance. You might want to understand more details about these components that workload factory creates in your AWS environment.
 
 EC2 instance type::
 m5.large
@@ -36,7 +36,7 @@ Security group::
 The outbound rules are open to all traffic, while the inbound rules are completely closed.
 
 Private endpoints::
-If the target VPC doesn't already have them, Workload Factory creates private endpoints for the GenAI engine EC2 instance so that it can communicate with the following AWS services:
+If the target VPC doesn't already have them, workload factory creates private endpoints for the GenAI engine EC2 instance so that it can communicate with the following AWS services:
 +
 * Amazon Bedrock
 * Amazon EC2

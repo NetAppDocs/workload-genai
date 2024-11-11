@@ -2,25 +2,30 @@
 sidebar: sidebar
 permalink: ai-workloads-overview.html
 keywords: overview, concepts, features, use case, workloads, AI, Bedrock, knowledge base, chatbot
-summary: Workload Factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
+summary: Workload factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 ---
 
-= Learn about Workload Factory for GenAI
+= Learn about workload factory for GenAI
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Workload Factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
+Workload factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 
-Workload Factory for GenAI enables you to use your enterprise data sources on Amazon FSx for NetApp ONTAP with Generative AI applications. Utilizing the Retrieval Augmentation Generation (RAG) framework, you can quickly connect data sources to Foundation Models available via Amazon Bedrock to develop Generative AI powered applications such as virtual assistants, Q&A chatbots, document summarization, content creation, etc. 
+== What is workload factory for GenAI?
+
+Workload factory for GenAI enables you to use your enterprise data sources on Amazon FSx for NetApp ONTAP with Generative AI applications. Utilizing the Retrieval Augmentation Generation (RAG) framework, you can quickly connect data sources to Foundation Models available via Amazon Bedrock to develop Generative AI powered applications such as virtual assistants, Q&A chatbots, document summarization, content creation, etc. 
 
 Using Generative AI with your organizational data enables you to leverage your own knowledge and expertise, not rely on just the model's intelligence based on public data the models were trained on. Using RAG to customize the models ensures accurate and relevant responses to organization-specific questions, enhancing the productivity and efficiency for the users of your applications using Generative AI.
 
 Developing a GenAI application that is tailored to your organization's data enables you to leverage your own knowledge and expertise. This customization capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.
 
+For more information about workload factory, refer to the https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[workload factory overview^].
+
+
 == Benefits of using GenAI to create generative AI applications
 
-Workload Factory for GenAI simplifies the process to deploy infrastructure needed to build Generative AI applications using Retrieval Augmented Generation (RAG). Specifically, GenAI provides the following benefits: 
+Workload factory for GenAI simplifies the process to deploy infrastructure needed to build Generative AI applications using Retrieval Augmented Generation (RAG). Specifically, GenAI provides the following benefits: 
 
 * Without needing a deep knowledge of data infrastructure, foundation and language models, IT administrators and developers can accelerate application development by utilizing the automation provided by GenAI. Data administrators and developers can easily and quickly create enterprise knowledge bases that embed your organization's unstructured data to be used by generative AI applications. 
 
@@ -40,7 +45,7 @@ GenAI uses your organization's private data to complement the model's intelligen
 
 image:diagram-chatbot-processing.png[A diagram showing GenAI key components, their function, and how it works.]
 
-== How Workload Factory for GenAI helps to build Generative AI applications
+== How workload factory for GenAI helps to build Generative AI applications
 
 GenAI helps to build generative AI applications using RAG in the following ways: 
 
@@ -54,12 +59,23 @@ GenAI helps to build generative AI applications using RAG in the following ways:
 
 * Provides a chat simulator for data administrators to test chatting with the knowledge bases. 
 
+
+== Tools to use workload factory
+
+You can use BlueXP workload factory with the following tools:
+
+* *Workload factory console*: The Workload factory console provides a visual interface that gives you a holistic view of your applications and projects.
+* *BlueXP console*: The BlueXP console provides a hybrid interface experience so that you can use BlueXP workload factory along with other BlueXP services.
+* *REST API*: Workload factory REST APIs let you deploy and manage your FSx for ONTAP file systems and other AWS resources.
+* *CloudFormation*: AWS CloudFormation code lets you perform the actions you defined in the workload factory console to model, provision, and manage AWS and third-party resources from the CloudFormation stack in your AWS account.
+* *Terraform BlueXP workload factory Provider*: Terraform lets you build and manage infrastructure workflows generated in the workload factory console.
+
 == Cost
 
-There is no cost for using the GenAI capability of Workload Factory. 
+There is no cost for using the GenAI capability of workload factory. 
 
 However, you'll need to pay for AWS resources that you deploy in order to support the generative AI infrastructure. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine EC2 instance. 
 
 == Licensing 
 
-No special licenses are needed from NetApp to use the AI capabilities of Workload Factory.
+No special licenses are needed from NetApp to use the AI capabilities of workload factory.
