@@ -1,12 +1,12 @@
 indexpage:
-  title: Workload Factory for GenAI documentation
+  title: Workload factory for GenAI documentation
   lead: "Integrate data from your FSx for ONTAP file systems with your MLOps platforms and GenAI foundation models to create functional chatbots using organizational data."
   summary: "Integrate data from your FSx for ONTAP file systems with your MLOps platforms and GenAI foundation models to create functional chatbots using organizational data."
   keywords: AI, GenAI, ML, Chatbot, FSx, FSx for ONTAP, knowledge base
   tiles:
     - title: Get started
       links:
-        - title: Learn about Workload Factory for GenAI
+        - title: Learn about workload factory for GenAI
           url: ai-workloads-overview.html
         - title: Quick start
           url: quick-start.html

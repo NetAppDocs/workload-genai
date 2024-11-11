@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: troubleshooting.html
 keywords: support registration, register for support, support, nss account, add nss account,
-summary: Before you can open a support case with NetApp technical support, you need to add a NetApp Support Site account to Workload Factory and then register for support.
+summary: Before you can open a support case with NetApp technical support, you need to add a NetApp Support Site account to workload factory and then register for support.
 ---
 
 = Troubleshooting
@@ -21,16 +21,16 @@ If you have one of these issues, you can use the steps in the Workaround column 
 
 |Deployment
 |Deployment fails because the volume already exists.
-|Workload Factory for GenAI needs to create a new volume during the deployment process, but a volume already exists using the name you have specified.
+|Workload factory for GenAI needs to create a new volume during the deployment process, but a volume already exists using the name you have specified.
 |Specify a unique name to use for the new volume, and try deploying again.
 
 |Deployment
-|The deployment fails because Workload Factory for GenAI is unable to mount the volume.
+|The deployment fails because workload factory for GenAI is unable to mount the volume.
 |One or more of the inbound ports required for FSx for NetApp ONTAP are closed or filtered.
 a|Open the ports listed in https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/reference-security-groups-fsx.html#inbound-rules[Security group rules for FSx for ONTAP^].
 
 |Maintenance
-|The backend Docker instance used by Workload Factory for GenAI failed to start.
+|The backend Docker instance used by workload factory for GenAI failed to start.
 |The volume was deleted and the EC2 instance was restarted.
 a|Use the following recovery steps:
 
@@ -65,7 +65,7 @@ volumes:
 ----
 
 |Maintenance
-|The backend Docker instance used by Workload Factory for GenAI failed to start.
+|The backend Docker instance used by workload factory for GenAI failed to start.
 |The root volume was deleted.
 |Create a volume with a name and path, and then restart the backend Docker instance from Amazon EC2.
 

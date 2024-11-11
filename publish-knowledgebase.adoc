@@ -14,11 +14,13 @@ After you've built and tested your knowledge base locally, you can publish the k
 
 .About this task
 
-Publishing the knowledge base enables you to use it in chat applications. The publish action triggers the Workload Factory API to generate and publish unique endpoints. After publishing, the knowledge base becomes accessible for chat applications, and the API endpoints are ready for integration.
+Publishing the knowledge base enables you to use it in chat applications. The publish action triggers the workload factory API to generate and publish unique endpoints. After publishing, the knowledge base becomes accessible for chat applications, and the API endpoints are ready for integration.
 
 Each knowledge base that you publish has unique endpoints.
 
 .Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to publish.
 
@@ -28,13 +30,13 @@ This page displays the published status, embedding status of the data sources, e
 
 . Select the *Actions* menu and select *Publish*.
 +
-Workload Factory publishes the knowledge base. On the details page for the knowledge base, the status changes from *Unpublished* to *Published.*
+Workload factory publishes the knowledge base. On the details page for the knowledge base, the status changes from *Unpublished* to *Published.*
 +
 You can now get details about the unique endpoint for the knowledge base.
 
 . Next to the published status, select *View*.
 +
-Details about how to access the knowledge base using the Workload Factory API is displayed.
+Details about how to access the knowledge base using the workload factory API is displayed.
 
 . From the *View published info* dialog box, copy the API endpoints that you can use to integrate the knowledge base with an application.
 +
