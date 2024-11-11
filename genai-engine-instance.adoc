@@ -43,3 +43,5 @@ If the target VPC doesn't already have them, workload factory creates private en
 * Amazon Elastic Container Registry (ECR)
 * Amazon S3
 * AWS Systems Manager (SSM)
+* Amazon FSx for NetApp ONTAP
+* Amazon CloudWatch
