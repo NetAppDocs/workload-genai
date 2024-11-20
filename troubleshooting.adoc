@@ -69,4 +69,14 @@ volumes:
 |The root volume was deleted.
 |Create a volume with a name and path, and then restart the backend Docker instance from Amazon EC2.
 
+|Maintenance
+|The backend Docker instance used by workload factory for GenAI failed to start.
+|The root volume was deleted.
+|Create a volume with a name and path, and then restart the backend Docker instance from Amazon EC2.
+
+|Maintenance
+|The AI engine fails to start, and you see the error "AI engine instance error" on the *Knowledge bases* page.
+|The AI engine instance was corrupted or doesn't exist.
+|Select the *Rebuild* button. Workload factory for GenAI rebuilds the infrastructure and displays the rebuild progress. When complete, your knowledge bases are reconnected to the rebuilt infrastructure and the list of knowledge bases is displayed.
+
 |===
