@@ -1,0 +1,11 @@
+=== Rebuild corrupted or missing GenAI infrastructure
+
+If your AI engine instance becomes corrupted or is somehow deleted, you can rebuild it.
+
+link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html[Troubleshooting]
+
+=== Clone a knowledgebase from a snapshot
+Workload factory for GenAI now supports cloning a knowledgebase from a snapshot.
+
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base[Clone a knowledge base]
