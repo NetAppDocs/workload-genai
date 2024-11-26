@@ -124,7 +124,7 @@ This page displays the published status, embedding status of the data sources, e
 . Select the *Actions* menu and select *Snapshot > Clone knowledge base*.
 +
 The clone dialog appears.
-. Optionally, deselect the *Pause running and scheduled scans after restoring the snapshot* option if you want scheduled and currently running data source scans to continue after the snapshot is restored.
+. Optionally, deselect the *Pause running and scheduled scans after cloning the snapshot* option if you want scheduled and currently running data source scans to continue after the snapshot is cloned.
 +
 This option is enabled by default to ensure that a scan doesn't happen while the knowledge base is in a partially restored state, or that a scan doesn't update a freshly restored knowledge base with older data.
 . Select the snapshot you want to clone from the list.
