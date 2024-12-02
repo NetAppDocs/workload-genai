@@ -21,16 +21,50 @@ If you have one of these issues, you can use the steps in the Workaround column 
 
 |Deployment
 |Deployment fails because the volume already exists.
-|Workload factory for GenAI needs to create a new volume during the deployment process, but a volume already exists using the name you have specified.
+|BlueXP workload factory for GenAI needs to create a new volume during the deployment process, but a volume already exists using the name you have specified.
 |Specify a unique name to use for the new volume, and try deploying again.
 
 |Deployment
-|The deployment fails because workload factory for GenAI is unable to mount the volume.
+|The deployment fails because BlueXP workload factory for GenAI is unable to mount the volume.
 |One or more of the inbound ports required for FSx for NetApp ONTAP are closed or filtered.
-a|Open the ports listed in https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/reference-security-groups-fsx.html#inbound-rules[Security group rules for FSx for ONTAP^].
+a|Open the following inbound ports:
+[cols="10,10,80",width=100%,options="header"]
+!===
+! Protocol
+! Port
+! Purpose
+! All ICMP ! All ! Pinging the instance
+! HTTPS !	443 ! Access from the Connector to fsxadmin management LIF to send API calls to FSx
+! SSH !	22 ! SSH access to the IP address of the cluster management LIF or a node management LIF
+! TCP !	111 !	Remote procedure call for NFS
+! TCP !	139 ! NetBIOS service session for CIFS
+! TCP !	161-162 !	Simple network management protocol
+! TCP !	445 !	Microsoft SMB/CIFS over TCP with NetBIOS framing
+! TCP !	635 !	NFS mount
+! TCP !	749 !	Kerberos
+! TCP !	2049 !	NFS server daemon
+! TCP !	3260 !	iSCSI access through the iSCSI data LIF
+! TCP !	4045 !	NFS lock daemon
+! TCP ! 4046 ! Network status monitor for NFS
+! TCP !	10000 !	Backup using NDMP
+! TCP !	11104 !	Management of intercluster communication sessions for SnapMirror
+! TCP ! 11105 ! SnapMirror data transfer using intercluster LIFs
+! UDP !	111 ! Remote procedure call for NFS
+! UDP !	161-162 !	Simple network management protocol
+! UDP !	635 !	NFS mount
+! UDP !	2049 ! NFS server daemon
+! UDP !	4045 ! NFS lock daemon
+! UDP ! 4046 ! Network status monitor for NFS
+! UDP ! 4049 ! NFS rquotad protocol
+!===
 
 |Maintenance
-|The backend Docker instance used by workload factory for GenAI failed to start.
+|The AI engine fails to start, and you see the error "AI engine instance error" on the *Knowledge bases* page.
+|The AI engine instance was corrupted or doesn't exist.
+|Select the *Rebuild* button. BlueXP workload factory for GenAI rebuilds the infrastructure and displays the rebuild progress. When complete, your knowledge bases are reconnected to the rebuilt infrastructure and the list of knowledge bases is displayed.
+
+|Maintenance
+|The backend Docker instance used by BlueXP workload factory for GenAI failed to start.
 |The volume was deleted and the EC2 instance was restarted.
 a|Use the following recovery steps:
 
@@ -65,7 +99,12 @@ volumes:
 ----
 
 |Maintenance
-|The backend Docker instance used by workload factory for GenAI failed to start.
+|The backend Docker instance used by BlueXP workload factory for GenAI failed to start.
+|The root volume was deleted.
+|Create a volume with a name and path, and then restart the backend Docker instance from Amazon EC2.
+
+|Maintenance
+|The backend Docker instance used by BlueXP workload factory for GenAI failed to start.
 |The root volume was deleted.
 |Create a volume with a name and path, and then restart the backend Docker instance from Amazon EC2.
 

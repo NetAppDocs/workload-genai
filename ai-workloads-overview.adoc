@@ -2,19 +2,19 @@
 sidebar: sidebar
 permalink: ai-workloads-overview.html
 keywords: overview, concepts, features, use case, workloads, AI, Bedrock, knowledge base, chatbot
-summary: Workload factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
+summary: BlueXP workload factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 ---
 
-= Learn about workload factory for GenAI
+= Learn about BlueXP workload factory for GenAI
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
 Workload factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
 
-== What is workload factory for GenAI?
+== What is BlueXP workload factory for GenAI?
 
-Workload factory for GenAI enables you to use your enterprise data sources on Amazon FSx for NetApp ONTAP with Generative AI applications. Utilizing the Retrieval Augmentation Generation (RAG) framework, you can quickly connect data sources to Foundation Models available via Amazon Bedrock to develop Generative AI powered applications such as virtual assistants, Q&A chatbots, document summarization, content creation, etc. 
+BlueXP workload factory for GenAI enables you to use your enterprise data sources on Amazon FSx for NetApp ONTAP with Generative AI applications. Utilizing the Retrieval Augmentation Generation (RAG) framework, you can quickly connect data sources to Foundation Models available via Amazon Bedrock to develop Generative AI powered applications such as virtual assistants, Q&A chatbots, document summarization, content creation, etc. 
 
 Using Generative AI with your organizational data enables you to leverage your own knowledge and expertise, not rely on just the model's intelligence based on public data the models were trained on. Using RAG to customize the models ensures accurate and relevant responses to organization-specific questions, enhancing the productivity and efficiency for the users of your applications using Generative AI.
 
@@ -25,7 +25,7 @@ For more information about workload factory, refer to the https://docs.netapp.co
 
 == Benefits of using GenAI to create generative AI applications
 
-Workload factory for GenAI simplifies the process to deploy infrastructure needed to build Generative AI applications using Retrieval Augmented Generation (RAG). Specifically, GenAI provides the following benefits: 
+BlueXP workload factory for GenAI simplifies the process to deploy infrastructure needed to build Generative AI applications using Retrieval Augmented Generation (RAG). Specifically, GenAI provides the following benefits: 
 
 * Without needing a deep knowledge of data infrastructure, foundation and language models, IT administrators and developers can accelerate application development by utilizing the automation provided by GenAI. Data administrators and developers can easily and quickly create enterprise knowledge bases that embed your organization's unstructured data to be used by generative AI applications. 
 
@@ -45,7 +45,7 @@ GenAI uses your organization's private data to complement the model's intelligen
 
 image:diagram-chatbot-processing.png[A diagram showing GenAI key components, their function, and how it works.]
 
-== How workload factory for GenAI helps to build Generative AI applications
+== How BlueXP workload factory for GenAI helps to build Generative AI applications
 
 GenAI helps to build generative AI applications using RAG in the following ways: 
 
