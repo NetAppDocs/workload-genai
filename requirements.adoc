@@ -29,7 +29,7 @@ https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn ho
 Amazon Bedrock::
 Amazon Bedrock enables you to use foundation models and it provides the capabilities to build generative AI applications.
 +
-Before you get started with workload factory for GenAI, you must set up Amazon Bedrock. Your GenAI deployment must be in an AWS region that has Amazon Bedrock enabled.
+Before you get started with BlueXP workload factory for GenAI, you must set up Amazon Bedrock. Your GenAI deployment must be in an AWS region that has Amazon Bedrock enabled.
 +
 * https://docs.aws.amazon.com/bedrock/latest/userguide/setting-up.html[AWS documentation: Set up Amazon Bedrock^]
 * https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html[AWS documentation: Supported regions and models for Knowledge bases for Amazon Bedrock^]

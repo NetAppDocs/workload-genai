@@ -43,7 +43,7 @@ image:diagram-chatbot-infrastructure.png[A diagram of the AI chatbot components.
 
 == Deploy the GenAI infrastructure
 
-You'll need to enter your AWS credentials and select the FSx for ONTAP file system to deploy the Retrieval Augmentation Generation (RAG) infrastructure.
+You'll need to enter your AWS credentials and select the FSx for ONTAP file system to deploy the retrieval-augmented generation (RAG) infrastructure.
 
 .Before you begin
 
@@ -68,6 +68,8 @@ The GenAI deployment must be in an AWS region that has Amazon Bedrock enabled. h
 .. *Key pair*: Select a key pair that allows you to securely connect to the NetApp GenAI engine instance.
 
 . Select *Deploy* to begin the deployment.
++
+NOTE: If deployment fails with a credentials error, you can get further error details by selecting the hyperlinks within the error message. You can see a list of permissions that are missing or blocked, as well as a list of permissions that the GenAI workload needs so that it can deploy the GenAI infrastructure.
 
 //.. *FSx for ONTAP file system*: Select the FSx for ONTAP file system and the storage VM where the GenAI instance database volumes will be deployed, and then specify the name you want to use for the volume.
 //+

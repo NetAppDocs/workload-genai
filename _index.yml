@@ -6,7 +6,7 @@ indexpage:
   tiles:
     - title: Get started
       links:
-        - title: Learn about workload factory for GenAI
+        - title: Learn about BlueXP workload factory for GenAI
           url: ai-workloads-overview.html
         - title: Quick start
           url: quick-start.html
