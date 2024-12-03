@@ -5,7 +5,7 @@ keywords: ai, example, sample, chatbot, app, application, local
 summary: You can install and run an example chatbot application to test your knowledge bases and learn how to use the workload factory API to create your own generative AI application.
 ---
 
-= Use the external example chatbot application
+= Use the GenAI external example chatbot application
 :icons: font
 :imagesdir: ./media/
 

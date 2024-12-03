@@ -5,7 +5,7 @@ keywords: data sources, chatbot, documents, knowledge base
 summary: Identify, or create, the documents (data sources) that reside on your FSx for ONTAP file system that you'll integrate in your knowledge base. These data sources enable the knowledge base to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
 ---
 
-= Identify the data sources to integrate in your knowledge base
+= Identify the data sources to integrate in your GenAI knowledge base
 :icons: font
 :imagesdir: ./media/
 
