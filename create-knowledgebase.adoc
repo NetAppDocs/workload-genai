@@ -60,7 +60,7 @@ The following prerequisites must be complete to enable data guardrails.
 +
 * A service account is required to communicate with BlueXP classification. You must have the _Organization admin_ role on your BlueXP tenancy account for service account creation. A member who has the Organization admin role can complete all actions in BlueXP. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member[Learn how to add a role to a member in BlueXP^]
 +
-* The AI engine must have access to the link:https://console.bluexp.netapp.com/[BlueXP console^]
+* The AI engine must have access to the BlueXP API endpoint: \https://api.bluexp.netapp.com.
 + 
 * You'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[BlueXP classification documentation^]: 
 +
