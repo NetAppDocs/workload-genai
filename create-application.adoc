@@ -5,7 +5,7 @@ keywords: ai, chatbot, creating, application, knowledge base, rag, retrieval aug
 summary: After you build your knowledge base and test your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
 ---
 
-= Create a RAG-based AI application
+= Create a RAG-based GenAI application
 :icons: font
 :imagesdir: ./media/
 

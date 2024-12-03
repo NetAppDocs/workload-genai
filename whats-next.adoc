@@ -5,7 +5,7 @@ keywords: what you can do, knowledge base
 summary: Now that you've created a knowledge base using your enterprise data and deployed it for your users, you can manage the knowledge base, data sources, and the RAG infrastructure, including FSx for ONTAP file systems.
 ---
 
-= What you can do next
+= What you can do next with GenAI
 :icons: font
 :imagesdir: ./media/
 

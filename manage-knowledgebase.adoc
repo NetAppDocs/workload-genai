@@ -5,7 +5,7 @@ keywords: ai, chatbot, managing, knowledge base
 summary: After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.
 ---
 
-= Manage knowledge bases
+= Manage GenAI knowledge bases
 :icons: font
 :imagesdir: ./media/
 
