@@ -23,9 +23,9 @@ Data sources from your organization may contain Private Identity Information (PI
 +
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about BlueXP classification^].
 +
-NOTE: BlueXP workload factory for GenAI does not mask sensitive personal information (SPii). Refer to link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data[Types of sensitive personal data^] for more information about this type of data.
+NOTE: BlueXP workload factory for GenAI does not mask sensitive personal information (SPii). Refer to link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data[types of sensitive personal data^] for more information about this type of data.
 +
-NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, Workload Factory scans the entire knowledge base from scratch, which incurs a cost.  
+NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, workload factory scans the entire knowledge base from scratch, which incurs a cost.  
 
 == Create and configure the knowledge base
 
