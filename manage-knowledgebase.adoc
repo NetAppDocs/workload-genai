@@ -81,6 +81,10 @@ You can save the state of a knowledge base by taking a manual snapshot of the kn
 This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
 
 . Select the *Actions* menu and select *Snapshot > Create new snapshot*.
+. Optionally, select *Define snapshot name* and enter a custom name for the snapshot.
++
+Defining a custom name can help you better determine the contents of a snapshot if you need to restore it in the future.
+. Select *Create*.
 +
 A snapshot of the knowledge base is created.
 
