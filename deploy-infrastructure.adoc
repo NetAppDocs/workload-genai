@@ -64,9 +64,11 @@ Make sure your environment meets link:requirements.html[the requirements] before
 The GenAI deployment must be in an AWS region that has Amazon Bedrock enabled. https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html[View the list of supported regions^]
 
 . Complete the items in the *Infrastructure settings* section: 
-.. *Tags*: Enter any tag key/value pairs that you want to apply to all the AWS resources that are part of this deployment.
+.. *Tags*: Enter any tag key/value pairs that you want to apply to all the AWS resources that are part of this deployment. These tags are visible in the AWS Management Console and the infrastructure information area within workload factory, and can help you keep track of workload factory resources.
+. Complete the *Connectivity* section:
 .. *Key pair*: Select a key pair that allows you to securely connect to the NetApp GenAI engine instance.
-
+. Complete the *AI engine* section:
+.. *Instance name*: Optionally, select *Define instance name* and enter a custom name for the AI engine instance. The instance name appears in the AWS Management Console and the infrastructure information area within workload factory, and can help you keep track of workload factory resources.
 . Select *Deploy* to begin the deployment.
 +
 NOTE: If deployment fails with a credentials error, you can get further error details by selecting the hyperlinks within the error message. You can see a list of permissions that are missing or blocked, as well as a list of permissions that the GenAI workload needs so that it can deploy the GenAI infrastructure.

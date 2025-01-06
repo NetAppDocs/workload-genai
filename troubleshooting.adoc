@@ -64,6 +64,26 @@ a|Open the following inbound ports:
 |Select the *Rebuild* button. BlueXP workload factory for GenAI rebuilds the infrastructure and displays the rebuild progress. When complete, your knowledge bases are reconnected to the rebuilt infrastructure and the list of knowledge bases is displayed.
 
 |Maintenance
+|The AI engine fails to start, and you see the error "The GenAI engine instance is stopped" on the *Knowledge bases* page.
+|The AI engine instance is not running.
+|Use the AWS Management Console or the AWS CLI to start the AI engine instance.
+
+|Maintenance
+|The AI engine fails to start, and you see the error "The GenAI engine server is not responding" on the *Knowledge bases* page.
+|The AI engine instance is not responding.
+a|Use the following recovery steps:
+
+.Steps
+. Modify the GenAI engine instance security group to enable SSH access to the GenAI engine instance.
+. Log in to the instance using SSH.
+. Run the following command:
++
+[source,console]
+----
+docker-compose up
+----
+
+|Maintenance
 |The backend Docker instance used by BlueXP workload factory for GenAI failed to start.
 |The volume was deleted and the EC2 instance was restarted.
 a|Use the following recovery steps:
