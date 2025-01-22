@@ -1,0 +1,21 @@
+=== File filtering for data source scans
+GenAI now supports selecting specific file types to include in the data source scan when you add a data source. You can choose specific file types to include or exclude, or you can filter by choosing a modification date range for the included files. 
+Be aware: 
+- If you include using a modification date range, be aware that as soon as the date range is not satisfied (the files have not been modified within the date range you specify), the files will be removed from the scan, and the data source will not include these files.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base[Add data sources to the knowledge base]
+
+=== Multi-modal file type support for chat models
+GenAI now provides multi-modal file support for information retrieval. If you choose image files, the text from the images is scanned into the data source and used as data. This extends to PDF parsing - if you include PDF file types, images within each PDF are scanned for text, and that text is included in the information from the data source. If you select image file types, the chat model you use for the knowledge base must support images. You cannot switch to a chat model that doesn't support images if you have selected image file support in the data source. Multi-modal support incurs a higher processor time cost to scan images for text information. 
+Be aware:
+- When you change chat models, GenAI will re-scan the associated data source.
+- When including text data from images, GenAI is unable to mask PII from the image as the scanned text data is sent from your environment to AWS. However, once the data is stored, all PII is masked in the GenAI database.
+ 
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base[Add data sources to the knowledge base]
+
+=== Hybrid search and rerank support
+
+GenAI can now enhance the relevance of search results by using hybrid search and re-ranking the results. Hybrid search combines keyword searches with vector and semantic searching. The standard keyword search results are augmented with close matches and linguistic nuance, enhancing relevance. GenAI can re-rank search results and only return results with the highest relevance. These features are available through Amazon AWS and are region-dependent. To use hybrid search and rerank features, you need to make sure you have enabled the correct AWS permissions.
+
+link:#[New topic for permissions work]
+
