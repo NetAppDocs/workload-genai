@@ -29,7 +29,7 @@ NOTE: Your choice to include image files in scans is related to the knowledge ba
 +
 NOTE: If you include files based on a modification date range, as soon as the date range is not satisfied (the files have not been modified within the date range you specify), the files will be excluded from the periodic scan, and the data source will not include these files.
 
-. In the *Permission aware* section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable the selection:
+. In the *Permission aware* section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable permission-aware responses:
 +
 * *Enabled*: Users of the chatbot who access this knowledge base will only get responses to queries from data sources to which they have access.
 * *Disabled*: Users of the chatbot will receive responses using content from all integrated data sources.
