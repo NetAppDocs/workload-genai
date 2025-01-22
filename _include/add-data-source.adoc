@@ -17,7 +17,11 @@ NOTE: Choosing a high overlap percentage can greatly increase storage requiremen
 
 * *File filtering*: Configure which files are included in scans.
 +
-** In the *File types support* section, choose to either include all types of files, or select individual file types for inclusion in the data source scans. If you include images or PDF files, BlueXP workload factory for GenAI parses text in the images (including images in PDF documents), and this incurs a higher cost. When including text data from images, GenAI is unable to mask Personally-Identifiable Information (PII) from the image as the scanned text data is sent from your environment to AWS. However, once the data is stored, all PII is masked in the GenAI database.
+** In the *File types support* section, choose to either include all types of files, or select individual file types for inclusion in the data source scans. 
++
+If you include images or PDF files, BlueXP workload factory for GenAI parses text in the images (including images in PDF documents), and this incurs a higher cost. 
++
+When including text data from images, GenAI is unable to mask Personally-Identifiable Information (PII) from the image as the scanned text data is sent from your environment to AWS. However, once the data is stored, all PII is masked in the GenAI database.
 +
 NOTE: Your choice to include image files in scans is related to the knowledge base chat model. If you include image files in scans, the chat model must support images. If image file types are selected here, you cannot switch the knowledge base to a chat model that does not support image files. 
 
