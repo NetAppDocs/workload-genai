@@ -6,17 +6,19 @@ When selecting files stored using the SMB protocol, you'll need to enter the Act
 
 . *Select a data source*: Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and select *Next*.
 
-. *Configurations > Define data source*: In the *Chunking strategy* section, define the how the GenAI engine splits data source content into chunks when the data source is integrated with a knowledge base. You can choose one of the following strategies:
+. *Configurations*: Configure how the data source ingests information from your files, and which files it includes in scans. 
 +
-* *Multi-sentence chunking*: Organizes information from your data source into sentence-defined chunks. You can choose how many sentences make up each chunk (up to 100).
-* *Overlap-based chunking*: Organizes information from your data source into character-defined chunks that can overlap neighboring chunks. You can choose the size of each chunk in characters, and how much each chunk overlaps with adjacent chunks. You can configure a chunk size of between 50 and 3000 characters, and an overlap percentage of between 1 and 99%.
+* *Define data source*: In the *Chunking strategy* section, define the how the GenAI engine splits data source content into chunks when the data source is integrated with a knowledge base. You can choose one of the following strategies:
++
+** *Multi-sentence chunking*: Organizes information from your data source into sentence-defined chunks. You can choose how many sentences make up each chunk (up to 100).
+** *Overlap-based chunking*: Organizes information from your data source into character-defined chunks that can overlap neighboring chunks. You can choose the size of each chunk in characters, and how much each chunk overlaps with adjacent chunks. You can configure a chunk size of between 50 and 3000 characters, and an overlap percentage of between 1 and 99%.
 +
 NOTE: Choosing a high overlap percentage can greatly increase storage requirements with only slight improvements in retrieval accuracy.
 
-. *Configurations > File filtering*: 
+* *File filtering*: Configure which files are included in scans.
 +
-* In the *File types support* section, choose to either include all types of files, or select individual file types for inclusion in the data source scans.
-* In the *File modification time filter* section, choose to enable or disable inclusion of files based on their modification time. If you enable modification time filtering, you need to choose a date range from the list.
+** In the *File types support* section, choose to either include all types of files, or select individual file types for inclusion in the data source scans.
+** In the *File modification time filter* section, choose to enable or disable inclusion of files based on their modification time. If you enable modification time filtering, you need to choose a date range from the list.
 +
 NOTE: If you include files based on a modification date range, as soon as the date range is not satisfied (the files have not been modified within the date range you specify), the files will be excluded from the periodic scan, and the data source will not include these files.
 
