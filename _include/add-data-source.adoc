@@ -18,6 +18,9 @@ NOTE: Choosing a high overlap percentage can greatly increase storage requiremen
 * *File filtering*: Configure which files are included in scans.
 +
 ** In the *File types support* section, choose to either include all types of files, or select individual file types for inclusion in the data source scans.
++
+NOTE: Your choice to include image files in scans is related to the chat model the knowledge base is configured with. To include image files in scans, the chat model must support images. You cannot switch the knowledge base to a chat model that does not support image files while image file types are selected here. 
+
 ** In the *File modification time filter* section, choose to enable or disable inclusion of files based on their modification time. If you enable modification time filtering, you need to choose a date range from the list.
 +
 NOTE: If you include files based on a modification date range, as soon as the date range is not satisfied (the files have not been modified within the date range you specify), the files will be excluded from the periodic scan, and the data source will not include these files.
