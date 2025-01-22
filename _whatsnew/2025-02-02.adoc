@@ -15,7 +15,7 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 === Hybrid search and rerank support
 
-GenAI can now enhance the relevance of search results by using hybrid search and re-ranking the results. Hybrid search combines keyword searches with vector and semantic searching. The standard keyword search results are augmented with close matches and linguistic nuance, enhancing relevance. GenAI can re-rank search results and only return results with the highest relevance. These features are available through Amazon AWS and are region-dependent. To use hybrid search and rerank features, you need to make sure you have enabled the correct AWS permissions.
+GenAI can now enhance the relevance of search results by using hybrid search and re-ranking the results. Hybrid search combines keyword searches with vector and semantic searching. The standard keyword search results are augmented with close matches and linguistic nuance, enhancing relevance. GenAI can then re-rank search results and only return results with the highest relevance. These features are available through Amazon AWS and are region-dependent. To use hybrid search and rerank features, you need to make sure you have enabled the correct AWS permissions.
 
 link:#[New topic for permissions work]
 
