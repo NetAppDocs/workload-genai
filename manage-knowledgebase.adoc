@@ -54,7 +54,7 @@ This page displays the published status, embedding status of the data sources, e
 +
 If you use Manual mode for conversation starters, you can change conversation starters here as well.
 +
-NOTE: Every knowledge base scan, which includes embedding, costs. If data guardrails is enabled after a knowledge base has been created, then the knowledge base gets scanned again and incurs costs.
+NOTE: Every knowledge base scan, which includes embedding, costs. If data guardrails is enabled after a knowledge base has been created, then the knowledge base gets scanned again and incurs costs. Similarly, if you change chat models, GenAI will re-scan the associated data source (incurring a cost).
 +
 . Select *Save* after you have made your changes.
 
