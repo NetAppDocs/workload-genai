@@ -37,7 +37,9 @@ BlueXP workload factory for GenAI simplifies the process to deploy infrastructur
 
 * Improve data protection and availability posture by deploying the generative AI data infrastructure on FSx for NetApp ONTAP file systems and taking advantage of ONTAP features such as high availability, snapshots for local data protection and recovery, SnapMirror for disaster recovery, and SnapVault for backing up your data infrastructure. 
 
-* Reduce overall storage costs for generative AI data infrastructure by taking advantage of ONTAP data efficiency features such as data deduplication, compression and compaction, data tiering, and thin provisioning.  
+* Reduce overall storage costs for generative AI data infrastructure by taking advantage of ONTAP data efficiency features such as data deduplication, compression and compaction, data tiering, and thin provisioning. 
+
+* Increase relevancy of results by utilizing the hybrid search and rerank features provided by GenAI. Hybrid search combines keyword searches with vector and semantic searching. The standard keyword search results are augmented with close matches and linguistic nuance, enhancing relevance. GenAI can re-rank search results and only return results with the highest relevance. These features are available through Amazon AWS and are region-dependent.
 
 == How GenAI works
 

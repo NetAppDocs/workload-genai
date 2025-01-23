@@ -34,6 +34,8 @@ Before you get started with BlueXP workload factory for GenAI, you must set up A
 * https://docs.aws.amazon.com/bedrock/latest/userguide/setting-up.html[AWS documentation: Set up Amazon Bedrock^]
 * https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html[AWS documentation: Supported regions and models for Knowledge bases for Amazon Bedrock^]
 
+GenAI re-ranks search results by default to improve result relevancy. For the best results, ensure that your Amazon Bedrock foundation model configuration includes access to a re-rank model, such as Cohere Rerank or Amazon Rerank, if available in your region.
+
 Embedding model::
 You must enable the embedding model that you plan to use before creating your knowledge base. The following embedding models are supported:
 +
