@@ -17,5 +17,5 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 GenAI now enhances the relevance of search results by using hybrid search and re-ranking the results. Hybrid search combines keyword searches with vector and semantic searching. The standard keyword search results are augmented with close matches and linguistic nuance, enhancing relevance. GenAI re-ranks the search results and only returns results with the highest relevance.
 
-link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html[New topic for permissions work]
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications[Learn about BlueXP workload factory for GenAI]
 
