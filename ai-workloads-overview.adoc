@@ -39,7 +39,7 @@ BlueXP workload factory for GenAI simplifies the process to deploy infrastructur
 
 * Reduce overall storage costs for generative AI data infrastructure by taking advantage of ONTAP data efficiency features such as data deduplication, compression and compaction, data tiering, and thin provisioning. 
 
-* Increase relevancy of results by utilizing the hybrid search and rerank features provided by GenAI. Hybrid search combines keyword searches with vector and semantic searching. The standard keyword search results are augmented with close matches and linguistic nuance, enhancing relevance. GenAI can re-rank search results and only return results with the highest relevance. These features are available through Amazon AWS and are region-dependent.
+* Get high quality results from your data with the hybrid search and re-rank features provided by GenAI. Hybrid search combined with re-ranking greatly improve the relevance of search results. These features are available through Amazon AWS and are region-dependent.
 
 == How GenAI works
 
