@@ -6,7 +6,7 @@ When selecting files stored using the SMB protocol, you'll need to enter the Act
 
 . *Select a data source*: Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and select *Next*.
 
-. *Configurations*: Configure how the data source ingests information from your files, and which files it includes in scans. 
+. *Configurations*: Configure how the data source ingests information from your files, and which files it includes in scans: 
 +
 * *Define data source*: In the *Chunking strategy* section, define the how the GenAI engine splits data source content into chunks when the data source is integrated with a knowledge base. You can choose one of the following strategies:
 +
@@ -15,7 +15,7 @@ When selecting files stored using the SMB protocol, you'll need to enter the Act
 +
 NOTE: Choosing a high overlap percentage can greatly increase storage requirements with only slight improvements in retrieval accuracy.
 
-* *File filtering*: Configure which files are included in scans.
+* *File filtering*: Configure which files are included in scans:
 +
 ** In the *File types support* section, choose to either include all types of files, or select individual file types for inclusion in the data source scans. 
 +
