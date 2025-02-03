@@ -37,7 +37,9 @@ BlueXP workload factory for GenAI simplifies the process to deploy infrastructur
 
 * Improve data protection and availability posture by deploying the generative AI data infrastructure on FSx for NetApp ONTAP file systems and taking advantage of ONTAP features such as high availability, snapshots for local data protection and recovery, SnapMirror for disaster recovery, and SnapVault for backing up your data infrastructure. 
 
-* Reduce overall storage costs for generative AI data infrastructure by taking advantage of ONTAP data efficiency features such as data deduplication, compression and compaction, data tiering, and thin provisioning.  
+* Reduce overall storage costs for generative AI data infrastructure by taking advantage of ONTAP data efficiency features such as data deduplication, compression and compaction, data tiering, and thin provisioning. 
+
+* Get high quality results from your data with the hybrid search and re-rank features provided by GenAI. Hybrid search combined with re-ranking greatly improve the relevance of search results. These features are available through Amazon AWS and are region-dependent.
 
 == How GenAI works
 
@@ -74,7 +76,9 @@ You can use BlueXP workload factory with the following tools:
 
 There is no cost for using the GenAI capability of workload factory. 
 
-However, you'll need to pay for AWS resources that you deploy in order to support the generative AI infrastructure. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine EC2 instance. 
+However, you'll need to pay for AWS resources that you deploy in order to support the generative AI infrastructure. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine EC2 instance.
+
+Some multi-modal operations, such as scanning images for text information, can use more resources and therefore incur a higher cost. Some configuration operations, such as changing settings for a knowledgebase, can cause data sources to be re-scanned, and data source scans can also incur a higher cost.
 
 == Licensing 
 
