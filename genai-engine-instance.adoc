@@ -179,14 +179,14 @@ Private endpoints::
 If the target VPC doesn't already have them, workload factory creates private endpoints for the GenAI engine EC2 instance so that it can communicate with the following AWS services:
 +
 * Amazon Bedrock
-** Bedrock
-** Bedrock-runtime
-** Bedrock-agent-runtime
+** bedrock
+** bedrock-runtime
+** bedrock-agent-runtime
 * Amazon Elastic Container Registry (ECR)
 ** API
-** Docker
+** docker
 * AWS Systems Manager (SSM)
-** SSM
+** ssm
 ** ec2messages
 ** ssmmessages
 * Amazon FSx for NetApp ONTAP
