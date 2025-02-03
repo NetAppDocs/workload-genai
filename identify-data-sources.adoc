@@ -48,4 +48,8 @@ The following data source file formats are currently supported.
 | Microsoft Word | .doc or .docx
 | Plain text | .txt
 | Portable Document Format | .pdf
+| JPEG | .jpg or.jpeg 
+| Portable Network Graphics | .png
+| Graphics Interchange Format | .gif 
+| WebP image | .webp
 |===
