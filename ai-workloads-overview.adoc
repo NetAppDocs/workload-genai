@@ -74,7 +74,9 @@ You can use BlueXP workload factory with the following tools:
 
 There is no cost for using the GenAI capability of workload factory. 
 
-However, you'll need to pay for AWS resources that you deploy in order to support the generative AI infrastructure. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine EC2 instance. 
+However, you'll need to pay for AWS resources that you deploy in order to support the generative AI infrastructure. For example, you will pay AWS for the Amazon Bedrock AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine EC2 instance.
+
+Some multi-modal operations, such as scanning images for text information, can use more resources and therefore incur a higher cost. Some configuration operations, such as changing settings for a knowledgebase, can cause data sources to be re-scanned, and data source scans can also incur a higher cost.
 
 == Licensing 
 
