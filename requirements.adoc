@@ -47,7 +47,9 @@ You must enable the embedding model that you plan to use before creating your kn
 https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 
 Chat model::
-You must enable the foundational chat model that you plan to use before creating your knowledge base. GenAI supports the following Anthropic Claude and Amazon Nova models:
+You must enable the foundational chat model that you plan to use before creating your knowledge base. Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page^] to verify which models you can use in the regions where you plan to deploy your knowledge base. 
++
+GenAI supports the following Anthropic Claude and Amazon Nova models:
 +
 * Anthropic Claude:
 ** Claude 3.5 Sonnet
@@ -62,14 +64,9 @@ You must enable the foundational chat model that you plan to use before creating
 ** Nova Pro (supports images and text)
 
 +
-[NOTE]
-====
-Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page^] to verify which models you can use in the regions where you plan to deploy your knowledge base.
-
-Learn more about using Anthropic's Claude: https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
-
-Learn more about using Amazon Nova: https://docs.aws.amazon.com/nova/latest/userguide/getting-started-console.html[Getting started with Amazon Nova in the Amazon Bedrock console^]
-====
+Learn more about using these models with Amazon Bedrock:
+* https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
+* https://docs.aws.amazon.com/nova/latest/userguide/getting-started-console.html[Getting started with Amazon Nova in the Amazon Bedrock console^]
 
 FSx for ONTAP file system::
 You need a minimum of one FSx for ONTAP file system:
