@@ -47,7 +47,7 @@ You must enable the embedding model that you plan to use before creating your kn
 https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 
 Chat model::
-You must enable the foundational chat model that you plan to use before creating your knowledge base. Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page^] to verify which models you can use in the regions where you plan to deploy your knowledge base. 
+You must enable the foundational chat model that you plan to use before creating your knowledge base. Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[the AWS documentation^] to verify which models you can use in the regions where you plan to deploy your knowledge base. 
 +
 GenAI supports the following Anthropic Claude and Amazon Nova models:
 +
