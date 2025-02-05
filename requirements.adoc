@@ -63,10 +63,10 @@ You must enable the foundational chat model that you plan to use before creating
 
 +
 Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page^] to verify which models you can use in the regions where you plan to deploy your knowledge base.
-
-Learn more about using Amazon Nova: https://docs.aws.amazon.com/nova/latest/userguide/getting-started-console.html[Getting started with Amazon Nova in the Amazon Bedrock console^]
-
++
 Learn more about using Anthropic's Claude: https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
++
+Learn more about using Amazon Nova: https://docs.aws.amazon.com/nova/latest/userguide/getting-started-console.html[Getting started with Amazon Nova in the Amazon Bedrock console^]
 
 FSx for ONTAP file system::
 You need a minimum of one FSx for ONTAP file system:
