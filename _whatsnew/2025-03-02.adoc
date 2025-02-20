@@ -1,0 +1,18 @@
+=== General chat interface improvements
+You can now copy questions and responses directly to the clipboard, adjust the size of the chat window, and change its title. Additionally, chat responses can now include tables, which are also copyable.
+
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications[Learn about BlueXP workload factory for GenAI]
+
+=== Chat response citation support
+Chat responses now include citations that list the chunks of data that were used to generate the response. 
+
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications[Learn about BlueXP workload factory for GenAI]
+
+=== Enhanced file type support
+This release of GenAI provides enhanced file support:
+
+* Chat models feature improved CSV support. This enables more useful responses when using data from CSV files.
+* Some chat models now support ingesting Apache Parquet files.
+* Some chat models now support ingesting Microsoft Word documents that include tables (DOC and DOCX) and images (DOCX only).
+ 
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications[Learn about BlueXP workload factory for GenAI]
