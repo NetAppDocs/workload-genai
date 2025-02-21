@@ -12,7 +12,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html[Test a
 This release of GenAI provides enhanced file support:
 
 * Chat models feature improved CSV support. This enables more useful responses when querying data from CSV files.
-* Some chat models now support ingesting Apache Parquet files.
-* Some chat models now support ingesting Microsoft Word documents that include tables (DOC and DOCX) and images (DOCX only).
+* GenAI can now ingest Apache Parquet files from data sources.
+* GenAI now supports ingesting Microsoft Word documents that include tables (DOC and DOCX) and images (DOCX only).
  
 link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications[Learn about BlueXP workload factory for GenAI]
