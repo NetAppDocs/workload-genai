@@ -20,6 +20,8 @@ You can test a knowledge base by chatting with your embedded data sources in the
 
 You'll perform most of your testing within workload factory before you deploy the knowledge base in an application for your users. If you need to make changes to your data source or the chatbot operation, you'll want to do it now before you publish your knowledge base.
 
+You can resize and retitle the chatbot simulator window, and copy questions and responses to the clipboard.
+
 Some of the tasks you'll want to perform to test your chatbot are:
 
 * Enter a large number of questions that are relevant to your organization to make sure the answers are as expected.
@@ -33,5 +35,11 @@ Some of the tasks you'll want to perform to test your chatbot are:
 The chatbot simulator appears in the right pane. If defined, existing conversation starters are displayed as well.
 
 . In the chatbot entry field, enter a prompt or question and select image:button-run.png[the run button] to see how your chatbot responds with your organizational knowledge.
++
+[TIP]
+=====
+* You can see the sources used to produce the answer by expanding the *Sources* list under the response. This provides a list of files used to generate the answer. You can see and copy the data chunks used from each file by hovering over the file name.
+* If tables are included in the response, you can sort the data in each column, and copy each table to the clipboard.
+=====
 
 . If you need to update any of your data sources so that your knowledge base provides more focused answers, make those changes now and then retest the knowledge base.
