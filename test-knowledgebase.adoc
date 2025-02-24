@@ -38,7 +38,7 @@ The chatbot simulator appears in the right pane. If defined, existing conversati
 +
 [TIP]
 =====
-* You can see the sources used to produce the answer by expanding the *Sources* list under the response. This provides a list of files used to generate the answer. You can see and copy the data chunks used from each file by hovering over the file name.
+* You can see the sources used to produce the answer by expanding the *Sources* list under the response. This provides a list of files used to generate the answer. You can view and copy the data chunks used from each file and volume path to each file by hovering over the file name. 
 * If tables are included in the response, you can sort the data in each column, and copy each table to the clipboard.
 =====
 

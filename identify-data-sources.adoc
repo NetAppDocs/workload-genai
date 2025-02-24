@@ -43,7 +43,7 @@ The following data source file formats are currently supported.
 | File format
 | Extension
 
-| Apache Parquet | .parquet or .pqt
+| Apache Parquet | .parquet
 | Comma-separated values file | .csv
 | Graphics Interchange Format | .gif 
 | JPEG | .jpg or.jpeg 
