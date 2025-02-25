@@ -13,6 +13,6 @@ This release of GenAI provides enhanced file support:
 
 * Chat models feature improved CSV support. This enables more useful responses when querying data from CSV files.
 * GenAI can now ingest Apache Parquet files from data sources.
-* GenAI now supports ingesting Microsoft Word documents that include tables (DOC and DOCX) and images (DOCX only).
+* GenAI now supports ingesting Microsoft Word DOCX files that include images.
  
 link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats[Supported data source file formats]
