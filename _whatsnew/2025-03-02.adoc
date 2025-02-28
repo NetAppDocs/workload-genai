@@ -1,4 +1,4 @@
-=== Chatbot simulator enhancements
+=== Embedded chatbot enhancements
 You can now copy questions and responses directly to the clipboard, adjust the size of the chat window, and change its title. Additionally, chat responses can now include tables, which are also copyable.
 
 link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html[Test a GenAI knowledge base]
