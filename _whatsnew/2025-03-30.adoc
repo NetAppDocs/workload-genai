@@ -1,12 +1,12 @@
 === Enhanced file type support
-This release of GenAI introduces JSON file support.
+This release of GenAI introduces JSON and JSONP file format support when ingensting .json files from data sources. JSON files with nested objects are supported, with limited support for nested arrays.
 
 link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats[Supported data source file formats]
 
 === Internationalization support for the external chatbot sample application
-You can now interact with the GenAI sample external chatbot application using either English or Japanese locales.
+You can now change the UI of the GenAI sample external chatbot application to a different locale.
 
-link:https://docs.netapp.com/us-en/workload-genai/example-chatbot-application.html[Use the GenAI external example chatbot application]
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application[GenAI external sample chatbot application]
 
 === Support for the Anthropic Claude Sonnet 3.7 chat model
 GenAI now includes partial support for the Anthropic Claude 3.7 Sonnet chat model. With this GenAI release, extended thinking mode is currently not supported.
@@ -14,6 +14,6 @@ GenAI now includes partial support for the Anthropic Claude 3.7 Sonnet chat mode
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html[Create a GenAI knowledge base]
 
 === VPC peering support
-You can now deploy GenAI infrastructure across peered Virtual Private Clouds (VPCs). You can deploy the AI engine in a VPC and then create a knowledge base in a peered VPC. You can also select Amazon FSx for NetApp ONTAP filesystems that reside in a peered VPC.
+You can now deploy GenAI infrastructure across peered Virtual Private Clouds (VPCs) that are in the same region and use the same AWS account. You can deploy the AI engine in a VPC and then create a knowledge base in a peered VPC. You can also select Amazon FSx for NetApp ONTAP filesystems that reside in a peered VPC.
 
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html[Create a GenAI knowledge base]
