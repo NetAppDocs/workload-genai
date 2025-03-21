@@ -1,6 +1,6 @@
 === Enhanced file type support
 This release of GenAI introduces JSON file support.
- 
+
 link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats[Supported data source file formats]
 
 === Internationalization support for the external chatbot sample application
