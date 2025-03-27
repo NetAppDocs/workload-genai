@@ -71,7 +71,10 @@ The following prerequisites must be met to enable data guardrails.
 +
 1. Create a BlueXP Connector
 2. Ensure that your environment can meet the prerequisites
-3. Deploy BlueXP classification 
+3. Deploy BlueXP classification
+
++
+NOTE: The data guardrails feature is not supported when ingesting structured data files such as CSV, JSON, JSONP, or Parquet.
 
 .. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
