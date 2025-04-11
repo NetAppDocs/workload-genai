@@ -53,22 +53,28 @@ Note that you must have already enabled the embedding model from Amazon Bedrock.
 +
 https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 
-.. *Chat model*: Choose from Claude chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
+.. *Chat model*: Choose from Anthropic Claude or Amazon Nova chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
 +
-Learn more about the available models to help make your selection: https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
+Learn more about using these models with Amazon Bedrock:
++
+* https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
+* https://docs.aws.amazon.com/nova/latest/userguide/getting-started-console.html[Getting started with Amazon Nova in the Amazon Bedrock console^]
 .. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by BlueXP classification^].
 +
-The following prerequisites must be complete to enable data guardrails. 
+The following prerequisites must be met to enable data guardrails. 
 +
 * A service account is required to communicate with BlueXP classification. You must have the _Organization admin_ role on your BlueXP tenancy account for service account creation. A member who has the Organization admin role can complete all actions in BlueXP. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member[Learn how to add a role to a member in BlueXP^]
 +
-* The AI engine must have access to the BlueXP API endpoint: \https://api.bluexp.netapp.com.
+* The AI engine must have access to the link:https://api.bluexp.netapp.com[BlueXP API endpoint^].
 + 
 * You'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[BlueXP classification documentation^]: 
 +
 1. Create a BlueXP Connector
 2. Ensure that your environment can meet the prerequisites
-3. Deploy BlueXP classification 
+3. Deploy BlueXP classification
+
++
+NOTE: The data guardrails feature is not supported when ingesting structured data files such as CSV, JSON, JSONP, or Parquet.
 
 .. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
