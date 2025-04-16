@@ -29,7 +29,7 @@ link:requirements.html[Learn more about GenAI requirements^].
 
 [role="quick-margin-para"]
 The data sources that you'll integrate in your knowledge base can be located on a single FSx for ONTAP file system, or on multiple FSx for ONTAP file systems. If these systems are in different VPCs, they must use one of the two following configurations:
-
++
 * Accessible within the same network
 * The VPCs must be peered and using the same region and AWS account as the AI engine
 
