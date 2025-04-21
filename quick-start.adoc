@@ -28,10 +28,7 @@ link:requirements.html[Learn more about GenAI requirements^].
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Identify the FSx for ONTAP file system that contains the data sources
 
 [role="quick-margin-para"]
-The data sources that you'll integrate in your knowledge base can be located on a single FSx for ONTAP file system, or on multiple FSx for ONTAP file systems. If these systems are in different VPCs, they must use one of the two following configurations:
-
-* Accessible within the same network
-* The VPCs must be peered and using the same region and AWS account as the AI engine
+The data sources that you'll integrate in your knowledge base can be located on a single FSx for ONTAP file system, or on multiple FSx for ONTAP file systems. If these systems are in different VPCs, they must either be accessible within the same network, or the VPCs must be peered and using the same region and AWS account as the AI engine.
 
 [role="quick-margin-para"]
 link:identify-data-sources.html[Learn how to identify data sources^].
@@ -46,4 +43,4 @@ link:deploy-infrastructure.html[Learn how to deploy the knowledge base infrastru
 
 .What's next
 
-You can now build a knowledge base to provide organization-focused responses to end users.
+You can now build a knowledge base to provide organization-focused responses to end users. 
