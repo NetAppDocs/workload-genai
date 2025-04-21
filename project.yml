@@ -47,6 +47,14 @@ sidebar:
           url: /create-application.html
         - title: What you can do next
           url: /whats-next.html
+    - title: Connect GenAI with an external AI assistant
+      entries:
+        - title: Define a connector
+          url: /define-connector.html
+        - title: Create a RAG-based AI application
+          url: /create-application.html
+        - title: What you can do next
+          url: /whats-next.html
     - title: Administer GenAI
       entries:
         - title: Manage the GenAI infrastructure

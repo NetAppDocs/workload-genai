@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: create-knowledgebase.html
-keywords: ai, chatbot, creating, knowledge base
-summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using workload factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+permalink: define-connector.html
+keywords: ai, chatbot, connector, amazon q
+summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your connector configuration, you can define a connector.
 ---
 
-= Create a GenAI knowledge base
+= Define an external AI assistant connector
 :icons: font
 :imagesdir: ./media/
 
