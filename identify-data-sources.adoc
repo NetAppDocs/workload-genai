@@ -40,7 +40,7 @@ NOTE: When using Amazon Q Business connector, only user permissions apply to dat
 
 The following data source file formats are currently supported.
 
-[cols=2*,options="header,autowidth"]
+[cols=3*,options="header,autowidth"]
 |===
 | File format
 | Extension
