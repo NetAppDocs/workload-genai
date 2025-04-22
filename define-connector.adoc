@@ -10,10 +10,10 @@ summary: After you've deployed the AI infrastructure and identified the data sou
 :imagesdir: ./media/
 
 [.lead]
-After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using workload factory. As part of this step, you'll also define the AI characteristics and create conversation starters.
+After you've deployed the AI infrastructure and identified the data sources that you'll use with the connector from your FSx for ONTAP datastores, you are ready to define the connectore using workload factory. 
 
 .About this task
-Knowledge bases have two data integration modalities - _public mode_ and _Enterprise mode_. 
+Connectors have two data integration modalities - _public mode_ and _Enterprise mode_. 
 
 Public mode:: A knowledge base can be used without integrating data sources from your organization. In this case, an application integrated with the knowledge base will only provide results from publicly available information on the internet. This is known as a _public mode_ integration.
 
