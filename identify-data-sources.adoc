@@ -34,6 +34,8 @@ When storing your data source on a share (file or directory) accessed over SMB, 
 
 For example, if you have integrated 10 files (data sources) into your knowledge base, and 2 of the files are human resources files that contain restricted information, only chatbot users who are authenticated to access those 2 files will received responses from the chatbot that include data from those files.
 
+NOTE: When using Amazon Q Business connector, only user permissions apply to data source files. Group permissions are not applied.
+
 == Supported data source file formats
 
 The following data source file formats are currently supported.
@@ -42,16 +44,67 @@ The following data source file formats are currently supported.
 |===
 | File format
 | Extension
+| Service
 
-| Apache Parquetfootnote:disclaimer[The data guardrails feature is not supported when ingesting structured data files.] | .parquet
-| Comma-separated values filefootnote:disclaimer[] | .csv
-| Graphics Interchange Format | .gif 
-| JPEG | .jpg or.jpeg
-| JSON and JSONPfootnote:disclaimer[] | .json
-| Markdown | .md
-| Microsoft Word | .doc or .docx
-| Plain text | .txt
-| Portable Document Format | .pdf
-| Portable Network Graphics | .png
-| WebP image | .webp
+| Apache Parquetfootnote:disclaimer[The data guardrails feature is not supported when ingesting structured data files.] 
+| .parquet 
+| Amazon Bedrock knowledge base
+
+| Comma-separated values filefootnote:disclaimer[] 
+| .csv 
+a| 
+
+* Amazon Bedrock knowledge base
+* Amazon Q Business connector
+
+| Graphics Interchange Format 
+| .gif 
+| Amazon Bedrock knowledge base
+
+| JPEG 
+| .jpg or.jpeg 
+| Amazon Bedrock knowledge base
+
+| JSON and JSONPfootnote:disclaimer[] 
+| .json 
+a| 
+
+* Amazon Bedrock knowledge base
+* Amazon Q Business connector
+
+| Markdown 
+| .md 
+a| 
+
+* Amazon Bedrock knowledge base
+* Amazon Q Business connector
+
+| Microsoft Word 
+| .doc or .docx 
+a| 
+
+* Amazon Bedrock knowledge base
+* Amazon Q Business connector
+
+| Plain text 
+| .txt 
+a| 
+
+* Amazon Bedrock knowledge base
+* Amazon Q Business connector
+
+| Portable Document Format 
+| .pdf 
+a| 
+
+* Amazon Bedrock knowledge base
+* Amazon Q Business connector
+
+| Portable Network Graphics 
+| .png 
+| Amazon Bedrock knowledge base
+
+| WebP image 
+| .webp 
+| Amazon Bedrock knowledge base
 |===
