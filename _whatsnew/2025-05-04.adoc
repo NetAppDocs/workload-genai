@@ -3,6 +3,9 @@ This release of GenAI introduces the ability to connect with Amazon Q Business.
 
 link:https://docs.netapp.com/us-en/workload-genai/define-connector.html[Define an external AI assistant connector]
 
+=== Enhanced support for chat models
+GenAI now supports more chat models, such as 
+
 
 
 
