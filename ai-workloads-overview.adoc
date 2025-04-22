@@ -20,8 +20,9 @@ Using Generative AI with your organizational data enables you to leverage your o
 
 Developing a GenAI application that is tailored to your organization's data enables you to leverage your own knowledge and expertise. This customization capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.
 
-For more information about workload factory, refer to the https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[workload factory overview^].
+If you link:create-knowledgebase.html[create a knowledge base^], GenAI ingests data from your data sources, stores the vectorized results in a database, and gives you full control over how to use the ingested data to answer queries. This approach requires more initial configuration, but enables you to choose different chat models for different results. If you link:define-connector.html[define a connector] to Amazon Q Business, data from your data sources is ingested by Amazon Q and stored in an index. This approach requires less initial configuration, but gives you less control over the results. 
 
+For more information about workload factory, refer to the https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[workload factory overview^].
 
 == Benefits of using GenAI to create generative AI applications
 
@@ -57,9 +58,11 @@ GenAI helps to build generative AI applications using RAG in the following ways:
 
 * Ingests source data into the knowledge base or connector to embed source files on SMB shares and NFS exports on FSx for ONTAP file systems along with storing file permissions for files within SMB shares.  
 
-* Automatically builds conversation starter questions based on the content in the knowledge bases or in Amazon Q Business.  
+* Automatically builds conversation starter questions based on the content in knowledge bases.  
 
-* Provides a chat simulator for data administrators to test chatting with the knowledge bases or with Amazon Q Business. 
+* Provides a chat simulator for data administrators to test chatting with knowledge bases. 
+
+* Provides a simple connector interface so you can connect GenAI with Amazon Q Business, quickly and easily utilizing the capabilities of this AI assistant. 
 
 
 == Tools to use workload factory
