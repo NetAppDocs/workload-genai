@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: define-connector.html
-keywords: ai, chatbot, connector, amazon q
+keywords: ai, chatbot, connector, 
 summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate with Amazon Q Business, you can define a connector.
 ---
 

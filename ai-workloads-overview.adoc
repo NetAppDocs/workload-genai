@@ -20,7 +20,7 @@ Using Generative AI with your organizational data enables you to leverage your o
 
 Developing a GenAI application that is tailored to your organization's data enables you to leverage your own knowledge and expertise. This customization capability ensures accurate and relevant responses to organization-specific questions, enhancing the satisfaction and productivity for all of your users.
 
-If you link:create-knowledgebase.html[create a knowledge base^], GenAI ingests data from your data sources, stores the vectorized results in a database, and gives you full control over how to use the ingested data to answer queries. This approach requires more initial configuration, but enables you to choose different chat models for different results. If you link:define-connector.html[define a connector] to Amazon Q Business, data from your data sources is ingested by Amazon Q and stored in an index. This approach requires less initial configuration, but gives you less control over the results. 
+If you link:create-knowledgebase.html[create a knowledge base^], GenAI ingests data from your data sources, stores the vectorized results in a database, and gives you full control over how to use the ingested data to answer queries. This approach requires more initial configuration, but enables you to choose different chat models for different results. If you link:define-connector.html[define a connector] to Amazon Q Business, data from your data sources is ingested by Amazon Q Business and stored in an index. This approach requires less initial configuration, but gives you less control over the results. 
 
 For more information about workload factory, refer to the https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[workload factory overview^].
 
@@ -79,7 +79,7 @@ You can use BlueXP workload factory with the following tools:
 
 There is no cost for using the GenAI capability of workload factory. 
 
-However, you'll need to pay for AWS resources that you deploy in order to support the generative AI infrastructure. For example, you will pay AWS for the Amazon Bedrock or Amazon Q Business AI service, FSx for ONTAP file system and storage capacity, and the GenAI engine EC2 instance.
+However, you'll need to pay for AWS resources that you deploy in order to support the generative AI infrastructure. For example, you will pay AWS for Amazon Bedrock or Amazon Q Business, FSx for ONTAP file system and storage capacity, and the GenAI engine EC2 instance.
 
 Some multi-modal operations, such as scanning images for text information, can use more resources and therefore incur a higher cost. Some configuration operations, such as changing settings for a knowledgebase, can cause data sources to be re-scanned, and data source scans can also incur a higher cost.
 

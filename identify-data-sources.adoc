@@ -34,7 +34,7 @@ When storing your data source on a share (file or directory) accessed over SMB, 
 
 For example, if you have integrated 10 files (data sources) into your knowledge base, and 2 of the files are human resources files that contain restricted information, only chatbot users who are authenticated to access those 2 files will received responses from the chatbot that include data from those files.
 
-NOTE: When you add data sources to a connector, only user permissions apply to data source files. Group permissions are not applied.
+NOTE: When you add data sources to an Amazon Q Business connector, only user permissions apply to data source files. Group permissions are not applied.
 
 == Supported data source file formats
 
