@@ -12,7 +12,7 @@ summary: After you create a knowledge base, you can view the knowledge base deta
 [.lead]
 After you integrate with Amazon Q Business, you can view the connector details, modify the connector, integrate additional data sources, or delete the connector.
 
-== View information about a knowledge base
+== View information about a connector
 
 You can view information about the settings for a connector and the data sources that are integrated.
 
@@ -40,7 +40,7 @@ Each time you add, modify, or remove data sources from the connector, GenAI need
 
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Knowledge bases inventory page, select the connector that you want to update.
+. From the Knowledge bases & Connectors inventory page, select the connector that you want to update.
 
 . Select image:icon-action.png[the option button] and select *Manage connector*.
 +
@@ -50,7 +50,7 @@ This page displays the published status, embedding status of the data sources, e
 
 . In the Edit connector page, you can change the connector name, description, embedding model, data guardrails enablement, and the snapshot policy used for the volume that contains the connector.
 +
-NOTE: Every data source scan, which includes embedding, incurs a cost. If you enable data guardrails after a knowledge base has been created, then the data source gets scanned again and incurs costs. 
+NOTE: Every data source scan, which includes embedding, incurs a cost. If you enable data guardrails after a connector has been created, then the data source gets scanned again and incurs costs. 
 +
 . Select *Save* after you have made changes.
 
@@ -64,15 +64,15 @@ Snapshots can be faster and more storage-efficient than backups, and enable you 
 * Testing different data sources or chunking strategies, and quickly reverting when the testing is complete
 
 === Take a snapshot of a connector volume
-You can save the state of a knowledge base by taking a manual snapshot of the connector volume.
+You can save the state of a connector by taking a manual snapshot of the connector volume.
 
 .Steps
 
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Knowledge bases inventory page, select the knowledge base that you want to protect.
+. From the Knowledge bases & Connectors inventory page, select the connector that you want to protect.
 
-. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
+. Select image:icon-action.png[the option button] and select *Manage connector*.
 +
 This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
 
@@ -82,9 +82,9 @@ This page displays the published status, embedding status of the data sources, e
 Defining a custom name can help you better determine the contents of a snapshot if you need to restore it in the future.
 . Select *Create*.
 +
-A snapshot of the knowledge base is created.
+A snapshot of the connector is created.
 
-=== Restore a snapshot of a knowledge base volume
+=== Restore a snapshot of a connector volume
 You can restore a manual or scheduled snapshot of a connector volume at any time.
 
 NOTE: You cannot restore a snapshot using the Generative AI workloads UI if the database stored on the volume is corrupt or has been deleted. As a workaround, you can restore the snapshot using the https://docs.netapp.com/us-en/ontap-cli/volume-snapshot-restore.html[ONTAP CLI^] on the ONTAP cluster where the volume is hosted.
@@ -93,7 +93,7 @@ NOTE: You cannot restore a snapshot using the Generative AI workloads UI if the 
 
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Knowledge bases inventory page, select the connector that you want to restore.
+. From the Knowledge bases & Connectors inventory page, select the connector that you want to restore.
 
 . Select image:icon-action.png[the option button] and select *Manage connector*.
 +
@@ -136,15 +136,15 @@ This option is enabled by default to ensure that a scan doesn't happen while the
 
 ////
 
-== Add additional data sources to a knowledge base
+== Add additional data sources to a connector
 
-You can embed additional data sources in your knowledge base to populate it with additional organization data.
+You can embed additional data sources in your connector to populate it with additional organization data.
 
 .Steps
 
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Knowledge bases inventory page, select the knowledge base where you want to add the data source.
+. From the Knowledge bases & Connectors inventory page, select the connector where you want to add the data source.
 
 . Select image:icon-action.png[the option button] and select *Add data source*. 
 
@@ -152,7 +152,7 @@ include::_include/add-data-source-kb.adoc[]
 
 .Result
 
-The data source is integrated into your knowledge base.
+The data source is integrated into your connector.
 
 == Synchronize your data sources with a connector
 
@@ -224,9 +224,9 @@ The knowledge base is disabled and is no longer accessible by a chatbot applicat
 
 == Delete a connector
 
-If you no longer need a connector, you can delete it. When you delete a connector, it is removed from workload factory and the volume that contains the connector is deleted. Deleting a knowledge base is not reversible.
+If you no longer need a connector, you can delete it. When you delete a connector, it is removed from workload factory and the volume that contains the connector is deleted. Deleting a connector is not reversible.
 
-When you delete a connector, you should also disassociate the connector from any agents it is associated with to fully delete all resources associated with the knowledge base.
+When you delete a connector, you should also disassociate the connector from any agents it is associated with to fully delete all resources associated with the connector.
 
 //* The underlying data that was indexed from your knowledge base remains in the vector store you set up and can still be retrieved. To delete the data, you also need to delete the vector index containing the data embeddings.
 
