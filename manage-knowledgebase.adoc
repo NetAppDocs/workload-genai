@@ -149,7 +149,7 @@ You can embed additional data sources in your knowledge base to populate it with
 
 . Select image:icon-action.png[the option button] and select *Add data source*. 
 
-include::_include/add-data-source.adoc[]
+include::_include/add-data-source-kb.adoc[]
 
 .Result
 
