@@ -51,8 +51,8 @@ sidebar:
       entries:
         - title: Define a connector
           url: /define-connector.html
-        - title: Create a RAG-based AI application
-          url: /create-application.html
+        - title: Manage connectors
+          url: /manage-connector.html
         - title: What you can do next
           url: /whats-next.html
     - title: Administer GenAI
