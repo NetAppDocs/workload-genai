@@ -47,6 +47,14 @@ sidebar:
           url: /create-application.html
         - title: What you can do next
           url: /whats-next.html
+    - title: Integrate with Amazon Q Business
+      entries:
+        - title: Define a connector
+          url: /define-connector.html
+        - title: Manage connectors
+          url: /manage-connector.html
+        - title: What you can do next
+          url: /whats-next.html
     - title: Administer GenAI
       entries:
         - title: Manage the GenAI infrastructure

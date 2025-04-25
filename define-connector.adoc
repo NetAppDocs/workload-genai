@@ -1,0 +1,89 @@
+---
+sidebar: sidebar
+permalink: define-connector.html
+keywords: ai, chatbot, connector, 
+summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate with Amazon Q Business, you can define a connector.
+---
+
+= Integrate with Amazon Q Business
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you've deployed the AI infrastructure and identified the data sources that you'll use from your FSx for ONTAP datastores, you are ready to integrate workload factory with Amazon Q Business by defining an Amazon Q Business connector. 
+
+.About this task
+Data sources from your organization might contain Personally Identifiable Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when defining a connector. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it inaccessible and irretrievable.
++
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about BlueXP classification^].
++
+NOTE: BlueXP workload factory for GenAI does not mask sensitive personal information (SPII). Refer to link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data[types of sensitive personal data^] for more information about this type of data.
++
+NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, workload factory scans the entire data source from scratch, which incurs a cost.
+
+== Define an Amazon Q Business connector
+Integrate workload factory with Amazon Q Business by defining a connector. The connector enables API and data source communication between GenAI and Amazon Q Business.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
+
+. From the Knowledge bases & Connectors tab, select the *Create New* dropdown and choose *Amazon Q Business connector*.
+
+. On the Define Connector page, configure the connector settings:
+
+.. *Name*: Enter the name you want to use for the connector.
+.. *Description*: Enter a detailed description for the connector.
+.. *Amazon Q*: The region and application name for the Amazon Q Business instance you want to integrate.
+.. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by BlueXP classification^].
++
+The following prerequisites must be met to enable data guardrails. 
++
+* A service account is required to communicate with BlueXP classification. You must have the _Organization admin_ role on your BlueXP tenancy account for service account creation. A member who has the Organization admin role can complete all actions in BlueXP. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member[Learn how to add a role to a member in BlueXP^]
++
+* The AI engine must have access to the link:https://api.bluexp.netapp.com[BlueXP API endpoint^].
++ 
+* You'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[BlueXP classification documentation^]: 
++
+1. Create a BlueXP Connector
+2. Ensure that your environment can meet the prerequisites
+3. Deploy BlueXP classification
+
++
+NOTE: The data guardrails feature only processes .CSV files when enabled for Amazon Q Business connectors.
+
+.. *FSx for ONTAP file system*: When you define a new Amazon Q Business connector, workload factory creates a new Amazon FSx for NetApp ONTAP volume to store the connector information. Choose an existing file system and SVM (also called a storage VM) where the new volume will be created.
+.. *Snapshot policy*: Choose a snapshot policy from the list of existing policies defined in the workload factory storage inventory. GenAI automatically creates recurring snapshots of the volume storing the connector information at a frequency based on the snapshot policy you select.
++
+If the snapshot policy you need doesn't exist, you can https://docs.netapp.com/us-en/ontap/data-protection/create-snapshot-policy-task.html[create a snapshot policy] on the storage VM that contains the volume.
+
+. Select *Create connector* to integrate Amazon Q Business with GenAI.
++
+A progress indicator appears while the connector is created.
++
+After the connector is created, you have the option to add a data source to the connector so that Amazon Q Business ingests your data and adds it to its index. We recommend that you select *Add data source* and add one or more data sources now.
+
+== Add data sources to the connector
+
+You can add one or more data sources to populate the Amazon Q Business index with your organization's data.
+
+//NOTE: If you enabled data guardrails for the knowledge base, make sure you set the chunk size to #/between # and # so that Personal Identifiable Information (PII) can be found.
+//add after Chen provides range
+
+.About this task
+
+The maximum number of supported data sources is 10.
+
+.Steps
+
+. After you select *Add data source*, the *Select a file system* page displays.
+
+include::_include/add-data-source-connector.adoc[]
+
+.Result
+
+The data source is embedded into your connector. The status changes from "Embedding" to "Embedded" when the data source is completely embedded.
+
+After you add a single data source to the connector, you can test it in the Amazon Q Business chatbot window and make any required changes before you make the chatbot available to your users. You can also follow the same steps to add additional data sources to the connector.

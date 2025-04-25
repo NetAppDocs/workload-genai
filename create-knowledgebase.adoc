@@ -19,7 +19,7 @@ Public mode:: A knowledge base can be used without integrating data sources from
 
 Enterprise mode:: In most cases you'll want to integrate data sources from your organization into the knowledge base. This is known as an _Enterprise mode_ integration because it provides knowledge from your enterprise.
 +
-Data sources from your organization may contain Private Identity Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when creating and configuring knowledge bases. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it inaccessible and irretrievable.
+Data sources from your organization may contain Personally Identifiable Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when creating and configuring knowledge bases. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it inaccessible and irretrievable.
 +
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about BlueXP classification^].
 +
@@ -37,7 +37,7 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 
 . In the AI workloads tile, select *Deploy & manage*. 
 
-. From the Knowledge bases tab, select *Add knowledge base*.
+. From the Knowledge bases tab, select the *Create New* dropdown and choose *NetApp GenAI knowledge base for Bedrock*.
 
 . On the Define knowledge base page, configure the knowledge base settings:
 
@@ -48,17 +48,25 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 * Titan Embeddings G1 - Text
 * Titan Embedding Text v2
 * Titan Multimodal Embeddings G1
+* Embed English
+* Embed Multilingual
 +
 Note that you must have already enabled the embedding model from Amazon Bedrock.
 +
 https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 
-.. *Chat model*: Choose from Anthropic Claude or Amazon Nova chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
+.. *Chat model*: Choose from various chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
 +
 Learn more about using these models with Amazon Bedrock:
 +
 * https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
 * https://docs.aws.amazon.com/nova/latest/userguide/getting-started-console.html[Getting started with Amazon Nova in the Amazon Bedrock console^]
+* https://docs.mistral.ai/getting-started/models/models_overview/[Mistral AI models^]
+* https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html[Amazon Titan text models^]
+* https://www.llama.com/docs/model-cards-and-prompt-formats/[Llama models^]
+* https://www.ai21.com/blog/announcing-jamba-model-family/[Jamba 1.5 models^]
+* https://cohere.com/command[Cohere Command models^]
+
 .. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by BlueXP classification^].
 +
 The following prerequisites must be met to enable data guardrails. 
@@ -105,7 +113,7 @@ The maximum number of supported data sources is 10.
 
 . After you select *Add data source*, the *Select a file system* page displays.
 
-include::_include/add-data-source.adoc[]
+include::_include/add-data-source-kb.adoc[]
 
 .Result
 

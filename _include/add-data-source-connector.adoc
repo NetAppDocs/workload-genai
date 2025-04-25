@@ -1,0 +1,25 @@
+. *Select a file system*: Select the FSx for ONTAP file system where your data source files reside and select *Next*.
+
+. *Select a volume*: Select the volume on which your data source files reside and select *Next*.
++
+When selecting files stored using the SMB protocol, you'll need to enter the Active Directory information, which includes the domain, IP address, user name, and password. 
+
+. *Select a data source*: Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and select *Next*.
+
+. *Configurations*: Configure how the data source ingests information from your files, and which files it includes in scans: 
++
+* *File filtering*: Configure which files are included in scans:
++
+** In the *File types support* section, choose to either include all types of files, or select individual file types for inclusion in the data source scans. 
+** In the *File modification time filter* section, choose to enable or disable inclusion of files based on their modification time. If you enable modification time filtering, select a date range from the list.
++
+NOTE: If you include files based on a modification date range, as soon as the date range is not satisfied (the files have not been modified within the date range you specify), the files will be excluded from the periodic scan, and the data source will not include these files.
+
+. In the *Permission aware* section, which is available only when the data source you selected is on a volume that uses the SMB protocol, you can enable or disable permission-aware responses:
++
+* *Enabled*: Users of the chatbot who access this connector will only get responses to queries from data sources to which they have access.
+* *Disabled*: Users of the chatbot will receive responses using content from all integrated data sources.
++
+NOTE: Active Directory group permissions are not supported for Amazon Q Business connector data sources.
+
+. Select *Add* to add this data source to the Amazon Q Business connector.
