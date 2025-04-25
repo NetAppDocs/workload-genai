@@ -14,7 +14,7 @@ BlueXP Workload factory for GenAI enables you to integrate Amazon FSx for NetApp
 
 == What is BlueXP workload factory for GenAI?
 
-BlueXP workload factory for GenAI enables you to use your enterprise data sources on Amazon FSx for NetApp ONTAP with Generative AI applications. Utilizing retreival-augmented generation (RAG), you can quickly connect data sources to foundation models available via Amazon Bedrock or Amazon Q Business to develop Generative AI powered applications such as virtual assistants, Q&A chatbots, document summarization, content creation, etc. 
+BlueXP workload factory for GenAI enables you to use your enterprise data sources on Amazon FSx for NetApp ONTAP with Generative AI applications. Utilizing retrieval-augmented generation (RAG), you can quickly connect data sources to foundation models available via Amazon Bedrock or Amazon Q Business to develop Generative AI powered applications such as virtual assistants, Q&A chatbots, document summarization, content creation, etc. 
 
 Using Generative AI with your organizational data enables you to leverage your own knowledge and expertise, not rely on just the model's intelligence based on public data the models were trained on. Using RAG to customize the models ensures accurate and relevant responses to organization-specific questions, enhancing the productivity and efficiency for the users of your applications using Generative AI.
 
@@ -26,7 +26,7 @@ For more information about workload factory, refer to the https://docs.netapp.co
 
 == Benefits of using GenAI to create generative AI applications
 
-BlueXP workload factory for GenAI simplifies the process to deploy infrastructure needed to build Generative AI applications using retreival-augmented generation (RAG). Specifically, GenAI provides the following benefits: 
+BlueXP workload factory for GenAI simplifies the process to deploy infrastructure needed to build Generative AI applications using retrieval-augmented generation (RAG). Specifically, GenAI provides the following benefits: 
 
 * Without needing a deep knowledge of data infrastructure, foundation and language models, IT administrators and developers can accelerate application development by utilizing the automation provided by GenAI. Data administrators and developers can easily and quickly create enterprise knowledge bases that embed your organization's unstructured data to be used by generative AI applications. 
 
@@ -52,7 +52,7 @@ GenAI uses your organization's private data to complement the model's intelligen
 
 GenAI helps to build generative AI applications using RAG in the following ways: 
 
-* Deploys the required infrastructure for retreival-augmented generation (RAG) framework to work with data sources on FSx for ONTAP file systems and Amazon Bedrock or Amazon Q Business. The infrastructure includes the NetApp GenAI Engine instance for managing data, an embedded vector database (LanceDB), and storage on your FSx for ONTAP file system for the vector database. 
+* Deploys the required infrastructure for retrieval-augmented generation (RAG) framework to work with data sources on FSx for ONTAP file systems and Amazon Bedrock or Amazon Q Business. The infrastructure includes the NetApp GenAI Engine instance for managing data, an embedded vector database (LanceDB), and storage on your FSx for ONTAP file system for the vector database. 
 
 * Helps connect the data sources to embeddings and language models available via Amazon Bedrock or Amazon Q Business for embedding data sources and retrieving the responses for user queries. The data sources, along with models and their configuration, are presented as FSx for ONTAP knowledge bases. 
 
