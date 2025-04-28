@@ -27,14 +27,12 @@ sidebar:
           url: /requirements.html
         - title: Identify data sources to add to a knowledge base or connector
           url: /identify-data-sources.html
-        - title: Deploy the knowledge base infrastructure
-          url: /deploy-infrastructure.html 
-        - title: Use the external example chatbot application
-          url: /example-chatbot-application.html
         - title: Components for the NetApp GenAI engine
           url: /genai-engine-instance.html  
     - title: Use GenAI to build knowledge bases
       entries:
+        - title: Deploy the knowledge base infrastructure
+          url: /deploy-infrastructure.html
         - title: Create a knowledge base
           url: /create-knowledgebase.html
         - title: Test a knowledge base
@@ -43,6 +41,8 @@ sidebar:
           url: /activate-authentication.html
         - title: Publish a knowledge base
           url: /publish-knowledgebase.html
+        - title: Use the external example chatbot application
+          url: /example-chatbot-application.html
         - title: Create a RAG-based AI application
           url: /create-application.html
         - title: What you can do next
