@@ -14,12 +14,12 @@ After you've deployed the AI infrastructure and identified the data sources that
 
 .About this task
 Data sources from your organization might contain Personally Identifiable Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when defining a connector. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it inaccessible and irretrievable.
-+
+
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about BlueXP classification^].
-+
+
 NOTE: BlueXP workload factory for GenAI does not mask sensitive personal information (SPII). Refer to link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data[types of sensitive personal data^] for more information about this type of data.
-+
-NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, workload factory scans the entire data source from scratch, which incurs a cost.
+
+NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, workload factory scans the entire data source from scratch, which can incur a cost.
 
 == Define an Amazon Q Business connector
 Integrate workload factory with Amazon Q Business by defining a connector. The connector enables API and data source communication between GenAI and Amazon Q Business.
@@ -84,6 +84,6 @@ include::_include/add-data-source-connector.adoc[]
 
 .Result
 
-The data source is embedded into your connector. The status changes from "Embedding" to "Embedded" when the data source is completely embedded.
+The data source is embedded into the Amazon Q Business index. The status changes from "Embedding" to "Embedded" when the data source is completely embedded.
 
 After you add a single data source to the connector, you can test it in the Amazon Q Business chatbot window and make any required changes before you make the chatbot available to your users. You can also follow the same steps to add additional data sources to the connector.
