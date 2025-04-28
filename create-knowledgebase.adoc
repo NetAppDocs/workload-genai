@@ -56,16 +56,6 @@ Note that you must have already enabled the embedding model from Amazon Bedrock.
 https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 
 .. *Chat model*: Choose from various chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
-+
-Learn more about using these models with Amazon Bedrock:
-+
-* https://aws.amazon.com/bedrock/claude/[Anthropic's Claude in Amazon Bedrock^]
-* https://docs.aws.amazon.com/nova/latest/userguide/getting-started-console.html[Getting started with Amazon Nova in the Amazon Bedrock console^]
-* https://docs.mistral.ai/getting-started/models/models_overview/[Mistral AI models^]
-* https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html[Amazon Titan text models^]
-* https://www.llama.com/docs/model-cards-and-prompt-formats/[Llama models^]
-* https://www.ai21.com/blog/announcing-jamba-model-family/[Jamba 1.5 models^]
-* https://cohere.com/command[Cohere Command models^]
 
 .. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by BlueXP classification^].
 +

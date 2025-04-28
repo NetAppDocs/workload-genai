@@ -54,60 +54,6 @@ NOTE: Every data source scan, which includes embedding, incurs a cost. If you en
 +
 . Select *Save* after you have made changes.
 
-== Protect a connector with snapshots
-You can protect your connector data by taking and restoring snapshots of your connector volumes. You can restore from a snapshot to revert to the previous version of the connector at any time.
-
-Snapshots can be faster and more storage-efficient than backups, and enable you to protect each connector using a different protection policy. Some of the scenarios where snapshots can be useful are:
-
-* Accidental data loss or corruption
-* Recovering from incorrect data being ingested into the connector
-* Testing different data sources or chunking strategies, and quickly reverting when the testing is complete
-
-=== Take a snapshot of a connector volume
-You can save the state of a connector by taking a manual snapshot of the connector volume.
-
-.Steps
-
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-
-. From the Knowledge bases & Connectors inventory page, select the connector that you want to protect.
-
-. Select image:icon-action.png[the option button] and select *Manage connector*.
-+
-This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
-
-. Select the *Actions* menu and select *Snapshot > Create new snapshot*.
-. Optionally, select *Define snapshot name* and enter a custom name for the snapshot.
-+
-Defining a custom name can help you better determine the contents of a snapshot if you need to restore it in the future.
-. Select *Create*.
-+
-A snapshot of the connector is created.
-
-=== Restore a snapshot of a connector volume
-You can restore a manual or scheduled snapshot of a connector volume at any time.
-
-NOTE: You cannot restore a snapshot using the Generative AI workloads UI if the database stored on the volume is corrupt or has been deleted. As a workaround, you can restore the snapshot using the https://docs.netapp.com/us-en/ontap-cli/volume-snapshot-restore.html[ONTAP CLI^] on the ONTAP cluster where the volume is hosted.
-
-.Steps
-
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-
-. From the Knowledge bases & Connectors inventory page, select the connector that you want to restore.
-
-. Select image:icon-action.png[the option button] and select *Manage connector*.
-+
-This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
-
-. Select the *Actions* menu and select *Snapshot > Restore snapshot*.
-+
-The snapshot selection dialog appears, where you can see a list of the snapshots that have been created for this connector.
-. (Optional) Deselect the *Pause running and scheduled scans after restoring the snapshot* option if you want scheduled and currently running data source scans to continue after the snapshot is restored. 
-+
-This option is enabled by default to ensure that a scan doesn't happen while the connector is in a partially restored state, or that a scan doesn't update a freshly restored connector with older data.
-. Select the snapshot you want to restore from the list.
-. Select *Restore*.
-
 ////
 === Clone a connector
 You can create a new knowledge base from a knowledge base snapshot. This is useful if the original knowledge base is corrupted or lost. 
@@ -156,7 +102,7 @@ The data source is integrated into your connector.
 
 == Synchronize your data sources with a connector
 
-Data sources are synchronized with the associated connector automatically once a day so that any data source changes are reflected in Amazon Q Business. If you make changes to any of your data sources and you'd like to synchronize the data immediately, you can perform an on-demand synchronization.
+Data sources are synchronized with the associated connector automatically once a day so that any data source changes are reflected in Amazon Q Business. If you make changes to any of your data sources and you'd like to synchronize (scan) the data immediately, you can perform an on-demand synchronization.
 
 Syncing is incremental, so Amazon Q Business only processes the objects in your data sources that have been added, modified, or deleted since the last sync.
 
@@ -175,6 +121,22 @@ You'll see a message that your data sources are being scanned, and a final messa
 .Result
 
 The connector is synchronized with the attached data sources and Amazon Q Business will start using the newest information from your data sources.
+
+=== Pause or resume a scheduled synchronization
+If you want to pause or resume the next synchronization (scan) of the data sources, you can do so at any time. You might need to pause the next scheduled synchronization if you are going to make changes to a data source and don't want the synchronization happening during the change window.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the connector inventory page, select the connector for which you want to pause or resume scans.
+
+. Select image:icon-action.png[the option button] and select *Manage connector*.
+
+. Select the *Actions* menu and select *Scan > Pause scheduled scan* or *Scan > Resume scheduled scan*.
++
+You'll see a message that the next scheduled scan has either been paused or resumed.
+
 
 ////
 
