@@ -25,7 +25,7 @@ sidebar:
           url: /quick-start.html
         - title: GenAI requirements
           url: /requirements.html
-        - title: Identify data sources for your knowledge base
+        - title: Identify data sources to add to a knowledge base or connector
           url: /identify-data-sources.html
         - title: Deploy the knowledge base infrastructure
           url: /deploy-infrastructure.html 
