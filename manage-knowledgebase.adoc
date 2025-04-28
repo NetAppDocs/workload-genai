@@ -184,7 +184,7 @@ If you want to pause or resume the next synchronization (scan) of the data sourc
 
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the knowledge base inventory page, select the knowledge base for which you want to pause or resume scans.
+. From the Knowledge bases & Connectors tab, select the knowledge base for which you want to pause or resume scans.
 
 . Select image:icon-action.png[the option button] and select *Manage knowledge base*.
 

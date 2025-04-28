@@ -10,11 +10,11 @@ summary: After you create a knowledge base using data sources on your FSx for ON
 :imagesdir: ./media/
 
 [.lead]
-After you create a knowledge base using data sources on your FSx for ONTAP file system, you can view the data source details, update or change the data source contents, edit data source settings, or delete the data source.
+After you create a knowledge base or a connector using data sources on your FSx for ONTAP file system, you can view the data source details, update or change the data source contents, edit data source settings, or delete the data source.
 
 == View information about a data source
 
-You can view information about the contents of a data source and you can view its embedding status with the knowledge base. Since a data source is part of a knowledge base, you'll need to open the knowledge base first before you can view the data source details.
+You can view information about the contents of a data source and you can view its embedding status with the knowledge base or connector. Since data sources are associated with a knowledge base or connector, you'll need to choose the knowledge base or connector first before you can view the data source details.
 
 .Steps
 
@@ -22,17 +22,17 @@ You can view information about the contents of a data source and you can view it
 
 . From the workload factory navigation menu, select *AI*. 
 
-. Select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
+. Select the knowledge base or connector where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base* or *Manage connector*.
 +
-The bottom part of the page lists the data sources that are part of this knowledge base.
+The bottom part of the page lists the associated data sources.
 
 . Expand each row by selecting the image:button-down-caret.png[the down-arrow button] to view detailed information about each data source, such as the FSx for ONTAP file system, the volume, and the path where the data source resides. 
 +
-It also lists the embedding information and whether that data source is currently embedded in the knowledge base.
+It also lists the embedding information and whether that data source is currently embedded in the knowledge base or connector.
 
 == Edit data source settings
 
-You can edit information about a data source that you've integrated in a knowledge base. Most of the information is fixed after you've added a data source to a knowledge base, but you can make changes to the chunking definition and configuration, and to the permission awareness (when using SMB protocol on the data source volume).
+You can edit information about a data source that you've integrated with a knowledge base or connector. Most of the information is fixed after you've added a data source, but you can make changes to the some of the configuration (such as chunking definition or permission awareness).
 
 .Steps
 

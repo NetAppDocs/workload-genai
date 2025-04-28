@@ -110,7 +110,7 @@ Syncing is incremental, so Amazon Q Business only processes the objects in your 
 
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the connector inventory page, select the connector that you want to synchronize.
+. From the Knowledge bases & Connectors tab, select the connector that you want to synchronize.
 
 . Select image:icon-action.png[the option button] and select *Manage connector*.
 

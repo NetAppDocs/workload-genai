@@ -48,19 +48,15 @@ sidebar:
         - title: What you can do next
           url: /whats-next.html
     - title: Integrate with Amazon Q Business
-      entries:
-        - title: Define a connector
-          url: /define-connector.html
-        - title: Manage connectors
-          url: /manage-connector.html
-        - title: What you can do next
-          url: /whats-next.html
+      url: /define-connector.html   
     - title: Administer GenAI
       entries:
         - title: Manage the GenAI infrastructure
           url: /manage-infrastructure.html
         - title: Manage knowledge bases
           url: /manage-knowledgebase.html
+        - title: Manage connectors
+          url: /manage-connector.html
         - title: Manage data sources
           url: /manage-data-source.html  
     - title: Knowledge and support
