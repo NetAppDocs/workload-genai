@@ -72,7 +72,7 @@ Learn more about using these models in Amazon Bedrock:
 FSx for ONTAP file system::
 You need a minimum of one FSx for ONTAP file system:
 +
-* One file system will be used by the NetApp GenAI engine to store the vector database used by the knowledge base. 
+* One file system will be used (or created, if it doesn't exist) by the NetApp GenAI engine to store the vector database used by the knowledge base. 
 +
 This FSx for ONTAP file system must use FlexVol volumes. FlexGroup volumes are not supported.
 
@@ -97,3 +97,19 @@ If you plan to integrate GenAI with Amazon Q Business, ensure your environment m
 * Ensure that you have https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/select-retriever.html[created an index^] for your Amazon Q Business application. 
 * Ensure that your Amazon Q Business application is not in a failed state.
 
+FSx for ONTAP file system::
+You need a minimum of one FSx for ONTAP file system:
++
+* One file system will be used (or created, if it doesn't exist) by the NetApp GenAI engine to store the used by the knowledge base. 
++
+This FSx for ONTAP file system must use FlexVol volumes. FlexGroup volumes are not supported.
+
+* One or more file systems will contain the data sources that you'll be adding to your connector. 
++
+One FSx for ONTAP file system can be used for both of these purposes, or you can use multiple FSx for ONTAP file systems.
+
+* You'll need to know the AWS region, VPC, and subnet where the AWS FSx for ONTAP file system resides.
+
+* You'll need to consider the tag key/value pairs that you want to apply to the AWS resources that are part of this deployment (optional).
+
+* You'll need to know the key pair information that allows you to securely connect to the NetApp AI engine instance.
