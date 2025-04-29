@@ -27,12 +27,12 @@ sidebar:
           url: /requirements.html
         - title: Identify data sources to add to a knowledge base or connector
           url: /identify-data-sources.html
+        - title: Deploy the knowledge base infrastructure
+          url: /deploy-infrastructure.html
         - title: Components for the NetApp GenAI engine
           url: /genai-engine-instance.html  
     - title: Use GenAI to build knowledge bases
       entries:
-        - title: Deploy the knowledge base infrastructure
-          url: /deploy-infrastructure.html
         - title: Create a knowledge base
           url: /create-knowledgebase.html
         - title: Test a knowledge base

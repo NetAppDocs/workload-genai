@@ -100,7 +100,7 @@ If you plan to integrate GenAI with Amazon Q Business, ensure your environment m
 FSx for ONTAP file system::
 You need a minimum of one FSx for ONTAP file system:
 +
-* One file system will be used (or created, if it doesn't exist) by the NetApp GenAI engine to store the used by the knowledge base. 
+* One file system will be used (or created, if it doesn't exist) by the NetApp GenAI engine to store information about the connector. 
 +
 This FSx for ONTAP file system must use FlexVol volumes. FlexGroup volumes are not supported.
 

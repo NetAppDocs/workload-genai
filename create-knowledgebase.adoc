@@ -12,6 +12,8 @@ summary: After you've deployed the AI infrastructure and identified the data sou
 [.lead]
 After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using workload factory. As part of this step, you'll also define the AI characteristics and create conversation starters.
 
+Ensure that your environment meets the link:requirements.html[requirements] for knowledge bases before proceeding.
+
 .About this task
 Knowledge bases have two data integration modalities - _public mode_ and _Enterprise mode_. 
 
