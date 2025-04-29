@@ -10,9 +10,9 @@ summary: You need to deploy the infrastructure for RAG framework in your environ
 :imagesdir: ./media/
 
 [.lead]
-You need to deploy the GenAI infrastructure for RAG framework in your environment before you can build FSx for ONTAP knowledge bases and applications for your organization. The primary infrastructure components are the Amazon Bedrock service, a virtual machine instance for the NetApp GenAI engine, and an FSx for ONTAP file system.
+You need to deploy the GenAI infrastructure for RAG framework in your environment before you can build FSx for ONTAP knowledge bases, connectors, and applications for your organization. The primary infrastructure components are the Amazon Bedrock service, a virtual machine instance for the NetApp GenAI engine, and an FSx for ONTAP file system.
 
-The deployed infrastructure can support multiple knowledge bases and chatbots, so you'll typically only need to perform this task once.
+The deployed infrastructure can support multiple knowledge bases, chatbots, and connectors, so you'll typically only need to perform this task once.
 
 == Infrastructure details
 

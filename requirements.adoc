@@ -25,9 +25,10 @@ _Basic_ mode and _Read-only_ mode permissions are not supported at this time.
 +
 When setting up your credentials, selecting permissions as shown below provides you with full access to manage FSx for ONTAP file systems and to deploy and manage the GenAI EC2 instance and other AWS resources needed for your knowledge base and chatbot.
 +
-image:screenshot-ai-permissions.png[A screenshot showing the permissions setting for full management of AI resources.]
-+
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn how to add AWS credentials to workload factory^]
+
+//+
+//image:screenshot-ai-permissions.png[A screenshot showing the permissions setting for full management of AI resources.]
 
 == GenAI knowledge base requirements
 If you plan to work with knowledge bases, ensure your environment meets the following requirements.
