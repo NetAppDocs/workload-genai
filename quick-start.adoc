@@ -10,7 +10,7 @@ summary: Get started creating a knowledge base using your organization's data th
 :imagesdir: ./media/
 
 [.lead]
-Get started creating a knowledge base or Amazon Q connector using your organization's data that exists on Amazon FSx for NetApp ONTAP file systems. An application such as a chatbot will access this knowledge base or connector to provide organization-focused responses to end users.
+Get started creating a knowledge base or Amazon Q Business connector using your organization's data that exists on Amazon FSx for NetApp ONTAP file systems. An application such as a chatbot will access this knowledge base or connector to provide organization-focused responses to end users.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Log in to workload factory
 
