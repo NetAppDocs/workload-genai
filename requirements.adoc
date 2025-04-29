@@ -94,7 +94,7 @@ If you plan to integrate GenAI with Amazon Q Business, ensure your environment m
 
 Amazon Q Business::
 
-Ensure that you have created an Amazon Q Business application.
+* Ensure that you have created an Amazon Q Business application.
 * Ensure that your Amazon Q application exists in one of your AWS regions.
 * Ensure that you have https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/select-retriever.html[created an index^] for your Amazon Q Business application. 
 * Ensure that your Amazon Q Business application is not in a failed state.
