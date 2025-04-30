@@ -17,22 +17,23 @@ sidebar:
       entries:
         - title: What's new
           url: /whats-new.html
-    - title: Get started
+    - title: Learn about BlueXP workload factory for GenAI
+      url: /ai-workloads-overview.html
       entries:
-        - title: Learn about BlueXP workload factory for GenAI
-          url: /ai-workloads-overview.html
-        - title: Quick start
-          url: /quick-start.html
-        - title: GenAI requirements
-          url: /requirements.html
-        - title: Identify data sources to add to a knowledge base or connector
-          url: /identify-data-sources.html
-        - title: Deploy the knowledge base infrastructure
-          url: /deploy-infrastructure.html
         - title: Components for the NetApp GenAI engine
-          url: /genai-engine-instance.html  
-    - title: Use GenAI to build knowledge bases
+          url: /genai-engine-instance.html 
+    - title: Use GenAI to build knowledge bases for Amazon Bedrock
       entries:
+        - title: Get started
+          entries:
+          - title: Quick start
+            url: /quick-start-knowledge-base.html
+          - title: Knowledge base requirements
+            url: /requirements.html
+          - title: Identify data sources to add to a knowledge base
+            url: /identify-data-sources-knowledge-base.html
+          - title: Deploy the GenAI infrastructure
+            url: /deploy-infrastructure.html
         - title: Create a knowledge base
           url: /create-knowledgebase.html
         - title: Test a knowledge base
@@ -47,8 +48,20 @@ sidebar:
           url: /create-application.html
         - title: What you can do next
           url: /whats-next.html
-    - title: Integrate with Amazon Q Business
-      url: /define-connector.html   
+    - title: Use GenAI to create connectors for Amazon Q Business
+      entries:
+        - title: Get started
+          entries:
+          - title: Quick start
+            url: /quick-start-connector.html
+          - title: Knowledge base requirements
+            url: /requirements-connector.html
+          - title: Identify data sources to add to a knowledge base
+            url: /identify-data-sources-connector.html
+          - title: Deploy the GenAI infrastructure
+            url: /deploy-infrastructure.html
+        - title: Create an Amazon Q Business connector
+          url: /define-connector.html   
     - title: Administer GenAI
       entries:
         - title: Manage the GenAI infrastructure
