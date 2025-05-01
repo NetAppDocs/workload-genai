@@ -33,7 +33,7 @@ sidebar:
           - title: Identify data sources to add to a knowledge base
             url: /knowledge-base/identify-data-sources-knowledge-base.html
           - title: Deploy the GenAI infrastructure
-            url: /general/deploy-infrastructure.html
+            url: /knowledge-base/deploy-infrastructure.html
         - title: Create a knowledge base
           url: /knowledge-base/create-knowledgebase.html
         - title: Test a knowledge base
@@ -59,7 +59,7 @@ sidebar:
           - title: Identify data sources to add to a knowledge base
             url: /connector/identify-data-sources-connector.html
           - title: Deploy the GenAI infrastructure
-            url: /general/deploy-infrastructure.html
+            url: /connector/deploy-infrastructure.html
         - title: Create an Amazon Q Business connector
           url: /connector/define-connector.html   
     - title: Administer GenAI
@@ -77,7 +77,7 @@ sidebar:
         - title: Register for support
           url: /support-registration.html
         - title: Troubleshooting
-          url: /troubleshooting.html
+          url: /general/troubleshooting.html
         - title: Get help
           url: /get-help.html    
     - title: Legal notices

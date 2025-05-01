@@ -1,0 +1,12 @@
+---
+sidebar: sidebar
+permalink: connector/deploy-infrastructure.html
+keywords: ai, chatbot, infrastructure, bedrock, fsx for ontap
+summary: You need to deploy the infrastructure for RAG framework in your environment before you can build FSx for ONTAP knowledge bases and applications for your organization. The primary infrastructure components are the Amazon Bedrock AI service, a virtual machine instance for the NetApp GenAI engine, and an FSx for ONTAP file system.
+---
+
+= Deploy the GenAI infrastructure
+:icons: font
+:imagesdir: ../media/
+
+include::_include/deploy-infrastructure.adoc[]
