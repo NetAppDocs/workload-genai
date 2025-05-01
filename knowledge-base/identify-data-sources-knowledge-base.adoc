@@ -10,7 +10,7 @@ summary: Identify, or create, the documents (data sources) that reside on your F
 :imagesdir: ../media/
 
 [.lead]
-Identify, or create, the documents (data sources) that reside on your FSx for ONTAP file system that you'll integrate in your knowledge base or connector. These data sources enable the knowledge base or external AI service to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
+Identify, or create, the documents (data sources) that reside on your FSx for ONTAP file system that you'll integrate in your knowledge base. These data sources enable the knowledge base to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
 
 == Maximum number of data sources
 
@@ -22,89 +22,58 @@ Data sources can be stored in a single volume, or in a folder within a volume, o
 
 You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain extraneous documents that shouldn't be integrated with your knowledge base.
 
-You can add multiple data sources into each knowledge base or connector, but they all need to reside on FSx for ONTAP file systems that are accessible from your AWS account.
+You can add multiple data sources into each knowledge base, but they all need to reside on FSx for ONTAP file systems that are accessible from your AWS account.
 
 The maximum file size for each data source is 50 MB.
 
 == Supported protocols
 
-Knowledge bases and connectors support data from volumes that use either NFS or SMB/CIFS protocols. When selecting files stored using the SMB protocol, you'll need to enter the Active Directory information so that the knowledge base or connector can access the files on those volumes. This includes the Active Directory Domain, IP address, user name, and password.
+Knowledge bases support data from volumes that use either NFS or SMB/CIFS protocols. When selecting files stored using the SMB protocol, you'll need to enter the Active Directory information so that the knowledge base can access the files on those volumes. This includes the Active Directory Domain, IP address, user name, and password.
 
 When storing your data source on a share (file or directory) accessed over SMB, the data is only accessible by chatbot users or groups who have the permissions to access that share. When this "permission-aware capability" is enabled, the AI system will compare the user email in auth0 to the users allowed to view or use the files on the SMB share. The chatbot will provide answers based on user permissions for the embedded files.
 
 For example, if you have integrated 10 files (data sources) into your knowledge base, and 2 of the files are human resources files that contain restricted information, only chatbot users who are authenticated to access those 2 files will received responses from the chatbot that include data from those files.
 
-NOTE: When you add data sources to an Amazon Q Business connector, only user permissions apply to data source files. Group permissions are not applied.
-
 == Supported data source file formats
 
-The following data source file formats are currently supported.
+The following data source file formats are currently supported with workload factory GenAI knowledge bases.
 
-[cols=3*,options="header,autowidth"]
+[cols=2*,options="header,autowidth"]
 |===
 | File format
 | Extension
-| Service
 
 | Apache Parquetfootnote:disclaimer[The data guardrails feature is not supported when ingesting structured data files into knowledge bases.] 
 | .parquet 
-| Amazon Bedrock knowledge base
 
 | Comma-separated values filefootnote:disclaimer[] 
 | .csv 
-a| 
-
-* Amazon Bedrock knowledge base
-* Amazon Q Business connector
 
 | Graphics Interchange Format 
 | .gif 
-| Amazon Bedrock knowledge base
 
 | JPEG 
 | .jpg or.jpeg 
-| Amazon Bedrock knowledge base
 
 | JSON and JSONPfootnote:disclaimer[] 
 | .json 
-a| 
-
-* Amazon Bedrock knowledge base
-* Amazon Q Business connector
 
 | Markdown 
 | .md 
-a| 
-
-* Amazon Bedrock knowledge base
-* Amazon Q Business connector
 
 | Microsoft Word 
 | .doc or .docx 
-a| 
-
-* Amazon Bedrock knowledge base
-* Amazon Q Business connector
 
 | Plain text 
 | .txt 
-a| 
-
-* Amazon Bedrock knowledge base
-* Amazon Q Business connector
 
 | Portable Document Format 
 | .pdf 
-a| 
-
-* Amazon Bedrock knowledge base
-* Amazon Q Business connector
 
 | Portable Network Graphics 
 | .png 
-| Amazon Bedrock knowledge base
 
 | WebP image 
 | .webp 
-| Amazon Bedrock knowledge base
+
 |===

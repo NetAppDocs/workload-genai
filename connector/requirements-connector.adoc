@@ -10,7 +10,7 @@ summary: Ensure that workload factory and AWS are set up properly before you bui
 :imagesdir: ../media/
 
 [.lead]
-Ensure that workload factory and AWS are set up properly before you create a connector for Amazon Q Business. 
+Ensure that workload factory and AWS are set up properly before you create a NetApp ONTAP Connector for Amazon Q. 
 
 == Basic GenAI requirements
 GenAI has general requirements that your environment needs to meet before you get started.
@@ -30,10 +30,10 @@ https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn ho
 //+
 //image:screenshot-ai-permissions.png[A screenshot showing the permissions setting for full management of AI resources.]
 
-== Requirements for Amazon Q Business connectors
+== Requirements for NetApp ONTAP Connector for Amazon Q
 Ensure your environment meets the following specific requirements for Amazon Q Business connectors.
 
-Amazon Q Business::
+Amazon Q Business application::
 You need to create an Amazon Q Business application or use an existing one.
 
 * Ensure that the application exists in one of your AWS regions.
