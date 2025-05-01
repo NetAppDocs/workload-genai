@@ -5,12 +5,12 @@ keywords: ai, chatbot, connector,
 summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate with Amazon Q Business, you can define a connector.
 ---
 
-= Create a connector for Amazon Q Business
+= Create a NetApp ONTAP Connector for Amazon Q
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-After you've deployed the AI infrastructure and identified the data sources that you'll use from your FSx for ONTAP datastores, you are ready to define an Amazon Q Business connector.
+After you've deployed the AI infrastructure and identified the data sources that you'll use from your FSx for ONTAP datastores, you are ready to define a NetApp ONTAP Connector for Amazon Q.
 
 Ensure that your environment meets the link:requirements-connector.html[requirements] for Amazon Q Business before proceeding.
 
@@ -23,8 +23,8 @@ NOTE: BlueXP workload factory for GenAI does not mask sensitive personal informa
 
 NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, workload factory scans the entire data source from scratch, which can incur a cost.
 
-== Define an Amazon Q Business connector
-Integrate workload factory with Amazon Q Business by defining a connector. The connector enables API and data source communication between GenAI and Amazon Q Business.
+== Define a connector
+Create a NetApp ONTAP Connector for Amazon Q. The connector enables API and data source communication between GenAI and Amazon Q Business.
 
 .Steps
 
