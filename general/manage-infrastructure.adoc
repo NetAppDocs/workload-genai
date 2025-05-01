@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: manage-infrastructure.html
+permalink: general/manage-infrastructure.html
 keywords: ai, chatbot, creating, knowledge base
 summary: You can view details about your deployed GenAI RAG infrastructure or remove the chatbot infrastructure if you no longer need it.
 ---
 
 = Manage the GenAI infrastructure
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 You can view details about your deployed GenAI RAG infrastructure or remove the chatbot infrastructure if you no longer need it.

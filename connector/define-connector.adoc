@@ -1,16 +1,16 @@
 ---
 sidebar: sidebar
-permalink: define-connector.html
+permalink: connector/define-connector.html
 keywords: ai, chatbot, connector, 
 summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate with Amazon Q Business, you can define a connector.
 ---
 
-= Integrate with Amazon Q Business
+= Create a connector for Amazon Q Business
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
-After you've deployed the AI infrastructure and identified the data sources that you'll use from your FSx for ONTAP datastores, you are ready to integrate workload factory with Amazon Q Business by defining an Amazon Q Business connector.
+After you've deployed the AI infrastructure and identified the data sources that you'll use from your FSx for ONTAP datastores, you are ready to define an Amazon Q Business connector.
 
 Ensure that your environment meets the link:requirements.html[requirements] for Amazon Q Business before proceeding.
 

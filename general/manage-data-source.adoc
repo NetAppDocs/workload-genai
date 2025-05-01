@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: manage-data-source.html
+permalink: general/manage-data-source.html
 keywords: ai, chatbot, creating, knowledge base, data source
 summary: After you create a knowledge base using data sources on your FSx for ONTAP file system, you can view the data source details, update or change the data source contents, edit data source settings, or delete the data source.
 ---
 
 = Manage GenAI data sources
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 After you create a knowledge base or a connector using data sources on your FSx for ONTAP file system, you can view the data source details, update or change the data source contents, edit data source settings, or delete the data source.

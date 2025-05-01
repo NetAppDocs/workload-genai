@@ -1,16 +1,16 @@
 ---
 sidebar: sidebar
-permalink: manage-connector.html
+permalink: connector/manage-connector.html
 keywords: ai, chatbot, managing, knowledge base
 summary: After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.
 ---
 
 = Manage Amazon Q Business connectors
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
-After you integrate with Amazon Q Business, you can view the connector details, modify the connector, integrate additional data sources, or delete the connector.
+After you create a connector for Amazon Q Business, you can view the connector details, modify the connector, integrate additional data sources, or delete the connector.
 
 == View information about a connector
 

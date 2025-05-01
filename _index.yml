@@ -7,14 +7,14 @@ indexpage:
     - title: Get started
       links:
         - title: Learn about BlueXP workload factory for GenAI
-          url: ai-workloads-overview.html
-        - title: Quick start
-          url: quick-start.html
+          url: general/ai-workloads-overview.html
+        - title: Quick start for knowledge bases
+          url: knowledge-base/quick-start-knowledge-base.html
         - title: GenAI requirements
           url: requirements.html
         - title: Deploy the knowledge base infrastructure
           url: deploy-infrastructure.html
-    - title: Build a knowledge base or Amazon Q Business connector
+    - title: Build a knowledge base
       links:
         - title: Create a knowledge base
           url: create-knowledgebase.html
@@ -22,7 +22,9 @@ indexpage:
           url: test-knowledgebase.html
         - title: Publish a knowledge base
           url: publish-knowledgebase.html
-        - title: Integrate with Amazon Q Business
+    - title: Create a connector for Amazon Q Business
+      links:
+        - title: Create a connector for Amazon Q Business
           url: define-connector.html
     - title: Administer GenAI
       links:

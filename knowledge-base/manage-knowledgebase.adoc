@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: manage-knowledgebase.html
+permalink: knowledge-base/manage-knowledgebase.html
 keywords: ai, chatbot, managing, knowledge base
 summary: After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.
 ---
 
 = Manage GenAI knowledge bases
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.

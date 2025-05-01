@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: genai-engine-instance.html
+permalink: general/genai-engine-instance.html
 keywords: genai engine, instance, ec2, role, iam role, permissions, security group, inbound, outbound, private endpoints
 summary: When you deploy the GenAI infrastructure, workload factory creates an EC2 instance for the GenAI engine. It also creates an IAM role, security group, and private endpoints for this instance. You might want to understand more details about these components that workload factory creates in your AWS environment.
 ---
 
 = Components for the NetApp GenAI engine
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 When you deploy the GenAI infrastructure, workload factory creates an EC2 instance for the GenAI engine. It also creates an IAM role, security group, and private endpoints for this instance. You might want to understand more details about these components that workload factory creates in your AWS environment.

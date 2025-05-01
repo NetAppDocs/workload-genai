@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: create-knowledgebase.html
+permalink: knowledge-base/create-knowledgebase.html
 keywords: ai, chatbot, creating, knowledge base
 summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using workload factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 ---
 
 = Create a GenAI knowledge base
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using workload factory. As part of this step, you'll also define the AI characteristics and create conversation starters.

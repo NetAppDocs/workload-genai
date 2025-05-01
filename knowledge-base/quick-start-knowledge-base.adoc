@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: quick-start.html
+permalink: knowledge-base/quick-start.html
 keywords: quick start, knowledge base, chatbot
 summary: Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP file systems. An application such as a chatbot will access this knowledge base to provide organization-focused responses to end users.
 ---
 
 = Quick start for GenAI
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 Get started creating a knowledge base or Amazon Q Business connector using your organization's data that exists on Amazon FSx for NetApp ONTAP file systems. An application such as a chatbot will access this knowledge base or connector to provide organization-focused responses to end users.
