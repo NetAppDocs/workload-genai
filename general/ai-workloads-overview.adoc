@@ -7,7 +7,7 @@ summary: BlueXP workload factory for GenAI enables you to integrate Amazon FSx f
 
 = Learn about BlueXP workload factory for GenAI
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 BlueXP Workload factory for GenAI enables you to integrate Amazon FSx for NetApp ONTAP file systems with GenAI foundation models. This provides you with high performance storage with a rich set of protection, security, and cost optimization features for your AI datasets.
