@@ -8,14 +8,12 @@ indexpage:
       links:
         - title: Learn about BlueXP workload factory for GenAI
           url: general/ai-workloads-overview.html
-        - title: Quick start for knowledge bases
-          url: knowledge-base/quick-start-knowledge-base.html
-        - title: GenAI requirements
-          url: knowledge-base/requirements-knowledge-base.html
         - title: Deploy the knowledge base infrastructure
           url: knowledge-base/deploy-infrastructure.html
-    - title: Build a knowledge base
+    - title: Build a knowledge base for Amazon Bedrock
       links:
+        - title: Quick start for knowledge bases
+          url: knowledge-base/quick-start-knowledge-base.html
         - title: Create a knowledge base
           url: knowledge-base/create-knowledgebase.html
         - title: Test a knowledge base
@@ -24,12 +22,19 @@ indexpage:
           url: knowledge-base/publish-knowledgebase.html
     - title: Create a connector for Amazon Q Business
       links:
+        - title: Quick start for connectors
+          url: connector/quick-start-connector.html
         - title: Create a connector for Amazon Q Business
           url: connector/define-connector.html
     - title: Administer GenAI
       links:
-        - title: Manage knowledge base infrastructure
-          url: knowledge-base/manage-infrastructure.html
+        - title: Manage GenAI infrastructure
+          url: general/manage-infrastructure.html
+        - title: Manage knowledge bases
+          url: knowledge-base/manage-knowledgebase.html
+        - title: Manage connectors
+          url: connector/manage-connector.html
+        
     - title: Blogs & community
       links:
         - title: NetApp Community
