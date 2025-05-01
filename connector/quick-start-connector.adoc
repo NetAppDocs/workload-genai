@@ -5,12 +5,12 @@ keywords: quick start, connector, chatbot
 summary: Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP file systems. An application such as a chatbot will access this knowledge base to provide organization-focused responses to end users.
 ---
 
-= Quick start for GenAI
+= Quick start for GenAI connectors
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Get started creating a knowledge base or Amazon Q Business connector using your organization's data that exists on Amazon FSx for NetApp ONTAP file systems. An application such as a chatbot will access this knowledge base or connector to provide organization-focused responses to end users.
+Get started creating a connector for Amazon Q Business using your organization's data that exists on Amazon FSx for NetApp ONTAP file systems. End users can access the Amazon Q Business assistant for organization-focused responses to their questions.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Log in to workload factory
 
@@ -20,7 +20,7 @@ You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.h
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Set up your environment to meet GenAI requirements
 
 [role="quick-margin-para"]
-You'll need AWS credentials to deploy the AWS infrastructure, a deployed and discovered FSx for ONTAP file system, the list of data sources that you want to integrate in your knowledge base or connector, access to the Amazon Bedrock AI service or Amazon Q Business application, and more.
+You'll need AWS credentials to deploy the AWS infrastructure, a deployed and discovered FSx for ONTAP file system, the list of data sources that you want to integrate in your connector, access to the Amazon Q Business application, and more.
 
 [role="quick-margin-para"]
 link:requirements.html[Learn more about GenAI requirements^].
@@ -28,7 +28,7 @@ link:requirements.html[Learn more about GenAI requirements^].
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Identify the FSx for ONTAP file system that contains the data sources
 
 [role="quick-margin-para"]
-The data sources that you'll integrate in your knowledge base or connector can be located on a single FSx for ONTAP file system, or on multiple FSx for ONTAP file systems. If these systems are in different VPCs, they must either be accessible within the same network, or the VPCs must be peered and using the same region and AWS account as the AI engine.
+The data sources that you'll integrate in your connector can be located on a single FSx for ONTAP file system, or on multiple FSx for ONTAP file systems. If these systems are in different VPCs, they must either be accessible within the same network, or the VPCs must be peered and using the same region and AWS account as the AI engine.
 
 [role="quick-margin-para"]
 link:identify-data-sources.html[Learn how to identify data sources^].
@@ -36,11 +36,11 @@ link:identify-data-sources.html[Learn how to identify data sources^].
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Deploy the knowledge base infrastructure
 
 [role="quick-margin-para"]
-If you plan to use a knowledge base, launch the infrastructure deployment wizard to deploy the knowledge base infrastructure in your AWS environment. This process deploys an EC2 instance for the NetApp GenAI engine, and a volume on an FSx for ONTAP file system to contain the NetApp AI Engine databases. The volume is used to store the vector database used by the knowledge base.
+Launch the infrastructure deployment wizard to deploy the knowledge base infrastructure in your AWS environment. This process deploys an EC2 instance for the NetApp GenAI engine, and a volume on an FSx for ONTAP file system to contain the NetApp AI Engine databases. The volume is used to store information about the connector.
 
 [role="quick-margin-para"]
 link:deploy-infrastructure.html[Learn how to deploy the knowledge base infrastructure^].
 
 .What's next
 
-You can now build a knowledge base or create a connector to provide organization-focused responses to end users. 
+You can now create a connector for Amazon Q Business to provide organization-focused responses to end users.

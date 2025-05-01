@@ -5,7 +5,7 @@ keywords: quick start, knowledge base, chatbot
 summary: Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP file systems. An application such as a chatbot will access this knowledge base to provide organization-focused responses to end users.
 ---
 
-= Quick start for GenAI
+= Quick start for GenAI knowledge bases
 :icons: font
 :imagesdir: ../media/
 
