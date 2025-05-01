@@ -36,7 +36,10 @@ You'll need to enter your AWS credentials and select the FSx for ONTAP file syst
 
 .Before you begin
 
-Make sure your environment meets link:requirements.html[the requirements] before you start this procedure.
+Make sure your environment meets the requirements for knowledge bases or connectors, depending on which you choose, before you start this procedure.
+
+* link:../requirements-knowledge-base.html[Knowledge base requirements]
+* link:../requirements-connector.html[Connector requirements]
 
 .Steps
 

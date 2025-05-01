@@ -12,7 +12,7 @@ summary: After you've deployed the AI infrastructure and identified the data sou
 [.lead]
 After you've deployed the AI infrastructure and identified the data sources that you'll use from your FSx for ONTAP datastores, you are ready to define an Amazon Q Business connector.
 
-Ensure that your environment meets the link:requirements.html[requirements] for Amazon Q Business before proceeding.
+Ensure that your environment meets the link:requirements-connector.html[requirements] for Amazon Q Business before proceeding.
 
 .About this task
 Data sources from your organization might contain Personally Identifiable Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when defining a connector. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it inaccessible and irretrievable.
