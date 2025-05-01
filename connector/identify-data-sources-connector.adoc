@@ -55,7 +55,7 @@ The following data source file formats are currently supported with NetApp ONTAP
 | .md 
 
 | Microsoft Word 
-| .doc or .docx 
+| .docx 
 
 | Plain text 
 | .txt 
