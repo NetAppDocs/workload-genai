@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: activate-authentication.html
+permalink: knowledge-base/activate-authentication.html
 keywords: ai, chatbot, publishing, knowledge base
 summary: Activate authentication for a knowledge base so that token validation and ACLs are required when integrating the knowledge base with a chatbot application.
 ---

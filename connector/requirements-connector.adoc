@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: knowledge-base/requirements-knowledge-base.html
+permalink: connector/requirements-connector.html
 keywords: ai, chatbot, prerequisites, bedrock, fsx for ontap, prerequisites, requirements
 summary: Ensure that workload factory and AWS are set up properly before you build your knowledge base. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system that contains the data sources you want to integrate in your knowledge base, access to the Amazon Bedrock AI service, and more.
 ---
 
-= GenAI knowledge base requirements
+= GenAI connector requirements
 :icons: font
 :imagesdir: ../media/
 

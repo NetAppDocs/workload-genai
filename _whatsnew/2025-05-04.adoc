@@ -1,7 +1,7 @@
 === Amazon Q Business integration support
 This release of GenAI introduces the ability to integrate GenAI with Amazon Q Business. Quickly and easily take advantage of the Amazon Q Business AI assistant with less initial configuration than creating and hosting your own knowledge base.
 
-link:https://docs.netapp.com/us-en/workload-genai/define-connector.html[Integrate with Amazon Q Business]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html[Create a connector for Amazon Q Business]
 
 === Enhanced chat model support
 GenAI now supports the following additional chat models for knowledge bases:

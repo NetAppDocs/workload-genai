@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
-permalink: knowledge-base/quick-start-knowledge-base.html
-keywords: quick start, knowledge base, chatbot
+permalink: connector/quick-start-connector.html
+keywords: quick start, connector, chatbot
 summary: Get started creating a knowledge base using your organization's data that exists on Amazon FSx for NetApp ONTAP file systems. An application such as a chatbot will access this knowledge base to provide organization-focused responses to end users.
 ---
 
