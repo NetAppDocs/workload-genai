@@ -18,8 +18,9 @@ sidebar:
         - title: What's new
           url: /whats-new.html
     - title: Learn about BlueXP workload factory for GenAI
-      url: /general/ai-workloads-overview.html
       entries:
+        - title: Learn about BlueXP workload factory for GenAI
+          url: /general/ai-workloads-overview.html
         - title: Components for the NetApp GenAI engine
           url: /general/genai-engine-instance.html 
     - title: Use GenAI to build knowledge bases for Amazon Bedrock
