@@ -11,25 +11,25 @@ indexpage:
         - title: Quick start for knowledge bases
           url: knowledge-base/quick-start-knowledge-base.html
         - title: GenAI requirements
-          url: requirements.html
+          url: knowledge-base/requirements-knowledge-base.html
         - title: Deploy the knowledge base infrastructure
-          url: deploy-infrastructure.html
+          url: knowledge-base/deploy-infrastructure.html
     - title: Build a knowledge base
       links:
         - title: Create a knowledge base
-          url: create-knowledgebase.html
+          url: knowledge-base/create-knowledgebase.html
         - title: Test a knowledge base
-          url: test-knowledgebase.html
+          url: knowledge-base/test-knowledgebase.html
         - title: Publish a knowledge base
-          url: publish-knowledgebase.html
+          url: knowledge-base/publish-knowledgebase.html
     - title: Create a connector for Amazon Q Business
       links:
         - title: Create a connector for Amazon Q Business
-          url: define-connector.html
+          url: connector/define-connector.html
     - title: Administer GenAI
       links:
         - title: Manage knowledge base infrastructure
-          url: manage-infrastructure.html
+          url: knowledge-base/manage-infrastructure.html
     - title: Blogs & community
       links:
         - title: NetApp Community
