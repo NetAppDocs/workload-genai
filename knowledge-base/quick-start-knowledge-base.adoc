@@ -28,12 +28,12 @@ link:requirements-knowledge-base.html[Learn more about GenAI requirements^].
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Identify the FSx for ONTAP file system that contains the data sources
 
 [role="quick-margin-para"]
-The data sources that you'll integrate in your knowledge base or connector can be located on a single FSx for ONTAP file system, or on multiple FSx for ONTAP file systems. If these systems are in different VPCs, they must either be accessible within the same network, or the VPCs must be peered and using the same region and AWS account as the AI engine.
+The data sources that you'll integrate in your knowledge base can be located on a single FSx for ONTAP file system, or on multiple FSx for ONTAP file systems. If these systems are in different VPCs, they must either be accessible within the same network, or the VPCs must be peered and using the same region and AWS account as the AI engine.
 
 [role="quick-margin-para"]
 link:identify-data-sources-knowledge-base.html[Learn how to identify data sources^].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Deploy the knowledge base infrastructure
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Deploy the GenAI infrastructure
 
 [role="quick-margin-para"]
 Launch the infrastructure deployment wizard to deploy the GenAI infrastructure in your AWS environment. This process deploys an EC2 instance for the NetApp GenAI engine, and a volume on an FSx for ONTAP file system to contain the NetApp AI Engine databases. The volume is used to store the vector database used by the knowledge base.
@@ -43,4 +43,4 @@ link:deploy-infrastructure.html[Learn how to deploy the knowledge base infrastru
 
 .What's next
 
-You can now build a knowledge base or create a connector to provide organization-focused responses to end users. 
+You can now build a knowledge base to provide organization-focused responses to end users. 
