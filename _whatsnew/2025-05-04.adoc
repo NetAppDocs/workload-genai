@@ -1,7 +1,7 @@
 === Amazon Q Business integration support
 This release of GenAI introduces the ability to integrate GenAI with Amazon Q Business. Quickly and easily take advantage of the Amazon Q Business AI assistant with less initial configuration than creating and hosting your own knowledge base.
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html[Create a connector for Amazon Q Business]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html[Create a GenAI connector for Amazon Q Business]
 
 === Enhanced chat model support
 GenAI now supports the following additional chat models for knowledge bases:
@@ -12,7 +12,7 @@ GenAI now supports the following additional chat models for knowledge bases:
 * https://www.ai21.com/blog/announcing-jamba-model-family/[Jamba 1.5 models^]
 * https://cohere.com/command[Cohere Command models^]
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html[Create a knowledgebase]
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html[Create a GenAI knowledge base]
 
 === Updated permissions terminology
 The workload factory user interface and documentation now use "Read-only" to refer to read permissions and "Read-Write" to refer to automate permissions.
