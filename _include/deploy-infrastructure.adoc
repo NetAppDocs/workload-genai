@@ -33,7 +33,7 @@ The NetApp GenAI engine monitors and interacts with both of these volumes.
 
 The following image shows the GenAI infrastructure. The components numbered 1, 2, and 3 are deployed during this procedure. The other elements must be in place before starting the deployment.
 
-image:genai-infrastructure-diagram.png[A diagram of the GenAI infrastructure components.]
+image:genai-infrastructure-diagram-numbered.png[A diagram of the GenAI infrastructure components.]
 
 == Deploy the GenAI infrastructure
 
