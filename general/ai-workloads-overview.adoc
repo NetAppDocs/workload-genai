@@ -46,7 +46,7 @@ BlueXP workload factory for GenAI simplifies the process to deploy infrastructur
 
 GenAI uses your organization's private data to complement the model's intelligence (based on the data it was trained on) to provide customized answers to questions asked by your users in your organization. You first deploy the infrastructure needed for a RAG framework, then build a knowledge base or define a connector using your organization's data sources and foundation models available via Amazon Bedrock or Amazon Q Business, and then connect an application (such as a Q&A chatbot) to the knowledge base or connector. 
 
-//image:diagram-chatbot-processing.png[A diagram showing GenAI key components, their function, and how it works.]
+image:genai-infrastructure-diagram.png[A diagram showing GenAI key components, their function, and how it works.]
 
 == How BlueXP workload factory for GenAI helps to build Generative AI applications
 
