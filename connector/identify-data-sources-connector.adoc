@@ -45,10 +45,10 @@ The following data source file formats are currently supported with NetApp ONTAP
 | File format
 | Extension
 
-| Comma-separated values filefootnote:disclaimer[] 
+| Comma-separated values file
 | .csv 
 
-| JSON and JSONPfootnote:disclaimer[] 
+| JSON and JSONP
 | .json 
 
 | Markdown 
