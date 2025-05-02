@@ -38,7 +38,7 @@ If you no longer need the chatbot infrastructure that you deployed for one or mo
 
 NOTE: All chatbots that have been deployed on this infrastructure will be disabled and all chat history will be deleted.
 
-This operation only removes the links to the AI infrastructure from workload factory--it does not remove all the components from AWS. You'll need to manually delete the following infrastructure components from AWS:
+This operation only removes the links to the AI infrastructure from workload factory; it does not remove all the components from AWS. You'll need to manually delete the following infrastructure components from AWS:
 
 * The VM instance
 * Private endpoints
