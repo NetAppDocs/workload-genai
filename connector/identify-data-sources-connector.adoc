@@ -1,0 +1,86 @@
+---
+sidebar: sidebar
+permalink: connector/identify-data-sources-connector.html
+keywords: data sources, chatbot, documents, knowledge base, connector
+summary: Identify, or create, the documents (data sources) that reside on your FSx for ONTAP file system that you'll integrate in your knowledge base. These data sources enable the knowledge base to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
+---
+
+= Identify data sources to add to a connector
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Identify, or create, the documents (data sources) that reside on your FSx for ONTAP file system that you'll integrate in your connector. These data sources enable Amazon Q Business to provide accurate and personalized answers to user queries based on data that is relevant to your organization.
+
+== Maximum number of data sources
+
+The maximum number of supported data sources is 10.
+
+== Location of data sources
+
+Data sources can be stored in a single volume, or in a folder within a volume, on an SMB share or NFS export on an Amazon FSx for NetApp ONTAP file system. Data sources can also be stored on Amazon FSx for NetApp ONTAP volumes that are in a NetApp SnapMirror data protection relationship. 
+
+You can't select individual documents within a volume or folder, therefore, you should ensure that each volume or folder that contains data sources does not contain extraneous documents that shouldn't be integrated with your knowledge base.
+
+You can add multiple data sources into each connector, but they all need to reside on FSx for ONTAP file systems that are accessible from your AWS account.
+
+The maximum file size for each data source is 50 MB.
+
+== Supported protocols
+
+Connectors support data from volumes that use either NFS or SMB/CIFS protocols. When selecting files stored using the SMB protocol, you'll need to enter the Active Directory information so that the connector can access the files on those volumes. This includes the Active Directory Domain, IP address, user name, and password.
+
+When storing your data source on a share (file or directory) accessed over SMB, the data is only accessible by chatbot users or groups who have the permissions to access that share. When this "permission-aware capability" is enabled, the AI system will compare the user email in auth0 to the users allowed to view or use the files on the SMB share. The chatbot will provide answers based on user permissions for the embedded files.
+
+For example, if you have integrated 10 files (data sources) into your connector, and 2 of the files are human resources files that contain restricted information, only chatbot users who are authenticated to access those 2 files will received responses from the chatbot that include data from those files.
+
+NOTE: When you add data sources to an Amazon Q Business connector, only user permissions apply to data source files. Group permissions are not applied.
+
+NOTE: If there are files in your data source that do not contain any text, Amazon Q Business doesn't index those files, and instead logs an entry in Amazon CloudWatch Logs noting that the files contain no text to index.
+
+== Supported data source file formats
+
+The following data source file formats are currently supported with NetApp ONTAP Connector for Amazon Q.
+
+[cols=2*,options="header,autowidth"]
+|===
+| File format
+| Extension
+
+| Comma-separated values file
+| .csv 
+
+| JSON and JSONP
+| .json 
+
+| Markdown 
+| .md 
+
+| Microsoft Word 
+| .docx 
+
+| Plain text 
+| .txt 
+
+| Portable Document Format 
+| .pdf
+
+| Microsoft PowerPoint
+| .ppt or .pptx
+
+| Hypertext Markup Language
+| .html
+
+| Extensible Markup Language
+| .xml
+
+| XSLT
+| .xslt
+
+| Microsoft Excel
+| .xls
+
+| Rich Text Format
+| .rtf
+
+|===

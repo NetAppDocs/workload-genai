@@ -1,0 +1,209 @@
+---
+sidebar: sidebar
+permalink: connector/manage-connector.html
+keywords: ai, chatbot, managing, knowledge base
+summary: After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.
+---
+
+= Manage Amazon Q Business connectors
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you create a connector for Amazon Q Business, you can view the connector details, modify the connector, integrate additional data sources, or delete the connector.
+
+== View information about a connector
+
+You can view information about the settings for a connector and the data sources that are integrated.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the workload factory navigation menu, select *AI*.
+
+. Select the connector that you want to view.
+
+. To view connector details, select image:icon-action.png[the option button] and select *Manage connector*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
++
+The *Actions* menu enables you to manage the connector if you want to make any changes.
+
+== Edit a connector
+
+You can update a connector by changing some settings, or you can add or remove data sources.
+
+Each time you add, modify, or remove data sources from the connector, GenAI needs to send the data source information to Amazon Q Business so that it is re-indexed. Syncing is incremental, so Amazon Q Business only processes the objects in your FSx for ONTAP volume that have been added, modified, or deleted since the last sync.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the Knowledge bases & Connectors inventory page, select the connector that you want to update.
+
+. Select image:icon-action.png[the option button] and select *Manage connector*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
+
+. Select the *Actions* menu and select *Edit connector*.
+
+. In the Edit connector page, you can change the connector name, description, embedding model, data guardrails enablement, and the snapshot policy used for the volume that contains the connector.
++
+NOTE: Every data source scan, which includes embedding, incurs a cost. If you enable data guardrails after a connector has been created, then the data source gets scanned again and incurs costs. 
++
+. Select *Save* after you have made changes.
+
+////
+=== Clone a connector
+You can create a new knowledge base from a knowledge base snapshot. This is useful if the original knowledge base is corrupted or lost. 
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to restore.
+
+. Select image:icon-action.png[the option button] and select *Manage connector*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, the list of all embedded data sources, and more.
+
+. Select the *Actions* menu and select *Snapshot > Clone knowledge base*.
++
+The clone dialog appears.
+. Optionally, deselect the *Pause running and scheduled scans after cloning the snapshot* option if you want scheduled and currently running data source scans to continue after the snapshot is cloned.
++
+This option is enabled by default to ensure that a scan doesn't happen while the knowledge base is in a partially restored state, or that a scan doesn't update a freshly restored knowledge base with older data.
+. Select the snapshot you want to clone from the list.
+. Select *Continue*.
+. Enter a name for the new knowledge base.
+. Choose a filesystem SVM and volume name for the new knowledge base.
+. Select *Clone*.
+
+////
+
+== Add additional data sources to a connector
+
+You can embed additional data sources in your connector to populate it with additional organization data.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the Knowledge bases & Connectors inventory page, select the connector where you want to add the data source.
+
+. Select image:icon-action.png[the option button] and select *Add data source*. 
+
+include::_include/add-data-source-kb.adoc[]
+
+.Result
+
+The data source is integrated into your connector.
+
+== Synchronize your data sources with a connector
+
+Data sources are synchronized with the associated connector automatically once a day so that any data source changes are reflected in Amazon Q Business. If you make changes to any of your data sources and you'd like to synchronize (scan) the data immediately, you can perform an on-demand synchronization.
+
+Syncing is incremental, so Amazon Q Business only processes the objects in your data sources that have been added, modified, or deleted since the last sync.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the Knowledge bases & Connectors tab, select the connector that you want to synchronize.
+
+. Select image:icon-action.png[the option button] and select *Manage connector*.
+
+. Select the *Actions* menu and select *Scan now*.
++
+You'll see a message that your data sources are being scanned, and a final message when the scan is complete.
+
+.Result
+
+The connector is synchronized with the attached data sources and Amazon Q Business will start using the newest information from your data sources.
+
+=== Pause or resume a scheduled synchronization
+If you want to pause or resume the next synchronization (scan) of the data sources, you can do so at any time. You might need to pause the next scheduled synchronization if you are going to make changes to a data source and don't want the synchronization happening during the change window.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the connector inventory page, select the connector for which you want to pause or resume scans.
+
+. Select image:icon-action.png[the option button] and select *Manage connector*.
+
+. Select the *Actions* menu and select *Scan > Pause scheduled scan* or *Scan > Resume scheduled scan*.
++
+You'll see a message that the next scheduled scan has either been paused or resumed.
+
+
+////
+
+== Evaluate chat models before creating a connector
+
+You can evaluate the available foundational chat models before creating a connector so you can see which model works best for your implementation. Since model support varies by AWS region, refer to https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html[this AWS documentation page^] to verify which models you can use in the regions where you plan to deploy your knowledge base.
+
+NOTE: This functionality is available only when no knowledge bases have been created -- when no knowledge bases exist in the Knowledge bases inventory page.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the Knowledge bases inventory page, you'll see the option to select the chat model on the right side of the page for the Chatbot.
+
+. Select the chat model from the list and enter a set of questions in the prompt area to see how the chatbot responds.
+
+. Try multiple models to see which model is best for your implementation.
+
+.Result
+
+Use that chat model when you create your knowledge base.
+
+== Unpublish your knowledge base
+
+After you've published your knowledge base so that it can be integrated with a chatbot application, you can unpublish it if you want to disable the chatbot application from accessing the knowledge base.
+
+Unpublishing the knowledge base stops any chat applications from working. The unique API endpoint at which the knowledge base was accessible is disabled.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the Knowledge bases inventory page, select the knowledge base that you want to unpublish.
+
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
++
+This page displays the published status, embedding status of the data sources, embedding mode, and the list of all embedded data sources.
+
+. Select the *Actions* menu and select *Unpublish*.
+
+.Result
+
+The knowledge base is disabled and is no longer accessible by a chatbot application.
+
+////
+
+== Delete a connector
+
+If you no longer need a connector, you can delete it. When you delete a connector, it is removed from workload factory and the volume that contains the connector is deleted. Deleting a connector is not reversible.
+
+When you delete a connector, you should also disassociate the connector from any agents it is associated with to fully delete all resources associated with the connector.
+
+//* The underlying data that was indexed from your knowledge base remains in the vector store you set up and can still be retrieved. To delete the data, you also need to delete the vector index containing the data embeddings.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the Knowledge bases & Connectors inventory page, select the connector that you want to delete.
+
+. Select image:icon-action.png[the option button] and select *Manage connector*.
+
+. Select the *Actions* menu and select *Delete connector*.
+
+. In the Delete connector dialog, confirm that you want to delete it and select *Delete*.
+
+.Result
+
+The connector is removed from workload factory and its associated volume is deleted.

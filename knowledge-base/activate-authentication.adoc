@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: activate-authentication.html
+permalink: knowledge-base/activate-authentication.html
 keywords: ai, chatbot, publishing, knowledge base
 summary: Activate authentication for a knowledge base so that token validation and ACLs are required when integrating the knowledge base with a chatbot application.
 ---
 
 = Activate external authentication for a GenAI knowledge base
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 Activate authentication for a knowledge base so that token validation and ACLs are required when using the API endpoints to integrate a knowledge base with a chatbot application. When you activate authentication, you configure settings for a JSON Web Token that will be used for API requests to a knowledge base from chatbot clients.

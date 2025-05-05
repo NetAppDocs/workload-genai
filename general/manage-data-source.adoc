@@ -1,38 +1,38 @@
 ---
 sidebar: sidebar
-permalink: manage-data-source.html
+permalink: general/manage-data-source.html
 keywords: ai, chatbot, creating, knowledge base, data source
 summary: After you create a knowledge base using data sources on your FSx for ONTAP file system, you can view the data source details, update or change the data source contents, edit data source settings, or delete the data source.
 ---
 
 = Manage GenAI data sources
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
-After you create a knowledge base using data sources on your FSx for ONTAP file system, you can view the data source details, update or change the data source contents, edit data source settings, or delete the data source.
+After you create a knowledge base or a connector using data sources on your FSx for ONTAP file system, you can view the data source details, update or change the data source contents, edit data source settings, or delete the data source.
 
 == View information about a data source
 
-You can view information about the contents of a data source and you can view its embedding status with the knowledge base. Since a data source is part of a knowledge base, you'll need to open the knowledge base first before you can view the data source details.
+You can view information about the contents of a data source and you can view its embedding status with the knowledge base or connector. Since data sources are associated with a knowledge base or connector, you'll need to choose the knowledge base or connector first before you can view the data source details.
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to workload factory using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the workload factory navigation menu, select *AI*. 
 
-. Select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
+. Select the knowledge base or connector where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base* or *Manage connector*.
 +
-The bottom part of the page lists the data sources that are part of this knowledge base.
+The bottom part of the page lists the associated data sources.
 
 . Expand each row by selecting the image:button-down-caret.png[the down-arrow button] to view detailed information about each data source, such as the FSx for ONTAP file system, the volume, and the path where the data source resides. 
 +
-It also lists the embedding information and whether that data source is currently embedded in the knowledge base.
+It also lists the embedding information and whether that data source is currently embedded in the knowledge base or connector.
 
 == Edit data source settings
 
-You can edit information about a data source that you've integrated in a knowledge base. Most of the information is fixed after you've added a data source to a knowledge base, but you can make changes to the chunking definition and configuration, and to the permission awareness (when using SMB protocol on the data source volume).
+You can edit information about a data source that you've integrated with a knowledge base or connector. Most of the information is fixed after you've added a data source, but you can make changes to the some of the configuration (such as chunking definition or permission awareness).
 
 .Steps
 
@@ -56,7 +56,7 @@ The data source settings are updated and the AI system synchronizes the data sou
 
 You can change the contents of a data source at any time to add or update your organizational data. If this data source is being actively used in a knowledge base, you must sync the data source so that it is re-indexed to the knowledge base. Syncing is incremental, so Amazon Bedrock only processes the objects in your FSx for ONTAP volume that have been added, modified, or deleted since the last sync.
 
-Data sources are synchronized with the knowledge base automatically once a day so that any data source changes are reflected in the chatbot. If you make changes to a data source and you'd like to synchronize the data immediately, you can link:manage-knowledgebase.html#synchronize-your-data-sources-with-a-knowledge-base[perform an on-demand synchronization].
+Data sources are synchronized with the knowledge base automatically once a day so that any data source changes are reflected in the chatbot. If you make changes to a data source and you'd like to synchronize the data immediately, you can link:../knowledge-base/manage-knowledgebase.html#synchronize-your-data-sources-with-a-knowledge-base[perform an on-demand synchronization].
 
 == Delete a data source
 

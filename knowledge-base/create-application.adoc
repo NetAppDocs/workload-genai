@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: create-application.html
+permalink: knowledge-base/create-application.html
 keywords: ai, chatbot, creating, application, knowledge base, rag, retrieval augmented generation
 summary: After you build your knowledge base and test your chatbot, you are ready to set up the application that will enable your users to query the chatbot.
 ---
 
 = Create a RAG-based GenAI application
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 After you build your knowledge base and test your chatbot, you are ready to set up the application that will enable your users to query the chatbot.

@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: manage-knowledgebase.html
+permalink: knowledge-base/manage-knowledgebase.html
 keywords: ai, chatbot, managing, knowledge base
 summary: After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.
 ---
 
 = Manage GenAI knowledge bases
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 After you create a knowledge base, you can view the knowledge base details, modify the knowledge base, integrate additional data sources, or delete the knowledge base.
@@ -149,7 +149,7 @@ You can embed additional data sources in your knowledge base to populate it with
 
 . Select image:icon-action.png[the option button] and select *Add data source*. 
 
-include::_include/add-data-source.adoc[]
+include::_include/add-data-source-kb.adoc[]
 
 .Result
 
@@ -176,6 +176,21 @@ You'll see a message that your data sources are being scanned, and a final messa
 .Result
 
 The knowledge base is synchronized with the attached data sources and any active chatbot will start using the newest information from your data sources.
+
+=== Pause or resume a scheduled synchronization
+If you want to pause or resume the next synchronization (scan) of the data sources, you can do so at any time. You might need to pause the next scheduled synchronization if you are going to make changes to a data source and don't want the synchronization happening during the change window.
+
+.Steps
+
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. From the Knowledge bases & Connectors tab, select the knowledge base for which you want to pause or resume scans.
+
+. Select image:icon-action.png[the option button] and select *Manage knowledge base*.
+
+. Select the *Actions* menu and select *Scan > Pause scheduled scan* or *Scan > Resume scheduled scan*.
++
+You'll see a message that the next scheduled scan has either been paused or resumed.
 
 == Evaluate chat models before creating a knowledge base
 

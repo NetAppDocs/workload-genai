@@ -17,50 +17,68 @@ sidebar:
       entries:
         - title: What's new
           url: /whats-new.html
-    - title: Get started
+    - title: Learn about BlueXP workload factory for GenAI
       entries:
         - title: Learn about BlueXP workload factory for GenAI
-          url: /ai-workloads-overview.html
-        - title: Quick start
-          url: /quick-start.html
-        - title: GenAI requirements
-          url: /requirements.html
-        - title: Identify data sources for your knowledge base
-          url: /identify-data-sources.html
-        - title: Deploy the knowledge base infrastructure
-          url: /deploy-infrastructure.html 
-        - title: Use the external example chatbot application
-          url: /example-chatbot-application.html
-        - title: Components for the NetApp GenAI engine
-          url: /genai-engine-instance.html  
-    - title: Use GenAI to build knowledge bases
+          url: /general/ai-workloads-overview.html
+        - title: Components of the NetApp GenAI engine
+          url: /general/genai-engine-instance.html 
+    - title: Use GenAI to build knowledge bases for Amazon Bedrock
       entries:
+        - title: Get started
+          entries:
+          - title: Quick start
+            url: /knowledge-base/quick-start-knowledge-base.html
+          - title: Knowledge base requirements
+            url: /knowledge-base/requirements-knowledge-base.html
+          - title: Identify data sources to add to a knowledge base
+            url: /knowledge-base/identify-data-sources-knowledge-base.html
+          - title: Deploy the GenAI infrastructure
+            url: /knowledge-base/deploy-infrastructure.html
         - title: Create a knowledge base
-          url: /create-knowledgebase.html
+          url: /knowledge-base/create-knowledgebase.html
         - title: Test a knowledge base
-          url: /test-knowledgebase.html
+          url: /knowledge-base/test-knowledgebase.html
         - title: Activate authentication
-          url: /activate-authentication.html
+          url: /knowledge-base/activate-authentication.html
         - title: Publish a knowledge base
-          url: /publish-knowledgebase.html
+          url: /knowledge-base/publish-knowledgebase.html
+        - title: Use the external example chatbot application
+          url: /knowledge-base/example-chatbot-application.html
         - title: Create a RAG-based AI application
-          url: /create-application.html
+          url: /knowledge-base/create-application.html
         - title: What you can do next
-          url: /whats-next.html
+          url: /knowledge-base/whats-next.html
+    - title: Use GenAI to create connectors for Amazon Q Business
+      entries:
+        - title: Get started
+          entries:
+          - title: Quick start
+            url: /connector/quick-start-connector.html
+          - title: Knowledge base requirements
+            url: /connector/requirements-connector.html
+          - title: Identify data sources to add to a knowledge base
+            url: /connector/identify-data-sources-connector.html
+          - title: Deploy the GenAI infrastructure
+            url: /connector/deploy-infrastructure.html
+        - title: Create a NetApp ONTAP Connector for Amazon Q
+          url: /connector/define-connector.html   
     - title: Administer GenAI
       entries:
         - title: Manage the GenAI infrastructure
-          url: /manage-infrastructure.html
+          url: /general/manage-infrastructure.html
         - title: Manage knowledge bases
-          url: /manage-knowledgebase.html
+          url: /knowledge-base/manage-knowledgebase.html
+        - title: Manage connectors
+          url: /connector/manage-connector.html
         - title: Manage data sources
-          url: /manage-data-source.html  
+          url: /general/manage-data-source.html  
     - title: Knowledge and support
       entries:
         - title: Register for support
           url: /support-registration.html
         - title: Troubleshooting
-          url: /troubleshooting.html
+          url: /general/troubleshooting.html
         - title: Get help
           url: /get-help.html    
     - title: Legal notices

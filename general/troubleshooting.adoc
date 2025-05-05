@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: troubleshooting.html
+permalink: general/troubleshooting.html
 keywords: support registration, register for support, support, nss account, add nss account,
 summary: Before you can open a support case with NetApp technical support, you need to add a NetApp Support Site account to workload factory and then register for support.
 ---
 
 = GenAI troubleshooting
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 Learn how to work around some common problems you might encounter.

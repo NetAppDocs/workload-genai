@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: genai-engine-instance.html
+permalink: general/genai-engine-instance.html
 keywords: genai engine, instance, ec2, role, iam role, permissions, security group, inbound, outbound, private endpoints
 summary: When you deploy the GenAI infrastructure, workload factory creates an EC2 instance for the GenAI engine. It also creates an IAM role, security group, and private endpoints for this instance. You might want to understand more details about these components that workload factory creates in your AWS environment.
 ---
 
-= Components for the NetApp GenAI engine
+= Components of the NetApp GenAI engine
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 When you deploy the GenAI infrastructure, workload factory creates an EC2 instance for the GenAI engine. It also creates an IAM role, security group, and private endpoints for this instance. You might want to understand more details about these components that workload factory creates in your AWS environment.
@@ -88,7 +88,7 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai:8529f2ac-b443-4224-9abe-f42dc418ab8d:kbId": "*"
+          "aws:ResourceTag/netapp:wlmai: :<ai-engine-id>:kbId": "*"
         }
       },
       "Action": "fsx:DeleteVolume",
@@ -101,7 +101,20 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai:8529f2ac-b443-4224-9abe-f42dc418ab8d": "*"
+          "aws:ResourceTag/netapp:wlmai: :<ai-engine-id>:qConnectorId": "*"
+        }
+      },
+      "Action": "fsx:DeleteVolume",
+      "Resource": [
+        "arn:aws:fsx:*:*:volume/*/*",
+        "arn:aws:fsx:*:*:backup/*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Condition": {
+        "StringLike": {
+          "aws:ResourceTag/netapp:wlmai:<ai-engine-id>": "*"
         }
       },
       "Action": "fsx:UntagResource",
@@ -111,7 +124,17 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai:8529f2ac-b443-4224-9abe-f42dc418ab8d:kbId": "*"
+          "aws:ResourceTag/netapp:wlmai:<ai-engine-id>:kbId": "*"
+        }
+      },
+      "Action": "fsx:UntagResource",
+      "Resource": "arn:aws:fsx:*:*:volume/*/*",
+      "Effect": "Allow"
+    },
+    {
+      "Condition": {
+        "StringLike": {
+          "aws:ResourceTag/netapp:wlmai:<ai-engine-id>:qConnectorId": "*"
         }
       },
       "Action": "fsx:UntagResource",
@@ -136,6 +159,22 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
         "ec2messages:DeleteMessage",
         "ec2messages:FailMessage",
         "ec2messages:SendReply"
+      ],
+      "Resource": "*",
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "qbusiness:ListWebExperiences",
+        "qbusiness:GetApplication",
+        "qbusiness:CreateDataSource",
+        "qbusiness:DeleteDataSource",
+        "qbusiness:ListIndices",
+        "qbusiness:StartDataSourceSyncJob",
+        "qbusiness:StopDataSourceSyncJob",
+        "qbusiness:ListDataSourceSyncJobs",
+        "qbusiness:BatchPutDocument",
+        "qbusiness:BatchDeleteDocument"
       ],
       "Resource": "*",
       "Effect": "Allow"
