@@ -1,29 +1,23 @@
----
-sidebar: sidebar
-permalink: deploy-infrastructure.html
-keywords: ai, chatbot, infrastructure, bedrock, fsx for ontap
-summary: You need to deploy the infrastructure for RAG framework in your environment before you can build FSx for ONTAP knowledge bases and applications for your organization. The primary infrastructure components are the Amazon Bedrock AI service, a virtual machine instance for the NetApp GenAI engine, and an FSx for ONTAP file system.
----
-
-= Deploy the GenAI infrastructure
-:icons: font
-:imagesdir: ./media/
-
 [.lead]
-You need to deploy the GenAI infrastructure for RAG framework in your environment before you can build FSx for ONTAP knowledge bases and applications for your organization. The primary infrastructure components are the Amazon Bedrock service, a virtual machine instance for the NetApp GenAI engine, and an FSx for ONTAP file system.
+You need to deploy the GenAI infrastructure for RAG framework in your environment before you can build FSx for ONTAP knowledge bases, connectors, and applications for your organization. The primary infrastructure components are the Amazon Bedrock service, a virtual machine instance for the NetApp GenAI engine, and an FSx for ONTAP file system.
 
-The deployed infrastructure can support multiple knowledge bases and chatbots, so you'll typically only need to perform this task once.
+The deployed infrastructure can support multiple knowledge bases, chatbots, and connectors, so you'll typically only need to perform this task once.
 
 == Infrastructure details
 
 Your GenAI deployment must be in an AWS region that has Amazon Bedrock enabled. https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html[View the list of supported regions^]
 
-The deployment consists of the following components.
+The infrastructure consists of the following components.
 
 Amazon Bedrock service::
 Amazon Bedrock is a fully-managed service that enables you to use foundation models (FMs) from leading AI companies via a single API. It also provides the capabilities you need to build secure generative AI applications.
 +
 https://aws.amazon.com/bedrock/[Learn more about Amazon Bedrock^]
+
+Amazon Q Business::
+Amazon Q builds on Amazon Bedrock to provide a fully managed generative AI assistant that you can use to answer questions and generate content based on information from your data sources.
++
+https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/what-is.html[Learn more about Amazon Q Business^]
 
 Virtual machine for the NetApp GenAI engine::
 The NetApp GenAI engine gets deployed during this process. It provides the processing power to ingest the data from your data sources and then write that data in the vector database.
@@ -39,7 +33,7 @@ The NetApp GenAI engine monitors and interacts with both of these volumes.
 
 The following image shows the GenAI infrastructure. The components numbered 1, 2, and 3 are deployed during this procedure. The other elements must be in place before starting the deployment.
 
-image:diagram-chatbot-infrastructure.png[A diagram of the AI chatbot components.]
+image:genai-infrastructure-diagram-numbered.png[A diagram of the GenAI infrastructure components.]
 
 == Deploy the GenAI infrastructure
 
@@ -47,7 +41,10 @@ You'll need to enter your AWS credentials and select the FSx for ONTAP file syst
 
 .Before you begin
 
-Make sure your environment meets link:requirements.html[the requirements] before you start this procedure.
+Make sure your environment meets the requirements for knowledge bases or connectors, depending on which you choose, before you start this procedure.
+
+* link:../knowledge-base/requirements-knowledge-base.html[Knowledge base requirements]
+* link:../connector/requirements-connector.html[Connector requirements]
 
 .Steps
 

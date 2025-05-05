@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: example-chatbot-application.html
+permalink: knowledge-base/example-chatbot-application.html
 keywords: ai, example, sample, chatbot, app, application, local
 summary: You can install and run an example chatbot application to test your knowledge bases and learn how to use the workload factory API to create your own generative AI application.
 ---
 
 = Use the GenAI external example chatbot application
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 After you configure, activate, and publish a knowledge base, external application developers can configure and run the open source example chatbot application provided by NetApp to interact with your knowledge base and to learn how to use the workload factory API to create their own generative AI applications.

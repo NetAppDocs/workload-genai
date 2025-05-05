@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar
-permalink: manage-infrastructure.html
+permalink: general/manage-infrastructure.html
 keywords: ai, chatbot, creating, knowledge base
 summary: You can view details about your deployed GenAI RAG infrastructure or remove the chatbot infrastructure if you no longer need it.
 ---
 
 = Manage the GenAI infrastructure
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 You can view details about your deployed GenAI RAG infrastructure or remove the chatbot infrastructure if you no longer need it.
@@ -38,7 +38,7 @@ If you no longer need the chatbot infrastructure that you deployed for one or mo
 
 NOTE: All chatbots that have been deployed on this infrastructure will be disabled and all chat history will be deleted.
 
-This operation only removes the links to the AI infrastructure from workload factory--it does not remove all the components from AWS. You'll need to manually delete the following infrastructure components from AWS:
+This operation only removes the links to the AI infrastructure from workload factory; it does not remove all the components from AWS. You'll need to manually delete the following infrastructure components from AWS:
 
 * The VM instance
 * Private endpoints
