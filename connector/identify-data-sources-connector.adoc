@@ -36,6 +36,8 @@ For example, if you have integrated 10 files (data sources) into your connector,
 
 NOTE: When you add data sources to an Amazon Q Business connector, only user permissions apply to data source files. Group permissions are not applied.
 
+NOTE: If there are files in your data source that do not contain any text, Amazon Q Business doesn't index those files, and instead logs an entry in Amazon CloudWatch Logs noting that the files contain no text to index.
+
 == Supported data source file formats
 
 The following data source file formats are currently supported with NetApp ONTAP Connector for Amazon Q.
