@@ -36,7 +36,7 @@ For example, if you have integrated 10 files (data sources) into your connector,
 
 NOTE: When you add data sources to an Amazon Q Business connector, only user permissions apply to data source files. Group permissions are not applied.
 
-NOTE: If there are files in your data source that do not contain any text, Amazon Q Business doesn't index those files, and instead logs an entry in Amazon CloudWatch Logs noting that the files contain no text to index.
+NOTE: If a file in your data source lacks text (for example, a text-free image), Amazon Q Business does not index it but logs an entry in Amazon CloudWatch Logs noting the absence of text.
 
 == Supported data source file formats
 
