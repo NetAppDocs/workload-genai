@@ -24,7 +24,7 @@ include::_whatsnew/2025-03-02.adoc[]
 == 02 February 2025
 
 include::_whatsnew/2025-02-02.adoc[]
-//end::whats-new[]
+
 == 05 January 2025
 
 include::_whatsnew/2025-01-05.adoc[]
@@ -53,3 +53,4 @@ include::_whatsnew/2024-08-04.adoc[]
 == 7 July 2024
 
 include::_whatsnew/2024-07-07.adoc[]
+//end::whats-new[]
