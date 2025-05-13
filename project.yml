@@ -55,9 +55,9 @@ sidebar:
           entries:
           - title: Quick start
             url: /connector/quick-start-connector.html
-          - title: Knowledge base requirements
+          - title: Connector requirements
             url: /connector/requirements-connector.html
-          - title: Identify data sources to add to a knowledge base
+          - title: Identify data sources to add to a connector
             url: /connector/identify-data-sources-connector.html
           - title: Deploy the GenAI infrastructure
             url: /connector/deploy-infrastructure.html
