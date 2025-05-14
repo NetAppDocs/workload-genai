@@ -65,7 +65,7 @@ GenAI helps to build generative AI applications using RAG in the following ways:
 * Provides a simple connector interface so you can connect GenAI with Amazon Q Business, quickly and easily utilizing the capabilities of this AI assistant. 
 
 //Cross-repo include for Tools section
-https://raw.githubusercontent.com/NetAppDocs/workload-family/main/_include/learn-about-tools.adoc[]
+include::https://raw.githubusercontent.com/NetAppDocs/workload-family/main/_include/learn-about-tools.adoc[]
 
 == Cost
 
