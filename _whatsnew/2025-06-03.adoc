@@ -1,7 +1,8 @@
 === S3 bucket storage for complex query results
-GenAI can now store complex query results (results containing tables with more than 10 rows) from your chatbot session in an S3 bucket that is associated with your account. When complex results are stored in an S3 bucket, you can download them at any time from within the chat session.
+BlueXP workload factory for GenAI can now store complex query results (results containing tables with more than 10 rows) from your chatbot session in an S3 bucket that is associated with your account. When complex results are stored in an S3 bucket, you can download them at any time from within the chat session.
 
-
+=== MCP server availability
+NetApp now provides a Model Context Protocol (MCP) server with BlueXP workload factory for GenAI. You can install the server locally to enable external MCP clients to discover and retrieve query results from a GenAI knowledge base.
 
 
 
