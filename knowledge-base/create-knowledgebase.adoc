@@ -81,6 +81,7 @@ NOTE: The data guardrails feature is not supported when ingesting structured dat
 If you activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
 .. *FSx for ONTAP file system*: When you define a new knowledge base, Workload factory creates a new Amazon FSx for NetApp ONTAP volume to store it. Choose an existing file system name and SVM (also called a storage VM) where the new volume will be created.
 .. *Snapshot policy*: Choose a snapshot policy from the list of existing policies defined in the workload factory storage inventory. Recurring snapshots of the knowledge base will automatically be created at a frequency based on the snapshot policy you select.
+.. *S3 Bucket*: If chatbot query results are complex (containing a table with more than 10 rows), GenAI can store the results in an S3 bucket. To use this feature, enable the *Activate S3 Bucket* setting and choose an S3 bucket that is associated with your account from the list. When complex results are stored in an S3 bucket, you can download them using the download link within the chatbot session.
 +
 If the snapshot policy you need doesn't exist, you can https://docs.netapp.com/us-en/ontap/data-protection/create-snapshot-policy-task.html[create a snapshot policy] on the storage VM that contains the volume.
 
