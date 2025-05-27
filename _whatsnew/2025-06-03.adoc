@@ -9,6 +9,8 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 === Tracker available for monitoring and tracking operations
 The Tracker monitoring capability is now available in GenAI. You can use Tracker to monitor and track the progress and status of pending, ongoing, and completed operations, review details for operation tasks and subtasks, diagnose any issues or failures, edit parameters for failed operations, and retry failed operations.
 
+link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html[Monitor workload operations with Tracker in BlueXP workload factory]
+
 === Choose a reranker model for a knowledge base
 You can now increase the relevance of reranked query results by selecting a reranker model to use with a knowledge base. GenAI supports the Cohere Rerank and Amazon Rerank models.
 
