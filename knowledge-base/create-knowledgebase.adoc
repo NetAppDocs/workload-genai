@@ -59,7 +59,7 @@ https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 
 .. *Chat model*: Choose from various chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
 
-.. *Reranking*: Enable or disable reranking, which can can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region.
+.. *Reranking*: Enable or disable reranking, which can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region.
 
 .. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by BlueXP classification^].
 +
