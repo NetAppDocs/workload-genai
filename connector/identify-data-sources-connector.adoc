@@ -40,7 +40,7 @@ NOTE: If a file in your data source lacks text (for example, a text-free image),
 
 == Supported data source file formats
 
-The following data source file formats are currently supported with NetApp ONTAP Connector for Amazon Q.
+The following data source file formats are currently supported with NetApp Connector for Amazon Q Business.
 
 [cols=2*,options="header,autowidth"]
 |===
