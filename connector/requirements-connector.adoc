@@ -19,9 +19,9 @@ Workload factory login and account::
 You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with workload factory^] and log in using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 AWS credentials and permissions::
-You need to add AWS credentials to workload factory with read/write permissions, which means you'll be using workload factory in _Read/Write_ mode for GenAI.
+You need to add AWS credentials to workload factory with read/write permissions, which means you'll be using workload factory in _read/write_ mode for GenAI.
 +
-_Basic_ mode and _Read-only_ mode permissions are not supported at this time.
+_Basic_ mode and _read-only_ mode permissions are not supported at this time.
 +
 When setting up your credentials, selecting permissions as shown below provides you with full access to manage FSx for ONTAP file systems and to deploy and manage the GenAI EC2 instance and other AWS resources needed for your knowledge base and chatbot.
 +
