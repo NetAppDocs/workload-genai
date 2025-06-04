@@ -50,7 +50,7 @@ This page displays the published status, embedding status of the data sources, e
 
 . Select the *Actions* menu and select *Edit knowledge base*.
 
-. In the Edit knowledge base page, you can change the knowledge base name, description, embedding model, chat model, data guardrails enablement, choose whether conversation starters are created automatically or manually, and the snapshot policy used for the volume that contains the knowledge base.
+. In the Edit knowledge base page, you can change the knowledge base name, description, embedding model, chat model, feature enablement, choose whether conversation starters are created automatically or manually, and the snapshot policy used for the volume that contains the knowledge base.
 +
 If you use Manual mode for conversation starters, you can change conversation starters here as well.
 +
