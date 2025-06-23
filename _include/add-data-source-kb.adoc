@@ -1,3 +1,9 @@
+// begin tabbed block
+[role="tabbed-block"]
+====
+
+.Add an FSx for ONTAP file system
+--
 . *Select a file system*: Select the FSx for ONTAP file system where your data source files reside and select *Next*.
 
 . *Select a volume*: Select the volume on which your data source files reside and select *Next*.
@@ -35,3 +41,85 @@ NOTE: If you include files based on a modification date range, as soon as the da
 * *Disabled*: Users of the chatbot will receive responses using content from all integrated data sources.
 
 . Select *Add* to add this data source to your knowledge base.
+
+--
+
+.Add a generic NFS file system
+--
+. *Select a file system*: Enter the IP address or FQDN for the filesystem host where your data source files reside, choose the NFS protocol for the network share, and select *Next*.
+
+. *Select a data source*: Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and select *Next*.
++
+NOTE: In some cases, you might need to enter the NFS export name manually and select *Retrieve directories* to display the available directories. You can choose to select the entire export, or only specific folders from the export.
+
+. *Configurations*: Configure how the data source ingests information from your files, and which files it includes in scans: 
++
+* *Define data source*: In the *Chunking strategy* section, define the how the GenAI engine splits data source content into chunks when the data source is integrated with a knowledge base. You can choose one of the following strategies:
++
+** *Multi-sentence chunking*: Organizes information from your data source into sentence-defined chunks. You can choose how many sentences make up each chunk (up to 100).
+** *Overlap-based chunking*: Organizes information from your data source into character-defined chunks that can overlap neighboring chunks. You can choose the size of each chunk in characters, and how much each chunk overlaps with adjacent chunks. You can configure a chunk size of between 50 and 3000 characters, and an overlap percentage of between 1 and 99%.
++
+NOTE: Choosing a high overlap percentage can greatly increase storage requirements with only slight improvements in retrieval accuracy.
+
+* *File filtering*: Configure which files are included in scans:
++
+** In the *File types support* section, choose to either include all types of files, or select individual file types for inclusion in the data source scans. 
++
+If you include images or PDF files, BlueXP workload factory for GenAI parses text in the images (including images in PDF documents), and this incurs a higher cost. 
++
+When including text data from images, GenAI is unable to mask Personally-Identifiable Information (PII) from the image as the scanned text data is sent from your environment to AWS. However, once the data is stored, all PII is masked in the GenAI database.
++
+NOTE: Your choice to include image files in scans is related to the knowledge base chat model. If you include image files in scans, the chat model must support images. If image file types are selected here, you cannot switch the knowledge base to a chat model that does not support image files. 
+
+** In the *File modification time filter* section, choose to enable or disable inclusion of files based on their modification time. If you enable modification time filtering, select a date range from the list.
++
+NOTE: If you include files based on a modification date range, as soon as the date range is not satisfied (the files have not been modified within the date range you specify), the files will be excluded from the periodic scan, and the data source will not include these files.
+
+. Select *Add data source* to add this data source to your knowledge base.
+--
+
+.Add a generic SMB file system
+--
+. *Select a file system*: 
+.. Enter the IP address or FQDN for the filesystem host where your data source files reside.
+.. Choose the SMB protocol for the network share.
+.. Enter the Active Directory information, which includes the domain, IP address, user name, and password. 
+.. Select *Next*.
+
+. *Select a data source*: Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and select *Next*.
++
+NOTE: In some cases, you might need to enter the SMB share name manually and select *Retrieve directories* to display the available directories. You can choose to select the entire share, or only specific folders from the share.
+
+. *Configurations*: Configure how the data source ingests information from your files, and which files it includes in scans: 
++
+* *Define data source*: In the *Chunking strategy* section, define the how the GenAI engine splits data source content into chunks when the data source is integrated with a knowledge base. You can choose one of the following strategies:
++
+** *Multi-sentence chunking*: Organizes information from your data source into sentence-defined chunks. You can choose how many sentences make up each chunk (up to 100).
+** *Overlap-based chunking*: Organizes information from your data source into character-defined chunks that can overlap neighboring chunks. You can choose the size of each chunk in characters, and how much each chunk overlaps with adjacent chunks. You can configure a chunk size of between 50 and 3000 characters, and an overlap percentage of between 1 and 99%.
++
+NOTE: Choosing a high overlap percentage can greatly increase storage requirements with only slight improvements in retrieval accuracy.
+
+* *Permission aware*: Enable or disable permission-aware responses:
++
+** *Enabled*: Users of the chatbot who access this knowledge base will only get responses to queries from data sources to which they have access.
+** *Disabled*: Users of the chatbot will receive responses using content from all integrated data sources.
+
+* *File filtering*: Configure which files are included in scans:
++
+** In the *File types support* section, choose to either include all types of files, or select individual file types for inclusion in the data source scans. 
++
+If you include images or PDF files, BlueXP workload factory for GenAI parses text in the images (including images in PDF documents), and this incurs a higher cost. 
++
+When including text data from images, GenAI is unable to mask Personally-Identifiable Information (PII) from the image as the scanned text data is sent from your environment to AWS. However, once the data is stored, all PII is masked in the GenAI database.
++
+NOTE: Your choice to include image files in scans is related to the knowledge base chat model. If you include image files in scans, the chat model must support images. If image file types are selected here, you cannot switch the knowledge base to a chat model that does not support image files. 
+
+** In the *File modification time filter* section, choose to enable or disable inclusion of files based on their modification time. If you enable modification time filtering, select a date range from the list.
++
+NOTE: If you include files based on a modification date range, as soon as the date range is not satisfied (the files have not been modified within the date range you specify), the files will be excluded from the periodic scan, and the data source will not include these files.
+
+. Select *Add data source* to add this data source to your knowledge base.
+--
+====
+// end tabbed block
+

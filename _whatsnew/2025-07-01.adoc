@@ -1,0 +1,9 @@
+=== Generic filesystem support
+You can now add a data source from a generic SMB or NFS share. This enables you to include files that are stored on volumes hosted by filesystems other than Amazon FSx for NetApp ONTAP.
+
+https://docs.netapp.com/us-en/workload-factory/bluexp-workload-factory-add-data-source.html[Add a data source to BlueXP workload factory for Builders]
+
+////
+=== MCP server availability
+NetApp now provides a Model Context Protocol (MCP) server with BlueXP workload factory for GenAI. You can install the server locally to enable external MCP clients to discover and retrieve query results from a GenAI knowledge base.
+////
