@@ -1,7 +1,7 @@
 // begin tabbed block
 [role="tabbed-block"]
 ====
-
+[start=2]
 .Add an FSx for ONTAP file system
 --
 . *Select a file system*: Select the FSx for ONTAP file system where your data source files reside and select *Next*.
@@ -46,6 +46,7 @@ NOTE: If you include files based on a modification date range, as soon as the da
 
 .Add a generic NFS file system
 --
+[start=2]
 . *Select a file system*: Enter the IP address or FQDN for the filesystem host where your data source files reside, choose the NFS protocol for the network share, and select *Next*.
 
 . *Select a data source*: Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and select *Next*.
@@ -80,6 +81,7 @@ NOTE: If you include files based on a modification date range, as soon as the da
 
 .Add a generic SMB file system
 --
+[start=2]
 . *Select a file system*: 
 .. Enter the IP address or FQDN for the filesystem host where your data source files reside.
 .. Choose the SMB protocol for the network share.
