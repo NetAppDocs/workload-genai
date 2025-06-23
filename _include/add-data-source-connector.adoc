@@ -29,7 +29,9 @@ NOTE: If you include files based on a modification date range, as soon as the da
 NOTE: Active Directory group permissions are not supported for Amazon Q Business connector data sources.
 
 . Select *Add* to add this data source to the Amazon Q Business connector.
+
 --
+
 .Add a generic NFS file system
 --
 [start=2]
@@ -64,7 +66,9 @@ NOTE: If you include files based on a modification date range, as soon as the da
 
 
 . Select *Add data source* to add this data source to the Amazon Q Business connector.
+
 --
+
 .Add a generic SMB file system
 --
 [start=2]
