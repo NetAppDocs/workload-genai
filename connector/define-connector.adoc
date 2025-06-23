@@ -85,6 +85,7 @@ You can add one or more data sources to populate the Amazon Q Business index wit
 +
 * Add FSx for ONTAP file system (use files from an existing FSx for ONTAP volume)
 * Add file system (use files from a generic SMB or NFS share)
+
 include::_include/add-data-source-connector.adoc[]
 
 .Result
