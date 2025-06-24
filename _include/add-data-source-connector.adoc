@@ -79,6 +79,8 @@ NOTE: If you include files based on a modification date range, as soon as the da
 .. Select *Next*.
 
 . *Select a data source*: Select the data source location based on where you have saved the files. This can be an entire volume, or just a specific folder or sub-folder in the volume, and select *Next*.
++
+NOTE: In some cases, you might need to enter the SMB share name manually and select *Retrieve directories* to display the available directories. You can choose to select the entire share, or only specific folders from the share.
 
 . *Configurations*: Configure how the data source ingests information from your files, and which files it includes in scans: 
 +
