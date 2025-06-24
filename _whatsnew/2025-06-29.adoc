@@ -1,4 +1,4 @@
-=== Generic filesystem support
+=== Support for data sources hosted on generic NFS/SMB filesystems
 You can now add a data source from a generic SMB or NFS share. This enables you to include files that are stored on volumes hosted by filesystems other than Amazon FSx for NetApp ONTAP.
 
 https://docs.netapp.com/us-en/workload-factory/bluexp-workload-factory-add-data-source.html[Add a data source to BlueXP workload factory for Builders]
