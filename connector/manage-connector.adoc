@@ -97,6 +97,7 @@ You can embed additional data sources in your connector to populate it with addi
 +
 * Add FSx for ONTAP file system (use files from an existing FSx for ONTAP volume)
 * Add file system (use files from a generic SMB or NFS share)
+
 include::_include/add-data-source-kb.adoc[]
 
 .Result

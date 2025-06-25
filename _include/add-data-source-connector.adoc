@@ -1,9 +1,3 @@
-// begin tabbed block
-[role="tabbed-block"]
-====
-.Add an FSx for ONTAP file system
---
-[start=2]
 . *Select a file system*: Select the FSx for ONTAP file system where your data source files reside and select *Next*.
 
 . *Select a volume*: Select the volume on which your data source files reside and select *Next*.
@@ -30,6 +24,7 @@ NOTE: Active Directory group permissions are not supported for Amazon Q Business
 
 . Select *Add* to add this data source to the Amazon Q Business connector.
 
+////
 --
 
 .Add a generic NFS file system
@@ -102,3 +97,5 @@ NOTE: Active Directory group permissions are not supported for Amazon Q Business
 --
 ====
 // end tabbed block
+
+////
