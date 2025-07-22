@@ -76,7 +76,7 @@ The following prerequisites must be met to enable data guardrails.
 +
 NOTE: The data guardrails feature is not supported when ingesting structured data files such as CSV, JSON, JSONP, or Parquet.
 
-[start=f]
+[start=6]
 .. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
 If you activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
