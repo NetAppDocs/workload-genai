@@ -85,7 +85,6 @@ If you activate conversation starters, "Automatic mode" is selected by default. 
 .. *S3 Bucket*: If chatbot query results are complex (containing a table with more than 10 rows), GenAI can store the results in an S3 bucket. To use this feature, enable the *Activate S3 Bucket* setting and choose an S3 bucket that is associated with your account from the list. When complex results are stored in an S3 bucket, you can download them using the download link within the chat session.
 +
 If the snapshot policy you need doesn't exist, you can https://docs.netapp.com/us-en/ontap/data-protection/create-snapshot-policy-task.html[create a snapshot policy] on the storage VM that contains the volume.
-
 . Select *Create knowledge base* to add the knowledge base to GenAI.
 +
 A progress indicator appears while the knowledge base is created.
