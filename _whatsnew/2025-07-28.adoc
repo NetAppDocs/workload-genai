@@ -1,0 +1,9 @@
+=== Save complex results to an Amazon S3 bucket
+If chatbot query results are complex (containing a table with more than 10 rows), GenAI can store the results in an S3 bucket. When complex results are stored in an S3 bucket, you can download them using the download link within the chat session.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html[Create a GenAI knowledge base]
+
+=== MCP server availability
+NetApp now provides a Model Context Protocol (MCP) server with BlueXP workload factory for GenAI. You can install the server locally to enable external MCP clients to discover and retrieve query results from a GenAI knowledge base.
+
+link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server[NetApp workload factory GenAI MCP server^]
