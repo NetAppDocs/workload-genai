@@ -50,7 +50,7 @@ This page displays the published status, embedding status of the data sources, e
 
 . Select the *Actions* menu and select *Edit knowledge base*.
 
-. In the Edit knowledge base page, you can change the knowledge base name, description, embedding model, chat model, data guardrails enablement, choose whether conversation starters are created automatically or manually, and the snapshot policy used for the volume that contains the knowledge base.
+. In the Edit knowledge base page, you can change the knowledge base name, description, embedding model, chat model, feature enablement, choose whether conversation starters are created automatically or manually, and the snapshot policy used for the volume that contains the knowledge base.
 +
 If you use Manual mode for conversation starters, you can change conversation starters here as well.
 +
@@ -147,7 +147,11 @@ You can embed additional data sources in your knowledge base to populate it with
 
 . From the Knowledge bases inventory page, select the knowledge base where you want to add the data source.
 
-. Select image:icon-action.png[the option button] and select *Add data source*. 
+. Select image:icon-action.png[the option button] and select *Add data source*.
+. Select the type of data source you want to add:
++
+* Add FSx for ONTAP file system (use files from an existing FSx for ONTAP volume)
+* Add file system (use files from a generic SMB or NFS share)
 
 include::_include/add-data-source-kb.adoc[]
 

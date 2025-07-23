@@ -5,12 +5,12 @@ keywords: ai, chatbot, connector,
 summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate with Amazon Q Business, you can define a connector.
 ---
 
-= Create a NetApp ONTAP Connector for Amazon Q
+= Create a NetApp Connector for Amazon Q Business
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-After you've deployed the AI infrastructure and identified the data sources that you'll use from your FSx for ONTAP datastores, you are ready to define a NetApp ONTAP Connector for Amazon Q.
+After you've deployed the AI infrastructure and identified the data sources that you'll use from your FSx for ONTAP datastores, you are ready to define a NetApp Connector for Amazon Q Business.
 
 Ensure that your environment meets the link:requirements-connector.html[requirements] for Amazon Q Business before proceeding.
 
@@ -24,7 +24,7 @@ NOTE: BlueXP workload factory for GenAI does not mask sensitive personal informa
 NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, workload factory scans the entire data source from scratch, which can incur a cost.
 
 == Define a connector
-Create a NetApp ONTAP Connector for Amazon Q. The connector enables API and data source communication between GenAI and Amazon Q Business.
+Create a NetApp Connector for Amazon Q Business. The connector enables API and data source communication between GenAI and Amazon Q Business.
 
 .Steps
 
@@ -56,7 +56,7 @@ The following prerequisites must be met to enable data guardrails.
 +
 NOTE: When you enable the data guardrails feature, GenAI processes .txt, .md, .csv, .docx, and .pdf files by ingesting only plain text (excluding embedded image or media text) and masking any private or sensitive data. All other file types are processed normally without masking private or sensitive data.
 
-.. *FSx for ONTAP file system*: When you define a new NetApp ONTAP Connector for Amazon Q, workload factory creates a new Amazon FSx for NetApp ONTAP volume to store the connector information. Choose an existing file system and SVM (also called a storage VM) where the new volume will be created.
+.. *FSx for ONTAP file system*: When you define a new NetApp Connector for Amazon Q Business, workload factory creates a new Amazon FSx for NetApp ONTAP volume to store the connector information. Choose an existing file system and SVM (also called a storage VM) where the new volume will be created.
 .. *Snapshot policy*: Choose a snapshot policy from the list of existing policies defined in the workload factory storage inventory. GenAI automatically creates recurring snapshots of the volume storing the connector information at a frequency based on the snapshot policy you select.
 +
 If the snapshot policy you need doesn't exist, you can https://docs.netapp.com/us-en/ontap/data-protection/create-snapshot-policy-task.html[create a snapshot policy^] on the storage VM that contains the volume.
@@ -81,8 +81,7 @@ You can add one or more data sources to populate the Amazon Q Business index wit
 
 .Steps
 
-. After you select *Add data source*, the *Select a file system* page displays.
-
+. After you select *Add data source*, the *Select a file system* page appears.
 include::_include/add-data-source-connector.adoc[]
 
 .Result

@@ -1,6 +1,5 @@
 settings:
   name: GenAI
-  platform: cloud
   internal:
     pdf_enabled: true
   prod:
@@ -61,9 +60,9 @@ sidebar:
             url: /connector/identify-data-sources-connector.html
           - title: Deploy the GenAI infrastructure
             url: /connector/deploy-infrastructure.html
-        - title: Create a NetApp ONTAP Connector for Amazon Q
+        - title: Create a NetApp Connector for Amazon Q Business
           url: /connector/define-connector.html   
-    - title: Administer GenAI
+    - title: Administer and monitor
       entries:
         - title: Manage the GenAI infrastructure
           url: /general/manage-infrastructure.html
@@ -72,7 +71,9 @@ sidebar:
         - title: Manage connectors
           url: /connector/manage-connector.html
         - title: Manage data sources
-          url: /general/manage-data-source.html  
+          url: /general/manage-data-source.html 
+        - title: Monitor operations with Tracker
+          url: /general/monitor-operations.html   
     - title: Knowledge and support
       entries:
         - title: Register for support

@@ -93,6 +93,10 @@ You can embed additional data sources in your connector to populate it with addi
 . From the Knowledge bases & Connectors inventory page, select the connector where you want to add the data source.
 
 . Select image:icon-action.png[the option button] and select *Add data source*. 
+. Select the type of data source you want to add:
++
+* Add FSx for ONTAP file system (use files from an existing FSx for ONTAP volume)
+* Add file system (use files from a generic SMB or NFS share)
 
 include::_include/add-data-source-kb.adoc[]
 
