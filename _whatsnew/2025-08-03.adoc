@@ -1,5 +1,5 @@
-=== Save results containing structured data to an Amazon S3 bucket
-If chatbot query results contain structured data, GenAI can store the results in an S3 bucket. When these results are stored in an S3 bucket, you can download them using the download link within the chat session.
+=== Secure storage for structured data results
+If chatbot query results contain structured data, GenAI can store the results in an Amazon S3 bucket. When these results are stored in an S3 bucket, you can download them using the download link within the chat session.
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html[Create a GenAI knowledge base]
 
