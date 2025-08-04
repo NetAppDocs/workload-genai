@@ -39,7 +39,8 @@ The chatbot simulator appears in the right pane. If defined, existing conversati
 [TIP]
 =====
 * You can see the sources used to produce the answer by expanding the *Sources* list under the response. This provides a list of files used to generate the answer. You can view and copy the data chunks used from each file and volume path to each file by hovering over the file name. 
-* If tables are included in the response, you can sort the data in each column, and copy each table to the clipboard.
+* If tables are included in the answer, you can sort the data in each column, and copy each table to the clipboard.
+* If answer results contain structured data and the *S3 Bucket* feature is enabled for the knowledge base, GenAI stores the results in an S3 bucket. You can download the results from the bucket using the *Download results* link within the chat session.
 =====
 
 . If you need to update any of your data sources so that your knowledge base provides more focused answers, make those changes now and then retest the knowledge base.
