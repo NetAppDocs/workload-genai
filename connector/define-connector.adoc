@@ -15,11 +15,11 @@ After you've deployed the AI infrastructure and identified the data sources that
 Ensure that your environment meets the link:requirements-connector.html[requirements] for Amazon Q Business before proceeding.
 
 .About this task
-Data sources from your organization might contain Personally Identifiable Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when defining a connector. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it inaccessible and irretrievable.
+Data sources from your organization might contain Personally Identifiable Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when defining a connector. Data guardrails, powered by NetApp Data Classification, identifies and masks PII, making it inaccessible and irretrievable.
 
-link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about BlueXP classification^].
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about NetApp Data Classification^].
 
-NOTE: BlueXP workload factory for GenAI does not mask sensitive personal information (SPII). Refer to link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data[types of sensitive personal data^] for more information about this type of data.
+NOTE: NetApp workload factory for GenAI does not mask sensitive personal information (SPII). Refer to link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data[types of sensitive personal data^] for more information about this type of data.
 
 NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, workload factory scans the entire data source from scratch, which can incur a cost.
 
@@ -39,19 +39,19 @@ Create a NetApp Connector for Amazon Q Business. The connector enables API and d
 .. *Name*: Enter the name you want to use for the connector.
 .. *Description*: Enter a detailed description for the connector.
 .. *Amazon Q*: The region and application name for the Amazon Q Business instance you want to integrate.
-.. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by BlueXP classification^].
+.. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by NetApp Data Classification^].
 +
 The following prerequisites must be met to enable data guardrails. 
 +
-* A service account is required to communicate with BlueXP classification. You must have the _Organization admin_ role on your BlueXP tenancy account for service account creation. A member who has the Organization admin role can complete all actions in BlueXP. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member[Learn how to add a role to a member in BlueXP^]
+* A service account is required to communicate with NetApp Data Classification. You must have the _Organization admin_ role on your NetApp Console tenancy account for service account creation. A member who has the Organization admin role can complete all actions in the NetApp Console. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member[Learn how to add a role to a member in the NetApp Console^]
 +
-* The AI engine must have access to the link:https://api.bluexp.netapp.com[BlueXP API endpoint^].
+* The AI engine must have access to the link:https://api.bluexp.netapp.com[NetApp Console API endpoint^].
 + 
-* You'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[BlueXP classification documentation^]: 
+* You'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[NetApp Data Classification documentation^]: 
 +
-1. Create a BlueXP Connector
+1. Create a Console agent
 2. Ensure that your environment can meet the prerequisites
-3. Deploy BlueXP classification
+3. Deploy NetApp Data Classification
 
 +
 NOTE: When you enable the data guardrails feature, GenAI processes .txt, .md, .csv, .docx, and .pdf files by ingesting only plain text (excluding embedded image or media text) and masking any private or sensitive data. All other file types are processed normally without masking private or sensitive data.

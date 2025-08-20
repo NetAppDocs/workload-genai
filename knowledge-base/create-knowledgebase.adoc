@@ -21,11 +21,11 @@ Public mode:: A knowledge base can be used without integrating data sources from
 
 Enterprise mode:: In most cases you'll want to integrate data sources from your organization into the knowledge base. This is known as an _Enterprise mode_ integration because it provides knowledge from your enterprise.
 +
-Data sources from your organization may contain Personally Identifiable Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when creating and configuring knowledge bases. Data guardrails, powered by BlueXP classification, identifies and masks PII, making it inaccessible and irretrievable.
+Data sources from your organization may contain Personally Identifiable Information (PII). To safeguard this sensitive information, you can enable _data guardrails_ when creating and configuring knowledge bases. Data guardrails, powered by NetApp Data Classification, identifies and masks PII, making it inaccessible and irretrievable.
 +
-link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about BlueXP classification^].
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about NetApp Data Classification^].
 +
-NOTE: BlueXP workload factory for GenAI does not mask sensitive personal information (SPii). Refer to link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data[types of sensitive personal data^] for more information about this type of data.
+NOTE: NetApp workload factory for GenAI does not mask sensitive personal information (SPii). Refer to link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data[types of sensitive personal data^] for more information about this type of data.
 +
 NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, workload factory scans the entire knowledge base from scratch, which incurs a cost.  
 
@@ -61,19 +61,19 @@ https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 
 .. *Reranking*: Enable or disable reranking, which can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region.
 
-.. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by BlueXP classification^].
+.. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by NetApp Data Classification^].
 +
 The following prerequisites must be met to enable data guardrails. 
 +
-* A service account is required to communicate with BlueXP classification. You must have the _Organization admin_ role on your BlueXP tenancy account for service account creation. A member who has the Organization admin role can complete all actions in BlueXP. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member[Learn how to add a role to a member in BlueXP^]
+* A service account is required to communicate with NetApp Data Classification. You must have the _Organization admin_ role on your NetApp Console tenancy account for service account creation. A member who has the Organization admin role can complete all actions in the . link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member[Learn how to add a role to a member in the NetApp Console^]
 +
-* The AI engine must have access to the link:https://api.bluexp.netapp.com[BlueXP API endpoint^].
+* The AI engine must have access to the link:https://api.bluexp.netapp.com[NetApp Console API endpoint^].
 + 
-* You'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[BlueXP classification documentation^]: 
+* You'll need to do the following as described in link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start[NetApp Data Classification documentation^]: 
 +
-1. Create a BlueXP Connector
+1. Create a Console agent
 2. Ensure that your environment can meet the prerequisites
-3. Deploy BlueXP classification
+3. Deploy NetApp Data Classification
 
 +
 NOTE: The data guardrails feature is not supported when ingesting structured data files such as CSV, JSON, JSONP, or Parquet.

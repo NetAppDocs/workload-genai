@@ -85,4 +85,4 @@ During the deployment process, the following items are set up:
 //* The volume for the GenAI engine database (LanceDB) is created on the FSx for ONTAP file system.
 * The virtual machine instance for the GenAI engine is deployed.
 * Amazon Bedrock is configured to send logs to Amazon CloudWatch Logs, using a log group with the prefix `/aws/bedrock/`.
-* The GenAI engine is configured to send logs to Amazon CloudWatch Logs, using a log group with the name `/netapp/wlmai/<tenancyAccountId>/randomId`, where `<tenancyAccountID>` is the https://docs.netapp.com/us-en/bluexp-automation/platform/get_identifiers.html#get-the-account-identifier[BlueXP account ID^] for the current user.
+* The GenAI engine is configured to send logs to Amazon CloudWatch Logs, using a log group with the name `/netapp/wlmai/<tenancyAccountId>/randomId`, where `<tenancyAccountID>` is the https://docs.netapp.com/us-en/bluexp-automation/platform/get_identifiers.html#get-the-account-identifier[NetApp Console account ID^] for the current user.

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: # no keywords
 summary: # no summary
 ---
-= BlueXP workload factory for GenAI legal notices
+= NetApp workload factory for GenAI legal notices
 :icons: font
 :imagesdir: ./media/
 
