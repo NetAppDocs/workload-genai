@@ -78,3 +78,13 @@ Some multi-modal operations, such as scanning images for text information, can u
 == Licensing 
 
 No special licenses are needed from NetApp to use the AI capabilities of workload factory.
+
+== Regions
+Workload factory is supported in all commercial regions where FSx for ONTAP is supported. link:https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/[View supported Amazon regions.^]
+ 
+The following AWS regions aren't supported:
+ 
+* China regions
+* GovCloud (US) regions
+* Secret Cloud
+* Top Secret Cloud
