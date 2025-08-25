@@ -1,0 +1,22 @@
+=== Support for adding generic NFS/SMB data sources in NetApp connectors for Amazon Q Business
+// WLMAI-1213
+You can now add a data source from a generic NFSv3, NFSv4, or SMB share to a NetApp Connector for Amazon Q Business. This enables you to include files that are stored on volumes hosted by filesystems other than Amazon FSx for NetApp ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html[Create a NetApp Connector for Amazon Q Business]
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector[Add data sources to a connector]
+
+=== Advanced chat configuration for knowledgebases
+// WLMAI-1755, WLMAI-1943
+You can now configure advanced chat settings that are applicable to the chat model for the knowledgebase such as the response length, temperature, reasoning settings, and more.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html[Create a GenAI knowledge base]
+
+=== Embedding model inference profile selection
+// WLMAI-1660
+If your chosen embedding model has inference profile settings, GenAI enables you to choose an inference profile. This enables you to shape the chatbot to be more responsive for interactive queries, or more efficient for batch tasks.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html[Create a GenAI knowledge base]
+
+
+
