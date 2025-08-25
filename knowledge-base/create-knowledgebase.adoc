@@ -87,26 +87,26 @@ NOTE: The data guardrails feature is not supported when ingesting structured dat
 .. *Chat model*:
 +
 * Choose from various chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
-* If applicable, choose an inference profile from the *Inference type* list to configure how responsive the chatbot is to to interactive queries versus batch requests.
+* If applicable, select the inference profile that matches the configuration of the selected model.
 
 .. *Chat settings*: 
 +
 * Choose a temperature for the chatbot to configure the randomness and creativity of responses. A lower temperature results in more predictable responses, and a higher temperature results in more varied responses.
 * Choose a maximum response length to configure how detailed responses are. Longer response lengths use more response tokens, and can incur a higher cost.
 
-.. *Thinking mode*:
+.. *Thinking mode*: When thinking mode is enabled, the chatbot will take more time to process queries and the results will usually be more accurate. When you enable thinking mode, you can control how many reasoning tokens are used when generating results. Using more reasoning tokens can lead to more accurate responses, but might incur a higher cost.
 
-.. *System prompt*:
+.. *System prompt*: Enter text that will be displayed to the user as soon as the chat session begins.
 
-.. *Reranking*: Enable or disable reranking, which can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region.
+.. *Reranking*: Enable or disable reranking, which can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region. Select the inference profile that matches the configuration of the selected model.
 
 .. *Retrieve settings*:
 +
-* Set a *Reranking score* to
-* Choose the number of *Retrieved database documents*
-* Choose the number of *Retrieved total documents*
-* Choose the *Distance*
-* Select a *Retrieve type*
+* Set a *Reranking score* to configure the ordering of query results based on the relevance.
+* Choose the number of *Retrieved database documents* to control how many documents the model can use to generate responses.
+* Choose the number of *Retrieved total documents* to configure how many documents are sent to the chat session.
+* Choose the *Distance* to configure the ordering of query results based on their similarity to the context of the original query.
+* Select a *Retrieve type* to configure the chatbot to use semantic search (relying on meaning and context of queries) or hybrid search (keyword search combined with semantic search) when generating results.
 
 .. *Retrieve time configuration*:
 +
