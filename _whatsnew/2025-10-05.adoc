@@ -6,9 +6,9 @@ link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.htm
 
 link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector[Add data sources to a connector]
 
-=== Advanced chat configuration for knowledgebases
+=== Advanced chat configuration for knowledge bases
 // WLMAI-1755, WLMAI-1943
-You can now configure advanced chat settings that are applicable to the chat model for the knowledgebase such as the response length, temperature, reasoning settings, and more.
+You can now configure advanced chat settings that are applicable to the chat model for the knowledge base such as the response length, temperature, reasoning settings, and more.
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html[Create a GenAI knowledge base]
 
@@ -17,6 +17,3 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 If your chosen embedding model has inference profile settings, GenAI enables you to choose an inference profile. This enables you to shape the chatbot to be more responsive for interactive queries, or more efficient for batch tasks.
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html[Create a GenAI knowledge base]
-
-
-

@@ -41,10 +41,17 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 
 . From the Knowledge bases & Connectors tab, select the *Create New* dropdown and choose *NetApp GenAI knowledge base for Bedrock*.
 
-. On the Define knowledge base page, configure the knowledge base settings:
+. On the Create NetApp GenAI knowledge base page, configure the knowledge base settings:
+
+[discrete]
+===== Knowledge base details
 
 .. *Name*: Enter the name you want to use for the knowledge base.
 .. *Description*: Enter a detailed description for the knowledge base.
+
+[discrete]
+===== Ingestion
+
 .. *Embedding model*: The embedding model defines how your data will be converted into vector embeddings for the knowledge base. Workload factory supports the following models:
 +
 * Titan Embeddings G1 - Text
@@ -56,10 +63,6 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 Note that you must have already enabled the embedding model from Amazon Bedrock.
 +
 https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
-
-.. *Chat model*: Choose from various chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
-
-.. *Reranking*: Enable or disable reranking, which can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region.
 
 .. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by NetApp Data Classification^].
 +
@@ -78,10 +81,45 @@ The following prerequisites must be met to enable data guardrails.
 +
 NOTE: The data guardrails feature is not supported when ingesting structured data files such as CSV, JSON, JSONP, or Parquet.
 
-[start=6]
+[discrete]
+===== Chat and Retrieval settings
+
+.. *Chat model*:
++
+* Choose from various chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
+* If applicable, choose an inference profile from the *Inference type* list to configure how responsive the chatbot is to to interactive queries versus batch requests.
+
+.. *Chat settings*: 
++
+* Choose a temperature for the chatbot to configure the randomness and creativity of responses. A lower temperature results in more predictable responses, and a higher temperature results in more varied responses.
+* Choose a maximum response length to configure how detailed responses are. Longer response lengths use more response tokens, and can incur a higher cost.
+
+.. *Thinking mode*:
+
+.. *System prompt*:
+
+.. *Reranking*: Enable or disable reranking, which can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region.
+
+.. *Retrieve settings*:
++
+* Set a *Reranking score* to
+* Choose the number of *Retrieved database documents*
+* Choose the number of *Retrieved total documents*
+* Choose the *Distance*
+* Select a *Retrieve type*
+
+.. *Retrieve time configuration*:
++
+* Enable recency bias to instruct the chatbot to prefer more recent information from data sources when formulating a response.
+* Configure a time filter for document retrieval to limit the age of documents that the chatbot retrieves from data sources. Documents older than the time filter will not appear in results.
+
 .. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
 If you activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
+
+[discrete]
+===== Storage definitions
+
 .. *FSx for ONTAP file system*: When you define a new knowledge base, Workload factory creates a new Amazon FSx for NetApp ONTAP volume to store it. Choose an existing file system name and SVM (also called a storage VM) where the new volume will be created.
 .. *Snapshot policy*: Choose a snapshot policy from the list of existing policies defined in the workload factory storage inventory. Recurring snapshots of the knowledge base will automatically be created at a frequency based on the snapshot policy you select.
 .. *S3 Bucket*: If chatbot query results contain structured data, GenAI can store the results in an S3 bucket. To use this feature, enable the *Activate S3 Bucket* setting and choose an S3 bucket that is associated with your account from the list. When these results are stored in an S3 bucket, you can download them using the download link within the chat session.
