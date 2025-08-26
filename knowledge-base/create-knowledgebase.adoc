@@ -100,15 +100,15 @@ NOTE: The data guardrails feature is not supported when ingesting structured dat
 
 .. *Reranking*: Enable or disable reranking, which can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region. Select the inference profile that matches the configuration of the selected model.
 
-.. *Retrieve settings*:
+.. *Retrieval settings*:
 +
-* Set a *Reranking score* (available only if reranking is enabled) to configure the ordering of query results based on the reranking score. Higher settings cause results with a higher reranking score to be preferred.
-* Choose the number of *Retrieved database documents* to configure how many documents to query from the database for semantic and textual searches. The default value is 5 for each search.
-* Choose the number of *Retrieved total documents* to configure the maximum number of documents to return at the end of the retrieval process.
-* Choose the *Distance* to configure the exclusion of irrelevant results from a semantic search. A smaller distance instructs the model to only include results with a higher similarity to the query. By default, GenAI includes results with a distance of less than 0.5.
-* Select a *Retrieve type* to configure the chatbot to use semantic search (relying on meaning and context of queries) or hybrid search (keyword search combined with semantic search) when generating results. Hybrid search is selected by default.
+* Set a *Minimum reranking score* (available only if reranking is enabled) to configure the ordering of query results based on the reranking score. GenAI only includes results that have a score equal to or higher than the value you set.
+* Choose the number of *Maximum database chunks* to configure the maximum number of chunks to use from the database for semantic and textual searches. The default value is 5 for each search.
+* Choose the number of *Maximum total chunks* to configure the maximum number of chunks to return at the end of the retrieval process.
+* Choose the *Maximum distance* to configure the exclusion of irrelevant results from a semantic search. GenAI only includes results with a distance smaller than the value you set. A smaller distance instructs GenAI to only include results with a higher similarity to the query. By default, GenAI includes results with a distance of less than 0.5.
+* Select a *Search type* to configure the chatbot to use semantic search (relying on meaning and context of queries) or hybrid search (keyword search combined with semantic search) when generating results. Hybrid search is the default setting.
 
-.. *Retrieve time configuration*:
+.. *Retrieval time configuration*:
 +
 * Enable recency bias to instruct the chatbot to prefer more recent information from data sources when formulating a response.
 * Configure a time filter for document retrieval to limit the age of documents that the chatbot retrieves from data sources. Documents older than the time filter will not appear in results.
