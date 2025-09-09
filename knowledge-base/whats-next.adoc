@@ -21,4 +21,4 @@ Some of the tasks you can perform to manage your knowledge base components are:
 * Unpublish a knowledge base or republish it after making changes.
 * Back up and protect the important data on your FSx for ONTAP file system to make sure your knowledge base data and other infrastructure components are always available.
 
-For information about managing your FSx for ONTAP file system, go to the https://docs.netapp.com/us-en/workload-fsx-ontap/index.html[workload factory for Amazon FSx for NetApp ONTAP documentation^] to view the backup and protection capabilities you can use.
+For information about managing your FSx for ONTAP file system, go to the https://docs.netapp.com/us-en/workload-fsx-ontap/index.html[Workload Factory for Amazon FSx for NetApp ONTAP documentation^] to view the backup and protection capabilities you can use.

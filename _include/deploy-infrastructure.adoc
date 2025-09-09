@@ -48,7 +48,7 @@ Make sure your environment meets the requirements for knowledge bases or connect
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . In the AI workloads tile, select *Deploy & manage*.
 
@@ -61,18 +61,18 @@ Make sure your environment meets the requirements for knowledge bases or connect
 The GenAI deployment must be in an AWS region that has Amazon Bedrock enabled. https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html[View the list of supported regions^]
 
 . Complete the items in the *Infrastructure settings* section: 
-.. *Tags*: Enter any tag key/value pairs that you want to apply to all the AWS resources that are part of this deployment. These tags are visible in the AWS Management Console and the infrastructure information area within workload factory, and can help you keep track of workload factory resources.
+.. *Tags*: Enter any tag key/value pairs that you want to apply to all the AWS resources that are part of this deployment. These tags are visible in the AWS Management Console and the infrastructure information area within Workload Factory, and can help you keep track of Workload Factory resources.
 . Complete the *Connectivity* section:
 .. *Key pair*: Select a key pair that allows you to securely connect to the NetApp GenAI engine instance.
 . Complete the *AI engine* section:
-.. *Instance name*: Optionally, select *Define instance name* and enter a custom name for the AI engine instance. The instance name appears in the AWS Management Console and the infrastructure information area within workload factory, and can help you keep track of workload factory resources.
+.. *Instance name*: Optionally, select *Define instance name* and enter a custom name for the AI engine instance. The instance name appears in the AWS Management Console and the infrastructure information area within Workload Factory, and can help you keep track of Workload Factory resources.
 . Select *Deploy* to begin the deployment.
 +
 NOTE: If deployment fails with a credentials error, you can get further error details by selecting the hyperlinks within the error message. You can see a list of permissions that are missing or blocked, as well as a list of permissions that the GenAI workload needs so that it can deploy the GenAI infrastructure.
 
 //.. *FSx for ONTAP file system*: Select the FSx for ONTAP file system and the storage VM where the GenAI instance database volumes will be deployed, and then specify the name you want to use for the volume.
 //+
-//Depending on whether or not workload factory has the credentials for the FSx for ONTAP file system, you may need to enter the user name and password.
+//Depending on whether or not Workload Factory has the credentials for the FSx for ONTAP file system, you may need to enter the user name and password.
 
 .Result
 

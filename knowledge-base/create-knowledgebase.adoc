@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: knowledge-base/create-knowledgebase.html
 keywords: ai, chatbot, creating, knowledge base
-summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using workload factory. As part of this step you'll also define the AI characteristics and create conversation starters.
+summary: After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using Workload Factory. As part of this step you'll also define the AI characteristics and create conversation starters.
 ---
 
 = Create a GenAI knowledge base
@@ -10,7 +10,7 @@ summary: After you've deployed the AI infrastructure and identified the data sou
 :imagesdir: ../media/
 
 [.lead]
-After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using workload factory. As part of this step, you'll also define the AI characteristics and create conversation starters.
+After you've deployed the AI infrastructure and identified the data sources that you'll integrate in your knowledge base from your FSx for ONTAP datastores, you are ready to build the knowledge base using Workload Factory. As part of this step, you'll also define the AI characteristics and create conversation starters.
 
 Ensure that your environment meets the link:requirements-knowledge-base.html[requirements] for knowledge bases before proceeding.
 
@@ -25,9 +25,9 @@ Data sources from your organization may contain Personally Identifiable Informat
 +
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about NetApp Data Classification^].
 +
-NOTE: NetApp workload factory for GenAI does not mask sensitive personal information (SPii). Refer to link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data[types of sensitive personal data^] for more information about this type of data.
+NOTE: NetApp Workload Factory for GenAI does not mask sensitive personal information (SPii). Refer to link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data[types of sensitive personal data^] for more information about this type of data.
 +
-NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, workload factory scans the entire knowledge base from scratch, which incurs a cost.  
+NOTE: Data guardrails can be enabled or disabled at any time. If you switch data guardrails enablement, Workload Factory scans the entire knowledge base from scratch, which incurs a cost.  
 
 == Create and configure the knowledge base
 
@@ -35,7 +35,7 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . In the AI workloads tile, select *Deploy & manage*. 
 
@@ -121,7 +121,7 @@ If you activate conversation starters, "Automatic mode" is selected by default. 
 ===== Storage definitions
 
 .. *FSx for ONTAP file system*: When you define a new knowledge base, Workload factory creates a new Amazon FSx for NetApp ONTAP volume to store it. Choose an existing file system name and SVM (also called a storage VM) where the new volume will be created.
-.. *Snapshot policy*: Choose a snapshot policy from the list of existing policies defined in the workload factory storage inventory. Recurring snapshots of the knowledge base will automatically be created at a frequency based on the snapshot policy you select.
+.. *Snapshot policy*: Choose a snapshot policy from the list of existing policies defined in the Workload Factory storage inventory. Recurring snapshots of the knowledge base will automatically be created at a frequency based on the snapshot policy you select.
 .. *S3 Bucket*: If chatbot query results contain structured data, GenAI can store the results in an S3 bucket. To use this feature, enable the *Activate S3 Bucket* setting and choose an S3 bucket that is associated with your account from the list. When these results are stored in an S3 bucket, you can download them using the download link within the chat session.
 +
 If the snapshot policy you need doesn't exist, you can https://docs.netapp.com/us-en/ontap/data-protection/create-snapshot-policy-task.html[create a snapshot policy] on the storage VM that contains the volume.

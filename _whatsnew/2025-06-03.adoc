@@ -1,7 +1,7 @@
 === Tracker available for monitoring and tracking operations
 The Tracker monitoring capability is now available in GenAI. You can use Tracker to monitor and track the progress and status of pending, ongoing, and completed operations, review details for operation tasks and subtasks, diagnose any issues or failures, edit parameters for failed operations, and retry failed operations.
 
-link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html[Monitor workload operations with Tracker in NetApp workload factory]
+link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html[Monitor workload operations with Tracker in NetApp Workload Factory]
 
 === Choose a reranker model for a knowledge base
 You can now increase the relevance of reranked query results by selecting a specific reranker model to use with a knowledge base. GenAI supports the Cohere Rerank and Amazon Rerank models.
@@ -10,5 +10,5 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 ////
 === MCP server availability
-NetApp now provides a Model Context Protocol (MCP) server with NetApp workload factory for GenAI. You can install the server locally to enable external MCP clients to discover and retrieve query results from a GenAI knowledge base.
+NetApp now provides a Model Context Protocol (MCP) server with NetApp Workload Factory for GenAI. You can install the server locally to enable external MCP clients to discover and retrieve query results from a GenAI knowledge base.
 ////

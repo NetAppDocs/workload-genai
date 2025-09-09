@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: general/troubleshooting.html
 keywords: support registration, register for support, support, nss account, add nss account,
-summary: Before you can open a support case with NetApp technical support, you need to add a NetApp Support Site account to workload factory and then register for support.
+summary: Before you can open a support case with NetApp technical support, you need to add a NetApp Support Site account to Workload Factory and then register for support.
 ---
 
 = GenAI troubleshooting
@@ -21,11 +21,11 @@ If you have one of these issues, you can use the steps in the Workaround column 
 
 |Deployment
 |Deployment fails because the volume already exists.
-|NetApp workload factory for GenAI needs to create a new volume during the deployment process, but a volume already exists using the name you have specified.
+|NetApp Workload Factory for GenAI needs to create a new volume during the deployment process, but a volume already exists using the name you have specified.
 |Specify a unique name to use for the new volume, and try deploying again.
 
 |Deployment
-|The deployment fails because NetApp workload factory for GenAI is unable to mount the volume.
+|The deployment fails because NetApp Workload Factory for GenAI is unable to mount the volume.
 |One or more of the inbound ports required for FSx for NetApp ONTAP are closed or filtered.
 a|Open the following inbound ports:
 [cols="10,10,80",width=100%,options="header"]
@@ -61,7 +61,7 @@ a|Open the following inbound ports:
 |Maintenance
 |The AI engine fails to start, and you see the error "AI engine instance error" on the *Knowledge bases* page.
 |The AI engine instance was corrupted or doesn't exist.
-|Select the *Rebuild* button. NetApp workload factory for GenAI rebuilds the infrastructure and displays the rebuild progress. When complete, your knowledge bases are reconnected to the rebuilt infrastructure and the list of knowledge bases is displayed.
+|Select the *Rebuild* button. NetApp Workload Factory for GenAI rebuilds the infrastructure and displays the rebuild progress. When complete, your knowledge bases are reconnected to the rebuilt infrastructure and the list of knowledge bases is displayed.
 
 |Maintenance
 |The AI engine fails to start, and you see the error "The GenAI engine instance is stopped" on the *Knowledge bases* page.
@@ -84,7 +84,7 @@ docker-compose up
 ----
 
 |Maintenance
-|The backend Docker instance used by NetApp workload factory for GenAI failed to start.
+|The backend Docker instance used by NetApp Workload Factory for GenAI failed to start.
 |The volume was deleted and the EC2 instance was restarted.
 a|Use the following recovery steps:
 
@@ -119,12 +119,12 @@ volumes:
 ----
 
 |Maintenance
-|The backend Docker instance used by NetApp workload factory for GenAI failed to start.
+|The backend Docker instance used by NetApp Workload Factory for GenAI failed to start.
 |The root volume was deleted.
 |Create a volume with a name and path, and then restart the backend Docker instance from Amazon EC2.
 
 |Maintenance
-|The backend Docker instance used by NetApp workload factory for GenAI failed to start.
+|The backend Docker instance used by NetApp Workload Factory for GenAI failed to start.
 |The root volume was deleted.
 |Create a volume with a name and path, and then restart the backend Docker instance from Amazon EC2.
 

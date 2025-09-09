@@ -49,7 +49,7 @@ NOTE: Choosing a high overlap percentage can greatly increase storage requiremen
 +
 ** In the *File types support* section, choose to either include all types of files, or select individual file types for inclusion in the data source scans. 
 +
-If you include images or PDF files, NetApp workload factory for GenAI parses text in the images (including images in PDF documents), and this incurs a higher cost. 
+If you include images or PDF files, NetApp Workload Factory for GenAI parses text in the images (including images in PDF documents), and this incurs a higher cost. 
 +
 When including text data from images, GenAI is unable to mask Personally-Identifiable Information (PII) from the image as the scanned text data is sent from your environment to AWS. However, once the data is stored, all PII is masked in the GenAI database.
 +

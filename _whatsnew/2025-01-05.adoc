@@ -10,7 +10,7 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/deploy-infrastr
 
 === Rebuild corrupted or missing GenAI infrastructure
 
-If your AI engine instance becomes corrupted or is somehow deleted, you can let workload factory rebuild it for you. Workload factory automatically reattaches your knowledge bases to the infrastructure after rebuilding is complete, so that they are ready to use.
+If your AI engine instance becomes corrupted or is somehow deleted, you can let Workload Factory rebuild it for you. Workload factory automatically reattaches your knowledge bases to the infrastructure after rebuilding is complete, so that they are ready to use.
 
 link:https://docs.netapp.com/us-en/workload-genai/general/troubleshooting.html[Troubleshooting]
 
