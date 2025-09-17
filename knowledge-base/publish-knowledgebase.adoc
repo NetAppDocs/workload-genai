@@ -22,6 +22,8 @@ Each knowledge base that you publish has unique endpoints.
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
+. In the AI workloads tile, select *Deploy & manage*. 
+
 . From the Knowledge bases inventory page, select the knowledge base that you want to publish.
 
 . Select image:icon-action.png[the option button] and select *Manage knowledge base*.

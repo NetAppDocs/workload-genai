@@ -20,7 +20,7 @@ You can view information about the settings for a knowledge base and the data so
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Workload Factory navigation menu, select *AI*.
+. In the AI workloads tile, select *Deploy & manage*.
 
 . Select the knowledge base that you want to view.
 +
@@ -41,6 +41,8 @@ Each time you add, modify, or remove data sources from the knowledge base, you m
 .Steps
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to update.
 
@@ -74,6 +76,8 @@ You can save the state of a knowledge base by taking a manual snapshot of the kn
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
+. In the AI workloads tile, select *Deploy & manage*. 
+
 . From the Knowledge bases inventory page, select the knowledge base that you want to protect.
 
 . Select image:icon-action.png[the option button] and select *Manage knowledge base*.
@@ -97,6 +101,8 @@ NOTE: You cannot restore a snapshot using the Generative AI workloads UI if the 
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
+. In the AI workloads tile, select *Deploy & manage*. 
+
 . From the Knowledge bases inventory page, select the knowledge base that you want to restore.
 
 . Select image:icon-action.png[the option button] and select *Manage knowledge base*.
@@ -118,6 +124,8 @@ You can create a new knowledge base from a knowledge base snapshot. This is usef
 .Steps
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*.
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to restore.
 
@@ -145,6 +153,8 @@ You can embed additional data sources in your knowledge base to populate it with
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
+. In the AI workloads tile, select *Deploy & manage*. 
+
 . From the Knowledge bases inventory page, select the knowledge base where you want to add the data source.
 
 . Select image:icon-action.png[the option button] and select *Add data source*.
@@ -169,6 +179,8 @@ Syncing is incremental, so Amazon Bedrock only processes the objects in your dat
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
+. In the AI workloads tile, select *Deploy & manage*.
+
 . From the Knowledge bases inventory page, select the knowledge base that you want to synchronize.
 
 . Select image:icon-action.png[the option button] and select *Manage knowledge base*.
@@ -188,6 +200,8 @@ If you want to pause or resume the next synchronization (scan) of the data sourc
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
+. In the AI workloads tile, select *Deploy & manage*. 
+
 . From the Knowledge bases & Connectors tab, select the knowledge base for which you want to pause or resume scans.
 
 . Select image:icon-action.png[the option button] and select *Manage knowledge base*.
@@ -205,6 +219,8 @@ NOTE: This functionality is available only when no knowledge bases have been cre
 .Steps
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the Knowledge bases inventory page, you'll see the option to select the chat model on the right side of the page for the Chatbot.
 
@@ -225,6 +241,8 @@ Unpublishing the knowledge base stops any chat applications from working. The un
 .Steps
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to unpublish.
 
@@ -249,6 +267,8 @@ When you delete a knowledge base, you should also disassociate the knowledge bas
 .Steps
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to delete.
 

@@ -20,7 +20,7 @@ You can view information about the chatbot infrastructure.
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Workload Factory navigation menu, select *AI*.
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . Select the *Infrastructure* tab.
 
@@ -51,7 +51,7 @@ This operation only removes the links to the AI infrastructure from Workload Fac
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Workload Factory navigation menu, select *AI*.
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . Select the *Infrastructure* tab.
 

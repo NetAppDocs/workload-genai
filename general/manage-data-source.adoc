@@ -20,7 +20,7 @@ You can view information about the contents of a data source and you can view it
 
 . Log in to Workload Factory using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Workload Factory navigation menu, select *AI*. 
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . Select the knowledge base or connector where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base* or *Manage connector*.
 +
@@ -37,6 +37,8 @@ You can edit information about a data source that you've integrated with a knowl
 .Steps
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the knowledge bases inventory page, select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
@@ -65,6 +67,8 @@ If you no longer need a data source to be part of your knowledge base, you can d
 .Steps
 
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the knowledge base inventory page, select the knowledge base where the data source resides, and then select image:icon-action.png[the option button] and select *Manage knowledge base*.
 +
