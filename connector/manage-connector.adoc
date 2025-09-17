@@ -120,7 +120,7 @@ Syncing is incremental, so Amazon Q Business only processes the objects in your 
 
 . In the AI workloads tile, select *Deploy & manage*. 
 
-. From the Knowledge bases & Connectors tab, select the connector that you want to synchronize.
+. From the Knowledge bases & Connectors menu, select the connector that you want to synchronize.
 
 . Select image:icon-action.png[the option button] and select *Manage connector*.
 

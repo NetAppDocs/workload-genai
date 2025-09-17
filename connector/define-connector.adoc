@@ -32,7 +32,7 @@ Create a NetApp Connector for Amazon Q Business. The connector enables API and d
 
 . In the AI workloads tile, select *Deploy & manage*. 
 
-. From the Knowledge bases & Connectors tab, select the *Create New* dropdown and choose *Amazon Q Business connector*.
+. From the Knowledge bases & Connectors menu, select the *Create New* dropdown and choose *Amazon Q Business connector*.
 
 . On the Define Connector page, configure the connector settings:
 

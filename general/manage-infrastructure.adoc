@@ -22,7 +22,7 @@ You can view information about the chatbot infrastructure.
 
 . In the AI workloads tile, select *Deploy & manage*. 
 
-. Select the *Infrastructure* tab.
+. Select the *Infrastructure* menu.
 
 . View information about the infrastructure, which includes details about the following components:
 +
@@ -53,7 +53,7 @@ This operation only removes the links to the AI infrastructure from Workload Fac
 
 . In the AI workloads tile, select *Deploy & manage*. 
 
-. Select the *Infrastructure* tab.
+. Select the *Infrastructure* menu.
 
 . Select image:icon-action.png[the option button] and select *Remove chatbot infrastructure*.
 

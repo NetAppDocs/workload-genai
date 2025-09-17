@@ -202,7 +202,7 @@ If you want to pause or resume the next synchronization (scan) of the data sourc
 
 . In the AI workloads tile, select *Deploy & manage*. 
 
-. From the Knowledge bases & Connectors tab, select the knowledge base for which you want to pause or resume scans.
+. From the Knowledge bases & Connectors menu, select the knowledge base for which you want to pause or resume scans.
 
 . Select image:icon-action.png[the option button] and select *Manage knowledge base*.
 

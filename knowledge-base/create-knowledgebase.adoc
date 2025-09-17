@@ -39,7 +39,7 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 
 . In the AI workloads tile, select *Deploy & manage*. 
 
-. From the Knowledge bases & Connectors tab, select the *Create New* dropdown and choose *NetApp GenAI knowledge base for Bedrock*.
+. From the Knowledge bases & Connectors menu, select the *Create New* dropdown and choose *NetApp GenAI knowledge base for Bedrock*.
 
 . On the Create NetApp GenAI knowledge base page, configure the knowledge base settings:
 
