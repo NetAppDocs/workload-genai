@@ -48,11 +48,14 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 
 .. *Name*: Enter the name you want to use for the knowledge base.
 .. *Description*: Enter a detailed description for the knowledge base.
+.. *Bedrock*: Choose the region where Amazon Bedrock is available for your AWS account.
 
 [discrete]
 ===== Ingestion
 
-.. *Embedding model*: The embedding model defines how your data will be converted into vector embeddings for the knowledge base. Workload factory supports the following models:
+.. *Embedding model*: 
++
+* Choose an embedding model to use for the knowledge base. The embedding model defines how your data will be converted into vector embeddings for the knowledge base. Workload factory supports the following models:
 +
 * Titan Embeddings G1 - Text
 * Titan Embedding Text v2
@@ -63,6 +66,8 @@ The knowledge base defines characteristics such as the Bedrock AI models and emb
 Note that you must have already enabled the embedding model from Amazon Bedrock.
 +
 https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
++
+* If applicable, select the inference profile that matches the configuration of the selected embedding model.
 
 .. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by NetApp Data Classification^].
 +
@@ -96,10 +101,15 @@ NOTE: The data guardrails feature is not supported when ingesting structured dat
 
 .. *Thinking mode*: When thinking mode is enabled, the chatbot will take more time to process queries and the results will usually be more accurate. When you enable thinking mode, you can control how many reasoning tokens are used when generating results. Using more reasoning tokens can lead to more accurate responses, but might incur a higher cost.
 
-.. *System prompt*: Enter text that will be displayed to the user as soon as the chat session begins.
-
 .. *Reranking*: Enable or disable reranking, which can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region. Select the inference profile that matches the configuration of the selected model.
 
+.. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
++
+If you activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
+
+//.. *System prompt*: Enter text that will be displayed to the user as soon as the chat session begins.
+
+////
 .. *Retrieval settings*:
 +
 * Set a *Minimum reranking score* (available only if reranking is enabled) to configure the ordering of query results based on the reranking score. GenAI only includes results that have a score equal to or higher than the value you set.
@@ -113,9 +123,7 @@ NOTE: The data guardrails feature is not supported when ingesting structured dat
 * Enable recency bias to instruct the chatbot to prefer more recent information from data sources when formulating a response.
 * Configure a time filter for document retrieval to limit the age of documents that the chatbot retrieves from data sources. Documents older than the time filter will not appear in results.
 
-.. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
-+
-If you activate conversation starters, "Automatic mode" is selected by default. "Manual mode" can be enabled only after you've added data sources to your knowledge base. link:manage-knowledgebase.html[Learn how to modify knowledge base settings].
+////
 
 [discrete]
 ===== Storage definitions
