@@ -16,8 +16,8 @@ You can now configure advanced chat settings that are applicable to the chat mod
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html[Create a GenAI knowledge base]
 
-=== Embedding model inference profile selection
+=== Inference type selection now supported for embedding, chat, and reranking models
 // WLMAI-1660
-If your chosen embedding model has inference profile settings, GenAI enables you to choose an inference profile. This enables you to shape the chatbot to be more responsive for interactive queries, or more efficient for batch tasks.
+If your chosen embedding, chat, or reranking model has inference settings, you can now select an inference type. This enables you to better tune the chatbot performance and resource requirements to your needs.
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html[Create a GenAI knowledge base]

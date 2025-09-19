@@ -67,7 +67,7 @@ Note that you must have already enabled the embedding model from Amazon Bedrock.
 +
 https://aws.amazon.com/bedrock/titan/[Learn more about Amazon Titan^]
 +
-* If applicable, select the inference profile that matches the configuration of the selected embedding model.
+* If applicable, select the inference type that matches the configuration of the selected embedding model.
 
 .. *Data guardrails*: Choose whether you want to enable or disable data guardrails. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about data guardrails, powered by NetApp Data Classification^].
 +
@@ -92,7 +92,7 @@ NOTE: The data guardrails feature is not supported when ingesting structured dat
 .. *Chat model*:
 +
 * Choose from various chat models that are integrated in Amazon Bedrock. Note that you must have already enabled the chat model from Amazon Bedrock.
-* If applicable, select the inference profile that matches the configuration of the selected model.
+* If applicable, select the inference type that matches the configuration of the selected model.
 
 .. *Chat settings*: 
 +
@@ -101,7 +101,7 @@ NOTE: The data guardrails feature is not supported when ingesting structured dat
 
 .. *Thinking mode*: When thinking mode is enabled, the chatbot will take more time to process queries and the results will usually be more accurate. When you enable thinking mode, you can control how many reasoning tokens are used when generating results. Using more reasoning tokens can lead to more accurate responses, but might incur a higher cost.
 
-.. *Reranking*: Enable or disable reranking, which can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region. Select the inference profile that matches the configuration of the selected model.
+.. *Reranking*: Enable or disable reranking, which can improve the relevance and quality of query results. Choose a standard chat model or a specialized reranker model to use for reranking. Reranker model options are only shown if they are available in your region. Select the inference type that matches the configuration of the selected model.
 
 .. *Conversation starters*: Choose whether you want to provide up to four conversation starter prompts that are displayed to users who interact with a chatbot that uses this knowledge base. We recommend that you enable this setting.
 +
