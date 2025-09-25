@@ -76,7 +76,7 @@ NOTE: If deployment fails with a credentials error, you can get further error de
 
 .Result
 
-Workload factory starts deploying the chatbot infrastructure. This process can take up to 10 minutes.
+Workload Factory starts deploying the chatbot infrastructure. This process can take up to 10 minutes.
 
 During the deployment process, the following items are set up:
 

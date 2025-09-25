@@ -28,6 +28,16 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
   "Statement": [
     {
       "Action": [
+        "iam:CreateRole",
+        "iam:CreatePolicy",
+        "iam:AttachRolePolicy",
+        "iam:PassRole"
+      ],
+      "Resource": "*",
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
         "ssm:DescribeDocument",
         "ssm:DescribeAssociation",
         "ssm:GetDeployablePatchSnapshotForInstance",
@@ -88,7 +98,7 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai: <ai-engine-id>:kbId": "*"
+          "aws:ResourceTag/netapp:wlmai:<id>:kbId": "*"
         }
       },
       "Action": "fsx:DeleteVolume",
@@ -101,7 +111,7 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai: <ai-engine-id>:qConnectorId": "*"
+          "aws:ResourceTag/netapp:wlmai:<id>:qConnectorId": "*"
         }
       },
       "Action": "fsx:DeleteVolume",
@@ -114,7 +124,7 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai: <ai-engine-id>": "*"
+          "aws:ResourceTag/netapp:wlmai:<id>": "*"
         }
       },
       "Action": "fsx:UntagResource",
@@ -124,7 +134,7 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai: <ai-engine-id>:kbId": "*"
+          "aws:ResourceTag/netapp:wlmai:<id>:kbId": "*"
         }
       },
       "Action": "fsx:UntagResource",
@@ -134,7 +144,7 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai: <ai-engine-id>:qConnectorId": "*"
+          "aws:ResourceTag/netapp:wlmai:<id>:qConnectorId": "*"
         }
       },
       "Action": "fsx:UntagResource",
@@ -146,7 +156,9 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
         "bedrock:InvokeModel",
         "bedrock:Rerank",
         "bedrock:GetFoundationModel",
-        "bedrock:GetInferenceProfile"
+        "bedrock:GetInferenceProfile",
+        "bedrock:GetModelInvocationLoggingConfiguration",
+        "bedrock:PutModelInvocationLoggingConfiguration"
       ],
       "Resource": "*",
       "Effect": "Allow"
@@ -166,6 +178,7 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
     {
       "Action": [
         "qbusiness:ListWebExperiences",
+        "qbusiness:ListApplications",
         "qbusiness:GetApplication",
         "qbusiness:CreateDataSource",
         "qbusiness:DeleteDataSource",
@@ -194,6 +207,7 @@ The GenAI engine instance needs permissions to send chunks of data to the embedd
         "logs:CreateLogGroup"
       ],
       "Resource": [
+        "arn:aws:logs:*:*:log-group:/aws/bedrock*",
         "arn:aws:logs:*:*:log-group:/netapp/wlmai/*:log-stream:*",
         "arn:aws:logs:*:*:log-group:/netapp/wlmai/*"
       ],

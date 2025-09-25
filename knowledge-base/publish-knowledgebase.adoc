@@ -32,7 +32,7 @@ This page displays the published status, embedding status of the data sources, e
 
 . Select the *Actions* menu and select *Publish*.
 +
-Workload factory publishes the knowledge base. On the details page for the knowledge base, the status changes from *Unpublished* to *Published.*
+Workload Factory publishes the knowledge base. On the details page for the knowledge base, the status changes from *Unpublished* to *Published.*
 +
 You can now get details about the unique endpoint for the knowledge base.
 

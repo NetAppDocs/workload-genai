@@ -15,7 +15,7 @@ Ensure that Workload Factory and AWS are set up properly before you create a Net
 == Basic GenAI requirements
 GenAI has general requirements that your environment needs to meet before you get started.
 
-Workload factory login and account::
+Workload Factory login and account::
 You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with Workload Factory^] and log in using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 AWS credentials and permissions::
