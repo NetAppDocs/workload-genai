@@ -4,4 +4,4 @@ The Generative AI workload introduces the data guardrails feature, powered by Ne
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html[Create a GenAI knowledge base]
 
-link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn about NetApp Console classification^]
+link:https://docs.netapp.com/us-en/data-services-data-classification/concept-cloud-compliance.html[Learn about NetApp Console classification^]
