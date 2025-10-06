@@ -36,7 +36,7 @@ For example, if you have integrated 10 files (data sources) into your knowledge 
 
 == Supported data source file formats
 
-The following data source file formats are currently supported with workload factory GenAI knowledge bases.
+The following data source file formats are currently supported with Workload Factory GenAI knowledge bases.
 
 [cols=2*,options="header,autowidth"]
 |===

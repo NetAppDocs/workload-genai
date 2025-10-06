@@ -4,4 +4,4 @@ Generative AI workloads is now integrated with Amazon CloudWatch Logs, enabling 
 
 === Example chatbot application
 
-The NetApp workload factory GenAI sample application enables you to test authentication and retrieval from your published NetApp workload factory knowledge base by interacting directly with it in a web-based chatbot application.
+The NetApp Workload Factory GenAI sample application enables you to test authentication and retrieval from your published NetApp Workload Factory knowledge base by interacting directly with it in a web-based chatbot application.

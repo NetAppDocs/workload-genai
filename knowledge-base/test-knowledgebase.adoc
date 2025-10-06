@@ -18,7 +18,7 @@ You test your knowledge base to make sure it performs as you expect, and you can
 
 You can test a knowledge base by chatting with your embedded data sources in the chatbot simulator. Note that none of the interaction or insights are captured in the GenAI vector database when testing the knowledge base locally.
 
-You'll perform most of your testing within workload factory before you deploy the knowledge base in an application for your users. If you need to make changes to your data source or the chatbot operation, you'll want to do it now before you publish your knowledge base.
+You'll perform most of your testing within Workload Factory before you deploy the knowledge base in an application for your users. If you need to make changes to your data source or the chatbot operation, you'll want to do it now before you publish your knowledge base.
 
 TIP: You can resize and retitle the chatbot simulator window, and copy questions and responses to the clipboard.
 

@@ -8,5 +8,5 @@ https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add
 
 ////
 === MCP server availability
-NetApp now provides a Model Context Protocol (MCP) server with BlueXP workload factory for GenAI. You can install the server locally to enable external MCP clients to discover and retrieve query results from a GenAI knowledge base.
+NetApp now provides a Model Context Protocol (MCP) server with NetApp Workload Factory for GenAI. You can install the server locally to enable external MCP clients to discover and retrieve query results from a GenAI knowledge base.
 ////

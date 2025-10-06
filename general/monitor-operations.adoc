@@ -2,9 +2,9 @@
 sidebar: sidebar
 permalink: general/monitor-operations.html 
 keywords: monitor genai, monitor jobs, track jobs, tracker
-summary: "Track workload operations and monitor job progress with Tracker in BlueXP workload factory for GenAI."  
+summary: "Track workload operations and monitor job progress with Tracker in NetApp Workload Factory for GenAI."  
 ---
-= Monitor workload operations with Tracker in BlueXP workload factory
+= Monitor workload operations with Tracker in NetApp Workload Factory
 :icons: font
 :imagesdir: ../media/
 

@@ -2,17 +2,22 @@
 sidebar: sidebar
 permalink: whats-new.html
 keywords: what's new, features, new, release notes, enhancements, fixes, genai
-summary: "Learn what's new with the AI workloads capability of workload factory."
+summary: "Learn what's new with the AI workloads capability of Workload Factory."
 ---
 
-= What's new with BlueXP workload factory for GenAI
+= What's new with NetApp Workload Factory for GenAI
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new with the Generative AI workloads capability of workload factory.
+Learn what's new with the Generative AI workloads capability of Workload Factory.
 
 //tag::whats-new[]
+
+== 05 October 2025
+
+include::_whatsnew/2025-10-05.adoc[]
+
 == 03 August 2025
 
 include::_whatsnew/2025-08-03.adoc[]
@@ -20,11 +25,11 @@ include::_whatsnew/2025-08-03.adoc[]
 == 29 June 2025
 
 include::_whatsnew/2025-06-29.adoc[]
-
+//end::whats-new[]
 == 03 June 2025
 
 include::_whatsnew/2025-06-03.adoc[]
-//end::whats-new[]
+
 == 04 May 2025
 
 include::_whatsnew/2025-05-04.adoc[]

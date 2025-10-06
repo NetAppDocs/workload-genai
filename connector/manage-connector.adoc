@@ -18,11 +18,11 @@ You can view information about the settings for a connector and the data sources
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the workload factory navigation menu, select *AI*.
+. In the AI workloads tile, select *Deploy & manage*.
 
-. Select the connector that you want to view.
+. From the Knowledge bases & Connectors inventory page, select the connector that you want to view.
 
 . To view connector details, select image:icon-action.png[the option button] and select *Manage connector*.
 +
@@ -38,7 +38,9 @@ Each time you add, modify, or remove data sources from the connector, GenAI need
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the Knowledge bases & Connectors inventory page, select the connector that you want to update.
 
@@ -60,7 +62,7 @@ You can create a new knowledge base from a knowledge base snapshot. This is usef
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to restore.
 
@@ -88,7 +90,9 @@ You can embed additional data sources in your connector to populate it with addi
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the Knowledge bases & Connectors inventory page, select the connector where you want to add the data source.
 
@@ -112,9 +116,11 @@ Syncing is incremental, so Amazon Q Business only processes the objects in your 
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-. From the Knowledge bases & Connectors tab, select the connector that you want to synchronize.
+. In the AI workloads tile, select *Deploy & manage*. 
+
+. From the Knowledge bases & Connectors menu, select the connector that you want to synchronize.
 
 . Select image:icon-action.png[the option button] and select *Manage connector*.
 
@@ -131,7 +137,9 @@ If you want to pause or resume the next synchronization (scan) of the data sourc
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the connector inventory page, select the connector for which you want to pause or resume scans.
 
@@ -152,7 +160,7 @@ NOTE: This functionality is available only when no knowledge bases have been cre
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the Knowledge bases inventory page, you'll see the option to select the chat model on the right side of the page for the Chatbot.
 
@@ -172,7 +180,7 @@ Unpublishing the knowledge base stops any chat applications from working. The un
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 . From the Knowledge bases inventory page, select the knowledge base that you want to unpublish.
 
@@ -190,7 +198,7 @@ The knowledge base is disabled and is no longer accessible by a chatbot applicat
 
 == Delete a connector
 
-If you no longer need a connector, you can delete it. When you delete a connector, it is removed from workload factory and the volume that contains the connector is deleted. Deleting a connector is not reversible.
+If you no longer need a connector, you can delete it. When you delete a connector, it is removed from Workload Factory and the volume that contains the connector is deleted. Deleting a connector is not reversible.
 
 When you delete a connector, you should also disassociate the connector from any agents it is associated with to fully delete all resources associated with the connector.
 
@@ -198,7 +206,9 @@ When you delete a connector, you should also disassociate the connector from any
 
 .Steps
 
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+
+. In the AI workloads tile, select *Deploy & manage*. 
 
 . From the Knowledge bases & Connectors inventory page, select the connector that you want to delete.
 
@@ -210,4 +220,4 @@ When you delete a connector, you should also disassociate the connector from any
 
 .Result
 
-The connector is removed from workload factory and its associated volume is deleted.
+The connector is removed from Workload Factory and its associated volume is deleted.
